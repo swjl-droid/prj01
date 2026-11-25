@@ -1,5 +1,8 @@
 {
   "name": "prj01",
   "private": true,
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "pg": "8.23.1"
+  }
 }
