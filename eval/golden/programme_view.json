@@ -1,0 +1,58 @@
+{
+  "set": "Programme view (prj01-R1 US-1): what a signed-in person sees from the rows RLS returns",
+  "target": "lib/supabase.js#groupProgramme",
+  "threshold": 1.0,
+  "cases": [
+    {
+      "id": "sample-programme",
+      "input": [
+        [{ "id": "o1", "name": "Sample programme (synthetic data)", "is_sample": true }],
+        [
+          { "id": "p3", "org_id": "o1", "name": "Regional office fit-out", "methodology": "PRINCE2", "summary": "Fit out", "start_date": "2026-10-05", "end_date": "2027-02-19", "is_sample": true },
+          { "id": "p1", "org_id": "o1", "name": "Clinic relocation", "methodology": "PMI-PMBOK", "summary": "Move", "start_date": "2026-11-02", "end_date": "2027-03-26", "is_sample": true },
+          { "id": "p2", "org_id": "o1", "name": "Customer self-service portal", "methodology": "Agile", "summary": "Portal", "start_date": "2026-11-16", "end_date": "2027-04-30", "is_sample": true }
+        ]
+      ],
+      "scorer": "subset",
+      "expect": {
+        "projectCount": 3,
+        "orgs": [{ "name": "Sample programme (synthetic data)", "isSample": true,
+                   "projects": [{ "name": "Clinic relocation" }, { "name": "Customer self-service portal" }, { "name": "Regional office fit-out" }] }]
+      }
+    },
+    {
+      "id": "foreign-project-dropped",
+      "input": [
+        [{ "id": "o1", "name": "Mine", "is_sample": false }],
+        [
+          { "id": "p1", "org_id": "o1", "name": "Mine A", "methodology": "Agile" },
+          { "id": "px", "org_id": "o-other", "name": "Someone else's", "methodology": "Hybrid" }
+        ]
+      ],
+      "scorer": "subset",
+      "expect": { "projectCount": 1, "orgs": [{ "name": "Mine", "projects": [{ "name": "Mine A" }] }] }
+    },
+    {
+      "id": "two-orgs-sorted",
+      "input": [
+        [{ "id": "b", "name": "Beta" }, { "id": "a", "name": "Alpha" }],
+        [{ "id": "p1", "org_id": "b", "name": "B1", "methodology": "Hybrid" }, { "id": "p2", "org_id": "a", "name": "A1", "methodology": "PRINCE2" }]
+      ],
+      "scorer": "subset",
+      "expect": { "projectCount": 2, "orgs": [{ "name": "Alpha", "projects": [{ "name": "A1" }] }, { "name": "Beta", "projects": [{ "name": "B1" }] }] }
+    },
+    {
+      "id": "nothing-visible",
+      "input": [[], []],
+      "scorer": "equal",
+      "expect": { "orgs": [], "projectCount": 0 }
+    },
+    {
+      "id": "missing-fields-defaulted",
+      "input": [[{ "id": "o1", "name": "Org" }], [{ "id": "p1", "org_id": "o1", "name": "P", "methodology": "Agile" }]],
+      "scorer": "equal",
+      "expect": { "projectCount": 1, "orgs": [{ "id": "o1", "name": "Org", "isSample": false,
+        "projects": [{ "id": "p1", "name": "P", "methodology": "Agile", "summary": "", "start": null, "end": null, "isSample": false }] }] }
+    }
+  ]
+}
