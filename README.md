@@ -16,3 +16,14 @@ Build repo for the PM copilot (ADR-03: one platform repo, plus one repo per buil
 - **Settings in Vercel:** `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY` (Production and Preview).
 - **Golden-set check:** `node eval/run.mjs` runs every set in `eval/golden/` and fails below its
   threshold; `--selftest` proves a wrong answer fails. CI runs both.
+- **Schedule import (US-2):** one generic schema for every method (decision 26/11, Hub row 239). Method
+  labels, column names and extras live in `lib/schedule/profiles.json` (data: a new method or column is
+  a new entry). Every method uses the same 12 slots in the same order (Key, Name, Type, Parent, Start,
+  Finish, Duration, Size, Owner, Status, Links, Notes), extras from slot 13. Accepted: CSV / TSV / TXT,
+  `.xlsx` (one schedule per sheet), paste from a spreadsheet, a folder of files. Links are
+  `KEY[FS|SS|FF|SF][+/-Nd]`, e.g. `T3.4, M03+3d, 1.1.2SS+5d`. A file with any problem is refused whole,
+  with every reason. After storing, the import reads the schedule back from the database and counts
+  the cells that differ from the source (must be 0). Blank templates: `/api/template?method=<method>`.
+- **Mock schedules:** `samples/schedules` (8 mocks, 2 per method; refused samples in `bad/`), rebuilt
+  with `node scripts/make-mock-schedules.mjs`. The golden sets `schedule_import` and
+  `schedule_refusals` check them in CI.

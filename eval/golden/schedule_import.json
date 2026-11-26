@@ -1,0 +1,111 @@
+{
+ "set": "Schedule import (prj01-R1 US-2): 8 mock schedules read back with 0 differences (100 %)",
+ "target": "lib/schedule/check.js#accuracy",
+ "threshold": 1,
+ "cases": [
+  {
+   "id": "import-pmi-1-crm-digital-checkout",
+   "input": [
+    "samples/schedules/pmi-1-crm-digital-checkout.xlsx",
+    "PMI-PMBOK"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "items": 11,
+    "links": 8,
+    "differences": 0
+   }
+  },
+  {
+   "id": "import-pmi-2-clinic-relocation",
+   "input": [
+    "samples/schedules/pmi-2-clinic-relocation.csv",
+    "PMI-PMBOK"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "items": 19,
+    "links": 18,
+    "differences": 0
+   }
+  },
+  {
+   "id": "import-prince2-1-crm-digital-checkout",
+   "input": [
+    "samples/schedules/prince2-1-crm-digital-checkout.csv",
+    "PRINCE2"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "items": 8,
+    "links": 7,
+    "differences": 0
+   }
+  },
+  {
+   "id": "import-prince2-2-regional-office-fit-out",
+   "input": [
+    "samples/schedules/prince2-2-regional-office-fit-out.xlsx",
+    "PRINCE2"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "items": 15,
+    "links": 14,
+    "differences": 0
+   }
+  },
+  {
+   "id": "import-agile-1-crm-digital-checkout",
+   "input": [
+    "samples/schedules/agile-1-crm-digital-checkout.xlsx",
+    "Agile"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "items": 7,
+    "links": 4,
+    "differences": 0
+   }
+  },
+  {
+   "id": "import-agile-2-customer-portal",
+   "input": [
+    "samples/schedules/agile-2-customer-portal.csv",
+    "Agile"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "items": 14,
+    "links": 9,
+    "differences": 0
+   }
+  },
+  {
+   "id": "import-hybrid-1-crm-digital-checkout",
+   "input": [
+    "samples/schedules/hybrid-1-crm-digital-checkout.csv",
+    "Hybrid"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "items": 6,
+    "links": 7,
+    "differences": 0
+   }
+  },
+  {
+   "id": "import-hybrid-2-branch-network-refresh",
+   "input": [
+    "samples/schedules/hybrid-2-branch-network-refresh.xlsx",
+    "Hybrid"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "items": 11,
+    "links": 12,
+    "differences": 0
+   }
+  }
+ ]
+}
