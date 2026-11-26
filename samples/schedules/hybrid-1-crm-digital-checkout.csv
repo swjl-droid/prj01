@@ -1,0 +1,7 @@
+Control ID,Gate / Squad Deliverable,Hybrid Layer,Parent Gate,Start Date,Finish Date,Cadence / Gate,Size,Owner,Status,Sync Link,Notes
+GATE-1,Macro gate 1: architecture & scope freeze,Macro Waterfall,,2026-10-07,2026-10-07,Phase Gate 1,,PM & Sponsor,Not started,,Executive milestone baseline.
+GATE-2,Macro gate 2: UAT entry,Macro Waterfall,,2026-10-28,2026-10-28,Phase Gate 2,,Programme Sponsor,Not started,"SQ-01, SQ-02",Referred to in v4 but missing there; added.
+SQ-01,Squad sprint 1: mobile SSO & checkout UI,Micro Agile,GATE-2,2026-10-01,2026-10-14,Sprint 1,,Checkout Squad,Not started,GATE-1,Squad builds against an unverified SSO assumption.
+SQ-02,Squad sprint 2: CRM migration & payments,Micro Agile,GATE-2,2026-10-15,2026-10-28,Sprint 2,,Data & Pay Squads,Not started,SQ-01,No buffer between vendor keys and the UAT gate.
+SQ-03,Squad sprint 2: custom analytics reports,Micro Agile,GATE-3,2026-10-15,2026-10-28,Sprint 2,,Analytics Squad,Not started,SQ-01,Competes for developer capacity before UAT.
+GATE-3,Macro gate 3: Q4 production go-live,Macro Waterfall,,2026-11-06,2026-11-06,Phase Gate 3,,Programme Sponsor,Not started,"GATE-2, SQ-03",Hard executive launch date.

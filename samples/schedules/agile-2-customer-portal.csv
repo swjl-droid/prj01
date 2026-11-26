@@ -1,0 +1,15 @@
+Backlog Key,Story / Spike / Enabler,Issue Type,Epic,Sprint Start,Sprint End,Sprint,Story Points,Assignee,Status,Blocked By,Notes,Lane,Release Cut-Line
+EP-10,Sign-in and account,Epic,,2026-11-16,2026-12-11,Sprint 1-2,,Product Owner,In progress,,,Backlog,Above
+EP-20,Bills and payments,Epic,,2026-11-30,2026-12-25,Sprint 2-3,,Product Owner,To do,,,Backlog,Above
+EP-30,Service requests,Epic,,2026-12-14,2026-12-25,Sprint 3,,Product Owner,To do,,,Backlog,Below
+SPK-11,Spike: choose the identity provider,Spike,EP-10,2026-11-16,2026-11-27,Sprint 1,2,Tech Lead,Done,,Timeboxed to 2 days.,Sprint board,Above
+US-12,Sign up with e-mail,User Story,EP-10,2026-11-16,2026-11-27,Sprint 1,5,Team A,In progress,SPK-11,,Sprint board,Above
+US-13,Reset a forgotten password,User Story,EP-10,2026-11-30,2026-12-11,Sprint 2,3,Team A,To do,US-12,,Sprint board,Above
+EN-14,Enabler: audit log for sign-ins,Enabler,EP-10,2026-11-30,2026-12-11,Sprint 2,3,Team B,To do,US-12,,Sprint board,Above
+DEP-21,Billing system API ready (external),Dependency,EP-20,2026-12-04,2026-12-04,Sprint 2,0,Vendor Manager,To do,,Outside the team; checked weekly.,Dependencies,Above
+US-22,View my last 12 bills,User Story,EP-20,2026-11-30,2026-12-11,Sprint 2,8,Team B,To do,"DEP-21+3d, US-12",Starts 3 days after the billing API is ready.,Sprint board,Above
+US-23,Pay a bill by card,User Story,EP-20,2026-12-14,2026-12-25,Sprint 3,8,Team B,To do,US-22,,Sprint board,Above
+BLK-24,Blocker: renew payment sandbox licence,Blocker,EP-20,2026-12-01,2026-12-01,Sprint 2,1,IT Operations,To do,,Expedite lane; bypasses the WIP limit.,Expedite,Above
+BUG-25,Bill PDF shows the wrong month,Bug,EP-20,2026-12-14,2026-12-25,Sprint 3,2,Team B,To do,US-22,,Sprint board,Above
+US-31,Raise a service request,User Story,EP-30,2026-12-14,2026-12-25,Sprint 3,5,Team A,To do,US-12,,Backlog,Below
+US-32,Track a service request,User Story,EP-30,2026-12-14,2026-12-25,Sprint 3,3,,To do,US-31,,Backlog,Below

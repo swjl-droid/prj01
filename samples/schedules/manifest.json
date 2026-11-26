@@ -1,0 +1,50 @@
+[
+  {
+    "file": "pmi-1-crm-digital-checkout.xlsx",
+    "method": "PMI-PMBOK",
+    "items": 11,
+    "links": 8
+  },
+  {
+    "file": "pmi-2-clinic-relocation.csv",
+    "method": "PMI-PMBOK",
+    "items": 19,
+    "links": 18
+  },
+  {
+    "file": "prince2-1-crm-digital-checkout.csv",
+    "method": "PRINCE2",
+    "items": 8,
+    "links": 7
+  },
+  {
+    "file": "prince2-2-regional-office-fit-out.xlsx",
+    "method": "PRINCE2",
+    "items": 15,
+    "links": 14
+  },
+  {
+    "file": "agile-1-crm-digital-checkout.xlsx",
+    "method": "Agile",
+    "items": 7,
+    "links": 4
+  },
+  {
+    "file": "agile-2-customer-portal.csv",
+    "method": "Agile",
+    "items": 14,
+    "links": 9
+  },
+  {
+    "file": "hybrid-1-crm-digital-checkout.csv",
+    "method": "Hybrid",
+    "items": 6,
+    "links": 7
+  },
+  {
+    "file": "hybrid-2-branch-network-refresh.xlsx",
+    "method": "Hybrid",
+    "items": 11,
+    "links": 12
+  }
+]

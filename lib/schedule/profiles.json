@@ -1,0 +1,72 @@
+{
+  "_about": "Method profiles for schedule import (prj01-R1 US-2, decision Hub row 239). Data, not code: a new method or column is a new entry here. Every method uses the same 12 slots in the same order; 'labels' is what the PM sees, 'aliases' are other column names the import accepts (matched case-insensitively, ignoring spaces and punctuation). 'extras' are method-specific columns from slot 13 on. 'required' lists the slots a file must have.",
+  "slots": ["key", "name", "type", "parent", "start", "finish", "duration", "size", "owner", "status", "links", "notes"],
+  "methods": {
+    "PMI-PMBOK": {
+      "labels": {
+        "key": "WBS ID", "name": "Task / Milestone", "type": "Artifact Type", "parent": "WBS Parent",
+        "start": "Start Date", "finish": "Finish Date", "duration": "Duration", "size": "Reserve (days)",
+        "owner": "Owner", "status": "Status", "links": "Predecessors", "notes": "Notes"
+      },
+      "aliases": {
+        "key": ["WBS", "Task ID", "ID"], "name": ["Task Name", "Task / Milestone Name", "Milestone"], "type": ["Type"],
+        "parent": ["Parent", "Summary Task"], "start": ["Start"], "finish": ["Finish", "End Date", "End"],
+        "size": ["Reserve"], "owner": ["Resource", "Assigned To"], "links": ["Predecessor"],
+        "notes": ["Schedule & Governance Notes (PMBOK)", "Comments"]
+      },
+      "types": ["Task", "Milestone", "Buffer", "Summary"],
+      "required": ["key", "name", "type", "start", "finish"],
+      "extras": []
+    },
+    "PRINCE2": {
+      "labels": {
+        "key": "Work Package ID", "name": "Work Package", "type": "Artifact Type", "parent": "Stage",
+        "start": "Start Date", "finish": "Finish Date", "duration": "Stage Window", "size": "Time Tolerance (days)",
+        "owner": "Team Manager", "status": "Status", "links": "Predecessors", "notes": "Notes"
+      },
+      "aliases": {
+        "key": ["WP ID", "ID"], "name": ["Management Stage & Work Package", "Work Package Name"], "type": ["Type"],
+        "parent": ["Management Stage", "Stage ID"], "start": ["Start"], "finish": ["Finish", "End Date"],
+        "duration": ["Duration", "Window"], "size": ["Tolerance", "Tolerance / Control"], "owner": ["Owner"],
+        "links": ["Predecessor", "Product Flow"], "notes": ["PRINCE2 Governance & Stage Notes"]
+      },
+      "types": ["Stage", "Work Package", "Stage Gate", "External Gate", "Issue Action"],
+      "required": ["key", "name", "type", "parent", "start", "finish"],
+      "extras": [{ "key": "product", "label": "Product", "aliases": ["Product Delivered"] }]
+    },
+    "Agile": {
+      "labels": {
+        "key": "Backlog Key", "name": "Story / Spike / Enabler", "type": "Issue Type", "parent": "Epic",
+        "start": "Sprint Start", "finish": "Sprint End", "duration": "Sprint", "size": "Story Points",
+        "owner": "Assignee", "status": "Status", "links": "Blocked By", "notes": "Notes"
+      },
+      "aliases": {
+        "key": ["Key", "Issue Key", "ID"], "name": ["User Story / Spike / Enabler Title", "Summary", "Title"],
+        "type": ["Type"], "parent": ["Epic Key", "Epic Link"], "start": ["Start"], "finish": ["End", "Sprint Finish"],
+        "duration": ["Sprint / Lane", "Iteration"], "size": ["Points", "Story Pts", "Estimate"], "owner": ["Owner"],
+        "links": ["Depends On", "Blocked"], "notes": ["Agile Board & Backlog Mechanics", "Comments"]
+      },
+      "types": ["Epic", "User Story", "Spike", "Enabler", "Dependency", "Blocker", "Bug"],
+      "required": ["key", "name", "type", "start", "finish"],
+      "extras": [
+        { "key": "lane", "label": "Lane", "aliases": ["Swimlane"] },
+        { "key": "cutline", "label": "Release Cut-Line", "aliases": ["Cut-Line", "Cut Line"] }
+      ]
+    },
+    "Hybrid": {
+      "labels": {
+        "key": "Control ID", "name": "Gate / Squad Deliverable", "type": "Hybrid Layer", "parent": "Parent Gate",
+        "start": "Start Date", "finish": "Finish Date", "duration": "Cadence / Gate", "size": "Size",
+        "owner": "Owner", "status": "Status", "links": "Sync Link", "notes": "Notes"
+      },
+      "aliases": {
+        "key": ["ID"], "name": ["Macro Gate / Micro Squad Deliverable", "Deliverable"], "type": ["Layer"],
+        "parent": ["Gate"], "start": ["Start"], "finish": ["Finish", "Target Date"], "duration": ["Cadence"],
+        "links": ["Sync Links", "Depends On"], "notes": ["Hybrid Governance & Squad Sync Notes"]
+      },
+      "types": ["Macro Waterfall", "Micro Agile"],
+      "required": ["key", "name", "type", "start", "finish"],
+      "extras": []
+    }
+  }
+}

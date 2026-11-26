@@ -21,6 +21,17 @@
     .project h3 { margin: 0 0 0.25rem; font-size: 1.05rem; }
     #msg { min-height: 1.4rem; margin-top: 0.75rem; }
     .hidden { display: none; }
+    .import { border-top: 1px dashed var(--line); margin-top: 0.75rem; padding-top: 0.5rem; }
+    .import label { margin-top: 0.4rem; }
+    textarea { width: 100%; min-height: 5rem; font-family: monospace; font-size: 0.85rem; border: 1px solid var(--line); border-radius: 6px; }
+    select { padding: 0.4rem; border: 1px solid var(--line); border-radius: 6px; font-size: 1rem; }
+    .ok { color: #15803d; } .bad { color: #b91c1c; }
+    .result { margin: 0.4rem 0; font-size: 0.9rem; }
+    .tablewrap { overflow-x: auto; margin-top: 0.5rem; }
+    table.sched { border-collapse: collapse; font-size: 0.8rem; }
+    table.sched th, table.sched td { border: 1px solid var(--line); padding: 0.25rem 0.4rem; text-align: left; vertical-align: top; }
+    table.sched th { background: #f3f4f6; }
+    button.small { font-size: 0.85rem; padding: 0.25rem 0.6rem; margin-top: 0.4rem; }
   </style>
 </head>
 <body>
@@ -98,7 +109,9 @@
         return '<section class="card"><h2>' + esc(o.name) + (o.isSample ? '<span class="tag">synthetic sample</span>' : '') + '</h2>' +
           (o.projects.length ? o.projects.map(function (p) {
             return '<div class="project card"><h3>' + esc(p.name) + '<span class="tag">' + esc(p.methodology) + '</span></h3>' +
-              '<div class="muted">' + esc(p.start || '?') + ' to ' + esc(p.end || '?') + '</div><p>' + esc(p.summary) + '</p></div>';
+              '<div class="muted">' + esc(p.start || '?') + ' to ' + esc(p.end || '?') + '</div><p>' + esc(p.summary) + '</p>' +
+              '<button class="secondary small" type="button" data-open-import="' + esc(p.id) + '" data-method="' + esc(p.methodology) + '">Schedule: import or view</button>' +
+              '<div class="import hidden" id="imp-' + esc(p.id) + '"></div></div>';
           }).join('') : '<p class="muted">No projects yet.</p>') + '</section>';
       }).join('') || '<p class="muted">No organisation yet.</p>';
       say(d.projectCount + ' project(s) in ' + d.orgs.length + ' organisation(s). You see only your own organisation.');
@@ -109,6 +122,100 @@
       $('home').classList.add('hidden'); $('signin').classList.remove('hidden');
       $('programme').innerHTML = ''; $('forgetConfirm').value = '';
       say(text);
+    }
+
+    // ---------- Schedule import (prj01-R1 US-2) ----------
+    var METHODS = ['PMI-PMBOK', 'PRINCE2', 'Agile', 'Hybrid'];
+    $('programme').addEventListener('click', function (ev) {
+      var b = ev.target.closest('[data-open-import]');
+      if (b) { openImport(b.dataset.openImport, b.dataset.method); return; }
+      var v = ev.target.closest('[data-view]');
+      if (v) { viewSchedule(v.dataset.view, v.dataset.project); return; }
+      var d = ev.target.closest('[data-download]');
+      if (d) { downloadSchedule(d.dataset.download); return; }
+      var go = ev.target.closest('[data-import]');
+      if (go) { runImport(go.dataset.import); }
+    });
+
+    function openImport(pid, method) {
+      var box = $('imp-' + pid);
+      if (!box.classList.contains('hidden')) { box.classList.add('hidden'); return; }
+      box.classList.remove('hidden');
+      box.innerHTML =
+        '<label>Method</label><select id="m-' + pid + '">' + METHODS.map(function (m) {
+          return '<option' + (m === method ? ' selected' : '') + '>' + m + '</option>'; }).join('') + '</select> ' +
+        '<a href="#" data-template="' + pid + '">blank template (CSV)</a>' +
+        '<label>File (.csv, .xlsx; several allowed)</label><input type="file" id="f-' + pid + '" multiple accept=".csv,.tsv,.txt,.xlsx">' +
+        '<label>Or a folder</label><input type="file" id="d-' + pid + '" webkitdirectory multiple>' +
+        '<label>Or paste rows from a spreadsheet (header row first)</label><textarea id="p-' + pid + '"></textarea>' +
+        '<div><button class="small" type="button" data-import="' + pid + '">Import</button></div>' +
+        '<div id="r-' + pid + '"></div><div id="s-' + pid + '"></div>';
+      box.querySelector('[data-template]').addEventListener('click', function (e) {
+        e.preventDefault();
+        window.location.href = '/api/template?method=' + encodeURIComponent($('m-' + pid).value);
+      });
+      listSchedules(pid);
+    }
+
+    function toBase64(file) {
+      return new Promise(function (resolve, reject) {
+        var r = new FileReader();
+        r.onload = function () { resolve(String(r.result).split(',')[1] || ''); };
+        r.onerror = reject;
+        r.readAsDataURL(file);
+      });
+    }
+
+    async function runImport(pid) {
+      var out = $('r-' + pid);
+      var picked = Array.prototype.slice.call($('f-' + pid).files).concat(Array.prototype.slice.call($('d-' + pid).files));
+      var files = [];
+      for (var i = 0; i < picked.length; i++) {
+        if (picked[i].name.charAt(0) === '.') continue;  // hidden files in a folder
+        files.push({ name: picked[i].name, base64: await toBase64(picked[i]) });
+      }
+      out.innerHTML = '<p class="muted">Importing...</p>';
+      try {
+        var d = await api('/api/schedule-import', { method: 'POST', body: { projectId: pid, method: $('m-' + pid).value, files: files, paste: $('p-' + pid).value } });
+        out.innerHTML = d.results.map(function (r) {
+          if (r.ok) return '<div class="result ok">&#10003; ' + esc(r.source) + ': ' + r.items + ' items, ' + r.links + ' links stored; read-back differences: ' + r.differences + '</div>';
+          return '<div class="result bad">&#10007; ' + esc(r.source) + ' refused:<ul>' + r.reasons.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul></div>';
+        }).join('');
+        listSchedules(pid);
+      } catch (e) { out.innerHTML = '<p class="bad">' + esc(e.message) + '</p>'; }
+    }
+
+    async function listSchedules(pid) {
+      try {
+        var d = await api('/api/schedule?projectId=' + encodeURIComponent(pid));
+        $('s-' + pid).innerHTML = d.schedules.length ? '<p><strong>Imported schedules</strong></p>' + d.schedules.map(function (s) {
+          return '<div class="result">' + esc(s.source_name) + ' <span class="tag">' + esc(s.method) + '</span> ' + s.item_count + ' items, ' + s.link_count + ' links ' +
+            '<button class="secondary small" type="button" data-view="' + esc(s.id) + '" data-project="' + esc(pid) + '">View</button> ' +
+            '<button class="secondary small" type="button" data-download="' + esc(s.id) + '">Download read-back (CSV)</button>' +
+            '<div class="tablewrap" id="v-' + esc(s.id) + '"></div></div>';
+        }).join('') : '<p class="muted">No schedule imported yet.</p>';
+      } catch (e) { $('s-' + pid).innerHTML = '<p class="bad">' + esc(e.message) + '</p>'; }
+    }
+
+    async function viewSchedule(id) {
+      var box = $('v-' + id);
+      if (box.innerHTML) { box.innerHTML = ''; return; }
+      try {
+        var d = await api('/api/schedule?id=' + encodeURIComponent(id));
+        box.innerHTML = '<table class="sched"><tr>' + d.rows[0].map(function (h) { return '<th>' + esc(h) + '</th>'; }).join('') + '</tr>' +
+          d.rows.slice(1).map(function (r) { return '<tr>' + r.map(function (c) { return '<td>' + esc(c) + '</td>'; }).join('') + '</tr>'; }).join('') + '</table>';
+      } catch (e) { box.innerHTML = '<p class="bad">' + esc(e.message) + '</p>'; }
+    }
+
+    async function downloadSchedule(id) {
+      try {
+        var r = await fetch('/api/schedule?id=' + encodeURIComponent(id) + '&format=csv', { headers: { Authorization: 'Bearer ' + state.token } });
+        if (!r.ok) throw new Error('Download failed');
+        var blob = await r.blob();
+        var name = (r.headers.get('Content-Disposition') || '').replace(/.*filename="([^"]+)".*/, '$1') || 'schedule.csv';
+        var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; a.click();
+        setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+      } catch (e) { say(e.message); }
     }
 
     $('signout').addEventListener('click', async function () {

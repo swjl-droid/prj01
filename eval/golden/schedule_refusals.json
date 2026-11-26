@@ -1,0 +1,133 @@
+{
+ "set": "Schedule import (prj01-R1 US-2): files that must be refused, with the reason given",
+ "target": "lib/schedule/check.js#refusal",
+ "threshold": 1,
+ "cases": [
+  {
+   "id": "refuse-bad-date",
+   "input": [
+    "samples/schedules/bad/bad-date.csv",
+    "PMI-PMBOK"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "refused": true,
+    "reasons": [
+     "Row 2: Finish Date \"31/02/2026\" is not a date (use yyyy-mm-dd or dd/mm/yyyy)"
+    ]
+   }
+  },
+  {
+   "id": "refuse-duplicate-key",
+   "input": [
+    "samples/schedules/bad/duplicate-key.csv",
+    "PMI-PMBOK"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "refused": true,
+    "reasons": [
+     "Row 3: WBS ID \"T1\" appears twice"
+    ]
+   }
+  },
+  {
+   "id": "refuse-finish-before-start",
+   "input": [
+    "samples/schedules/bad/finish-before-start.csv",
+    "PMI-PMBOK"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "refused": true,
+    "reasons": [
+     "Row 2: Finish Date 2026-10-01 is before Start Date 2026-10-07"
+    ]
+   }
+  },
+  {
+   "id": "refuse-header-only",
+   "input": [
+    "samples/schedules/bad/header-only.csv",
+    "PMI-PMBOK"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "refused": true,
+    "reasons": [
+     "The schedule has a header row but no tasks"
+    ]
+   }
+  },
+  {
+   "id": "refuse-missing-column",
+   "input": [
+    "samples/schedules/bad/missing-column.csv",
+    "PMI-PMBOK"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "refused": true,
+    "reasons": [
+     "Required column \"Finish Date\" is missing"
+    ]
+   }
+  },
+  {
+   "id": "refuse-not-a-schedule",
+   "input": [
+    "samples/schedules/bad/not-a-schedule.pdf",
+    "PMI-PMBOK"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "refused": true,
+    "reasons": [
+     "File type not accepted: \"not-a-schedule.pdf\". Use .csv, .tsv, .txt or .xlsx"
+    ]
+   }
+  },
+  {
+   "id": "refuse-unknown-column",
+   "input": [
+    "samples/schedules/bad/unknown-column.csv",
+    "PMI-PMBOK"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "refused": true,
+    "reasons": [
+     "Column \"Budget\" is not a PMI-PMBOK column. Accepted: WBS ID, Task / Milestone, Artifact Type, WBS Parent, Start Date, Finish Date, Duration, Reserve (days), Owner, Status, Predecessors, Notes"
+    ]
+   }
+  },
+  {
+   "id": "refuse-unknown-link",
+   "input": [
+    "samples/schedules/bad/unknown-link.csv",
+    "PMI-PMBOK"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "refused": true,
+    "reasons": [
+     "Row 2: Predecessors link \"T9\" points to an unknown key"
+    ]
+   }
+  },
+  {
+   "id": "refuse-unknown-type",
+   "input": [
+    "samples/schedules/bad/unknown-type.csv",
+    "PMI-PMBOK"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "refused": true,
+    "reasons": [
+     "Row 2: Artifact Type \"Epic\" is not one of: Task, Milestone, Buffer, Summary"
+    ]
+   }
+  }
+ ]
+}

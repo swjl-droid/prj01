@@ -1,0 +1,9 @@
+Work Package ID,Work Package,Artifact Type,Stage,Start Date,Finish Date,Stage Window,Time Tolerance (days),Team Manager,Status,Predecessors,Notes,Product
+STG-1,Stage 1: Initiation & Technical Design,Stage,,2026-10-01,2026-10-07,5d,0,Project Manager,Not started,,Project Initiation Documentation (PID) baseline.,Project Initiation Documentation
+WP-01,Initiation & technical design,Work Package,STG-1,2026-10-01,2026-10-07,5d,0,Architecture Team Manager,Not started,,,Solution design
+STG-2,Stage 2: Build & Verification,Stage,,2026-10-08,2026-11-02,19d,2,Project Manager,Not started,STG-1,,Release candidate
+WP-02,Core checkout & SSO build,Work Package,STG-2,2026-10-08,2026-10-19,8d,2,Checkout Team Manager,Not started,WP-01,Assumes corporate SSO needs no change.,Checkout and login
+WP-03,Legacy CRM data migration,Work Package,STG-2,2026-10-12,2026-10-19,6d,2,Data Team Manager,Not started,WP-01,No diagnostic data audit in the Stage 2 plan.,Migrated customer records
+WP-04,Payment API & QA verification,Work Package,STG-2,2026-10-20,2026-11-02,10d,2,QA Team Manager,Not started,"WP-02, WP-03",Includes custom analytics reporting scope.,Verified payment flow
+STG-3,Stage 3: Go-Live,Stage,,2026-11-06,2026-11-06,0d,0,Project Manager,Not started,STG-2,,Live service
+SB-02,End stage boundary & go-live approval,Stage Gate,STG-3,2026-11-06,2026-11-06,0d,0,Project Board,Not started,WP-04,Project Board sign-off required for Stage 3.,End Stage Report
