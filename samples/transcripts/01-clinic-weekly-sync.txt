@@ -1,0 +1,15 @@
+Weekly sync - Clinic relocation (synthetic transcript)
+Date: Thursday 12 November 2026, 10:00-10:40
+Attendees: Programme Manager, Facilities Manager, Clinical Operations Lead, Biomedical Engineer, IT Manager
+
+Programme Manager: Morning everyone. Let's start with the floor plan and room allocation. Where are we?
+Clinical Operations Lead: Department heads have signed off three of the five floors. Paediatrics and dermatology still want to swap two consultation rooms, I expect their sign-off by Tuesday.
+Programme Manager: Fine, that keeps the planning approved milestone on 27 November if nothing else moves.
+Facilities Manager: On the fit-out side, the electrical and data cabling crew can start on 30 November as planned. The medical gas and plumbing contractor wants to overlap by a week, which we already allowed for.
+Biomedical Engineer: The vendor confirmed the install window for the imaging equipment in January. It is fixed, so if cabling slips we lose the slot and the next one is in March.
+Programme Manager: That is a real risk. Let's log it: if the cabling runs late, the imaging install slips two months. Facilities, can you give me a weekly cabling progress figure?
+Facilities Manager: Yes, every Friday.
+IT Manager: For the IT systems and patient records link, we need the cabling finished plus ten days before we can test. I am assuming the records vendor keeps the current interface; I have not had that in writing.
+Programme Manager: Please get that confirmed by the end of next week, otherwise it becomes an issue. Anything on the regulatory inspection?
+Facilities Manager: The inspector can come in the first two weeks of February. We keep the five-day fit-out schedule reserve after it.
+Programme Manager: Good. Decision for the record: we keep the reduced clinic schedule during the move to eight days, not ten, as agreed with the clinic director. Next meeting same time next week.

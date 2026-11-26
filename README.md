@@ -27,3 +27,10 @@ Build repo for the PM copilot (ADR-03: one platform repo, plus one repo per buil
 - **Mock schedules:** `samples/schedules` (8 mocks, 2 per method; refused samples in `bad/`), rebuilt
   with `node scripts/make-mock-schedules.mjs`. The golden sets `schedule_import` and
   `schedule_refusals` check them in CI.
+- **Transcript drop point (US-3):** "Drop a transcript" takes a file (`.txt`, `.md`, `.vtt`, `.srt`)
+  or pasted text, refuses a wrong type, unreadable text, a text too short or the same text dropped
+  twice, and matches it to a project by signal scoring (decision 26/11, Hub row 242): project name,
+  the project's schedule (keys, task names, words only it uses) and the people who own its tasks.
+  Weights, threshold, gap and runner-up share are settings in `lib/intake/match-settings.json`. When
+  no project or two projects fit, it asks "Which project?" and files the transcript once the PM picks.
+  Mock transcripts: `samples/transcripts` (golden set `transcript_match`).

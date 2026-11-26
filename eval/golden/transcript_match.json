@@ -1,0 +1,95 @@
+{
+ "set": "Transcript to project (prj01-R1 US-3): matched when clear, asks when none or two match",
+ "target": "lib/intake/check.js#matchSample",
+ "threshold": 1,
+ "cases": [
+  {
+   "id": "01-clinic-weekly-sync",
+   "note": "names the project and its tasks",
+   "input": [
+    "samples/transcripts/01-clinic-weekly-sync.txt"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "decision": "matched",
+    "project": "Clinic relocation",
+    "candidates": [
+     "Clinic relocation",
+     "Regional office fit-out"
+    ]
+   }
+  },
+  {
+   "id": "02-joint-steering-review",
+   "note": "covers two projects equally: must ask",
+   "input": [
+    "samples/transcripts/02-joint-steering-review.vtt"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "decision": "ask",
+    "project": null,
+    "candidates": [
+     "Customer self-service portal",
+     "Regional office fit-out"
+    ]
+   }
+  },
+  {
+   "id": "03-vendor-intro-call",
+   "note": "matches no project: must ask",
+   "input": [
+    "samples/transcripts/03-vendor-intro-call.txt"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "decision": "ask",
+    "project": null,
+    "candidates": []
+   }
+  },
+  {
+   "id": "04-portal-sprint-review",
+   "note": "never names the project; schedule keys and task names",
+   "input": [
+    "samples/transcripts/04-portal-sprint-review.txt"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "decision": "matched",
+    "project": "Customer self-service portal",
+    "candidates": [
+     "Customer self-service portal"
+    ]
+   }
+  },
+  {
+   "id": "05-fit-out-site-walk",
+   "note": "subtitle file (.srt); work package keys",
+   "input": [
+    "samples/transcripts/05-fit-out-site-walk.srt"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "decision": "matched",
+    "project": "Regional office fit-out",
+    "candidates": [
+     "Regional office fit-out"
+    ]
+   }
+  },
+  {
+   "id": "06-clinic-vague-update",
+   "note": "too vague: must ask, not guess",
+   "input": [
+    "samples/transcripts/06-clinic-vague-update.txt"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "decision": "ask",
+    "project": null,
+    "candidates": []
+   }
+  }
+ ]
+}

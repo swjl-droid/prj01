@@ -55,6 +55,15 @@
 
   <section id="home" class="hidden">
     <p>Signed in as <strong id="who"></strong> <button id="signout" class="secondary" type="button">Sign out</button></p>
+    <section class="card" id="drop">
+      <h2>Drop a transcript</h2>
+      <p class="muted">A meeting transcript (.txt, .md, .vtt from Teams or Zoom, .srt) or pasted text. The copilot matches it to one of your projects, and asks you when it is not sure.</p>
+      <label for="tFile">File</label><input type="file" id="tFile" accept=".txt,.md,.vtt,.srt">
+      <label for="tPaste">Or paste the text</label><textarea id="tPaste"></textarea>
+      <div><button class="small" type="button" id="tDrop">Drop</button></div>
+      <div id="tResult"></div>
+      <div id="tPending"></div>
+    </section>
     <div id="programme"></div>
     <details class="card">
       <summary>Forget me</summary>
@@ -69,6 +78,7 @@
   <script>
     // The sign-in token lives only in this tab's memory: closing or reloading the tab signs out.
     var state = { token: null, email: null, action: 'signin' };
+    var programmeProjects = [];
     var $ = function (id) { return document.getElementById(id); };
     function say(text) { $('msg').textContent = text || ''; }
     function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
@@ -105,12 +115,16 @@
       $('who').textContent = state.email || '';
       say('Loading your programme...');
       var d = await api('/api/programme');
+      programmeProjects = d.orgs.reduce(function (a, o) { return a.concat(o.projects); }, []);
+      loadPending();
       $('programme').innerHTML = d.orgs.map(function (o) {
         return '<section class="card"><h2>' + esc(o.name) + (o.isSample ? '<span class="tag">synthetic sample</span>' : '') + '</h2>' +
           (o.projects.length ? o.projects.map(function (p) {
             return '<div class="project card"><h3>' + esc(p.name) + '<span class="tag">' + esc(p.methodology) + '</span></h3>' +
               '<div class="muted">' + esc(p.start || '?') + ' to ' + esc(p.end || '?') + '</div><p>' + esc(p.summary) + '</p>' +
-              '<button class="secondary small" type="button" data-open-import="' + esc(p.id) + '" data-method="' + esc(p.methodology) + '">Schedule: import or view</button>' +
+              '<button class="secondary small" type="button" data-open-import="' + esc(p.id) + '" data-method="' + esc(p.methodology) + '">Schedule: import or view</button> ' +
+              '<button class="secondary small" type="button" data-transcripts="' + esc(p.id) + '">Transcripts</button>' +
+              '<div class="import hidden" id="tr-' + esc(p.id) + '"></div>' +
               '<div class="import hidden" id="imp-' + esc(p.id) + '"></div></div>';
           }).join('') : '<p class="muted">No projects yet.</p>') + '</section>';
       }).join('') || '<p class="muted">No organisation yet.</p>';
@@ -133,6 +147,8 @@
       if (v) { viewSchedule(v.dataset.view, v.dataset.project); return; }
       var d = ev.target.closest('[data-download]');
       if (d) { downloadSchedule(d.dataset.download); return; }
+      var tl = ev.target.closest('[data-transcripts]');
+      if (tl) { toggleTranscripts(tl.dataset.transcripts); return; }
       var go = ev.target.closest('[data-import]');
       if (go) { runImport(go.dataset.import); }
     });
@@ -216,6 +232,83 @@
         var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; a.click();
         setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
       } catch (e) { say(e.message); }
+    }
+
+    // ---------- Transcript drop point (prj01-R1 US-3) ----------
+    $('tDrop').addEventListener('click', async function () {
+      var out = $('tResult');
+      var f = $('tFile').files[0];
+      var body = {};
+      if ($('tPaste').value.trim()) body.paste = $('tPaste').value;
+      else if (f) { body.name = f.name; body.base64 = await toBase64(f); }
+      else { out.innerHTML = '<p class="bad">Choose a file or paste the text.</p>'; return; }
+      out.innerHTML = '<p class="muted">Reading and matching...</p>';
+      try {
+        var d = await api('/api/transcript', { method: 'POST', body: body });
+        if (d.refused) { out.innerHTML = '<div class="result bad">&#10007; Refused:<ul>' + d.reasons.map(function (r) { return '<li>' + esc(r) + '</li>'; }).join('') + '</ul></div>'; return; }
+        $('tFile').value = ''; $('tPaste').value = '';
+        showDecision(out, d.id, d.decision, d.project, d.reason, d.candidates, d.projects);
+      } catch (e) { out.innerHTML = '<p class="bad">' + esc(e.message) + '</p>'; }
+    });
+
+    function showDecision(box, id, decision, project, reason, candidates, projects) {
+      var choices = (candidates.length ? candidates : projects).map(function (c) {
+        return '<button class="secondary small" type="button" data-confirm="' + esc(id) + '" data-project="' + esc(c.id) + '">' + esc(c.name) + '</button>';
+      }).join(' ');
+      var others = projects.filter(function (p) { return !candidates.some(function (c) { return c.id === p.id; }); });
+      var otherSel = candidates.length && others.length ? ' <select data-other="' + esc(id) + '"><option value="">another project...</option>' +
+        others.map(function (p) { return '<option value="' + esc(p.id) + '">' + esc(p.name) + '</option>'; }).join('') + '</select>' : '';
+      if (decision === 'matched') {
+        box.innerHTML = '<div class="result ok">&#10003; ' + esc(reason) + '</div>' +
+          '<div class="result muted">Wrong project? Choose: ' + projects.filter(function (p) { return p.id !== project.id; }).map(function (p) {
+            return '<button class="secondary small" type="button" data-confirm="' + esc(id) + '" data-project="' + esc(p.id) + '">' + esc(p.name) + '</button>'; }).join(' ') + '</div>';
+      } else {
+        box.innerHTML = '<div class="result bad"><strong>Which project?</strong> ' + esc(reason) + '</div><div class="result">' + choices + otherSel + '</div>';
+      }
+    }
+
+    document.addEventListener('click', async function (ev) {
+      var b = ev.target.closest('[data-confirm]');
+      if (!b) return;
+      await confirmProject(b.dataset.confirm, b.dataset.project, b.closest('.card'));
+    });
+    document.addEventListener('change', async function (ev) {
+      var s = ev.target.closest('select[data-other]');
+      if (s && s.value) await confirmProject(s.dataset.other, s.value, s.closest('.card'));
+    });
+
+    async function confirmProject(id, projectId, card) {
+      try {
+        await api('/api/transcript', { method: 'POST', body: { action: 'confirm', id: id, projectId: projectId } });
+        var box = card && card.querySelector('#tResult') ? $('tResult') : null;
+        if (box) box.innerHTML = '<div class="result ok">&#10003; Filed under the project you chose.</div>';
+        say('Transcript filed.');
+        loadPending();
+      } catch (e) { say(e.message); }
+    }
+
+    async function loadPending() {
+      try {
+        var d = await api('/api/transcript?pending=1');
+        $('tPending').innerHTML = d.transcripts.length ? '<p><strong>Waiting for your choice</strong></p>' + d.transcripts.map(function (t) {
+          var cands = (t.match && t.match.candidates) || [];
+          return '<div class="result">' + esc(t.source_name) + ' (' + esc(String(t.created_at).slice(0, 10)) + '): ' + esc((t.match && t.match.reason) || '') + ' ' +
+            (cands.length ? cands : programmeProjects).map(function (c) {
+              return '<button class="secondary small" type="button" data-confirm="' + esc(t.id) + '" data-project="' + esc(c.projectId || c.id) + '">' + esc(c.name) + '</button>'; }).join(' ') + '</div>';
+        }).join('') : '';
+      } catch (e) { /* the list is a convenience */ }
+    }
+
+    async function toggleTranscripts(pid) {
+      var box = $('tr-' + pid);
+      if (!box.classList.contains('hidden')) { box.classList.add('hidden'); return; }
+      box.classList.remove('hidden');
+      try {
+        var d = await api('/api/transcript?projectId=' + encodeURIComponent(pid));
+        box.innerHTML = d.transcripts.length ? d.transcripts.map(function (t) {
+          return '<div class="result">' + esc(t.source_name) + ' <span class="tag">' + esc(t.status) + '</span> ' + esc(String(t.created_at).slice(0, 10)) + '</div>';
+        }).join('') : '<p class="muted">No transcript filed here yet.</p>';
+      } catch (e) { box.innerHTML = '<p class="bad">' + esc(e.message) + '</p>'; }
     }
 
     $('signout').addEventListener('click', async function () {
