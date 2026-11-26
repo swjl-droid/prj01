@@ -40,6 +40,26 @@ test('two projects named equally: it asks and offers both', () => {
   assert.deepEqual(m.candidates.map((c) => c.projectId).sort(), ['a', 'b']);
 });
 
+test('another project also named: it asks, even when the scores alone would match (gap Hub row 244)', () => {
+  const projects = [
+    { id: 'a', name: 'Regional office fit-out', summary: '', items: [{ key: 'WP-22', name: 'Contractor tender', owner: 'Landlord', notes: null }] },
+    { id: 'b', name: 'Customer self-service portal', summary: '', items: [] },
+  ];
+  const text = long('Regional office fit-out: the contractor tender WP-22 closes Friday; the Landlord agreed. One line on the customer portal.');
+  const m = matchTranscript(text, projects);
+  assert.equal(m.decision, 'ask');
+  assert.match(m.reason, /names more than one project/);
+  assert.deepEqual(m.candidates.map((c) => c.projectId), ['a', 'b']);
+  assert.equal(matchTranscript(text, projects, { askWhenSeveralNamed: false }).decision, 'matched');
+});
+
+test('the overlap sample adds unrelated schedules to Clinic relocation and Regional office fit-out only', async () => {
+  const clean = await sampleProjects();
+  const overlap = await sampleProjects({ overlap: true });
+  assert.ok(overlap[0].items.length > clean[0].items.length);
+  assert.equal(overlap[2].items.length, clean[2].items.length);
+});
+
 test('a change of weights in settings changes the result, with no code change', async () => {
   const projects = await sampleProjects();
   const text = (await readFile('samples/transcripts/04-portal-sprint-review.txt', 'utf8'));
