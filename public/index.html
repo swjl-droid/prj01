@@ -5,23 +5,123 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>prj01: PM copilot</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 40rem; margin: 4rem auto; padding: 0 1rem; color: #1f2937; }
-    code { background: #f3f4f6; padding: 0.1rem 0.3rem; border-radius: 4px; }
-    #health { margin-top: 1.5rem; padding: 1rem; border: 1px solid #d1d5db; border-radius: 8px; }
+    :root { --ink: #1f2937; --muted: #6b7280; --line: #d1d5db; --accent: #1d4ed8; --warn: #b45309; }
+    body { font-family: Arial, sans-serif; max-width: 48rem; margin: 3rem auto; padding: 0 1rem; color: var(--ink); }
+    h1 { margin-bottom: 0.25rem; }
+    .muted { color: var(--muted); }
+    .card { border: 1px solid var(--line); border-radius: 8px; padding: 1rem 1.25rem; margin: 1rem 0; }
+    .notice { border-left: 4px solid var(--warn); background: #fffbeb; padding: 0.75rem 1rem; border-radius: 4px; }
+    label { display: block; margin: 0.6rem 0 0.2rem; }
+    input { width: 100%; max-width: 22rem; padding: 0.5rem; border: 1px solid var(--line); border-radius: 6px; font-size: 1rem; }
+    button { margin-top: 0.9rem; margin-right: 0.5rem; padding: 0.5rem 1rem; border-radius: 6px; border: 1px solid var(--accent);
+             background: var(--accent); color: #fff; font-size: 1rem; cursor: pointer; }
+    button.secondary { background: #fff; color: var(--accent); }
+    button.danger { background: #fff; color: #b91c1c; border-color: #b91c1c; }
+    .tag { display: inline-block; font-size: 0.8rem; padding: 0.1rem 0.5rem; border-radius: 999px; background: #eef2ff; color: var(--accent); margin-left: 0.4rem; }
+    .project h3 { margin: 0 0 0.25rem; font-size: 1.05rem; }
+    #msg { min-height: 1.4rem; margin-top: 0.75rem; }
+    .hidden { display: none; }
   </style>
 </head>
 <body>
-  <h1>prj01: PM copilot</h1>
-  <p>Placeholder page. It proves the pipeline: GitHub pull request, Vercel build, function in Singapore.</p>
-  <div id="health">Checking <code>/api/health</code>...</div>
+  <h1>PM copilot</h1>
+  <p class="muted">Prototype (release 1). It turns transcripts, minutes and schedules into minutes and RAIDD proposals that you approve.</p>
+  <p class="notice"><strong>Synthetic data only.</strong> This prototype is for trying the copilot with the made-up sample programme. Please do not enter real project or personal data.</p>
+
+  <section id="signin" class="card">
+    <h2>Sign in</h2>
+    <form id="authForm">
+      <label for="email">E-mail</label>
+      <input id="email" type="email" autocomplete="username" required>
+      <label for="password">Password (8 to 72 characters)</label>
+      <input id="password" type="password" autocomplete="current-password" minlength="8" maxlength="72" required>
+      <div>
+        <button type="submit" data-action="signin">Sign in</button>
+        <button type="submit" class="secondary" data-action="signup">Create account</button>
+      </div>
+    </form>
+  </section>
+
+  <section id="home" class="hidden">
+    <p>Signed in as <strong id="who"></strong> <button id="signout" class="secondary" type="button">Sign out</button></p>
+    <div id="programme"></div>
+    <details class="card">
+      <summary>Forget me</summary>
+      <p>Deletes your account, your organisation and its projects. Cost and audit records are kept for accounting without any link to you. Type <code>FORGET ME</code> to confirm.</p>
+      <input id="forgetConfirm" autocomplete="off">
+      <div><button id="forget" class="danger" type="button">Forget me</button></div>
+    </details>
+  </section>
+
+  <div id="msg" role="status" aria-live="polite"></div>
+
   <script>
-    fetch('/api/health')
-      .then(function (r) { return r.json(); })
-      .then(function (d) {
-        document.getElementById('health').textContent =
-          'Health: ' + (d.ok ? 'ok' : 'not ok') + ' (app ' + d.app + ', region ' + d.region + ', ' + d.at + ')';
-      })
-      .catch(function (e) { document.getElementById('health').textContent = 'Health check failed: ' + e; });
+    // The sign-in token lives only in this tab's memory: closing or reloading the tab signs out.
+    var state = { token: null, email: null, action: 'signin' };
+    var $ = function (id) { return document.getElementById(id); };
+    function say(text) { $('msg').textContent = text || ''; }
+    function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+
+    async function api(path, opts) {
+      opts = opts || {};
+      var headers = { 'Content-Type': 'application/json' };
+      if (state.token) headers.Authorization = 'Bearer ' + state.token;
+      var r = await fetch(path, { method: opts.method || 'GET', headers: headers, body: opts.body ? JSON.stringify(opts.body) : undefined });
+      var d = await r.json().catch(function () { return { ok: false, message: 'Unexpected answer' }; });
+      if (!r.ok || !d.ok) throw new Error(d.message || 'Request failed');
+      return d;
+    }
+
+    document.querySelectorAll('#authForm button').forEach(function (b) {
+      b.addEventListener('click', function () { state.action = b.dataset.action; });
+    });
+
+    $('authForm').addEventListener('submit', async function (ev) {
+      ev.preventDefault();
+      say(state.action === 'signup' ? 'Creating your account...' : 'Signing in...');
+      try {
+        var d = await api('/api/auth', { method: 'POST', body: { action: state.action, email: $('email').value.trim(), password: $('password').value } });
+        $('password').value = '';
+        if (d.needsConfirmation) { say('Account created. Confirm it from the e-mail Supabase sent, then sign in.'); return; }
+        state.token = d.token; state.email = d.email;
+        await showHome();
+      } catch (e) { say(e.message); }
+    });
+
+    async function showHome() {
+      $('signin').classList.add('hidden'); $('home').classList.remove('hidden');
+      $('who').textContent = state.email || '';
+      say('Loading your programme...');
+      var d = await api('/api/programme');
+      $('programme').innerHTML = d.orgs.map(function (o) {
+        return '<section class="card"><h2>' + esc(o.name) + (o.isSample ? '<span class="tag">synthetic sample</span>' : '') + '</h2>' +
+          (o.projects.length ? o.projects.map(function (p) {
+            return '<div class="project card"><h3>' + esc(p.name) + '<span class="tag">' + esc(p.methodology) + '</span></h3>' +
+              '<div class="muted">' + esc(p.start || '?') + ' to ' + esc(p.end || '?') + '</div><p>' + esc(p.summary) + '</p></div>';
+          }).join('') : '<p class="muted">No projects yet.</p>') + '</section>';
+      }).join('') || '<p class="muted">No organisation yet.</p>';
+      say(d.projectCount + ' project(s) in ' + d.orgs.length + ' organisation(s). You see only your own organisation.');
+    }
+
+    function signedOut(text) {
+      state.token = null; state.email = null;
+      $('home').classList.add('hidden'); $('signin').classList.remove('hidden');
+      $('programme').innerHTML = ''; $('forgetConfirm').value = '';
+      say(text);
+    }
+
+    $('signout').addEventListener('click', async function () {
+      try { await api('/api/auth', { method: 'POST', body: { action: 'signout' } }); } catch (e) { /* signed out locally anyway */ }
+      signedOut('Signed out.');
+    });
+
+    $('forget').addEventListener('click', async function () {
+      try {
+        await api('/api/forget-me', { method: 'POST', body: { confirm: $('forgetConfirm').value.trim() } });
+        signedOut('Your account and data were deleted.');
+      } catch (e) { say(e.message); }
+    });
   </script>
 </body>
 </html>
