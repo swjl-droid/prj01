@@ -1,9 +1,10 @@
 {
-  "_about": "Transcript-to-project matching settings (prj01-R1 US-3, decision Hub row 242). Data, not code: tune here. Each scorer gives 0 to 1 per project; the total is the weighted average. A project is chosen only if its total reaches 'threshold' AND leads the next project by at least 'minGap' AND the next project scores at most 'maxRunnerUpShare' of it (so two strong matches always ask); otherwise the copilot asks which project. 'floor': below it a project is not offered as a candidate. A new scorer (embeddings, a model) is one more entry in 'weights' plus its function in lib/intake/match.js.",
+  "_about": "Transcript-to-project matching settings (prj01-R1 US-3, decision Hub row 242). Data, not code: tune here. Each scorer gives 0 to 1 per project; the total is the weighted average. A project is chosen only if its total reaches 'threshold' AND leads the next project by at least 'minGap' AND the next project scores at most 'maxRunnerUpShare' of it (so two strong matches always ask), and, when 'askWhenSeveralNamed' is true, no other project is named in the transcript (its name or most of its name words); otherwise the copilot asks which project. 'floor': below it a project is not offered as a candidate. A new scorer (embeddings, a model) is one more entry in 'weights' plus its function in lib/intake/match.js.",
   "threshold": 0.35,
   "minGap": 0.15,
   "maxRunnerUpShare": 0.6,
   "floor": 0.08,
   "weights": { "name": 3, "schedule": 2, "people": 1 },
-  "maxCandidates": 3
+  "maxCandidates": 3,
+  "askWhenSeveralNamed": true
 }

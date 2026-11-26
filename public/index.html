@@ -115,7 +115,7 @@
       $('who').textContent = state.email || '';
       say('Loading your programme...');
       var d = await api('/api/programme');
-      programmeProjects = d.orgs.reduce(function (a, o) { return a.concat(o.projects); }, []);
+      programmeProjects = d.orgs.reduce(function (a, o) { return a.concat(o.projects.map(function (p) { return Object.assign({ orgId: o.id }, p); })); }, []);
       loadPending();
       $('programme').innerHTML = d.orgs.map(function (o) {
         return '<section class="card"><h2>' + esc(o.name) + (o.isSample ? '<span class="tag">synthetic sample</span>' : '') + '</h2>' +
@@ -245,8 +245,8 @@
       out.innerHTML = '<p class="muted">Reading and matching...</p>';
       try {
         var d = await api('/api/transcript', { method: 'POST', body: body });
-        if (d.refused) { out.innerHTML = '<div class="result bad">&#10007; Refused:<ul>' + d.reasons.map(function (r) { return '<li>' + esc(r) + '</li>'; }).join('') + '</ul></div>'; return; }
         $('tFile').value = ''; $('tPaste').value = '';
+        if (d.refused) { out.innerHTML = '<div class="result bad">&#10007; Refused:<ul>' + d.reasons.map(function (r) { return '<li>' + esc(r) + '</li>'; }).join('') + '</ul></div>'; return; }
         showDecision(out, d.id, d.decision, d.project, d.reason, d.candidates, d.projects);
       } catch (e) { out.innerHTML = '<p class="bad">' + esc(e.message) + '</p>'; }
     });
@@ -284,6 +284,7 @@
         if (box) box.innerHTML = '<div class="result ok">&#10003; Filed under the project you chose.</div>';
         say('Transcript filed.');
         loadPending();
+        refreshOpenTranscripts();
       } catch (e) { say(e.message); }
     }
 
@@ -303,12 +304,29 @@
       var box = $('tr-' + pid);
       if (!box.classList.contains('hidden')) { box.classList.add('hidden'); return; }
       box.classList.remove('hidden');
+      await showTranscripts(pid);
+    }
+
+    // Each filed transcript can be moved to another project of the same organisation (gap Hub row 244).
+    async function showTranscripts(pid) {
+      var box = $('tr-' + pid);
+      var me = programmeProjects.find(function (p) { return p.id === pid; });
+      var others = programmeProjects.filter(function (p) { return p.id !== pid && (!me || p.orgId === me.orgId); });
       try {
         var d = await api('/api/transcript?projectId=' + encodeURIComponent(pid));
         box.innerHTML = d.transcripts.length ? d.transcripts.map(function (t) {
-          return '<div class="result">' + esc(t.source_name) + ' <span class="tag">' + esc(t.status) + '</span> ' + esc(String(t.created_at).slice(0, 10)) + '</div>';
+          var move = others.length ? ' <select data-other="' + esc(t.id) + '" aria-label="Move to another project"><option value="">Move to another project...</option>' +
+            others.map(function (p) { return '<option value="' + esc(p.id) + '">' + esc(p.name) + '</option>'; }).join('') + '</select>' : '';
+          return '<div class="result">' + esc(t.source_name) + ' <span class="tag">' + esc(t.status) + '</span> ' + esc(String(t.created_at).slice(0, 10)) + move + '</div>';
         }).join('') : '<p class="muted">No transcript filed here yet.</p>';
       } catch (e) { box.innerHTML = '<p class="bad">' + esc(e.message) + '</p>'; }
+    }
+
+    function refreshOpenTranscripts() {
+      programmeProjects.forEach(function (p) {
+        var box = $('tr-' + p.id);
+        if (box && !box.classList.contains('hidden')) showTranscripts(p.id);
+      });
     }
 
     $('signout').addEventListener('click', async function () {
