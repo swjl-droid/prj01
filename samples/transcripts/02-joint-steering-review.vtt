@@ -1,0 +1,24 @@
+WEBVTT
+
+NOTE Synthetic transcript of a joint steering review covering two projects.
+
+00:00:05.000 --> 00:00:14.000
+<v Chair>Welcome to the monthly steering review. We cover the office move and the customer portal today, half an hour each.
+
+00:00:15.000 --> 00:00:31.000
+<v Project Manager>On the office, the contractor tender closes on 20 November and the landlord approval of works is expected on the 13th. Space design for the two floors is in its second review.
+
+00:00:32.000 --> 00:00:44.000
+<v Product Owner>On the portal, sign up with e-mail is in progress, the identity provider spike is done, and viewing the last twelve bills waits for the billing system API.
+
+00:00:45.000 --> 00:01:02.000
+<v Chair>Both projects share the IT team in January: the network install for the office and the payment sandbox for the portal. That is a dependency we should watch on both sides.
+
+00:01:03.000 --> 00:01:20.000
+<v Project Manager>Agreed. If the landlord approval slips, construction and fit-out starts late, and the IT and network install moves with it.
+
+00:01:21.000 --> 00:01:35.000
+<v Product Owner>And if the billing API is late, paying a bill by card moves to the next sprint. Decision needed next month on the release cut-line.
+
+00:01:36.000 --> 00:01:50.000
+<v Chair>Thanks both. Same format next month.

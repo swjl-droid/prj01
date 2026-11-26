@@ -1,0 +1,11 @@
+Sprint review (synthetic transcript)
+Date: Friday 27 November 2026
+
+Product Owner: Let's walk through what Team A and Team B finished this sprint.
+Tech Lead: The identity provider spike, SPK-11, is closed: we picked the provider with passkey support.
+Team A: Sign up with e-mail, US-12, is demo-ready. Reset a forgotten password is next sprint.
+Team B: The audit log for sign-ins enabler is planned for sprint 2. For View my last 12 bills, US-22, we are blocked until the billing system API is ready, DEP-21, expected on 4 December.
+Vendor Manager: The billing vendor confirmed the 4th, with three days for us to integrate.
+Product Owner: Then US-22 starts on the 7th. The service requests epic stays below the release cut-line.
+IT Operations: Reminder that the payment sandbox licence expires on 1 December; renewing it is on the expedite lane.
+Product Owner: Thanks all. Demo to stakeholders next Friday.

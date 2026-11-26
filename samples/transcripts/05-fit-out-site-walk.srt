@@ -1,0 +1,19 @@
+1
+00:00:02,000 --> 00:00:09,000
+Project Manager: Site walk for the construction stage, synthetic transcript.
+
+2
+00:00:10,000 --> 00:00:22,000
+Contractor Team Manager: WP-31 is on plan. The partition walls on the second floor are up and the ceilings start Monday.
+
+3
+00:00:23,000 --> 00:00:35,000
+IT Team Manager: WP-32 can start the network install on 11 January, as long as construction and fit-out finishes on time.
+
+4
+00:00:36,000 --> 00:00:50,000
+Workplace Team Manager: The furniture supplier warned of a two-week delay. That is ISS-31, I will escalate the late furniture delivery tomorrow.
+
+5
+00:00:51,000 --> 00:01:05,000
+Project Manager: It stays within stage tolerance, so no exception plan. Move-in and handover remains in February.
