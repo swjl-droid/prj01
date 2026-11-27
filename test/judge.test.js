@@ -86,6 +86,8 @@ test("John's worked example: 10 items, score 90 %", () => {
   assert.equal(s.topics.misaligned, 2);
   assert.equal(s.topics.alignedOk, 8);
   assert.equal(s.topics.byJohn, 5);
+  assert.equal(s.topics.alignedNotOk, 0);
+  assert.equal(s.topics.finalNotOk, 1);
   assert.equal(s.topics.pass, true);
   assert.equal(s.raidd.pass, false, 'no RAIDD rows means no pass');
 });
