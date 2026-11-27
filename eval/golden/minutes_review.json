@@ -1,0 +1,17 @@
+{
+ "set": "Minutes review, prj01-R1 US-4 acceptance (decision Hub row 305): final OK on at least 70 % of topics and 80 % of RAIDD rows across the 10 evaluation minutes; final = John's verdict, else both model judges when they agree, else not OK (lib/minutes/review.js, bars in lib/minutes/judge.json)",
+ "target": "lib/minutes/review.js#storedReview",
+ "threshold": 1,
+ "cases": [
+  {
+   "id": "all-10",
+   "note": "samples/meetings/judges/ (Sonnet 5.5 and Opus 5.5) and samples/meetings/review/john.json (John's verdicts, copied from the evidence pack)",
+   "input": [],
+   "scorer": "equal",
+   "expect": {
+    "topicsPass": true,
+    "raiddPass": true
+   }
+  }
+ ]
+}

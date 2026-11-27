@@ -1,0 +1,405 @@
+{
+ "ok": true,
+ "task": "minutes",
+ "case": "m04",
+ "ms": 28985,
+ "minutes": {
+  "meeting": {
+   "title": "Clinic relocation weekly sync",
+   "attendees": [
+    "Daniel Ong",
+    "Siti Rahman",
+    "Marcus Lee",
+    "Priya Raman"
+   ],
+   "date": ""
+  },
+  "topics": [
+   {
+    "title": "Revised movers quote",
+    "summary": [
+     {
+      "text": "The revised movers quote with the weekday split is 33,000. That is 3,000 over budget, down from 12,000 over before. The budget baseline has not changed.",
+      "quotes": [
+       {
+        "line": 40,
+        "text": "The revised quote with the weekday split is thirty three thousand, so we're three thousand over budget now instead of twelve.",
+        "found": true
+       },
+       {
+        "line": 49,
+        "text": "Nothing's changed on basically the budget side.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The 3,000 overrun will come from contingency, so the budget issue is resolved. The team noted that the quote is still over budget.",
+      "quotes": [
+       {
+        "line": 60,
+        "text": "Three thousand we can take from contingency. So the like budget issue is basically resolved.",
+        "found": true
+       },
+       {
+        "line": 69,
+        "text": "It is still over, and we're covering it. Both of those are true.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The meeting agreed to accept the revised quote at 33,000.",
+      "quotes": [
+       {
+        "line": 79,
+        "text": "Let's accept the revised quote at thirty three thousand.",
+        "found": true
+       },
+       {
+        "line": 82,
+        "text": "Yes, agreed.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": []
+   },
+   {
+    "title": "Radix engineer slot for the X-ray",
+    "summary": [
+     {
+      "text": "Radix confirmed one engineer slot on 11 February. The second provisional date fell through, and no reason was given.",
+      "quotes": [
+       {
+        "line": 99,
+        "text": "Radix confirmed one engineer slot on the eleventh of February, and the like second provisional date fell through.",
+        "found": true
+       },
+       {
+        "line": 121,
+        "text": "They just said it didn't work out, and that's all I've got on it.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The slot is before cutover, but there is no backup if that engineer is unavailable. The team noted this and asked for nothing further.",
+      "quotes": [
+       {
+        "line": 110,
+        "text": "So we have a slot before cutover, but with no backup, if sort of that engineer is sick we're stuck.",
+        "found": true
+       },
+       {
+        "line": 141,
+        "text": "It's been said. Siti said it clearly, one slot, no backup.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Priya asked for written confirmation, and Radix is sending it today.",
+      "quotes": [
+       {
+        "line": 132,
+        "text": "Better than last week. Can we get their written confirmation?",
+        "found": true
+       },
+       {
+        "line": 133,
+        "text": "Yes, um they're sending it today.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Send written confirmation of the 11 February engineer slot",
+      "owner": "Radix",
+      "due": "today",
+      "quotes": [
+       {
+        "line": 133,
+        "text": "Yes, um they're sending it today.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Licence transfer",
+    "summary": [
+     {
+      "text": "The licence transfer was filed on Monday. The ministry now says processing takes eight weeks, not six, counted from the filing date.",
+      "quotes": [
+       {
+        "line": 153,
+        "text": "We filed basically the licence transfer on Monday. The ministry now says processing is eight weeks, not six.",
+        "found": true
+       },
+       {
+        "line": 182,
+        "text": "From the filing. Monday. That's how Priya counted it too.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Eight weeks from Monday the 7th is early February. That is still before the 13 February cutover, but leaves no room.",
+      "quotes": [
+       {
+        "line": 163,
+        "text": "Eight weeks from Monday the seventh is early February. That's tight against the cutover.",
+        "found": true
+       },
+       {
+        "line": 169,
+        "text": "Yes, it still lands before the thirteenth, but I mean there's no room left.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The meeting agreed to describe the licence as tight but workable.",
+      "quotes": [
+       {
+        "line": 295,
+        "text": "No, understood. It works. It's tight, but it works.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": []
+   },
+   {
+    "title": "Building handover date and treatment rooms",
+    "summary": [
+     {
+      "text": "The landlord confirmed the handover in writing for 22 January, a week later than they had said before.",
+      "quotes": [
+       {
+        "line": 208,
+        "text": "The you know landlord confirmed in writing, but the handover is now the twenty second of January, a week later than they said.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Work on the treatment rooms starts a week later. Marcus said they can just about be finished in time if the fit-out crew works two Saturdays.",
+      "quotes": [
+       {
+        "line": 228,
+        "text": "The handover moved by a week, so the start moves by a week.",
+        "found": true
+       },
+       {
+        "line": 232,
+        "text": "Just, Just about, if the fit-out crew works two Saturdays. I'll check with them.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Both the licence and the handover land in time, but neither has any slack. The agreed wording is \"just about\".",
+      "quotes": [
+       {
+        "line": 249,
+        "text": "It does. Both of them land, but neither has any slack.",
+        "found": true
+       },
+       {
+        "line": 297,
+        "text": "Yes, Yes. Just about. That's the wording we keep.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Check whether the fit-out crew will work two Saturdays",
+      "owner": "Marcus",
+      "due": "",
+      "quotes": [
+       {
+        "line": 232,
+        "text": "Just, Just about, if the fit-out crew works two Saturdays. I'll check with them.",
+        "found": true
+       },
+       {
+        "line": 305,
+        "text": "Nothing, except that I'll check with the fit-out crew, like I said.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "raidd": [
+   {
+    "type": "issue",
+    "change": "update",
+    "title": "Movers cost over budget, now 3,000 and covered by contingency",
+    "topic": 1,
+    "quotes": [
+     {
+      "line": 60,
+      "text": "Three thousand we can take from contingency. So the like budget issue is basically resolved.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "decision",
+    "change": "new",
+    "title": "Accept revised movers quote at 33,000",
+    "topic": 1,
+    "quotes": [
+     {
+      "line": 79,
+      "text": "Let's accept the revised quote at thirty three thousand.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "update",
+    "title": "Radix engineer slot confirmed for 11 February; second date fell through",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 99,
+      "text": "Radix confirmed one engineer slot on the eleventh of February, and the like second provisional date fell through.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "risk",
+    "change": "new",
+    "title": "No backup if the single Radix engineer is unavailable",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 110,
+      "text": "So we have a slot before cutover, but with no backup, if sort of that engineer is sick we're stuck.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "assumption",
+    "change": "update",
+    "title": "Licence processing time is eight weeks, not six",
+    "topic": 3,
+    "quotes": [
+     {
+      "line": 153,
+      "text": "The ministry now says processing is eight weeks, not six.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "risk",
+    "change": "new",
+    "title": "Licence has no slack before the 13 February cutover",
+    "topic": 3,
+    "quotes": [
+     {
+      "line": 169,
+      "text": "Yes, it still lands before the thirteenth, but I mean there's no room left.",
+      "found": true
+     },
+     {
+      "line": 175,
+      "text": "I'm just saying the licence has to be through before it.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "update",
+    "title": "Landlord handover confirmed in writing for 22 January, a week later",
+    "topic": 4,
+    "quotes": [
+     {
+      "line": 208,
+      "text": "The you know landlord confirmed in writing, but the handover is now the twenty second of January, a week later than they said.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "new",
+    "title": "Treatment rooms finish on time only if fit-out crew works two Saturdays",
+    "topic": 4,
+    "quotes": [
+     {
+      "line": 236,
+      "text": "It depends on the two Saturdays, yes. That's uh the condition I put on it.",
+      "found": true
+     }
+    ]
+   }
+  ]
+ },
+ "checks": {
+  "ok": true,
+  "problems": [],
+  "stats": {
+   "quotes": 34,
+   "exact": 34,
+   "relocated": 0,
+   "missing": 0,
+   "points": 12,
+   "actions": 2,
+   "raidd": 8
+  }
+ },
+ "template": {
+  "id": "default",
+  "version": 3
+ },
+ "model": "claude-opus-5-5",
+ "calls": [
+  {
+   "round": 0,
+   "costUsd": 0.136904,
+   "latencyMs": 28117,
+   "usage": {
+    "input_tokens": 16206,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 3604,
+    "output_tokens_details": {
+     "thinking_tokens": 1084
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   },
+   "traceId": "8cfe9a7c52e740769c4410cce6952311",
+   "logged": {
+    "ledger": true,
+    "trace": true,
+    "traceContent": "masked",
+    "gatewayVersion": "1.0.0"
+   }
+  }
+ ],
+ "costUsd": 0.136904
+}

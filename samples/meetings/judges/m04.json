@@ -1,0 +1,133 @@
+{
+ "case": "m04",
+ "judges": {
+  "sonnet": {
+   "model": "claude-sonnet-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Figures, contingency cover, the 'still over' note and the acceptance are all supported by the quotes. No action was agreed."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "The slot, the missing reason, the no-backup point and the written confirmation 'today' all match the transcript."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "Eight weeks from filing, early February, before the thirteenth with no room, and the 'tight but it works' wording are all supported. No action was agreed."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "The handover date, the one-for-one shift, the 'just about' condition of two Saturdays, and Marcus's check with the crew are all supported."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "The over-budget issue was raised earlier (twelve over before), and this update says it is now 3,000 and covered from contingency."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "The meeting settled on accepting the revised quote, so this is a decision."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "The X-ray work depends on the Radix engineer slot. It updates last week's position, now confirmed with the second date lost."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "A clear risk: the single engineer may be unavailable, and then 'we're stuck'."
+    },
+    "R5": {
+     "verdict": "needs_edit",
+     "reason": "Six weeks was the working assumption and it proved false (eight weeks). It should be an issue, as an update of the earlier assumption, not an assumption."
+    },
+    "R6": {
+     "verdict": "needs_edit",
+     "reason": "'No room left' names no event or effect, so it is a vague worry. The licence still lands before the thirteenth. The point is already covered by the licence delay item (R5), so drop it or merge it."
+    },
+    "R7": {
+     "verdict": "ok",
+     "reason": "The handover was raised before and has now moved a week later, confirmed in writing. The treatment rooms depend on it."
+    },
+    "R8": {
+     "verdict": "ok",
+     "reason": "Marcus's own words ('the condition I put on it') make the on-time finish depend on the fit-out crew working two Saturdays, so it is a dependency."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.0557,
+   "calls": 1
+  },
+  "opus": {
+   "model": "claude-opus-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Figures, contingency cover, the 'still over' note and the decision to accept the 33,000 quote all match L40-L82; no action was agreed."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "The confirmed 11 February slot, the lost second date, the no-backup point and Radix sending written confirmation today are all supported by L99-L141."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "Eight weeks from filing on Monday the 7th, early February, before the cutover with no room left; matches L153-L204 and the wording in L295. Only 'the thirteenth' was said; February follows from the early-February licence and the 11 February slot being before cutover."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "The 22 January handover in writing, the one-week shift, 'just about' if the crew works two Saturdays, and Marcus's check are all supported; no date was given for the check."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "An existing over-budget issue, now reduced and covered by contingency; update is correct."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "Decision to accept the quote was made in this meeting (L79, L82)."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "The X-ray work depends on the Radix engineer; the slot status changed since last week (L132), so update is correct."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "A real risk with a cause and an effect (engineer sick means 'we're stuck'), raised for the first time."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "The planned six-week processing time is revised to eight weeks; an assumption update, supported by L153."
+    },
+    "R6": {
+     "verdict": "ok",
+     "reason": "No slack before the cutover is a real risk to the cutover date; the quotes support it."
+    },
+    "R7": {
+     "verdict": "ok",
+     "reason": "The handover by the landlord is a dependency; it was confirmed and moved, so update is correct."
+    },
+    "R8": {
+     "verdict": "ok",
+     "reason": "Finishing the treatment rooms depends on the fit-out crew working two Saturdays (L236); new."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.1156,
+   "calls": 1
+  }
+ },
+ "minutesTemplate": {
+  "id": "default",
+  "version": 3
+ },
+ "counts": {
+  "topics": 4,
+  "raidd": 8
+ }
+}

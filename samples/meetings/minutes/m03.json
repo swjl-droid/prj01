@@ -1,0 +1,478 @@
+{
+ "ok": true,
+ "task": "minutes",
+ "case": "m03",
+ "ms": 30727,
+ "minutes": {
+  "meeting": {
+   "title": "Customer self-service portal – Sprint 2 review",
+   "attendees": [
+    "Mei Chen",
+    "Tom Hartley",
+    "Ahmad Faizal",
+    "Lisa Wong"
+   ],
+   "date": ""
+  },
+  "topics": [
+   {
+    "title": "Sprint goal and demo",
+    "summary": [
+     {
+      "text": "The sprint 2 goal was e-mail sign-up and viewing bills. Ahmad showed sign-up on the test site, including the confirmation e-mail, and it works.",
+      "quotes": [
+       {
+        "line": 35,
+        "text": "Sprint two goal was e-mail sign up and viewing bills.",
+        "found": true
+       },
+       {
+        "line": 50,
+        "text": "Sign-up with e-mail is done and working on the test site, including the confirmation e-mail.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Viewing the last twelve bills is not done. It is blocked on the billing system API.",
+      "quotes": [
+       {
+        "line": 63,
+        "text": "Viewing the last twelve bills is not done, it's blocked on the billing system API.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Lisa found the error message for an e-mail that is already registered confusing. The team agreed it should be reworded.",
+      "quotes": [
+       {
+        "line": 72,
+        "text": "the error message for a used e-mail is confusing, can we reword it?",
+        "found": true
+       },
+       {
+        "line": 79,
+        "text": "It's a like fair point, a customer would just get stuck there.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Sign-up counts as finished for this sprint. The rewording is a separate tidy-up.",
+      "quotes": [
+       {
+        "line": 85,
+        "text": "The sign up works, the wording is a tidy-up.",
+        "found": true
+       },
+       {
+        "line": 86,
+        "text": "I, I agree. It works, basically it's just the sentence that needs changing.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Reword the error message shown when an e-mail address is already registered",
+      "owner": "Ahmad Faizal",
+      "due": "next sprint",
+      "quotes": [
+       {
+        "line": 82,
+        "text": "Yes, small fix, I'll add it to the next sprint.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Note the wording fix down with the demo feedback",
+      "owner": "Mei Chen",
+      "due": "",
+      "quotes": [
+       {
+        "line": 83,
+        "text": "I'll make sure it's noted down with the demo feedback.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Billing API",
+    "summary": [
+     {
+      "text": "The billing team says the API will be ready on 18 December. Their last two dates slipped, and they gave no detailed reason.",
+      "quotes": [
+       {
+        "line": 100,
+        "text": "the billing team says the API is ready on the eighteenth of December, but their last two dates slipped.",
+        "found": true
+       },
+       {
+        "line": 105,
+        "text": "Not, Not in any detail. They just said it wasn't ready.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The bills story cannot finish until the billing team delivers the API.",
+      "quotes": [
+       {
+        "line": 113,
+        "text": "So the bills story can't finish until the billing sort of team delivers the API.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "If the API date slips again past the holidays, paying a bill by card moves out of the first release.",
+      "quotes": [
+       {
+        "line": 116,
+        "text": "if it slips again past the holidays, paying a bill by card moves out of the first release.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The team is hopeful but not comfortable about 18 December, and is working with that date for now. The date is for the API on the billing side, not for bills showing in the portal.",
+      "quotes": [
+       {
+        "line": 132,
+        "text": "I'd say, hopeful. Not comfortable.",
+        "found": true
+       },
+       {
+        "line": 134,
+        "text": "that is kind of what we've been given, so that's what we're working with for now.",
+        "found": true
+       },
+       {
+        "line": 140,
+        "text": "that's their date for the a p i. It's not our date for the screen.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": []
+   },
+   {
+    "title": "Security test booking",
+    "summary": [
+     {
+      "text": "Security wants a penetration test before go-live. Lisa said this is not optional. The testing firm needs three weeks' notice.",
+      "quotes": [
+       {
+        "line": 150,
+        "text": "security wants a penetration test before go-live and the testing firm needs three weeks' notice.",
+        "found": true
+       },
+       {
+        "line": 154,
+        "text": "I wouldn't call that optional.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The plan assumes the test can run in the second half of January with no major findings.",
+      "quotes": [
+       {
+        "line": 163,
+        "text": "we're assuming the test can run in the second half of January with no major findings.",
+        "found": true
+       },
+       {
+        "line": 170,
+        "text": "We're planning on the basis that there aren't any.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "As far as anyone knows, the testing firm has not held a slot for the project yet.",
+      "quotes": [
+       {
+        "line": 179,
+        "text": "Not, Not that I know of, no. That's why I raised it.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Book the penetration test slot with the testing firm",
+      "owner": "Lisa",
+      "due": "this week",
+      "quotes": [
+       {
+        "line": 180,
+        "text": "Lisa, can you book the slot this week so we have it?",
+        "found": true
+       },
+       {
+        "line": 181,
+        "text": "Will do.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Release cut-line",
+    "summary": [
+     {
+      "text": "Because of the billing API, Mei proposed that release one has sign-in, viewing bills and service requests, and card payment goes to release two.",
+      "quotes": [
+       {
+        "line": 205,
+        "text": "Given the billing API, I propose release one is sign-in, viewing bills and service requests, and card payment goes to release two.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Lisa noted that paying is what people want from a portal. Tom said holding everything for payment would mean nothing goes out, while the other three items stand on their own.",
+      "quotes": [
+       {
+        "line": 219,
+        "text": "Paying is kind of the thing people want from a portal",
+        "found": true
+       },
+       {
+        "line": 230,
+        "text": "We'd be waiting, and then nothing goes out.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Tom said Finance won't love it, but he would rather ship on time.",
+      "quotes": [
+       {
+        "line": 247,
+        "text": "Finance won't love it, but I'd rather ship on time.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Decided after a round of everyone: card payment moves to release two. Sign-in, viewing bills and service requests stay in release one. This was confirmed again later in the meeting.",
+      "quotes": [
+       {
+        "line": 269,
+        "text": "Okay, so decided: card payment moves to basically release two.",
+        "found": true
+       },
+       {
+        "line": 335,
+        "text": "Sign-in, viewing bills, service requests. Release one. Card payment, release two.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": []
+   },
+   {
+    "title": "January capacity",
+    "summary": [
+     {
+      "text": "Two of the four developers have leave in the first week of January, so velocity will be about half for that sprint.",
+      "quotes": [
+       {
+        "line": 292,
+        "text": "Two of our four you know developers have leave in the first week of January, so velocity will be about half that sprint.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "This is planned leave. The team will plan that sprint smaller.",
+      "quotes": [
+       {
+        "line": 326,
+        "text": "That, That's fine, uh it's planned leave, we'll plan the sprint smaller.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Plan the first January sprint smaller",
+      "owner": "",
+      "due": "",
+      "quotes": [
+       {
+        "line": 326,
+        "text": "we'll plan the sprint smaller.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "raidd": [
+   {
+    "type": "decision",
+    "change": "new",
+    "title": "Sign-up counts as finished for sprint 2; the error wording is a separate fix",
+    "topic": 1,
+    "quotes": [
+     {
+      "line": 85,
+      "text": "The sign up works, the wording is a tidy-up.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "new",
+    "title": "Bills story waits on the billing team's API",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 113,
+      "text": "So the bills story can't finish until the billing sort of team delivers the API.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "assumption",
+    "change": "new",
+    "title": "Billing API ready on 18 December",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 100,
+      "text": "the billing team says the API is ready on the eighteenth of December, but their last two dates slipped.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "risk",
+    "change": "new",
+    "title": "API slips past the holidays, pushing card payment out of the first release",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 116,
+      "text": "if it slips again past the holidays, paying a bill by card moves out of the first release.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "new",
+    "title": "Penetration test before go-live needs three weeks' notice to the testing firm; no slot held yet",
+    "topic": 3,
+    "quotes": [
+     {
+      "line": 150,
+      "text": "security wants a penetration test before go-live and the testing firm needs three weeks' notice.",
+      "found": true
+     },
+     {
+      "line": 179,
+      "text": "Not, Not that I know of, no.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "assumption",
+    "change": "new",
+    "title": "Penetration test runs in the second half of January with no major findings",
+    "topic": 3,
+    "quotes": [
+     {
+      "line": 163,
+      "text": "we're assuming the test can run in the second half of January with no major findings.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "decision",
+    "change": "update",
+    "title": "Card payment moves to release two; release one is sign-in, viewing bills and service requests",
+    "topic": 4,
+    "quotes": [
+     {
+      "line": 191,
+      "text": "Release cut-line. We said like we'd decide this today.",
+      "found": true
+     },
+     {
+      "line": 269,
+      "text": "Okay, so decided: card payment moves to basically release two.",
+      "found": true
+     }
+    ]
+   }
+  ]
+ },
+ "checks": {
+  "ok": true,
+  "problems": [],
+  "stats": {
+   "quotes": 41,
+   "exact": 41,
+   "relocated": 0,
+   "missing": 0,
+   "points": 17,
+   "actions": 4,
+   "raidd": 7
+  }
+ },
+ "template": {
+  "id": "default",
+  "version": 3
+ },
+ "model": "claude-opus-5-5",
+ "calls": [
+  {
+   "round": 0,
+   "costUsd": 0.150804,
+   "latencyMs": 29850,
+   "usage": {
+    "input_tokens": 18411,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 3858,
+    "output_tokens_details": {
+     "thinking_tokens": 748
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   },
+   "traceId": "8d06669c995044458b1c8eb3dd96c992",
+   "logged": {
+    "ledger": true,
+    "trace": true,
+    "traceContent": "masked",
+    "gatewayVersion": "1.0.0"
+   }
+  }
+ ],
+ "costUsd": 0.150804
+}

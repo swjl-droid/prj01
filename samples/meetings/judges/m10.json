@@ -1,0 +1,109 @@
+{
+ "case": "m10",
+ "judges": {
+  "sonnet": {
+   "model": "claude-sonnet-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Points are supported by the quotes, the unchanged start date is stated, and no action was agreed."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "Dates, the buffer, the unknown about fixes and 'better, not gone' all match the transcript and the quotes."
+    },
+    "T3": {
+     "verdict": "needs_edit",
+     "reason": "'Customer self-service portal project' is not in the transcript. The speakers only say 'the customer portal' and 'the portal team'. Rename it to the customer portal, or the portal project, and keep saying it is a different project from the office."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "The approximate figure, the separation from the portal, and Ravi's change request with options for the January board are all supported."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "Last week's assumption that the approval would arrive is confirmed, so this is an update of an assumption."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "This is a risk raised before, now judged better but not gone, so it is a risk update. The quotes support it."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "The earlier firewall opening is possible only if the office does not need Jonas's team before week three. That is a condition on another party, so it is a dependency."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "The meeting settled this and said 'agreed'. The quote is the settling line."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "A cost of about six thousand from the two-week office delay is a current problem that needs handling through a change request. It is supported by the quote."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.0523,
+   "calls": 1
+  },
+  "opus": {
+   "model": "claude-opus-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Points match L37, L43 and L79; no actions were agreed."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "Dates, buffer and 'better, not gone' match L85, L114, L133, L122 and L148."
+    },
+    "T3": {
+     "verdict": "needs_edit",
+     "reason": "It calls the project the 'Customer self-service portal project', but the meeting only said 'customer portal' (L177). Remove the added 'self-service'."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "Cost, its separation from the portal work and Ravi's change request with options match L249, L253, L258, L260, L267, L279 and L288."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "An assumption raised last week that has now come true is an update, and L43 supports it."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "The risk is fixes after the inspection, with less buffer than needed. Calling it reduced but not gone is a correct update, supported by L114 and L146."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "The earlier opening depends on the office not needing the network team before week three, as L200 says."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "Settled decision at L230."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "An extra cost from the delay is a real problem now, first raised in this meeting (L249)."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.091,
+   "calls": 1
+  }
+ },
+ "minutesTemplate": {
+  "id": "default",
+  "version": 3
+ },
+ "counts": {
+  "topics": 4,
+  "raidd": 5
+ }
+}

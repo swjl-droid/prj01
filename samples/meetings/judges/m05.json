@@ -1,0 +1,117 @@
+{
+ "case": "m05",
+ "judges": {
+  "sonnet": {
+   "model": "claude-sonnet-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Points and quotes match the transcript. The action is correctly owned by Siti with no date."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "The summary matches the discussion and the quotes support it. Ben owns the cool box action and no date was given."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "It correctly records the confirmed earlier agreement on two mandatory walkthroughs and that nothing was decided for non-clinical staff. No action was agreed."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "The figures, the open question on how lots are allocated, and the two actions are supported. Priya owns the HR ask, and the tell-staff action correctly has no owner."
+    },
+    "T5": {
+     "verdict": "ok",
+     "reason": "The dependency chain, the unanswered front desk question and the IT action to send the form to Marcus are all supported by the quotes."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "A genuine assumption that was not verified. It is correctly typed as new and quoted from L71."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "A genuine risk with a cause and an effect, correctly typed as new and quoted."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "The meeting confirmed an earlier decision, so decision/update is right. The quote supports it."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "The shortage is true now, and Siti said it is a problem already, so it is an issue. It is raised for the first time."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "Porting cannot happen until the landlord gives riser access to the telco, so it is a real dependency. It is new, and the quote supports it."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.0582,
+   "calls": 1
+  },
+  "opus": {
+   "model": "claude-opus-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Figures, letter/SMS roles and the unchecked forwarding assumption are supported by exact quotes; Siti's check action is correctly owned."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "Two-hour limit, $18,000 stock, uncommissioned backup power and Ben's cool box run are all supported; correctly notes the risk stays on the log."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "Correctly states the earlier agreement was confirmed (two mandatory walkthroughs for clinical staff) and that nothing was decided for non-clinical staff."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "Shortage figures, open allocation question, the agreed staff message and Priya's HR action are supported; the tell-staff owner is correctly left blank because nobody was named."
+    },
+    "T5": {
+     "verdict": "ok",
+     "reason": "Porting chain, landlord dependency, the unanswered front desk question and IT's form-to-Marcus action are accurately quoted and owned."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "Unverified three-month forwarding is an assumption raised for the first time here; the quote supports it."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "Possible power trip with no commissioned backup, and its effect (lost stock), is a valid new risk in topic 2."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "Confirms an earlier agreement (L203), so decision/update is correct."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "Shortage exists now ('a problem we already have'), so issue/new is correct."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "Porting waits on the landlord giving the telco riser access, which is a valid new dependency in topic 5."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.1179,
+   "calls": 1
+  }
+ },
+ "minutesTemplate": {
+  "id": "default",
+  "version": 3
+ },
+ "counts": {
+  "topics": 5,
+  "raidd": 5
+ }
+}

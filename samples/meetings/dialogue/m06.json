@@ -1,0 +1,1026 @@
+{
+ "case": "m06",
+ "model": "claude-sonnet-5-5",
+ "note": "Written through the gateway by GET /api/eval?task=dialogue; beats checked word for word.",
+ "lines": [
+  {
+   "who": "mei",
+   "text": "Morning, everyone. Can you hear me okay? I've got the little bars jumping up and down, so I think my mic's working."
+  },
+  {
+   "who": "lisa",
+   "text": "Yeah, I can hear you. Morning, Mei."
+  },
+  {
+   "who": "ahmad",
+   "text": "Morning. Hear you fine. Can you hear me? I switched headsets this morning."
+  },
+  {
+   "who": "mei",
+   "text": "You're a bit quiet, Ahmad. Maybe a bit far from the mic."
+  },
+  {
+   "who": "ahmad",
+   "text": "Is that better? I moved it closer to my mouth."
+  },
+  {
+   "who": "mei",
+   "text": "Much better. Yes, that's good."
+  },
+  {
+   "who": "lisa",
+   "text": "Ahmad, you froze for a second there. Your picture's stuck, but the sound's fine."
+  },
+  {
+   "who": "ahmad",
+   "text": "Oh. Hang on, let me turn the camera off and on again. Better?"
+  },
+  {
+   "who": "lisa",
+   "text": "Yep, you're moving again. You were stuck with your mouth open, it was very flattering."
+  },
+  {
+   "who": "ahmad",
+   "text": "Great. That's the picture I wanted everyone to remember."
+  },
+  {
+   "who": "mei",
+   "text": "Jonas isn't in yet, is he? I only see the three of us."
+  },
+  {
+   "who": "lisa",
+   "text": "I think he's in the lobby. There was something about the meeting link in my chat a minute ago."
+  },
+  {
+   "who": "jonas",
+   "text": "Hello? Sorry, I'm in. Can you hear me? I think I'm on mute. No, I'm not on mute. Hang on."
+  },
+  {
+   "who": "mei",
+   "text": "We can hear you, Jonas. Welcome."
+  },
+  {
+   "who": "jonas",
+   "text": "Oh good. The button was in a different place on my screen. It moved since last time."
+  },
+  {
+   "who": "ahmad",
+   "text": "They move it every update. I've given up trying to learn where anything is."
+  },
+  {
+   "who": "lisa",
+   "text": "Mm-hm. I just click around until something works."
+  },
+  {
+   "who": "jonas",
+   "text": "Right, that's my method too. Sorry I'm a bit late. The previous call ran over."
+  },
+  {
+   "who": "mei",
+   "text": "No problem, we've only just started. Everyone get coffee? I'm on my second already."
+  },
+  {
+   "who": "lisa",
+   "text": "First one, still waking up. It's one of those mornings where it's dark when you get up and dark when you finish."
+  },
+  {
+   "who": "jonas",
+   "text": "Yes, I noticed that this week. It does something to you."
+  },
+  {
+   "who": "ahmad",
+   "text": "I just keep the lamp on all day. My kid says my room looks like an interrogation."
+  },
+  {
+   "who": "lisa",
+   "text": "Ha. Well, at least the lamp's honest."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. Let me share my screen so we can all see the board. Can you see it? It should be the refinement column."
+  },
+  {
+   "who": "ahmad",
+   "text": "I see a calendar."
+  },
+  {
+   "who": "mei",
+   "text": "Oh, wrong window. Sorry. Give me a second. Is it the board now?"
+  },
+  {
+   "who": "lisa",
+   "text": "Now I see the board, but it's small. Can you zoom in a bit?"
+  },
+  {
+   "who": "mei",
+   "text": "Is that better? I'll bump it up once more."
+  },
+  {
+   "who": "jonas",
+   "text": "That's readable on my side. Thanks."
+  },
+  {
+   "who": "mei",
+   "text": "Good. Right, let's get going, we've got a fair bit to cover and I don't want to run out of time."
+  },
+  {
+   "who": "mei",
+   "text": "Refinement: service requests, the identity provider, accessibility, analytics, and the payment sandbox."
+  },
+  {
+   "who": "lisa",
+   "text": "That's a long list for the time we have."
+  },
+  {
+   "who": "mei",
+   "text": "It is, so let's try to keep each one moving. Ahmad, I'll start with you."
+  },
+  {
+   "who": "mei",
+   "text": "Service requests first. Ahmad, is the story ready?"
+  },
+  {
+   "who": "ahmad",
+   "text": "Not really, no. I looked at it again yesterday and I'm not comfortable with it as it stands."
+  },
+  {
+   "who": "ahmad",
+   "beat": "t1.1",
+   "text": "The service request story is too big, it covers new requests, tracking and attachments. I want to split it in three."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. So that's one story per piece, right? New requests, tracking, attachments?"
+  },
+  {
+   "who": "ahmad",
+   "text": "Yes, that's what I mean. Each one stands alone and the team can pick it up and finish it without waiting."
+  },
+  {
+   "who": "jonas",
+   "text": "From my side, does that change what the portal needs from us? I'm trying to work out if I have to look at it three times or once."
+  },
+  {
+   "who": "ahmad",
+   "text": "I don't think it changes what you see. It's the same feature, we're just cutting it differently for planning."
+  },
+  {
+   "who": "jonas",
+   "text": "Okay, mm-hm. That's fine, I just wanted to be sure."
+  },
+  {
+   "who": "mei",
+   "text": "I'm fine with that. I never liked it being one lump anyway. When I read it I couldn't tell where it started and where it stopped."
+  },
+  {
+   "who": "lisa",
+   "text": "That's my problem too. When I try to write tests against a story that big, I never know when I'm done."
+  },
+  {
+   "who": "ahmad",
+   "text": "Right. That's the other reason. If it stays as one, it just sits there half finished for ages."
+  },
+  {
+   "who": "mei",
+   "text": "So, order. Is there any reason to do them in a particular order?"
+  },
+  {
+   "who": "ahmad",
+   "text": "New requests is the obvious starting point. Tracking only makes sense once there's something to track. Attachments, I'd say that's the one that could go anywhere."
+  },
+  {
+   "who": "mei",
+   "text": "Then attachments last. That's easy for me."
+  },
+  {
+   "who": "mei",
+   "beat": "t1.2",
+   "text": "Fine, split it. Attachments can go last, they're the least used."
+  },
+  {
+   "who": "ahmad",
+   "text": "Good. I'll make the three stories from the one we have."
+  },
+  {
+   "who": "lisa",
+   "text": "Can I ask about tracking, since it's the middle one? I've been trying to write the acceptance criteria and I keep getting stuck."
+  },
+  {
+   "who": "mei",
+   "text": "Sure, go ahead. What's blocking you?"
+  },
+  {
+   "who": "lisa",
+   "beat": "t1.3",
+   "text": "Acceptance criteria for tracking need the status list from operations, we don't have it."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yeah, I noticed that too. I was going to say, I can't size tracking properly without it either."
+  },
+  {
+   "who": "mei",
+   "text": "What exactly are you missing, Lisa? Is it the names of the statuses, or the order they go in?"
+  },
+  {
+   "who": "lisa",
+   "text": "Both, really. I'd need to know what a customer is supposed to see, and then what moves a request from one to the next. Right now I'd be inventing it."
+  },
+  {
+   "who": "jonas",
+   "text": "Is it something Central IT would have? I don't think we hold it, but I can't say for sure."
+  },
+  {
+   "who": "mei",
+   "text": "I don't think so. It's an operations thing, they're the ones who handle the requests day to day."
+  },
+  {
+   "who": "jonas",
+   "text": "Okay, good. Then it's not me. I just didn't want to sit there and say nothing if it was."
+  },
+  {
+   "who": "lisa",
+   "text": "Without that list I could write something, but it would be a guess, and then we'd test the guess."
+  },
+  {
+   "who": "ahmad",
+   "text": "And then we'd build the guess. No thanks."
+  },
+  {
+   "who": "mei",
+   "text": "No, agreed. We shouldn't build on a guess."
+  },
+  {
+   "who": "mei",
+   "beat": "t1.4",
+   "text": "I'll get the status list from operations by Wednesday."
+  },
+  {
+   "who": "lisa",
+   "text": "Great, thank you. That unblocks me on that one."
+  },
+  {
+   "who": "ahmad",
+   "text": "And that's fine for the order. New requests doesn't need the list, so it's not holding us up."
+  },
+  {
+   "who": "lisa",
+   "text": "Right, I can do the criteria for new requests without it. That one's clear enough."
+  },
+  {
+   "who": "mei",
+   "text": "Good. So the new requests story isn't waiting on anything."
+  },
+  {
+   "who": "ahmad",
+   "text": "Not as far as I can see. Lisa, you'd know better than me if the criteria look complete."
+  },
+  {
+   "who": "lisa",
+   "text": "For new requests, I think so. I'd want to read it over once the split is done, in case something falls in the wrong story."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yeah, that's the risk when you cut things up. Something sits in the gap between two of them."
+  },
+  {
+   "who": "mei",
+   "text": "Then we look for that when we see the three stories. Okay. Anything else on service requests?"
+  },
+  {
+   "who": "jonas",
+   "text": "Just a small thing. When you say tracking, it's the customer looking at their own requests, right? Not staff looking at all of them?"
+  },
+  {
+   "who": "ahmad",
+   "text": "The customer, yes. It's the self-service side."
+  },
+  {
+   "who": "jonas",
+   "text": "Okay. Good. That's what I assumed, I just wanted to hear it said."
+  },
+  {
+   "who": "lisa",
+   "text": "Sorry, one more. Going back to what Ahmad said earlier, the three of them are tied together a bit, aren't they? Attachments sit on a request."
+  },
+  {
+   "who": "ahmad",
+   "text": "They do, in the sense that an attachment belongs to a request. But we can still build them one at a time."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay, that's what I was checking. If attachments is last, then it already has a request to hang onto."
+  },
+  {
+   "who": "ahmad",
+   "text": "Exactly. That's another reason I'm happy with that order."
+  },
+  {
+   "who": "mei",
+   "text": "Good, that fits together. Let's move on, then."
+  },
+  {
+   "who": "mei",
+   "text": "Identity provider."
+  },
+  {
+   "who": "ahmad",
+   "text": "This one worries me more than the stories, to be honest."
+  },
+  {
+   "who": "jonas",
+   "text": "I was hoping we'd get to this one. It's the part where Central IT gets asked questions."
+  },
+  {
+   "who": "ahmad",
+   "beat": "t2.1",
+   "text": "The identity provider's free tier caps us at five thousand monthly users and we expect about twelve thousand customers."
+  },
+  {
+   "who": "jonas",
+   "text": "Sorry, say the numbers again? Five thousand is the cap, and twelve thousand is what you think we'll have?"
+  },
+  {
+   "who": "ahmad",
+   "text": "Yes. Five thousand is the limit on the free tier. Twelve thousand is roughly how many customers we expect."
+  },
+  {
+   "who": "mei",
+   "text": "So it's well over, not just a bit over."
+  },
+  {
+   "who": "ahmad",
+   "text": "Well over, yes. More than double."
+  },
+  {
+   "who": "lisa",
+   "text": "Is that twelve thousand all signing in every month, or twelve thousand customers in total?"
+  },
+  {
+   "who": "ahmad",
+   "text": "I'm saying twelve thousand customers. How many of them sign in each month, I can't tell you. But I wouldn't plan around hoping most of them stay away."
+  },
+  {
+   "who": "lisa",
+   "text": "Fair. I'm just trying to understand how close to the line we'd be."
+  },
+  {
+   "who": "jonas",
+   "text": "It's a fair question, though. Monthly users and customers aren't the same thing. But I take the point that it's a big gap."
+  },
+  {
+   "who": "ahmad",
+   "text": "Right. I'm not saying it's exact. I'm saying there's a very wide gap between the two numbers."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. So what does that mean for how we build?"
+  },
+  {
+   "who": "ahmad",
+   "beat": "t2.2",
+   "text": "We're building on the assumption that the paid tier gets approved before go-live, otherwise sign-in stops at five thousand."
+  },
+  {
+   "who": "jonas",
+   "text": "Stops, meaning people can't sign in at all once we hit the cap? They don't just get slower service?"
+  },
+  {
+   "who": "ahmad",
+   "text": "That's how I read it. Once we're at the cap, sign-in stops. That's what I wrote there."
+  },
+  {
+   "who": "lisa",
+   "text": "That would be a bad day for customers."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yes. Which is why I wanted to say it out loud in this meeting and not leave it in a ticket."
+  },
+  {
+   "who": "jonas",
+   "text": "Mm-hm. I'm glad you did. I'd rather hear it now."
+  },
+  {
+   "who": "mei",
+   "text": "Just so I've got it straight. The build assumes the paid tier. If the paid tier isn't approved by go-live, then we have the five thousand problem."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yes, that's it exactly. Nothing about the build changes, it's the approval that decides it."
+  },
+  {
+   "who": "jonas",
+   "text": "And the approval is a budget thing, I'm guessing? Not something Central IT signs off on?"
+  },
+  {
+   "who": "mei",
+   "text": "It's a budget thing, yes. That part sits with me."
+  },
+  {
+   "who": "jonas",
+   "text": "Okay. Then I'll stay out of it, except to say I'm happy to answer questions if anyone asks."
+  },
+  {
+   "who": "ahmad",
+   "text": "I don't think we need anything else from you on it, Jonas. I just wanted you to know."
+  },
+  {
+   "who": "jonas",
+   "text": "That's fine. Better to hear it in the meeting than find out later."
+  },
+  {
+   "who": "lisa",
+   "text": "Can I ask something that might be obvious? When you say the free tier, is that what we're on now, in testing?"
+  },
+  {
+   "who": "ahmad",
+   "text": "That's what we're using now, yes. It's fine for testing, since there are only a few of us."
+  },
+  {
+   "who": "lisa",
+   "text": "Right, so nobody's going to notice until it matters."
+  },
+  {
+   "who": "ahmad",
+   "text": "Which is exactly the problem. It works perfectly right up until it doesn't."
+  },
+  {
+   "who": "mei",
+   "text": "Okay, I hear that. I don't want to be the reason sign-in stops."
+  },
+  {
+   "who": "mei",
+   "beat": "t2.3",
+   "text": "I'll put the paid tier into the January budget request."
+  },
+  {
+   "who": "ahmad",
+   "text": "Good, thanks Mei. That's what I needed to hear."
+  },
+  {
+   "who": "jonas",
+   "text": "Great. So it's covered on the budget side."
+  },
+  {
+   "who": "lisa",
+   "text": "Sorry, just checking I've got the order right. Budget request first, then the approval, then go-live?"
+  },
+  {
+   "who": "mei",
+   "text": "I'm not going to say more than what I said. The paid tier goes in the January request. Beyond that, I can't promise what comes back."
+  },
+  {
+   "who": "lisa",
+   "text": "Understood, I wasn't asking you to. I just wanted to see the sequence."
+  },
+  {
+   "who": "ahmad",
+   "text": "The sequence is what I said. We're building as if it's approved, and the request is how it gets approved."
+  },
+  {
+   "who": "jonas",
+   "text": "Okay. Mm-hm. I think we're all on the same page."
+  },
+  {
+   "who": "mei",
+   "text": "Good. Anything else on the identity provider? Otherwise I'd like to keep going."
+  },
+  {
+   "who": "jonas",
+   "text": "Nothing from me."
+  },
+  {
+   "who": "lisa",
+   "text": "Nothing. I just wanted to be sure I understood the cap."
+  },
+  {
+   "who": "ahmad",
+   "text": "I'm done. Go ahead."
+  },
+  {
+   "who": "mei",
+   "text": "Accessibility."
+  },
+  {
+   "who": "lisa",
+   "text": "This is mine. It's a short one, but I do want it said."
+  },
+  {
+   "who": "lisa",
+   "beat": "t3.1",
+   "text": "The bills page fails the WCAG colour contrast check on the amount due, that's a defect we already have."
+  },
+  {
+   "who": "mei",
+   "text": "Sorry, so it's on the bills page, and it's specifically the amount due? Not the whole page?"
+  },
+  {
+   "who": "lisa",
+   "text": "The amount due is the part that fails. That's the one the check flagged."
+  },
+  {
+   "who": "jonas",
+   "text": "And that's the one number a customer most needs to read. Not great."
+  },
+  {
+   "who": "lisa",
+   "text": "No. That's why it stands out to me."
+  },
+  {
+   "who": "mei",
+   "text": "You said it's a defect we already have. So it's not new, it's been there."
+  },
+  {
+   "who": "lisa",
+   "text": "Right. It's already on our list, so it isn't something I found today. I just want it to get a place in the sprint."
+  },
+  {
+   "who": "ahmad",
+   "text": "Hang on, let me look at that. It's the colour of the amount, right? Against the background?"
+  },
+  {
+   "who": "lisa",
+   "text": "That's what the check is comparing, yes. The text colour and the background behind it."
+  },
+  {
+   "who": "ahmad",
+   "beat": "t3.2",
+   "text": "Easy fix, it's one colour token."
+  },
+  {
+   "who": "lisa",
+   "text": "Really? I thought it might be more involved than that."
+  },
+  {
+   "who": "ahmad",
+   "text": "No, I think it's just the one token. Change it once and it carries through."
+  },
+  {
+   "who": "jonas",
+   "text": "Mm-hm. That's the nice thing about tokens."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay, good. Then I'd just re-run the check afterwards to see it pass."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yes, that would be the proof. If the check passes, we're done."
+  },
+  {
+   "who": "mei",
+   "text": "Is there any reason not to just do it? I don't see a reason to keep it waiting."
+  },
+  {
+   "who": "ahmad",
+   "text": "None that I can see. It's small."
+  },
+  {
+   "who": "lisa",
+   "text": "And it's a defect, so I'd feel better having it out of the way."
+  },
+  {
+   "who": "mei",
+   "beat": "t3.3",
+   "text": "Okay, fix it in this sprint."
+  },
+  {
+   "who": "ahmad",
+   "text": "Fine by me."
+  },
+  {
+   "who": "lisa",
+   "text": "Thanks. That's all I had on that."
+  },
+  {
+   "who": "jonas",
+   "text": "Quick question, and tell me if it's off topic. Is that the only page with a contrast problem, or just the only one we know about?"
+  },
+  {
+   "who": "lisa",
+   "text": "Just the one I know about. I'm not going to say the rest is clean, because I haven't said that."
+  },
+  {
+   "who": "jonas",
+   "text": "Fair enough. I only wanted to know how far the finding went."
+  },
+  {
+   "who": "ahmad",
+   "text": "Same here, I can only speak for the one."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. That's what we know today, and we'll leave it at that."
+  },
+  {
+   "who": "mei",
+   "text": "Analytics."
+  },
+  {
+   "who": "mei",
+   "beat": "t4.1",
+   "text": "Marketing asked for page analytics. We decided no third party analytics in release one, only our own server counts."
+  },
+  {
+   "who": "ahmad",
+   "text": "Right, yeah. We talked about that before, and I think everyone was fine with it. Just so I've got it straight in my head, when you say our own server counts, you mean what the server already sees. Requests, that kind of thing."
+  },
+  {
+   "who": "mei",
+   "text": "That's how I understand it, yes. Nothing added on the pages themselves. Nothing that sends data out to somebody else."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay. Mm-hm. Because that changes how we think about the tickets. If there's nothing on the page, there's nothing for us to build on the front end for it."
+  },
+  {
+   "who": "mei",
+   "text": "Right. That's the point of the decision, really. We keep release one simple."
+  },
+  {
+   "who": "lisa",
+   "text": "Can I ask something? When marketing asked, did they say what they wanted to look at? Like specific pages, or just everything?"
+  },
+  {
+   "who": "mei",
+   "text": "It was fairly general, to be honest. They asked for page analytics. I didn't get a detailed list, and I'm not going to pretend I did."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay, that's fair. I just wondered, because if it's general then maybe server counts cover most of it. But I don't know what they had in mind."
+  },
+  {
+   "who": "jonas",
+   "text": "From my side, it's easier too. I mean, if nothing goes to an outside party, I don't have anything to look at there."
+  },
+  {
+   "who": "mei",
+   "text": "Yeah, that's also a good thing about it."
+  },
+  {
+   "who": "ahmad",
+   "text": "Do we want to say anything to marketing about what they'll actually get? Because I can see them hearing no analytics and thinking they get nothing."
+  },
+  {
+   "who": "mei",
+   "text": "Hmm. Good point. They'll get something, it's just our own counts. I should make sure the wording is clear when I talk to them. It's not nothing, it's just not third party."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yeah, that's all I mean. The word no can sound bigger than it is."
+  },
+  {
+   "who": "lisa",
+   "text": "Mm-hm. And it's only for release one, right? That's how it was put."
+  },
+  {
+   "who": "mei",
+   "text": "Release one, yes. That's what we decided. I'm not saying anything about after that, because we haven't talked about it."
+  },
+  {
+   "who": "lisa",
+   "text": "No, no, I wasn't pushing. I just wanted to hear it said again."
+  },
+  {
+   "who": "ahmad",
+   "text": "I'd rather not reopen it, honestly. We went round it already."
+  },
+  {
+   "who": "mei",
+   "text": "Agreed. Let's not go round again. Lisa, you had something about the banner."
+  },
+  {
+   "who": "lisa",
+   "text": "Yeah, so, from the testing side."
+  },
+  {
+   "who": "lisa",
+   "beat": "t4.2",
+   "text": "Good, that also means no cookie banner for now."
+  },
+  {
+   "who": "ahmad",
+   "text": "Oh, yeah. That follows, doesn't it. If there's nothing third party, there's nothing to ask people about."
+  },
+  {
+   "who": "jonas",
+   "text": "Is that for sure? I mean, I'm not a legal person, I just know banners come up a lot in these discussions."
+  },
+  {
+   "who": "lisa",
+   "text": "I'm not a legal person either. I'm just saying that's the connection I made. No third party analytics, so no banner for now. That's all I was saying."
+  },
+  {
+   "who": "mei",
+   "text": "Yes, and I think that's the right reading of what we decided. I'm not going to go beyond that. For now, no banner, because there's no third party analytics."
+  },
+  {
+   "who": "jonas",
+   "text": "Okay. Fine by me. I just wanted to check I hadn't missed something."
+  },
+  {
+   "who": "ahmad",
+   "text": "It does take one thing off the list for the front end. A banner always looks small until you start on it."
+  },
+  {
+   "who": "lisa",
+   "text": "Ha, true. And the tests around it. You always end up checking it on every page."
+  },
+  {
+   "who": "ahmad",
+   "text": "Right. Every page, every state. So, less of that."
+  },
+  {
+   "who": "mei",
+   "text": "Okay, I like that. Less to build, less to test."
+  },
+  {
+   "who": "jonas",
+   "text": "Sorry, one more thing. When you say for now, does that mean it might come back?"
+  },
+  {
+   "who": "mei",
+   "text": "For now just means that's where we are with release one. I don't want to promise anything about later, because we haven't discussed it."
+  },
+  {
+   "who": "jonas",
+   "text": "Fair enough. Understood."
+  },
+  {
+   "who": "lisa",
+   "text": "Yeah, I think that's all fine from me on analytics. I just wanted the banner point said out loud so it's in the notes."
+  },
+  {
+   "who": "mei",
+   "text": "It's said. Good. Anything else on this one? Ahmad?"
+  },
+  {
+   "who": "ahmad",
+   "text": "No, I'm good. Just the wording for marketing, but that's yours."
+  },
+  {
+   "who": "mei",
+   "text": "Yes, noted. Okay."
+  },
+  {
+   "who": "mei",
+   "text": "Payment sandbox, even though card payment moved to release two."
+  },
+  {
+   "who": "jonas",
+   "text": "Yeah, I wanted to bring this up, since I know it's not in release one anymore."
+  },
+  {
+   "who": "jonas",
+   "beat": "t5.1",
+   "text": "The payment sandbox for release two needs my team to set up the firewall rules, and we're only free in the last week of January."
+  },
+  {
+   "who": "ahmad",
+   "text": "Last week of January. Hm. Okay."
+  },
+  {
+   "who": "lisa",
+   "text": "Sorry, can I check? It's the firewall rules that your team has to do, nobody else can do those?"
+  },
+  {
+   "who": "jonas",
+   "text": "That's right, it's my team. It's not something the project team does on its own."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay. I just wanted to be sure it's not something we could do ourselves."
+  },
+  {
+   "who": "jonas",
+   "text": "No, it goes through us."
+  },
+  {
+   "who": "ahmad",
+   "text": "And that's for the sandbox. Not the real thing, the sandbox."
+  },
+  {
+   "who": "jonas",
+   "text": "The sandbox for release two, yes. That's what I'm talking about."
+  },
+  {
+   "who": "ahmad",
+   "text": "Right, right. I just wanted to keep the two apart in my head."
+  },
+  {
+   "who": "mei",
+   "text": "Can I just say it back to make sure I've understood? Because I want to be accurate when I say this to others."
+  },
+  {
+   "who": "jonas",
+   "text": "Sure, go ahead."
+  },
+  {
+   "who": "mei",
+   "beat": "t5.2",
+   "text": "So release two payment testing can't start before central IT opens the firewall in the last week of January."
+  },
+  {
+   "who": "jonas",
+   "beat": "t5.3",
+   "text": "Yes, that's the earliest."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay. So that's the limit for the testing side. Nothing can happen on the sandbox before then."
+  },
+  {
+   "who": "jonas",
+   "text": "Not on the sandbox, no. The rules need to be in place first."
+  },
+  {
+   "who": "ahmad",
+   "text": "Mm-hm. I mean, it is what it is. It's not like we can push on it."
+  },
+  {
+   "who": "mei",
+   "text": "Well, I'd say we can ask, but I heard Jonas. That's the earliest. I'm not going to ask him to say something different."
+  },
+  {
+   "who": "jonas",
+   "text": "I appreciate that. If I said sooner, I'd be making it up."
+  },
+  {
+   "who": "ahmad",
+   "text": "No, no, I wasn't asking you to. I was just thinking out loud."
+  },
+  {
+   "who": "jonas",
+   "text": "Sure. I get it. It's a long wait when you say it like that."
+  },
+  {
+   "who": "lisa",
+   "text": "It's not that I'm complaining. I just wanted to be clear that testing for payment sits behind that. That's all."
+  },
+  {
+   "who": "mei",
+   "text": "Yes. That's how I read it too."
+  },
+  {
+   "who": "ahmad",
+   "text": "Can I ask something a bit side-on? Is the sandbox only about the firewall, from your side? Or is there more that your team does?"
+  },
+  {
+   "who": "jonas",
+   "text": "What I said is the firewall rules. That's what I know I'm responsible for in this. I don't want to list things I haven't thought through."
+  },
+  {
+   "who": "ahmad",
+   "text": "Fair. I'd rather you say that than guess."
+  },
+  {
+   "who": "mei",
+   "text": "Yeah, let's stick with what we know. Firewall rules, last week of January, earliest."
+  },
+  {
+   "who": "lisa",
+   "text": "Mm-hm."
+  },
+  {
+   "who": "jonas",
+   "text": "Yes. That's it."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay, so I'm just going back to something. Card payment moved to release two, and that's why this isn't a problem for release one. Is that right?"
+  },
+  {
+   "who": "mei",
+   "text": "That's right. Card payment moved to release two. So this is about release two."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay. Good. Because for a second I thought we were talking about something that blocks release one, and I wanted to check."
+  },
+  {
+   "who": "mei",
+   "text": "No, I wouldn't say that. It's release two payment testing. That's what's behind the firewall."
+  },
+  {
+   "who": "lisa",
+   "text": "Right, and I'm only talking about the payment testing. Everything else, I'm not saying anything about."
+  },
+  {
+   "who": "jonas",
+   "text": "Yeah, same. I'm only talking about the sandbox."
+  },
+  {
+   "who": "mei",
+   "text": "Good. We're all saying the same thing, then, which is nice for a change."
+  },
+  {
+   "who": "ahmad",
+   "text": "Ha. Don't jinx it."
+  },
+  {
+   "who": "lisa",
+   "text": "Honestly, I was ready to disagree about something, but I can't find anything."
+  },
+  {
+   "who": "mei",
+   "text": "Save it for next time."
+  },
+  {
+   "who": "jonas",
+   "text": "I'll have something for you next time too, probably."
+  },
+  {
+   "who": "ahmad",
+   "text": "Sorry, Jonas, just to double check I heard it properly. You said only free in the last week. Not that it takes the whole week, just that's when you're free."
+  },
+  {
+   "who": "jonas",
+   "text": "What I said is we're only free in the last week of January. I haven't said how long it takes, because that isn't what I said. I'd just be guessing."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay, understood. I won't read anything into it."
+  },
+  {
+   "who": "mei",
+   "text": "Good. Let's not add things. We have what we have."
+  },
+  {
+   "who": "lisa",
+   "text": "Yeah. I think what I wanted was just to hear the date again, and I've heard it a few times now."
+  },
+  {
+   "who": "jonas",
+   "text": "Ha, yes. Last week of January. You won't forget it."
+  },
+  {
+   "who": "lisa",
+   "text": "I really won't."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay, I think I'm done with the sandbox, from my side. Anything else, Lisa?"
+  },
+  {
+   "who": "lisa",
+   "text": "No, I'm fine. It's clear."
+  },
+  {
+   "who": "mei",
+   "text": "Jonas, anything you want to add before we move on?"
+  },
+  {
+   "who": "jonas",
+   "text": "No. I think I've said what I know."
+  },
+  {
+   "who": "mei",
+   "text": "Okay, good. Then I think that's it for me as well."
+  },
+  {
+   "who": "ahmad",
+   "text": "Should we do a quick wrap-up, then? I think we're nearly at time anyway."
+  },
+  {
+   "who": "mei",
+   "text": "Yes. Quick wrap-up. On analytics, release one has no third party analytics, only our own server counts, and that means no cookie banner for now."
+  },
+  {
+   "who": "lisa",
+   "text": "Mm-hm, that matches my notes."
+  },
+  {
+   "who": "mei",
+   "text": "And on the payment sandbox, card payment is in release two, and payment testing there can't start before central IT opens the firewall in the last week of January."
+  },
+  {
+   "who": "jonas",
+   "text": "Yes, that's right."
+  },
+  {
+   "who": "ahmad",
+   "text": "Good. That's what I have too."
+  },
+  {
+   "who": "mei",
+   "text": "Great. Thanks, everybody. That was a good session."
+  },
+  {
+   "who": "lisa",
+   "text": "Thanks, all. Bye."
+  },
+  {
+   "who": "jonas",
+   "text": "Thanks, bye."
+  },
+  {
+   "who": "ahmad",
+   "text": "Bye, everyone."
+  },
+  {
+   "who": "mei",
+   "text": "Bye."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "source": "Review method decided by John 27/11/2026 (Hub row 305): every topic and every RAIDD row of the minutes is judged OK or Needs edit by each judge below; John's verdict wins where he gives one, else the judges' when they all agree, else the item is not OK. Judges are builder-only work: they run in a Claude session on John's plan (scripts/judge-session.mjs), not through the API (decision 27/11/2026, Hub row 311); the first run on 27/11 used the API. maxTokens, timeoutMs and repairRounds apply to judgeMinutes() when it is given a gateway (tests).",
+  "judges": [
+    {
+      "id": "sonnet",
+      "label": "Sonnet 5.5",
+      "model": "claude-sonnet-5-5"
+    },
+    {
+      "id": "opus",
+      "label": "Opus 5.5",
+      "model": "claude-opus-5-5"
+    }
+  ],
+  "bars": {
+    "topics": 0.7,
+    "raidd": 0.8
+  },
+  "maxTokens": 8000,
+  "timeoutMs": 240000,
+  "repairRounds": 1
+}

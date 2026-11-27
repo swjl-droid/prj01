@@ -1,0 +1,1031 @@
+{
+ "case": "m07",
+ "model": "claude-sonnet-5-5",
+ "note": "Written through the gateway by GET /api/eval?task=dialogue; beats checked word for word.",
+ "lines": [
+  {
+   "who": "ravi",
+   "text": "Morning, Grace. Can you hear me okay?"
+  },
+  {
+   "who": "grace",
+   "text": "I can hear you, yes. There's a bit of an echo though. Is that me or you?"
+  },
+  {
+   "who": "ravi",
+   "text": "Might be me. Hang on, I'll take my headset off and put it back on."
+  },
+  {
+   "who": "grace",
+   "text": "Mm-hm. No, still there. Actually it's gone a bit better now. Say something else."
+  },
+  {
+   "who": "ravi",
+   "text": "Testing, testing, one two. Is that any better?"
+  },
+  {
+   "who": "grace",
+   "text": "Better. Yes, that's fine."
+  },
+  {
+   "who": "weiling",
+   "text": "Morning, everyone. Sorry, I'm in. Can you see me? My camera's showing a black square on my side."
+  },
+  {
+   "who": "ravi",
+   "text": "We can't see you yet. Just a grey circle with your initials."
+  },
+  {
+   "who": "weiling",
+   "text": "Right, hang on. I think the laptop's choosing the wrong camera. Let me switch it in the settings."
+  },
+  {
+   "who": "grace",
+   "text": "It does that to me every time I come back to my desk. It always wants to use the one on the other screen."
+  },
+  {
+   "who": "weiling",
+   "text": "There we go. Is that me now?"
+  },
+  {
+   "who": "ravi",
+   "text": "Yes, there you are. Bit dark, but there you are."
+  },
+  {
+   "who": "weiling",
+   "text": "I'll live with dark. I'm not touching anything else, it'll all break."
+  },
+  {
+   "who": "jonas",
+   "text": "Hello, hello. Sorry, am I late? I was stuck on the previous call, it overran."
+  },
+  {
+   "who": "ravi",
+   "text": "No, you're fine, we haven't started. Morning, Jonas."
+  },
+  {
+   "who": "jonas",
+   "text": "Morning. Oh, I'm on mute, aren't I? Can you hear me now?"
+  },
+  {
+   "who": "grace",
+   "text": "Yes, we can hear you now. You were on mute for the first bit of that."
+  },
+  {
+   "who": "jonas",
+   "text": "Classic. I do it every single time. I think I should have it written on a sticky note on my screen."
+  },
+  {
+   "who": "weiling",
+   "text": "I've got one of those. It doesn't help. I still do it."
+  },
+  {
+   "who": "grace",
+   "text": "It's properly cold this morning. I walked in and my hands were numb."
+  },
+  {
+   "who": "jonas",
+   "text": "Same here. I had to scrape the car before I could leave. I'm still defrosting."
+  },
+  {
+   "who": "weiling",
+   "text": "I stayed in. Working from the kitchen table today, with a hot drink right next to me."
+  },
+  {
+   "who": "ravi",
+   "text": "Sensible. Right, I think we've got everyone. Shall we make a start? I'll keep this tight, it's a highlight review, not the full report."
+  },
+  {
+   "who": "grace",
+   "text": "Fine by me."
+  },
+  {
+   "who": "jonas",
+   "text": "Go for it. Sorry, the screen share thing is popping up on my side, ignore that, it's gone."
+  },
+  {
+   "who": "ravi",
+   "text": "Okay. Highlight report: landlord approval, IT install weeks, furniture order, Kemlite mobilisation, and the fire safety certificate."
+  },
+  {
+   "who": "grace",
+   "text": "Mm-hm, that's the list I have as well."
+  },
+  {
+   "who": "ravi",
+   "text": "Landlord first. Good news or bad?"
+  },
+  {
+   "who": "ravi",
+   "beat": "t1.1",
+   "text": "Bad. The landlord didn't approve by the thirteenth, they now say the twentieth of December, a week late."
+  },
+  {
+   "who": "weiling",
+   "text": "Oh. That's a shame. I was hoping it would just slip through."
+  },
+  {
+   "who": "grace",
+   "text": "So just to be clear, we were expecting it on the thirteenth, and what they're now saying is the twentieth. Is that right?"
+  },
+  {
+   "who": "ravi",
+   "text": "That's right. Thirteenth was the date, twentieth is what they're telling us now."
+  },
+  {
+   "who": "jonas",
+   "text": "So it's seven days. A full week."
+  },
+  {
+   "who": "ravi",
+   "text": "A week, yes. And it's the landlord's date, not ours."
+  },
+  {
+   "who": "weiling",
+   "text": "Do we know it's definitely the twentieth? Or is that them saying the twentieth and then it moves again?"
+  },
+  {
+   "who": "ravi",
+   "text": "That's what they've told us. The twentieth. I'm not going to say more than that, because I don't know more than that."
+  },
+  {
+   "who": "weiling",
+   "text": "No, fair enough. I just wondered. I'm thinking aloud really."
+  },
+  {
+   "who": "grace",
+   "text": "It's a reasonable question. I'd probably have asked the same."
+  },
+  {
+   "who": "ravi",
+   "beat": "t1.2",
+   "text": "That pushes Kemlite's start on site to the fourth of January instead of the twenty eighth of December."
+  },
+  {
+   "who": "jonas",
+   "text": "Sorry, say that again? The fourth of January instead of..."
+  },
+  {
+   "who": "ravi",
+   "text": "Instead of the twenty eighth of December. So Kemlite's start moves from the twenty eighth to the fourth."
+  },
+  {
+   "who": "jonas",
+   "text": "Right. Okay. So it's the same week's difference as the landlord, more or less."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes, it moves by about the same amount. A week."
+  },
+  {
+   "who": "weiling",
+   "text": "So the landlord's a week late and Kemlite's start moves back a week. It's one for one."
+  },
+  {
+   "who": "ravi",
+   "text": "Roughly, yes. That's how I'd describe it."
+  },
+  {
+   "who": "grace",
+   "text": "Mm-hm. Go on, I've got a question on that."
+  },
+  {
+   "who": "grace",
+   "beat": "t1.3",
+   "text": "Is that within tolerance?"
+  },
+  {
+   "who": "ravi",
+   "beat": "t1.4",
+   "text": "It's within the stage time tolerance of two weeks, so no exception report yet."
+  },
+  {
+   "who": "grace",
+   "text": "Okay. So a week against two weeks of tolerance."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes. A week late, two weeks of tolerance."
+  },
+  {
+   "who": "grace",
+   "text": "And the word you used was yet. No exception report yet."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes, yet. Right now it's inside tolerance, so we don't need one. That's all I mean by it."
+  },
+  {
+   "who": "jonas",
+   "text": "I'm a bit uneasy about it, if I'm honest. It's inside the tolerance, but it's already using up half of it."
+  },
+  {
+   "who": "ravi",
+   "text": "It's half, yes, you're right about the arithmetic. But it's still inside, and that's what matters for the report."
+  },
+  {
+   "who": "jonas",
+   "text": "No, I know. I'm not saying it's wrong. I'm just saying it out loud."
+  },
+  {
+   "who": "grace",
+   "text": "I'd rather hear it out loud. It's useful to have it said."
+  },
+  {
+   "who": "weiling",
+   "text": "I think I agree with Jonas a bit, but I also agree with Ravi. It's inside the line, and it's also quite a lot of the line."
+  },
+  {
+   "who": "ravi",
+   "text": "Fair. I won't argue with either of you. It's inside, and we can see how much of the two weeks it takes."
+  },
+  {
+   "who": "grace",
+   "text": "Mm-hm. I'm happy with that. I just wanted to hear that it was inside."
+  },
+  {
+   "who": "jonas",
+   "text": "Can I just go back to the date again? The thirteenth was the one the landlord missed, yes?"
+  },
+  {
+   "who": "ravi",
+   "text": "Yes. They didn't approve by the thirteenth."
+  },
+  {
+   "who": "jonas",
+   "text": "And now it's the twentieth of December. Right. I just wanted it straight in my notes."
+  },
+  {
+   "who": "weiling",
+   "text": "I've got the same. Thirteenth missed, twentieth now."
+  },
+  {
+   "who": "grace",
+   "text": "And Kemlite's start was the twenty eighth, now the fourth."
+  },
+  {
+   "who": "ravi",
+   "text": "That's it. Those are the figures."
+  },
+  {
+   "who": "weiling",
+   "text": "It's odd, isn't it, that the start on site is the thing that moves, not the approval itself. The approval's just a date on a letter."
+  },
+  {
+   "who": "ravi",
+   "text": "Well, the approval is what the start hangs off. That's why one moves the other."
+  },
+  {
+   "who": "weiling",
+   "text": "Right, yes. That's what I meant, I just said it badly."
+  },
+  {
+   "who": "grace",
+   "text": "No, you said it fine. Okay. Anything else on the landlord, or shall we move on?"
+  },
+  {
+   "who": "jonas",
+   "text": "Not from me."
+  },
+  {
+   "who": "weiling",
+   "text": "No, I'm fine."
+  },
+  {
+   "who": "ravi",
+   "text": "Then IT install, Jonas."
+  },
+  {
+   "who": "jonas",
+   "beat": "t2.1",
+   "text": "The IT director gave us the third and fourth week of January, not the second and third, because the portal team has the second week."
+  },
+  {
+   "who": "grace",
+   "text": "Sorry, can you go through that again? Third and fourth, and not the second and third?"
+  },
+  {
+   "who": "jonas",
+   "text": "Yes. We had been planning on the second and third week of January. What we've been given is the third and fourth."
+  },
+  {
+   "who": "weiling",
+   "text": "So it's moved by a week."
+  },
+  {
+   "who": "jonas",
+   "text": "By a week, yes. Everything's shifted along one."
+  },
+  {
+   "who": "weiling",
+   "text": "And the reason is the portal team?"
+  },
+  {
+   "who": "jonas",
+   "text": "Yes. The portal team has the second week, so it's not available to us. That's what the IT director told us."
+  },
+  {
+   "who": "grace",
+   "text": "Mm-hm. So that's not something we've caused. It's just what they've given us."
+  },
+  {
+   "who": "jonas",
+   "text": "It's what they've given us, yes. I didn't have a choice in it."
+  },
+  {
+   "who": "weiling",
+   "text": "Did you ask if there was any way to keep the second week?"
+  },
+  {
+   "who": "jonas",
+   "text": "I'm just telling you what the IT director gave us. I'd rather not say more than that, because I don't want to make something up."
+  },
+  {
+   "who": "weiling",
+   "text": "No, that's okay. I wasn't pushing, I was just curious."
+  },
+  {
+   "who": "ravi",
+   "text": "The point is, the IT director's decision was third and fourth. That's the window."
+  },
+  {
+   "who": "jonas",
+   "text": "Right. Third and fourth week of January."
+  },
+  {
+   "who": "grace",
+   "text": "Hold on. I'm just looking at this. The landlord thing moved Kemlite's start to the fourth of January. And now IT has moved to the third and fourth week. Those two things landed at the same time, didn't they?"
+  },
+  {
+   "who": "jonas",
+   "text": "Funny timing, yes."
+  },
+  {
+   "who": "weiling",
+   "text": "Two different reasons, though. One's the landlord, one's the portal team."
+  },
+  {
+   "who": "grace",
+   "text": "Yes, no, I know, they're separate. I'm just wondering how they sit next to each other."
+  },
+  {
+   "who": "grace",
+   "beat": "t2.2",
+   "text": "And with Kemlite starting on the fourth, does the third week still work?"
+  },
+  {
+   "who": "ravi",
+   "beat": "t2.3",
+   "text": "Yes, cabling can go in after the first fix, so third and fourth week is fine."
+  },
+  {
+   "who": "grace",
+   "text": "Okay. So the third week still works, even with Kemlite starting on the fourth."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes. That's what I'm saying."
+  },
+  {
+   "who": "jonas",
+   "text": "So the cabling comes after the first fix. Which is Kemlite's, I take it."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes, the first fix is theirs. After that, the cabling can go in."
+  },
+  {
+   "who": "weiling",
+   "text": "And that would have been true of the second and third week too, if we'd kept them?"
+  },
+  {
+   "who": "ravi",
+   "text": "I'm not going to go back over the old plan. What matters is that the third and fourth week is fine."
+  },
+  {
+   "who": "weiling",
+   "text": "Sure. Sorry, that's just me thinking sideways."
+  },
+  {
+   "who": "jonas",
+   "text": "No, I was wondering the same thing. But Ravi's right, it doesn't change the answer."
+  },
+  {
+   "who": "grace",
+   "text": "I'm happy. Third and fourth works, cabling goes in after the first fix."
+  },
+  {
+   "who": "jonas",
+   "text": "Yes, that's all I needed. I just wanted to be sure the third week wasn't going to clash."
+  },
+  {
+   "who": "ravi",
+   "text": "It doesn't. Not on what we have."
+  },
+  {
+   "who": "grace",
+   "text": "Mm-hm. Good. Let's leave IT there, then."
+  },
+  {
+   "who": "weiling",
+   "text": "Can I ask one small thing before we go? Just so I've got the right weeks written down. It's third and fourth week of January, and Kemlite starts on the fourth."
+  },
+  {
+   "who": "jonas",
+   "text": "Yes. Third and fourth week of January for us. The fourth of January for Kemlite."
+  },
+  {
+   "who": "weiling",
+   "text": "Great. Thanks. I mixed up the two fourths in my head. Fourth week, fourth day, whatever."
+  },
+  {
+   "who": "grace",
+   "text": "Ha. It's easy to do. I did it too, a minute ago."
+  },
+  {
+   "who": "ravi",
+   "text": "Okay. Furniture."
+  },
+  {
+   "who": "weiling",
+   "beat": "t3.1",
+   "text": "The standard desks were ordered on the third, so they arrive in the second week of February, before the move-in."
+  },
+  {
+   "who": "grace",
+   "text": "Sorry, ordered on the third. And arriving in the second week of February."
+  },
+  {
+   "who": "weiling",
+   "text": "Yes. Ordered on the third, arriving in the second week of February."
+  },
+  {
+   "who": "jonas",
+   "text": "And that's before the move-in."
+  },
+  {
+   "who": "weiling",
+   "text": "Yes, before the move-in. That's the main thing."
+  },
+  {
+   "who": "ravi",
+   "text": "Good. That's one I was a bit worried about, so that's a relief to hear."
+  },
+  {
+   "who": "grace",
+   "text": "Mm-hm. I'd been wondering about the desks for a while."
+  },
+  {
+   "who": "jonas",
+   "text": "Is it all of the desks? Or just some of them?"
+  },
+  {
+   "who": "weiling",
+   "text": "It's the standard desks. That's what's been ordered."
+  },
+  {
+   "who": "jonas",
+   "text": "Right. Standard desks. Okay, I'll leave it there, I don't want to ask something that's not on the page."
+  },
+  {
+   "who": "weiling",
+   "text": "No, it's a fair thing to check. The standard desks are the ones that have been ordered, and those are the ones arriving in the second week of February."
+  },
+  {
+   "who": "grace",
+   "text": "And you're happy with that timing?"
+  },
+  {
+   "who": "weiling",
+   "text": "Yes. They arrive before the move-in. That's what I wanted."
+  },
+  {
+   "who": "weiling",
+   "beat": "t3.2",
+   "text": "So the desk risk is much lower now. Only the meeting room tables are still open."
+  },
+  {
+   "who": "grace",
+   "text": "Right. So the desks have come down, and the tables are what's left."
+  },
+  {
+   "who": "weiling",
+   "text": "Yes. That's the one."
+  },
+  {
+   "who": "ravi",
+   "text": "Just so I've got it straight. Desks ordered, arriving before the move-in. Tables still open."
+  },
+  {
+   "who": "weiling",
+   "text": "That's it. Desks are done, tables are open."
+  },
+  {
+   "who": "jonas",
+   "text": "So what's the difference in how worried we should be? Between the two?"
+  },
+  {
+   "who": "weiling",
+   "text": "I'd say the desks are much lower now, and the tables are the open bit. That's all I'm saying."
+  },
+  {
+   "who": "jonas",
+   "text": "Okay. Fair enough."
+  },
+  {
+   "who": "grace",
+   "beat": "t3.3",
+   "text": "Good. Keep the tables on watch."
+  },
+  {
+   "who": "weiling",
+   "text": "Understood."
+  },
+  {
+   "who": "ravi",
+   "text": "Okay. Thanks, Wei Ling. That's the first three done. Give me a second, I just need to scroll down to the next item."
+  },
+  {
+   "who": "jonas",
+   "text": "Take your time. I'm just refilling my coffee."
+  },
+  {
+   "who": "grace",
+   "text": "Can I just say, thanks for keeping it short. It's easier to follow when it's one thing at a time."
+  },
+  {
+   "who": "ravi",
+   "text": "Thanks, Grace. Right, I've got it. Let's keep going."
+  },
+  {
+   "who": "ravi",
+   "text": "Kemlite mobilisation."
+  },
+  {
+   "who": "ravi",
+   "beat": "t4.1",
+   "text": "Kemlite signed the contract on the fifth. Their site manager is Halim, he'll be at the next board."
+  },
+  {
+   "who": "jonas",
+   "text": "Okay, so that's signed. Good. Sorry, just so I've got it right, Halim is the site manager, not someone from their head office?"
+  },
+  {
+   "who": "ravi",
+   "text": "Site manager, yes. That's the person we'll actually be dealing with on the floor."
+  },
+  {
+   "who": "jonas",
+   "text": "Right, right. Then it's useful he comes to the board himself. Better than us passing messages through someone else."
+  },
+  {
+   "who": "weiling",
+   "text": "Mm-hm. I haven't met him yet. Has anyone here spoken to him, or is the next board the first time?"
+  },
+  {
+   "who": "ravi",
+   "text": "I think the next board is the first time for most of us. I've only seen his name on the paperwork."
+  },
+  {
+   "who": "weiling",
+   "text": "Fine. I'll just introduce myself then, nothing formal."
+  },
+  {
+   "who": "grace",
+   "text": "Can I check one thing, Ravi? When you say signed on the fifth, that's the contract, the whole thing, nothing left hanging?"
+  },
+  {
+   "who": "ravi",
+   "text": "The contract is signed. That's what I've got in front of me. I'm not aware of anything outstanding on it, but I'd only be guessing past that."
+  },
+  {
+   "who": "grace",
+   "text": "No, that's fine. I just wanted to hear it said. Signed is signed."
+  },
+  {
+   "who": "jonas",
+   "text": "So from now on it's mobilisation. Which I assume just means they get themselves organised and start."
+  },
+  {
+   "who": "ravi",
+   "text": "That's how I read it, yes. They've signed, and now they mobilise."
+  },
+  {
+   "who": "jonas",
+   "text": "Mm. It's a bit of a vague word, isn't it? Mobilise. Everyone seems to use it differently."
+  },
+  {
+   "who": "weiling",
+   "text": "It is. I always take it as, they've committed and now they're getting ready to start. But I wouldn't want to put more on it than that."
+  },
+  {
+   "who": "grace",
+   "text": "Same. And that's partly why I want to see something concrete from Halim, rather than us all guessing what it means."
+  },
+  {
+   "who": "grace",
+   "beat": "t4.2",
+   "text": "Please ask Halim to bring the three-week look-ahead to that meeting."
+  },
+  {
+   "who": "ravi",
+   "beat": "t4.3",
+   "text": "Will do."
+  },
+  {
+   "who": "jonas",
+   "text": "Sorry, the three-week look-ahead. That's, what, a short programme looking forward three weeks?"
+  },
+  {
+   "who": "grace",
+   "text": "Yes, that's what I mean. What's coming up over the next three weeks, laid out so we can all see it."
+  },
+  {
+   "who": "jonas",
+   "text": "Okay. I like that. It's much easier to talk about than a big programme nobody reads."
+  },
+  {
+   "who": "weiling",
+   "text": "Right, and it gives us something to ask questions against. I'd rather look at three weeks properly than skim something enormous."
+  },
+  {
+   "who": "grace",
+   "text": "That's the idea. Short and specific, so if something looks off we can say so at the board."
+  },
+  {
+   "who": "ravi",
+   "text": "I'll make sure Halim knows that's what you're asking for. I'll say bring the look-ahead, and that it's three weeks."
+  },
+  {
+   "who": "grace",
+   "text": "Thanks. And just so he doesn't think it's a trap, it's not. I only want to see it."
+  },
+  {
+   "who": "jonas",
+   "text": "Ha. Nobody thinks that. Well, maybe a bit, first meeting and all."
+  },
+  {
+   "who": "weiling",
+   "text": "Can we make sure it's phrased as a request, not a demand? First impressions."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes, of course. I'll keep it friendly."
+  },
+  {
+   "who": "grace",
+   "text": "Friendly is fine. I just want the look-ahead in the room."
+  },
+  {
+   "who": "jonas",
+   "text": "Going back a second. Did anyone say whether the board is in person or on video? Because that changes how he'd bring it."
+  },
+  {
+   "who": "ravi",
+   "text": "I don't know, honestly. I haven't said anything about that, and I don't want to say something I'm not sure of."
+  },
+  {
+   "who": "jonas",
+   "text": "No, fair. It was a stray thought. Either way he can bring it."
+  },
+  {
+   "who": "weiling",
+   "text": "Whichever it is, he can send it round as well. But let's not settle that now, it's a small point."
+  },
+  {
+   "who": "grace",
+   "text": "Agreed, small point. The main thing is that it comes."
+  },
+  {
+   "who": "ravi",
+   "text": "Okay. Anything else on Kemlite before we move on? I think we've got the contract, Halim, and the look-ahead."
+  },
+  {
+   "who": "jonas",
+   "text": "Just that it's good to have a name. It feels more real now."
+  },
+  {
+   "who": "weiling",
+   "text": "Mm-hm. It does."
+  },
+  {
+   "who": "grace",
+   "text": "Nothing else from me."
+  },
+  {
+   "who": "ravi",
+   "text": "Fire safety certificate, new item."
+  },
+  {
+   "who": "weiling",
+   "beat": "t5.1",
+   "text": "We need the SCDF fire safety certificate before anyone can occupy the floor, and inspections are booking six weeks out."
+  },
+  {
+   "who": "jonas",
+   "text": "Sorry, say that again? Inspections are booking six weeks out?"
+  },
+  {
+   "who": "weiling",
+   "text": "Yes. If you ask for an inspection now, the slots are about six weeks away. That's what I'm told."
+  },
+  {
+   "who": "jonas",
+   "text": "Right. And the certificate is what lets people actually be on the floor."
+  },
+  {
+   "who": "weiling",
+   "text": "Yes. Before anyone can occupy it, we need the certificate. That's the point of it."
+  },
+  {
+   "who": "grace",
+   "text": "So nobody can move in without it. Not even a few people to start."
+  },
+  {
+   "who": "weiling",
+   "text": "As I understand it, no. We need the certificate before anyone occupies the floor. I wouldn't want to promise there's a softer version of that."
+  },
+  {
+   "who": "grace",
+   "text": "No, I'm not asking for a softer version. I just wanted to be clear about how strict it is."
+  },
+  {
+   "who": "jonas",
+   "text": "It sounds strict. Okay."
+  },
+  {
+   "who": "ravi",
+   "text": "And it's the SCDF one specifically, so there's nobody else involved in the certificate?"
+  },
+  {
+   "who": "weiling",
+   "text": "The one I'm talking about is the SCDF fire safety certificate. That's the one I raised. I'm not raising anything else."
+  },
+  {
+   "who": "ravi",
+   "text": "Right, good. I just wanted to keep it to what you said."
+  },
+  {
+   "who": "jonas",
+   "text": "So the six weeks. Is that from when we book, or from when we apply? Because that feels like it could be two different things."
+  },
+  {
+   "who": "weiling",
+   "text": "What I know is that inspections are booking six weeks out. I'd say that's from when you're asking for the slot. Beyond that I don't have more detail, so I'd rather not guess."
+  },
+  {
+   "who": "jonas",
+   "text": "Okay, that's fair. I'd rather you didn't guess either."
+  },
+  {
+   "who": "grace",
+   "text": "But the point is, there's a wait. Whatever we do, there's a wait before an inspection."
+  },
+  {
+   "who": "weiling",
+   "text": "Right, that's the whole concern. There's a queue, and the queue is long."
+  },
+  {
+   "who": "grace",
+   "text": "Mm. So it's not something we can leave until the end and then tidy up."
+  },
+  {
+   "who": "weiling",
+   "text": "No. That's what worries me about it."
+  },
+  {
+   "who": "jonas",
+   "text": "It's a bit of a trap, in that sense. It looks like a last step, but it's not."
+  },
+  {
+   "who": "weiling",
+   "text": "Well, I'd say it's a step that needs booking early. That's all."
+  },
+  {
+   "who": "jonas",
+   "text": "Yes, that's a better way to put it. Booked early."
+  },
+  {
+   "who": "weiling",
+   "beat": "t5.2",
+   "text": "If we don't book the inspection by early January, we might not be allowed to move in on time."
+  },
+  {
+   "who": "grace",
+   "text": "Early January. That's not far off."
+  },
+  {
+   "who": "weiling",
+   "text": "No, it isn't. That's why I wanted it on the agenda today and not later."
+  },
+  {
+   "who": "jonas",
+   "text": "Hang on, let me think this through. If inspections are six weeks out, and we book by early January, that sets when the inspection can happen."
+  },
+  {
+   "who": "weiling",
+   "text": "Yes, that's the logic. The booking has to happen first, and the slot is a long way off after that."
+  },
+  {
+   "who": "jonas",
+   "text": "Okay. I'm not going to do the sums out loud, because I'd get it wrong, but I follow the idea."
+  },
+  {
+   "who": "grace",
+   "text": "Don't do the sums. We'd only argue about the dates."
+  },
+  {
+   "who": "jonas",
+   "text": "Ha, exactly."
+  },
+  {
+   "who": "grace",
+   "text": "Wei Ling, you said might. We might not be allowed to move in on time. Is that a hedge, or is it fairly likely?"
+  },
+  {
+   "who": "weiling",
+   "text": "It's what I said, we might not. I don't want to turn it into a certainty or play it down. If we miss early January, it puts moving in on time at risk."
+  },
+  {
+   "who": "grace",
+   "text": "Okay. That's clear enough. It's a risk, not a certainty."
+  },
+  {
+   "who": "weiling",
+   "text": "Right."
+  },
+  {
+   "who": "ravi",
+   "text": "So who actually submits the application? Is that us, or is that on the contractor's side?"
+  },
+  {
+   "who": "weiling",
+   "text": "Honestly, I was hoping you'd have a view on that, Ravi. I raised the need for the certificate and the booking time. I haven't said who files it."
+  },
+  {
+   "who": "ravi",
+   "text": "Fair enough. Well, Kemlite are the ones about to be on site, so it makes sense to me for it to go through them."
+  },
+  {
+   "who": "jonas",
+   "text": "That seems sensible. They're the ones who'll be there."
+  },
+  {
+   "who": "grace",
+   "text": "But they've only just signed. They're not mobilised yet. Does that matter?"
+  },
+  {
+   "who": "ravi",
+   "text": "That's a fair question. I'd say we ask them as soon as they do mobilise, so it isn't left sitting."
+  },
+  {
+   "who": "weiling",
+   "text": "And I'd want that to be the first thing, really. Not something that comes after everything else."
+  },
+  {
+   "who": "ravi",
+   "beat": "t5.3",
+   "text": "I'll ask Kemlite to submit the application as soon as they mobilise."
+  },
+  {
+   "who": "weiling",
+   "text": "Thank you. That's what I was after."
+  },
+  {
+   "who": "jonas",
+   "text": "Good. Can I just check, that's all you're saying, you'll ask? You're not saying they've already agreed."
+  },
+  {
+   "who": "ravi",
+   "text": "Correct. I'll ask. I'm not telling you they've said yes, because I haven't asked yet."
+  },
+  {
+   "who": "jonas",
+   "text": "Okay, good. I just wanted to keep it straight."
+  },
+  {
+   "who": "grace",
+   "text": "And it ties back to the first topic, doesn't it? Halim's at the next board. That's a natural place to bring it up."
+  },
+  {
+   "who": "ravi",
+   "text": "It could be. I'd be asking Kemlite anyway. But if Halim's there, yes, it's a good moment to mention it face to face."
+  },
+  {
+   "who": "weiling",
+   "text": "Mm-hm. I'd be glad to hear him say something about it directly."
+  },
+  {
+   "who": "grace",
+   "text": "I'm not adding it to the look-ahead request, though. I only asked for the look-ahead. I don't want to muddy that."
+  },
+  {
+   "who": "ravi",
+   "text": "No, understood. The look-ahead is one thing. The application is the other."
+  },
+  {
+   "who": "jonas",
+   "text": "Two separate things. Okay."
+  },
+  {
+   "who": "weiling",
+   "text": "Can I go back to the six weeks once more? I just want to be sure nobody leaves thinking it's shorter than it is."
+  },
+  {
+   "who": "grace",
+   "text": "Go on."
+  },
+  {
+   "who": "weiling",
+   "text": "Inspections are booking six weeks out. That's the number. I'd just like everyone to hold on to it."
+  },
+  {
+   "who": "jonas",
+   "text": "Six weeks. Noted."
+  },
+  {
+   "who": "grace",
+   "text": "Six weeks, and early January for the booking. I've got both."
+  },
+  {
+   "who": "ravi",
+   "text": "Same. Early January for the booking, six weeks for the inspection slot."
+  },
+  {
+   "who": "jonas",
+   "text": "Mm. It does make the whole thing feel closer, doesn't it?"
+  },
+  {
+   "who": "weiling",
+   "text": "It does. That's why I wanted to flag it."
+  },
+  {
+   "who": "grace",
+   "text": "And I'm glad you did. I don't think I'd have thought of it."
+  },
+  {
+   "who": "weiling",
+   "text": "Well, it's easy to overlook. It sits in the background until it doesn't."
+  },
+  {
+   "who": "jonas",
+   "text": "Right. The sort of thing that's fine until suddenly it isn't."
+  },
+  {
+   "who": "ravi",
+   "text": "Okay. Is there anything else on the certificate? I want to be sure I've got everything I'm taking away."
+  },
+  {
+   "who": "weiling",
+   "text": "I don't think so. You've got the main point. Book early, and we need the certificate before anyone occupies the floor."
+  },
+  {
+   "who": "grace",
+   "text": "Nothing more from me."
+  },
+  {
+   "who": "jonas",
+   "text": "Me neither. I'm happy that it's moving."
+  },
+  {
+   "who": "ravi",
+   "text": "Good. Let me just run through what I've got, and tell me if I've missed something."
+  },
+  {
+   "who": "ravi",
+   "text": "Kemlite have signed, Halim is their site manager and he'll be at the next board. I'll ask him to bring the three-week look-ahead."
+  },
+  {
+   "who": "grace",
+   "text": "Yes."
+  },
+  {
+   "who": "ravi",
+   "text": "And on the certificate, we need it before anyone occupies the floor, inspections are booking out six weeks, and I'll ask Kemlite to submit the application as soon as they mobilise."
+  },
+  {
+   "who": "weiling",
+   "text": "That's right. That covers it."
+  },
+  {
+   "who": "jonas",
+   "text": "Sounds right to me too."
+  },
+  {
+   "who": "grace",
+   "text": "Good. Thanks, everyone."
+  },
+  {
+   "who": "weiling",
+   "text": "Thanks. Talk soon."
+  },
+  {
+   "who": "jonas",
+   "text": "Thanks all. Bye."
+  },
+  {
+   "who": "ravi",
+   "text": "Thanks, everyone. Bye for now."
+  }
+ ]
+}

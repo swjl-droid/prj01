@@ -1,0 +1,473 @@
+{
+ "ok": true,
+ "task": "minutes",
+ "case": "m01",
+ "ms": 32243,
+ "minutes": {
+  "meeting": {
+   "title": "Clinic relocation weekly sync",
+   "attendees": [
+    "Priya Raman",
+    "Marcus Lee",
+    "Siti Rahman",
+    "Daniel Ong",
+    "Call-in user 2 (Ah Hock, facilities)"
+   ],
+   "date": ""
+  },
+  "topics": [
+   {
+    "title": "Movers quote",
+    "summary": [
+     {
+      "text": "The movers quoted $42,000, which is $12,000 over the move budget. It is the first quote, not a final price.",
+      "quotes": [
+       {
+        "line": 43,
+        "text": "The movers quote came in at forty two thousand dollars, which is twelve thousand over what we budgeted for the move.",
+        "found": true
+       },
+       {
+        "line": 67,
+        "text": "It's the quote we have so uh far. Nothing is final.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Priya said the team does not want to cover the gap from contingency this early in the project.",
+      "quotes": [
+       {
+        "line": 72,
+        "text": "we don't want to dip into contingency for this. It's far too early in the project to be spending that.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The movers priced weekend overtime for the whole job. Moving the non-clinical rooms on a weekday should lower the price, but no saving is promised: the split is not known yet, and nobody knows if the movers will price it that way.",
+      "quotes": [
+       {
+        "line": 52,
+        "text": "They priced weekend overtime um for the whole job. If we move the non-clinical rooms on a weekday it should drop.",
+        "found": true
+       },
+       {
+        "line": 63,
+        "text": "I said it should drop, not basically that it will.",
+        "found": true
+       },
+       {
+        "line": 61,
+        "text": "that's an open question, whether they'll price it that way.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Get a revised movers quote that shows the weekday and weekend parts separately.",
+      "owner": "Marcus",
+      "due": "Friday the fourth",
+      "quotes": [
+       {
+        "line": 76,
+        "text": "Marcus, please get a revised quote with the weekday split by Friday the fourth.",
+        "found": true
+       },
+       {
+        "line": 77,
+        "text": "I'll ask them to sort of show the weekday and weekend parts separately",
+        "found": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "X-ray room",
+    "summary": [
+     {
+      "text": "The X-ray machine must be moved and recalibrated by the vendor's own engineers, Radix Imaging. It cannot be used at the new site until they have done this.",
+      "quotes": [
+       {
+        "line": 84,
+        "text": "The X-ray machine has to be moved and recalibrated by the vendor's own engineers, Radix Imaging.",
+        "found": true
+       },
+       {
+        "line": 114,
+        "text": "Until then, we don't have imaging at the new place.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Radix's engineers are booked out for most of February, so there is a chance of no slot before the cutover. This came from a conversation and is not a firm no.",
+      "quotes": [
+       {
+        "line": 94,
+        "text": "Their engineers are booked out most of February, so there's a chance we don't get a slot before the cutover.",
+        "found": true
+       },
+       {
+        "line": 98,
+        "text": "It was a conversation. I wouldn't call it a firm no.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "If imaging is not ready on day one, patients would have to be sent to the old site.",
+      "quotes": [
+       {
+        "line": 106,
+        "text": "If imaging isn't ready on day one we'd have to send patients to the old site, which defeats the purpose.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Ask Radix to hold two provisional dates, and report back next week.",
+      "owner": "Siti",
+      "due": "next week",
+      "quotes": [
+       {
+        "line": 123,
+        "text": "I'll ask Radix to hold two provisional dates for us, and I'll come back next week.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Licence transfer",
+    "summary": [
+     {
+      "text": "The healthcare licence must be transferred to the new address before any patient is seen there.",
+      "quotes": [
+       {
+        "line": 135,
+        "text": "The healthcare licence has to be transferred to the new address before we see any patient there.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The plan assumes the ministry processes the transfer within six weeks of filing. This is the team's own assumption, not a promise from the ministry.",
+      "quotes": [
+       {
+        "line": 143,
+        "text": "Our plan assumes the ministry processes like the transfer within six weeks of us filing it.",
+        "found": true
+       },
+       {
+        "line": 145,
+        "text": "I wouldn't claim it's a promise you know from them.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The licence has not been filed yet. Filing happens once the floor plan is final, expected next Monday, and the six weeks start from filing.",
+      "quotes": [
+       {
+        "line": 152,
+        "text": "Not yet, we file once the floor plan is final, which should be next Monday.",
+        "found": true
+       },
+       {
+        "line": 154,
+        "text": "The clock begins when we file.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": []
+   },
+   {
+    "title": "Building handover",
+    "summary": [
+     {
+      "text": "Fit-out of the treatment rooms cannot start until the landlord hands over level five. The landlord said 15 January. This is a hard stop.",
+      "quotes": [
+       {
+        "line": 180,
+        "text": "We can't start the fit-out of the treatment rooms until the landlord hands over level five, and they've said basically the fifteenth of January.",
+        "found": true
+       },
+       {
+        "line": 200,
+        "text": "It's a hard stop as far as I understand it.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The date was given mostly by phone and is not firm. The team agreed to get it in writing from the property manager.",
+      "quotes": [
+       {
+        "line": 184,
+        "text": "Mostly on a call. I did get a short message afterwards but it didn't really repeat the date.",
+        "found": true
+       },
+       {
+        "line": 241,
+        "text": "I think we're all agreed on that.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Get the level five handover date in writing from the landlord's property manager.",
+      "owner": "Marcus",
+      "due": "",
+      "quotes": [
+       {
+        "line": 233,
+        "text": "Yeah, I'll get the handover date kind of in writing from their property manager.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Cutover weekend",
+    "summary": [
+     {
+      "text": "The options were the 13–14 February weekend or the weekend after it.",
+      "quotes": [
+       {
+        "line": 254,
+        "text": "We said either the thirteenth and fourteenth of sort of February or the week after.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The later weekend clashes with the school holidays, when about half the nurses are on leave.",
+      "quotes": [
+       {
+        "line": 271,
+        "text": "The basically week after clashes with the school holidays, half the nurses are on leave.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Decided: the cutover weekend is 13–14 February. Everyone agreed. This rests on the building handover date holding.",
+      "quotes": [
+       {
+        "line": 312,
+        "text": "decision: the cutover weekend is the thirteenth and fourteenth of February. Everyone okay?",
+        "found": true
+       },
+       {
+        "line": 299,
+        "text": "If the handover date moves, then we'd need to look at things again.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": []
+   }
+  ],
+  "raidd": [
+   {
+    "type": "issue",
+    "change": "new",
+    "title": "Movers quote is $12,000 over the move budget",
+    "topic": 1,
+    "quotes": [
+     {
+      "line": 43,
+      "text": "The movers quote came in at forty two thousand dollars, which is twelve thousand over what we budgeted for the move.",
+      "found": true
+     },
+     {
+      "line": 47,
+      "text": "That's a real problem, we can't absorb twelve thousand from contingency this early.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "new",
+    "title": "X-ray move and recalibration must be done by Radix Imaging engineers",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 84,
+      "text": "The X-ray machine has to be moved and recalibrated by the vendor's own engineers, Radix Imaging.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "risk",
+    "change": "new",
+    "title": "No Radix slot before cutover, so patients would be sent to the old site for imaging",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 94,
+      "text": "Their engineers are booked out most of February, so there's a chance we don't get a slot before the cutover.",
+      "found": true
+     },
+     {
+      "line": 106,
+      "text": "If imaging isn't ready on day one we'd have to send patients to the old site",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "new",
+    "title": "Licence transfer needed before any patient is seen at the new site",
+    "topic": 3,
+    "quotes": [
+     {
+      "line": 135,
+      "text": "The healthcare licence has to be transferred to the new address before we see any patient there.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "assumption",
+    "change": "new",
+    "title": "Ministry processes the licence transfer within six weeks of filing",
+    "topic": 3,
+    "quotes": [
+     {
+      "line": 143,
+      "text": "Our plan assumes the ministry processes like the transfer within six weeks of us filing it.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "new",
+    "title": "Licence filing waits for the final floor plan (expected next Monday)",
+    "topic": 3,
+    "quotes": [
+     {
+      "line": 152,
+      "text": "Not yet, we file once the floor plan is final, which should be next Monday.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "new",
+    "title": "Treatment room fit-out waits for the level five handover",
+    "topic": 4,
+    "quotes": [
+     {
+      "line": 180,
+      "text": "We can't start the fit-out of the treatment rooms until the landlord hands over level five",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "assumption",
+    "change": "new",
+    "title": "Landlord hands over level five on 15 January (verbal, not yet in writing)",
+    "topic": 4,
+    "quotes": [
+     {
+      "line": 182,
+      "text": "they've said it, but I wouldn't call it firm.",
+      "found": true
+     },
+     {
+      "line": 304,
+      "text": "On the basis of what they've told basically us, yes. And Marcus will confirm it.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "decision",
+    "change": "update",
+    "title": "Cutover weekend set for 13–14 February",
+    "topic": 5,
+    "quotes": [
+     {
+      "line": 312,
+      "text": "decision: the cutover weekend is the thirteenth and fourteenth of February.",
+      "found": true
+     },
+     {
+      "line": 251,
+      "text": "I think we left it open last time on purpose",
+      "found": true
+     }
+    ]
+   }
+  ]
+ },
+ "checks": {
+  "ok": true,
+  "problems": [],
+  "stats": {
+   "quotes": 41,
+   "exact": 41,
+   "relocated": 0,
+   "missing": 0,
+   "points": 14,
+   "actions": 3,
+   "raidd": 9
+  }
+ },
+ "template": {
+  "id": "default",
+  "version": 3
+ },
+ "model": "claude-opus-5-5",
+ "calls": [
+  {
+   "round": 0,
+   "costUsd": 0.15104,
+   "latencyMs": 31371,
+   "usage": {
+    "input_tokens": 16800,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 4192,
+    "output_tokens_details": {
+     "thinking_tokens": 917
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   },
+   "traceId": "91fe8053044d4c1abf76acdae6a1bc42",
+   "logged": {
+    "ledger": true,
+    "trace": true,
+    "traceContent": "masked",
+    "gatewayVersion": "1.0.0"
+   }
+  }
+ ],
+ "costUsd": 0.15104
+}

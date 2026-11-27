@@ -1,0 +1,34 @@
+{
+  "id": "default",
+  "version": 3,
+  "source": "John's rubric for prj01 minutes (Learning AI-L07, 26/11/2026) and its coaching notes: numbered topics, each with a summary of the discussion and its actions (even if none), every point backed by a real quote; faithfulness checked on its own. v3 (decision 27/11/2026, Hub row 299): one RAIDD table under the topics, from lib/raidd/rules.json (rubric line 3).",
+  "language": "English",
+  "limits": {
+    "maxTopics": 12,
+    "maxPointsPerTopic": 6,
+    "maxActionsPerTopic": 8,
+    "maxQuoteWords": 40
+  },
+  "header": [
+    "project",
+    "meeting",
+    "date",
+    "attendees"
+  ],
+  "topic": {
+    "summary": "One to four points that say what was discussed and where it landed, in plain words.",
+    "actions": "Every action agreed in this topic: what, who owns it (as named in the meeting), and when, if a date was said. Write none when the topic agreed no action."
+  },
+  "rules": [
+    "Write only what was said in the meeting. No advice, no guesses, no facts from outside the transcript.",
+    "Give each topic a short title without a number; the minutes number the topics themselves.",
+    "Group the meeting into numbered topics in the order they were discussed; small talk and technical trouble are not topics.",
+    "Every summary point and every action carries at least one quote: words copied exactly from one transcript line, with that line's number.",
+    "A quote is a short exact span (at most 40 words) from a single line. Do not join lines, fix spelling or change words inside a quote.",
+    "Owners and dates are written as people said them; when no owner or date was said, leave it empty instead of guessing.",
+    "If a later part of the meeting changes an earlier point, the topic states where it landed and quotes the line that settled it.",
+    "If the transcript mentions another project, keep it only when it was discussed for this project, and say which project it was.",
+    "A RAIDD row carries at least one quote, like every other point."
+  ],
+  "raidd": "After the topics, one RAIDD table for the whole meeting: every risk, assumption, issue, dependency and decision discussed, each once, with its type, new or update, a short title, the number of the topic it belongs to, and its quotes. Leave the table empty when the meeting raised none."
+}

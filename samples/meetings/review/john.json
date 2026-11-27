@@ -1,0 +1,58 @@
+{
+ "source": "John's verdicts from the evidence pack (artifact 902d55b5-963a-4069-816d-d3be283f514a, collection verdicts), copied by Claude 28/11/2026; method decision Hub row 305. savedAt is UTC.",
+ "verdicts": {
+  "m01": {
+   "R9": "needs_edit"
+  },
+  "m02": {
+   "T1": "needs_edit"
+  },
+  "m04": {
+   "R5": "needs_edit",
+   "R6": "ok"
+  },
+  "m06": {
+   "R4": "ok"
+  },
+  "m07": {
+   "T5": "needs_edit"
+  },
+  "m08": {
+   "R6": "ok",
+   "R8": "needs_edit"
+  },
+  "m10": {
+   "T3": "needs_edit"
+  }
+ },
+ "notes": {
+  "m01": {
+   "savedAt": "2026-11-27T16:15:29.022Z",
+   "note": "R9. decision, new. It's unclear what was discussed earlier, an issue, a risk or raising the fact a decision was needed but for what. I tend to judge this item being a new decision rather than an update to a prior decision."
+  },
+  "m02": {
+   "savedAt": "2026-11-27T17:04:02.729Z",
+   "note": "Opus (judge) is correct but Sonnet (judge) is right by saying: \"The last point says \"The board agreed the field is thin but compliant.\" Jonas said that at L73, and the board did not. Change it to say Jonas said the field is thin but compliant."
+  },
+  "m04": {
+   "savedAt": "2026-11-27T16:38:10.019Z",
+   "note": "R5. it's not an assumption, update as it is clear now that the processing time is 8 weeks while previously the team was working with an assumption of 6 weeks. I am unable to conclude at this point it's a new issue but I'd rather say it's a new risk that the team will have to assess. L163 \"Eight weeks from Monday the seventh is early February. That's tight against the cutover.\" L169 \"Dan: Yes, it still lands before the thirteenth, but I mean there's no room left.\" There is no more buffer, that's the risk. If anything else slips, the project may no longer meet the cutover date. Conclusion R5/6 should be merged as one NEW RISK."
+  },
+  "m06": {
+   "savedAt": "2026-11-27T16:46:29.355Z",
+   "note": ""
+  },
+  "m07": {
+   "savedAt": "2026-11-27T17:37:54.985Z",
+   "note": "5. Fire safety certificate. Agreed with both judges. Grace (not Wei Lin)) called it a risk, not a certainty."
+  },
+  "m08": {
+   "savedAt": "2026-11-27T17:12:43.347Z",
+   "note": "R6. dependency update. Agreed with Opus judge.\nR8. decision, update. Agreed with Opus judge."
+  },
+  "m10": {
+   "savedAt": "2026-11-27T17:37:35.227Z",
+   "note": "3. customer portal request for an earlier payment firewall opening. In agreement with both judges, L177 refers to customer portal (and not Customer self-service portal project)."
+  }
+ }
+}

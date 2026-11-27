@@ -1,0 +1,117 @@
+{
+ "case": "m02",
+ "judges": {
+  "sonnet": {
+   "model": "claude-sonnet-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "needs_edit",
+     "reason": "The last point says \"The board agreed the field is thin but compliant.\" Jonas said that at L73, and the board did not. Change it to say Jonas said the field is thin but compliant."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "The summary matches the transcript. It records the board approval, the agreement from Jonas and Wei Ling, and Ravi's action to issue the letter of award tomorrow."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "The summary and quotes match. The question of ordering standard desks was left open, and Wei Ling's action to forward the quote is captured."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "The summary, the unknowns about central IT, and Grace's action to raise it with the IT director on Thursday are all supported by the quotes."
+    },
+    "T5": {
+     "verdict": "ok",
+     "reason": "The summary matches the transcript, including the assumed date and the landlord not replying. Ravi's action to keep chasing and flag any slip early is supported."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "Two bids is a problem that exists now, and Ravi called it a problem for value for money. It is a new issue, and the quote supports it."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "The board's approval of stage 3 and the award is a settled decision, raised for the first time here."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "The row names what may happen (desks arrive after move-in) and what it would cause. It has not happened yet, so it is a risk."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "The install cannot happen unless central IT gives the two weeks, which makes it a dependency."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "The schedule takes landlord approval by 13 December as true without confirmation, so it is an assumption."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.0529,
+   "calls": 1
+  },
+  "opus": {
+   "model": "claude-opus-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Points on the bid count, compliance, value for money, bid figures and the like-for-like question all match L31-L73. No action was agreed."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "The recommendation, the user-side design point, the approval at L102 and Ravi's letter-of-award action for tomorrow are all accurate."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "The lead-time change, the conditional risk, the open ordering question and Wei Ling's action to forward the quote are all supported."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "The central IT constraint, the two-week window, the open overlap question and Grace's action for Thursday are all correct."
+    },
+    "T5": {
+     "verdict": "ok",
+     "reason": "The 13 December assumption, the landlord's silence, where the meeting landed (L267) and Ravi's chasing action are all supported."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "Having only two bids is a current problem for value for money, so it is correctly an issue and new."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "The board approval at L102 is a settled decision."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "It is a conditional chance of late desks, with its effect on move-in named, so it is a risk."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "The install cannot happen until central IT gives the two weeks, so it is a dependency, quoted clearly at L198."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "The schedule takes landlord approval by 13 December as true without confirmation, so it is an assumption."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.1034,
+   "calls": 1
+  }
+ },
+ "minutesTemplate": {
+  "id": "default",
+  "version": 3
+ },
+ "counts": {
+  "topics": 5,
+  "raidd": 5
+ }
+}

@@ -1,0 +1,416 @@
+{
+ "ok": true,
+ "task": "minutes",
+ "case": "m08",
+ "ms": 45892,
+ "minutes": {
+  "meeting": {
+   "title": "Customer self-service portal – Sprint 3 review",
+   "attendees": [
+    "Mei Chen",
+    "Ahmad Faizal",
+    "Tom Hartley",
+    "Lisa Wong"
+   ],
+   "date": ""
+  },
+  "topics": [
+   {
+    "title": "Sprint demo",
+    "summary": [
+     {
+      "text": "Ahmad showed service request creation working live. It is the first of the three split stories and it is done. Tracking is half done.",
+      "quotes": [
+       {
+        "line": 44,
+        "text": "Service request creation is done, the first of the three split like stories. Tracking is half done.",
+        "found": true
+       },
+       {
+        "line": 46,
+        "text": "Done as in working. I'm showing it to you right now",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Progress is reported as one and a half of the three stories.",
+      "quotes": [
+       {
+        "line": 56,
+        "text": "I'd say one and a half, if you want to be strict.",
+        "found": true
+       },
+       {
+        "line": 57,
+        "text": "One and a half. Fine, that's fairer. I'll use that.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Lisa tested the flow on a laptop and on mobile. It works, but there is a layout glitch on small screens. The glitch is logged with a screenshot.",
+      "quotes": [
+       {
+        "line": 68,
+        "text": "Tested on mobile too, works, one layout glitch on small screens which we logged.",
+        "found": true
+       },
+       {
+        "line": 80,
+        "text": "Yes, there's a screenshot on it. That's the one I attached.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": []
+   },
+   {
+    "title": "Billing API delivery",
+    "summary": [
+     {
+      "text": "The billing API was delivered two days early, on the sixteenth. The bills story is now unblocked.",
+      "quotes": [
+       {
+        "line": 93,
+        "text": "The billing API was delivered on the sixteenth, two days early for once, and the bills story is now unblocked.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The dependency on the API is closed. The risk of it slipping past the holidays is gone.",
+      "quotes": [
+       {
+        "line": 109,
+        "text": "Great, so that dependency is closed, and the risk of it slipping past the basically holidays is gone too.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": []
+   },
+   {
+    "title": "Identity provider paid tier",
+    "summary": [
+     {
+      "text": "Finance approved the paid tier yesterday, so the five thousand user cap goes away before go-live.",
+      "quotes": [
+       {
+        "line": 125,
+        "text": "Finance approved the paid tier yesterday, so the five thousand user cap goes away before go-live.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The cap is removed once Ahmad switches the plan on the provider.",
+      "quotes": [
+       {
+        "line": 144,
+        "text": "Approval first, like switch second, then the cap is gone.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Switch the identity provider to the paid plan",
+      "owner": "Ahmad Faizal",
+      "due": "first week of January",
+      "quotes": [
+       {
+        "line": 139,
+        "text": "I'll switch the plan in the first week of January.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Contrast defect on the bills page",
+    "summary": [
+     {
+      "text": "The contrast defect on the bills page is fixed. It now passes the same WCAG check that it failed before.",
+      "quotes": [
+       {
+        "line": 157,
+        "text": "The contrast defect on the bills page is fixed and passes the kind of WCAG check now.",
+        "found": true
+       },
+       {
+        "line": 170,
+        "text": "Same check. It failed, we changed it, and now it passes.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The defect was agreed closed.",
+      "quotes": [
+       {
+        "line": 178,
+        "text": "Close, Close it then.",
+        "found": true
+       },
+       {
+        "line": 286,
+        "text": "The con trust defect on the bills page is closed.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": []
+   },
+   {
+    "title": "Pen test booking",
+    "summary": [
+     {
+      "text": "The pen test is booked for 19–23 January, and the firm confirmed it in writing.",
+      "quotes": [
+       {
+        "line": 190,
+        "text": "The pen I mean test is booked for the nineteenth to the twenty third of January, the firm confirmed in writing.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The firm said a typical first test has two or three high findings, so expecting no major findings is optimistic. This is a general comment, not a verdict on the portal.",
+      "quotes": [
+       {
+        "line": 208,
+        "text": "But they said a typical first test has two or three high findings, so no major findings is optimistic.",
+        "found": true
+       },
+       {
+        "line": 226,
+        "text": "It's a general comment about typical first tests. It's not a verdict on our portal.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The team will keep one week in the plan after the test for fixes. Ahmad wondered whether one week is enough, but the week was not reopened.",
+      "quotes": [
+       {
+        "line": 249,
+        "text": "Okay, then let's keep one week in the plan after the test for fixes.",
+        "found": true
+       },
+       {
+        "line": 261,
+        "text": "One week is what we keep.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": []
+   }
+  ],
+  "raidd": [
+   {
+    "type": "issue",
+    "change": "new",
+    "title": "Layout glitch on small screens",
+    "topic": 1,
+    "quotes": [
+     {
+      "line": 68,
+      "text": "one layout glitch on small screens which we logged",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "update",
+    "title": "Billing API delivered; bills story unblocked",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 93,
+      "text": "The billing API was delivered on the sixteenth, two days early for once",
+      "found": true
+     },
+     {
+      "line": 103,
+      "text": "It was waiting for the API, and now it isn't. So it's unblocked.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "risk",
+    "change": "update",
+    "title": "Billing API slipping past the holidays – closed",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 109,
+      "text": "the risk of it slipping past the basically holidays is gone too",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "decision",
+    "change": "update",
+    "title": "Finance approved identity provider paid tier, removing the 5,000 user cap",
+    "topic": 3,
+    "quotes": [
+     {
+      "line": 125,
+      "text": "Finance approved the paid tier yesterday, so the five thousand user cap goes away before go-live.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "issue",
+    "change": "update",
+    "title": "Bills page contrast defect fixed and closed",
+    "topic": 4,
+    "quotes": [
+     {
+      "line": 157,
+      "text": "The contrast defect on the bills page is fixed and passes the kind of WCAG check now.",
+      "found": true
+     },
+     {
+      "line": 178,
+      "text": "Close, Close it then.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "update",
+    "title": "Pen test firm confirmed 19–23 January in writing",
+    "topic": 5,
+    "quotes": [
+     {
+      "line": 190,
+      "text": "The pen I mean test is booked for the nineteenth to the twenty third of January, the firm confirmed in writing.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "risk",
+    "change": "new",
+    "title": "Pen test may find two or three high findings that need fixing",
+    "topic": 5,
+    "quotes": [
+     {
+      "line": 208,
+      "text": "a typical first test has two or three high findings, so no major findings is optimistic",
+      "found": true
+     },
+     {
+      "line": 258,
+      "text": "I do wonder if one week is enough",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "decision",
+    "change": "new",
+    "title": "Keep one week after the pen test for fixes",
+    "topic": 5,
+    "quotes": [
+     {
+      "line": 249,
+      "text": "Okay, then let's keep one week in the plan after the test for fixes.",
+      "found": true
+     }
+    ]
+   }
+  ]
+ },
+ "checks": {
+  "ok": true,
+  "problems": [],
+  "stats": {
+   "quotes": 31,
+   "exact": 31,
+   "relocated": 0,
+   "missing": 0,
+   "points": 12,
+   "actions": 1,
+   "raidd": 8
+  }
+ },
+ "template": {
+  "id": "default",
+  "version": 3
+ },
+ "model": "claude-opus-5-5",
+ "calls": [
+  {
+   "round": 0,
+   "costUsd": 0.136312,
+   "latencyMs": 26560,
+   "usage": {
+    "input_tokens": 16078,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 3600,
+    "output_tokens_details": {
+     "thinking_tokens": 1324
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   },
+   "traceId": "afd408ceaa72475e81f55c63065e7cdb",
+   "logged": {
+    "ledger": true,
+    "trace": true,
+    "traceContent": "masked",
+    "gatewayVersion": "1.0.0"
+   }
+  },
+  {
+   "round": 1,
+   "costUsd": 0.129792,
+   "latencyMs": 17403,
+   "usage": {
+    "input_tokens": 19898,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 2510,
+    "output_tokens_details": {
+     "thinking_tokens": 94
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   },
+   "traceId": "d692eb98ef684767b3d03210ee47f38d",
+   "logged": {
+    "ledger": true,
+    "trace": true,
+    "traceContent": "masked",
+    "gatewayVersion": "1.0.0"
+   }
+  }
+ ],
+ "costUsd": 0.266104
+}

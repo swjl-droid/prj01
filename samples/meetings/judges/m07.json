@@ -1,0 +1,133 @@
+{
+ "case": "m07",
+ "judges": {
+  "sonnet": {
+   "model": "claude-sonnet-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Dates, the one-week slip, the Kemlite start move and the tolerance point all match the quotes. No action was agreed."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "The IT window, the portal team reason and the cabling-after-first-fix point are supported. No action was agreed."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "The desk order and arrival, the lower desk risk and the open tables are supported. The watch action has no named owner, so leaving it empty is acceptable."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "The contract signing, Halim, the look-ahead request and Ravi's action are accurate and quoted."
+    },
+    "T5": {
+     "verdict": "needs_edit",
+     "reason": "The second point says Wei Ling called this a risk, not a certainty. L239 is Grace's line, and Wei Ling only said \"we might not\" (L238). Fix the attribution, for example \"Grace summed it up as a risk, not a certainty\"."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "The missed 13 December date is now a problem that exists, so an issue is the right type. It revises a date that was expected earlier, so update is fine."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "The Kemlite start depends on landlord approval, and the date moved. This is a distinct dependency, supported by L40 and L70."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "The IT install depends on the IT director's slot and the portal team's availability. The window changed from the earlier plan, and the quote supports it."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "Cabling can only go in after Kemlite's first fix. This is a real dependency, and the quote supports it."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "This updates the earlier desk and furniture risk: desks are now low risk and the tables are still open. The quote supports it."
+    },
+    "R6": {
+     "verdict": "ok",
+     "reason": "The floor cannot be occupied until the SCDF certificate is issued, which is a dependency."
+    },
+    "R7": {
+     "verdict": "ok",
+     "reason": "It names what may happen (a late move-in) and the trigger (inspection not booked by early January). It is a new risk."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.0557,
+   "calls": 1
+  },
+  "opus": {
+   "model": "claude-opus-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "The missed date, the new date, the knock-on move to Kemlite's start and the tolerance position are all supported by the quotes."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "The new IT weeks, the portal team reason and the cabling-after-first-fix outcome are all supported."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "The desk order, delivery timing, lower desk risk and open tables are supported. No owner was named for the watch action, so leaving it empty is right."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "The contract, Halim, the look-ahead request and Ravi's action are supported by the quotes."
+    },
+    "T5": {
+     "verdict": "needs_edit",
+     "reason": "The minutes credit 'a risk, not a certainty' to Wei Ling, but Grace said it at L239. Change the point to say Grace called it a risk, not a certainty."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "The expected approval date turned out false, so it is an issue update, and L29 supports it."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "Kemlite's start hangs off the landlord approval and has moved from the earlier date, so it is a dependency update."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "The install window is set by the IT director because the portal team has the second week. It changes the earlier plan, so update is right."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "Cabling cannot go in until Kemlite's first fix. It is a real dependency, raised here for the first time."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "The furniture risk is said to be much lower, with the tables still open. That updates an earlier worry, and L140 supports it."
+    },
+    "R6": {
+     "verdict": "ok",
+     "reason": "Occupancy depends on the SCDF certificate. Ravi introduced it as a new item, so new is right."
+    },
+    "R7": {
+     "verdict": "ok",
+     "reason": "It names what may happen (the inspection is not booked by early January) and the effect (a late move-in). It is new."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.1125,
+   "calls": 1
+  }
+ },
+ "minutesTemplate": {
+  "id": "default",
+  "version": 3
+ },
+ "counts": {
+  "topics": 5,
+  "raidd": 7
+ }
+}

@@ -1,0 +1,1353 @@
+{
+  "note": "Built by scripts/make-mock-meetings.mjs. Line numbers count speech lines as lib/minutes/transcript.js does.",
+  "meetings": [
+    {
+      "id": "m01",
+      "file": "m01-clinic-weekly-sync.txt",
+      "project": "Clinic relocation",
+      "title": "Clinic relocation weekly sync",
+      "date": "2026-12-01",
+      "words": 4177,
+      "minutes": 36,
+      "topics": [
+        {
+          "topic": "Movers quote",
+          "mustSay": [
+            "quote 42,000, 12,000 over budget",
+            "weekday split to bring it down"
+          ],
+          "actions": [
+            {
+              "owner": "Marcus",
+              "due": "Friday 4 December",
+              "what": "revised movers quote with weekday split"
+            }
+          ]
+        },
+        {
+          "topic": "X-ray room relocation",
+          "mustSay": [
+            "vendor Radix must move and recalibrate",
+            "engineers booked most of February"
+          ],
+          "actions": [
+            {
+              "owner": "Siti",
+              "due": "next week",
+              "what": "ask Radix Imaging to hold two provisional dates"
+            }
+          ]
+        },
+        {
+          "topic": "Licence transfer",
+          "mustSay": [
+            "licence must move before first patient",
+            "plan assumes six weeks after filing",
+            "filing after floor plan is final, next Monday"
+          ],
+          "actions": [
+            {
+              "owner": "Daniel",
+              "due": "next Monday",
+              "what": "file the licence transfer once the floor plan is final"
+            }
+          ]
+        },
+        {
+          "topic": "Building handover",
+          "mustSay": [
+            "treatment-room fit-out waits for landlord handover of level 5 on 15 January"
+          ],
+          "actions": [
+            {
+              "owner": "Marcus",
+              "due": "",
+              "what": "get the handover date in writing"
+            }
+          ]
+        },
+        {
+          "topic": "Cutover weekend",
+          "mustSay": [
+            "cutover weekend decided: 13-14 February",
+            "the week after clashes with school holidays"
+          ],
+          "actions": []
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t1.1",
+          "type": "issue",
+          "change": "new",
+          "title": "Movers quote 12,000 over budget",
+          "at": {
+            "line": 43,
+            "text": "The movers quote came in at forty two thousand dollars, which is twelve thousand over what we budgeted for the move."
+          }
+        },
+        {
+          "beat": "t2.2",
+          "type": "risk",
+          "change": "new",
+          "title": "X-ray vendor engineers may have no slot before cutover",
+          "at": {
+            "line": 94,
+            "text": "Their engineers are booked out most of February, so there's a chance we don't get a slot before the cutover."
+          }
+        },
+        {
+          "beat": "t3.2",
+          "type": "assumption",
+          "change": "new",
+          "title": "Licence transfer processed within 6 weeks of filing",
+          "at": {
+            "line": 143,
+            "text": "Our plan assumes the ministry processes like the transfer within six weeks of us filing it."
+          }
+        },
+        {
+          "beat": "t4.1",
+          "type": "dependency",
+          "change": "new",
+          "title": "Treatment-room fit-out depends on landlord handover of level 5 (15 Jan)",
+          "at": {
+            "line": 180,
+            "text": "We can't start the fit-out of the treatment rooms until the landlord hands over level five, and they've said basically the fifteenth of January."
+          }
+        },
+        {
+          "beat": "t5.3",
+          "type": "decision",
+          "change": "new",
+          "title": "Cutover weekend is 13-14 February",
+          "at": {
+            "line": 312,
+            "text": "Okay, Okay then, decision: the cutover weekend is the thirteenth and fourteenth of February. Everyone okay?"
+          }
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t1.4",
+          "why": "action, not a RAIDD entry",
+          "at": {
+            "line": 76,
+            "text": "Okay. Marcus, please get a revised quote with the weekday split by Friday the fourth."
+          }
+        },
+        {
+          "beat": "t2.4",
+          "why": "action",
+          "at": {
+            "line": 123,
+            "text": "I'll ask Radix to hold two provisional dates for us, and I'll come back next week."
+          }
+        },
+        {
+          "beat": "t4.3",
+          "why": "action",
+          "at": {
+            "line": 233,
+            "text": "Yeah, I'll get the handover date kind of in writing from their property manager."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m02",
+      "file": "m02-fitout-project-board.vtt",
+      "project": "Regional office fit-out",
+      "title": "Regional office fit-out project board",
+      "date": "2026-12-02",
+      "words": 3667,
+      "minutes": 32,
+      "topics": [
+        {
+          "topic": "Tender result",
+          "mustSay": [
+            "only two bids, four hoped for",
+            "two is procurement's minimum",
+            "Kemlite 310,000, other 345,000"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Stage 3 approval and contract award",
+          "mustSay": [
+            "board approves stage 3 and award to Kemlite at 310,000",
+            "Kemlite met the users' must-haves"
+          ],
+          "actions": [
+            {
+              "owner": "Ravi",
+              "due": "tomorrow",
+              "what": "issue the letter of award"
+            }
+          ]
+        },
+        {
+          "topic": "Furniture lead time",
+          "mustSay": [
+            "lead time now ten weeks (was six)",
+            "desks may arrive after move-in",
+            "order standard desks now, tables later"
+          ],
+          "actions": [
+            {
+              "owner": "Wei Ling",
+              "due": "",
+              "what": "order the standard desks now"
+            }
+          ]
+        },
+        {
+          "topic": "IT and network install",
+          "mustSay": [
+            "install needs central IT in weeks 2-3 of January",
+            "central IT also committed elsewhere"
+          ],
+          "actions": [
+            {
+              "owner": "Grace",
+              "due": "Thursday",
+              "what": "raise IT team availability with the IT director"
+            }
+          ]
+        },
+        {
+          "topic": "Landlord approval of works",
+          "mustSay": [
+            "schedule assumes landlord approval by 13 December",
+            "no reply yet"
+          ],
+          "actions": [
+            {
+              "owner": "Ravi",
+              "due": "",
+              "what": "keep chasing the landlord"
+            }
+          ]
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t1.1",
+          "type": "issue",
+          "change": "new",
+          "title": "Tender drew only two bids",
+          "at": {
+            "line": 31,
+            "text": "The contractor tender closed on the twentieth of November and we only got two bids, we were hoping for at least four."
+          }
+        },
+        {
+          "beat": "t2.3",
+          "type": "decision",
+          "change": "new",
+          "title": "Stage 3 approved; contract awarded to Kemlite Builders at 310,000",
+          "at": {
+            "line": 102,
+            "text": "Okay, the board approves stage three and the award to Kemlite Builders at three hundred and ten thousand."
+          }
+        },
+        {
+          "beat": "t3.2",
+          "type": "risk",
+          "change": "new",
+          "title": "Desks may arrive after move-in (10-week lead time)",
+          "at": {
+            "line": 120,
+            "text": "If that holds, there's a real chance the desks arrive after the move-in date."
+          }
+        },
+        {
+          "beat": "t4.2",
+          "type": "dependency",
+          "change": "new",
+          "title": "Network install depends on central IT in weeks 2-3 of January",
+          "at": {
+            "line": 167,
+            "text": "So our install can kind of only happen if central IT gives us the second and third week of January."
+          }
+        },
+        {
+          "beat": "t5.1",
+          "type": "assumption",
+          "change": "new",
+          "title": "Landlord approves works by 13 December",
+          "at": {
+            "line": 214,
+            "text": "Our schedule is built on the landlord approving the works by the thirteenth of December."
+          }
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t2.4",
+          "why": "action",
+          "at": {
+            "line": 105,
+            "text": "Thanks, I'll issue the letter of award tomorrow."
+          }
+        },
+        {
+          "beat": "t4.3",
+          "why": "action",
+          "at": {
+            "line": 200,
+            "text": "I'll raise it with the IT director at the leadership meeting on Thursday."
+          }
+        },
+        {
+          "beat": "t1.4",
+          "why": "status (bid prices)",
+          "at": {
+            "line": 46,
+            "text": "Kemlite Builders came in at three hundred and ten thousand, the other bid was three hundred and forty five."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m03",
+      "file": "m03-portal-sprint-review.srt",
+      "project": "Customer self-service portal",
+      "title": "Customer portal sprint 2 review",
+      "date": "2026-12-03",
+      "words": 4332,
+      "minutes": 38,
+      "topics": [
+        {
+          "topic": "Sprint 2 goal and demo",
+          "mustSay": [
+            "e-mail sign-up done incl. confirmation",
+            "bills view blocked on billing API"
+          ],
+          "actions": [
+            {
+              "owner": "Ahmad",
+              "due": "next sprint",
+              "what": "reword the used-e-mail error message"
+            }
+          ]
+        },
+        {
+          "topic": "Billing system API",
+          "mustSay": [
+            "billing API promised 18 December, previous dates slipped",
+            "card payment may move out of release 1"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Penetration test",
+          "mustSay": [
+            "pen test required before go-live, 3 weeks' notice",
+            "assumes second half of January, no major findings"
+          ],
+          "actions": [
+            {
+              "owner": "Lisa",
+              "due": "this week",
+              "what": "book the penetration test slot"
+            }
+          ]
+        },
+        {
+          "topic": "Release cut-line",
+          "mustSay": [
+            "decided: release 1 = sign-in, bills, service requests; card payment to release 2"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Team capacity in January",
+          "mustSay": [
+            "two of four developers on leave week 1 of January; smaller sprint"
+          ],
+          "actions": []
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t2.2",
+          "type": "dependency",
+          "change": "new",
+          "title": "Bills story depends on the billing team's API (promised 18 Dec)",
+          "at": {
+            "line": 113,
+            "text": "Right. So the bills story can't finish until the billing sort of team delivers the API."
+          }
+        },
+        {
+          "beat": "t2.3",
+          "type": "risk",
+          "change": "new",
+          "title": "Billing API slips past the holidays; card payment out of release 1",
+          "at": {
+            "line": 116,
+            "text": "And I should add something about what depends on it. And if it slips again past the holidays, paying a bill by card moves out of the first release."
+          }
+        },
+        {
+          "beat": "t3.2",
+          "type": "assumption",
+          "change": "new",
+          "title": "Pen test runs in second half of January with no major findings",
+          "at": {
+            "line": 163,
+            "text": "And we're assuming the test can run in the second half of January with no major findings."
+          }
+        },
+        {
+          "beat": "t4.3",
+          "type": "decision",
+          "change": "new",
+          "title": "Card payment moves to release 2",
+          "at": {
+            "line": 269,
+            "text": "Okay, so decided: card payment moves to basically release two."
+          }
+        },
+        {
+          "beat": "t1.3",
+          "type": "issue",
+          "change": "new",
+          "title": "Error message for a used e-mail is confusing",
+          "at": {
+            "line": 72,
+            "text": "The sign-up flow looks good, but the error message for a used e-mail is confusing, can we reword it?"
+          }
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t5.1",
+          "why": "planned leave, handled by planning",
+          "at": {
+            "line": 292,
+            "text": "Two of our four you know developers have leave in the first week of January, so velocity will be about half that sprint."
+          }
+        },
+        {
+          "beat": "t1.4",
+          "why": "action",
+          "at": {
+            "line": 82,
+            "text": "Yes, small fix, I'll add it to the next sprint."
+          }
+        },
+        {
+          "beat": "t3.3",
+          "why": "action",
+          "at": {
+            "line": 180,
+            "text": "Lisa, can you book the slot this week so we have it?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m04",
+      "file": "m04-clinic-weekly-sync.vtt",
+      "project": "Clinic relocation",
+      "title": "Clinic relocation weekly sync",
+      "date": "2026-12-08",
+      "words": 3730,
+      "minutes": 33,
+      "topics": [
+        {
+          "topic": "Movers quote",
+          "mustSay": [
+            "revised quote 33,000, 3,000 over",
+            "taken from contingency, issue resolved",
+            "revised quote accepted"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "X-ray relocation slot",
+          "mustSay": [
+            "Radix confirmed one slot 11 February, no backup date"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Licence transfer",
+          "mustSay": [
+            "licence filed Monday 7 December",
+            "processing now eight weeks, lands early February, no slack"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Building handover",
+          "mustSay": [
+            "handover now 22 January (a week later), in writing",
+            "fit-out crew may need two Saturdays"
+          ],
+          "actions": [
+            {
+              "owner": "Marcus",
+              "due": "",
+              "what": "check two Saturday shifts with the fit-out crew"
+            }
+          ]
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t1.2",
+          "type": "issue",
+          "change": "update",
+          "of": "m01 Movers quote 12,000 over budget",
+          "title": "Resolved: revised quote 33,000, 3,000 from contingency",
+          "at": {
+            "line": 60,
+            "text": "Three thousand we can take from contingency. So the like budget issue is basically resolved."
+          }
+        },
+        {
+          "beat": "t2.2",
+          "type": "risk",
+          "change": "update",
+          "of": "m01 X-ray vendor slot",
+          "title": "Slot confirmed 11 Feb but no backup",
+          "at": {
+            "line": 110,
+            "text": "So we have a slot before cutover, but with no backup, if sort of that engineer is sick we're stuck."
+          }
+        },
+        {
+          "beat": "t3.1",
+          "type": "assumption",
+          "change": "update",
+          "of": "m01 Licence within 6 weeks",
+          "title": "Processing now 8 weeks; lands early February",
+          "at": {
+            "line": 153,
+            "text": "We filed basically the licence transfer on Monday. The ministry now says processing is eight weeks, not six."
+          }
+        },
+        {
+          "beat": "t4.1",
+          "type": "dependency",
+          "change": "update",
+          "of": "m01 Landlord handover 15 Jan",
+          "title": "Handover moved to 22 January",
+          "at": {
+            "line": 208,
+            "text": "The you know landlord confirmed in writing, but the handover is now the twenty second of January, a week later than they said."
+          }
+        },
+        {
+          "beat": "t1.3",
+          "type": "decision",
+          "change": "new",
+          "title": "Revised movers quote accepted at 33,000",
+          "at": {
+            "line": 79,
+            "text": "Let's accept the revised quote at thirty three thousand."
+          }
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t4.3",
+          "why": "action",
+          "at": {
+            "line": 232,
+            "text": "Just, Just about, if the fit-out crew works two Saturdays. I'll check with them."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m05",
+      "file": "m05-clinic-staff-readiness.txt",
+      "project": "Clinic relocation",
+      "title": "Clinic move staff readiness workshop",
+      "date": "2026-12-10",
+      "words": 4716,
+      "minutes": 42,
+      "topics": [
+        {
+          "topic": "Patient letters",
+          "mustSay": [
+            "about 3,000 active patients",
+            "letters 4 weeks before, SMS 1 week before",
+            "assumes mail forwarding 3 months, not yet checked"
+          ],
+          "actions": [
+            {
+              "owner": "Siti",
+              "due": "",
+              "what": "check mail forwarding with the post office"
+            }
+          ]
+        },
+        {
+          "topic": "Pharmacy fridge and vaccines",
+          "mustSay": [
+            "vaccine fridge max 2 hours off, about 18,000 of stock",
+            "backup power for fridge circuit not commissioned",
+            "separate cool-box run planned"
+          ],
+          "actions": [
+            {
+              "owner": "Ben",
+              "due": "",
+              "what": "plan a separate cool box run with temperature loggers"
+            }
+          ]
+        },
+        {
+          "topic": "Training on the new rooms",
+          "mustSay": [
+            "decided: two mandatory walkthroughs the week before cutover"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Staff parking",
+          "mustSay": [
+            "20 lots for 32 drivers",
+            "ask HR about subsidising the next-door car park"
+          ],
+          "actions": [
+            {
+              "owner": "Priya",
+              "due": "",
+              "what": "ask HR about subsidising the public car park"
+            }
+          ]
+        },
+        {
+          "topic": "Phones and front desk",
+          "mustSay": [
+            "number porting needs new line live; telco needs riser access from landlord"
+          ],
+          "actions": [
+            {
+              "owner": "IT (Speaker 5)",
+              "due": "",
+              "what": "send the telco form to Marcus"
+            }
+          ]
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t1.2",
+          "type": "assumption",
+          "change": "new",
+          "title": "Mail forwarding from old address works for 3 months",
+          "at": {
+            "line": 71,
+            "text": "We're assuming the old address forwarding like works for at least three months, so late letters still arrive."
+          }
+        },
+        {
+          "beat": "t2.2",
+          "type": "risk",
+          "change": "new",
+          "title": "Vaccine stock lost if power trips on move day (backup not commissioned)",
+          "at": {
+            "line": 134,
+            "text": "The new building's backup power for the fridge circuit isn't commissioned yet, so if the power trips on move day we lose kind of the stock."
+          }
+        },
+        {
+          "beat": "t3.3",
+          "type": "decision",
+          "change": "new",
+          "title": "Two mandatory walkthroughs the week before cutover",
+          "at": {
+            "line": 221,
+            "text": "Okay, that's decided like then, two mandatory walkthroughs that week."
+          }
+        },
+        {
+          "beat": "t4.1",
+          "type": "issue",
+          "change": "new",
+          "title": "20 parking lots for 32 staff drivers",
+          "at": {
+            "line": 242,
+            "text": "The, The new building only has twenty season parking lots for staff and we have thirty two drivers today."
+          }
+        },
+        {
+          "beat": "t5.2",
+          "type": "dependency",
+          "change": "new",
+          "title": "Phone porting depends on landlord riser access for the telco",
+          "at": {
+            "line": 330,
+            "text": "So the phone you know porting waits for the landlord to give the telco riser access."
+          }
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t1.1",
+          "why": "plan detail",
+          "at": {
+            "line": 53,
+            "text": "We have about three thousand active patients. Letters go out four weeks before the move, plus an SMS a week before."
+          }
+        },
+        {
+          "beat": "t2.4",
+          "why": "action",
+          "at": {
+            "line": 157,
+            "text": "Yes, Yes, I'll plan a separate cool box run with temperature loggers."
+          }
+        },
+        {
+          "beat": "t4.3",
+          "why": "action",
+          "at": {
+            "line": 272,
+            "text": "I'll ask HR whether we kind of can subsidise the public car park next door."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m06",
+      "file": "m06-portal-backlog-refinement.vtt",
+      "project": "Customer self-service portal",
+      "title": "Customer portal backlog refinement",
+      "date": "2026-12-09",
+      "words": 3978,
+      "minutes": 35,
+      "topics": [
+        {
+          "topic": "Service request story",
+          "mustSay": [
+            "service request story split in three; attachments last",
+            "tracking needs operations' status list"
+          ],
+          "actions": [
+            {
+              "owner": "Ahmad",
+              "due": "",
+              "what": "split the service request story in three"
+            },
+            {
+              "owner": "Mei",
+              "due": "Wednesday",
+              "what": "get the status list from operations"
+            }
+          ]
+        },
+        {
+          "topic": "Identity provider",
+          "mustSay": [
+            "free tier capped at 5,000 users, about 12,000 expected",
+            "assumes paid tier approved before go-live"
+          ],
+          "actions": [
+            {
+              "owner": "Mei",
+              "due": "January",
+              "what": "put the paid tier in the budget request"
+            }
+          ]
+        },
+        {
+          "topic": "Accessibility",
+          "mustSay": [
+            "bills page fails WCAG contrast on amount due",
+            "fix this sprint"
+          ],
+          "actions": [
+            {
+              "owner": "Ahmad",
+              "due": "this sprint",
+              "what": "fix the contrast defect"
+            }
+          ]
+        },
+        {
+          "topic": "Analytics",
+          "mustSay": [
+            "decided: no third-party analytics in release 1, own server counts only"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Payment sandbox",
+          "mustSay": [
+            "payment sandbox needs central IT firewall rules, earliest last week of January"
+          ],
+          "actions": []
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t2.2",
+          "type": "assumption",
+          "change": "new",
+          "title": "Identity provider paid tier approved before go-live",
+          "at": {
+            "line": 105,
+            "text": "We're building on the assumption that the paid tier gets approved before go-live, otherwise sign-in stops at five thousand."
+          }
+        },
+        {
+          "beat": "t2.1",
+          "type": "risk",
+          "change": "new",
+          "title": "Sign-in capped at 5,000 users on free tier (12,000 expected)",
+          "at": {
+            "line": 92,
+            "text": "The identity provider's free tier caps us at sort of five thousand monthly users and we expect about twelve thousand customers."
+          }
+        },
+        {
+          "beat": "t3.1",
+          "type": "issue",
+          "change": "new",
+          "title": "Bills page fails WCAG contrast",
+          "at": {
+            "line": 143,
+            "text": "The bills page fails the WCAG colour contrast check on the amount due, I mean that's a defect we already have."
+          }
+        },
+        {
+          "beat": "t4.1",
+          "type": "decision",
+          "change": "new",
+          "title": "No third-party analytics in release 1",
+          "at": {
+            "line": 177,
+            "text": "Marketing, Marketing asked for page analytics. We decided no third uh party analytics in release one, only our own server counts."
+          }
+        },
+        {
+          "beat": "t5.2",
+          "type": "dependency",
+          "change": "new",
+          "title": "Payment testing depends on central IT firewall rules (last week of January)",
+          "at": {
+            "line": 236,
+            "text": "So release two payment testing can't start before central IT opens the firewall in the last week of January."
+          }
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t1.1",
+          "why": "backlog refinement",
+          "at": {
+            "line": 39,
+            "text": "The service request story is too big, it covers new requests, tracking and attachments. I want to split it in three."
+          }
+        },
+        {
+          "beat": "t1.4",
+          "why": "action",
+          "at": {
+            "line": 71,
+            "text": "I'll get the status list from operations by Wednesday."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m07",
+      "file": "m07-fitout-highlight-review.srt",
+      "project": "Regional office fit-out",
+      "title": "Regional office fit-out highlight review",
+      "date": "2026-12-16",
+      "words": 3840,
+      "minutes": 34,
+      "topics": [
+        {
+          "topic": "Landlord approval of works",
+          "mustSay": [
+            "landlord approval now 20 December (missed 13th)",
+            "Kemlite start moves to 4 January",
+            "within the two-week tolerance, no exception report"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "IT install weeks",
+          "mustSay": [
+            "central IT gives weeks 3-4 of January (portal has week 2)",
+            "works with Kemlite's later start"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Furniture order",
+          "mustSay": [
+            "standard desks ordered 3 December, arrive week 2 of February",
+            "only meeting room tables open"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Kemlite mobilisation",
+          "mustSay": [
+            "contract signed 5 December; site manager Halim"
+          ],
+          "actions": [
+            {
+              "owner": "Ravi",
+              "due": "next board",
+              "what": "ask Halim to bring the three-week look-ahead"
+            }
+          ]
+        },
+        {
+          "topic": "Fire safety certificate",
+          "mustSay": [
+            "fire safety certificate needed before occupation; inspections 6 weeks out",
+            "book by early January"
+          ],
+          "actions": [
+            {
+              "owner": "Ravi",
+              "due": "",
+              "what": "ask Kemlite to submit the fire certificate application"
+            }
+          ]
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t1.1",
+          "type": "assumption",
+          "change": "update",
+          "of": "m02 Landlord approves works by 13 December",
+          "title": "Broken: approval now 20 December",
+          "at": {
+            "line": 29,
+            "text": "Bad. The landlord didn't approve by the thirteenth, they now say the twentieth of December, a week late."
+          }
+        },
+        {
+          "beat": "t2.1",
+          "type": "dependency",
+          "change": "update",
+          "of": "m02 Network install needs central IT weeks 2-3",
+          "title": "Central IT gives weeks 3-4 of January",
+          "at": {
+            "line": 77,
+            "text": "The IT director gave us the third and fourth week of January, not the second and third, because the portal team has the second week."
+          }
+        },
+        {
+          "beat": "t3.2",
+          "type": "risk",
+          "change": "update",
+          "of": "m02 Desks after move-in",
+          "title": "Desks ordered, arrive before move-in; only tables open",
+          "at": {
+            "line": 140,
+            "text": "So the desk risk is much lower now. Only the meeting room tables are still open."
+          }
+        },
+        {
+          "beat": "t5.2",
+          "type": "risk",
+          "change": "new",
+          "title": "Fire safety inspection not booked in time for move-in",
+          "at": {
+            "line": 229,
+            "text": "If we don't book the inspection by early January, we might not be allowed to move in on time."
+          }
+        },
+        {
+          "beat": "t1.2",
+          "type": "issue",
+          "change": "new",
+          "title": "Kemlite site start pushed to 4 January",
+          "at": {
+            "line": 40,
+            "text": "That pushes Kemlite's start on site to the fourth of January instead of the twenty eighth of December."
+          }
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t4.1",
+          "why": "status",
+          "at": {
+            "line": 160,
+            "text": "Kemlite signed the contract on the fifth. Their site manager is Halim, he'll be at the next board."
+          }
+        },
+        {
+          "beat": "t4.2",
+          "why": "action",
+          "at": {
+            "line": 175,
+            "text": "Please, Please ask kind of Halim to bring the three-week look-ahead to that meeting."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m08",
+      "file": "m08-portal-sprint-review.vtt",
+      "project": "Customer self-service portal",
+      "title": "Customer portal sprint 3 review",
+      "date": "2026-12-17",
+      "words": 3816,
+      "minutes": 34,
+      "topics": [
+        {
+          "topic": "Sprint 3 demo",
+          "mustSay": [
+            "service request creation done; tracking half done",
+            "small-screen layout glitch logged"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Billing API",
+          "mustSay": [
+            "billing API delivered 16 December; bills story unblocked",
+            "dependency closed, slip risk gone"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Identity provider budget",
+          "mustSay": [
+            "finance approved the paid tier; 5,000 cap goes away"
+          ],
+          "actions": [
+            {
+              "owner": "Ahmad",
+              "due": "first week of January",
+              "what": "switch the identity provider plan"
+            }
+          ]
+        },
+        {
+          "topic": "Contrast defect",
+          "mustSay": [
+            "contrast defect fixed, passes WCAG"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Pen test booking",
+          "mustSay": [
+            "pen test booked 19-23 January",
+            "first tests usually have 2-3 high findings",
+            "decided: keep one week for fixes"
+          ],
+          "actions": []
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t2.1",
+          "type": "dependency",
+          "change": "update",
+          "of": "m03 Bills story depends on billing API",
+          "title": "Closed: API delivered 16 December",
+          "at": {
+            "line": 93,
+            "text": "The billing API was delivered on the sixteenth, two days early for once, and the bills story is now unblocked."
+          }
+        },
+        {
+          "beat": "t2.2",
+          "type": "risk",
+          "change": "update",
+          "of": "m03 Billing API slips past holidays",
+          "title": "Closed: API delivered",
+          "at": {
+            "line": 109,
+            "text": "Great, so that dependency is closed, and the risk of it slipping past the basically holidays is gone too."
+          }
+        },
+        {
+          "beat": "t3.1",
+          "type": "assumption",
+          "change": "update",
+          "of": "m06 Paid tier approved before go-live",
+          "title": "Confirmed: finance approved",
+          "at": {
+            "line": 125,
+            "text": "Finance approved the paid tier yesterday, so the five thousand user cap goes away before go-live."
+          }
+        },
+        {
+          "beat": "t4.1",
+          "type": "issue",
+          "change": "update",
+          "of": "m06 Bills page fails WCAG contrast",
+          "title": "Closed: fixed",
+          "at": {
+            "line": 157,
+            "text": "Okay. The contrast defect on the bills page is fixed and passes the kind of WCAG check now."
+          }
+        },
+        {
+          "beat": "t5.2",
+          "type": "assumption",
+          "change": "update",
+          "of": "m03 Pen test with no major findings",
+          "title": "Optimistic: expect 2-3 high findings; one week kept for fixes",
+          "at": {
+            "line": 208,
+            "text": "But they said a typical first test has two or three high findings, so no major findings is optimistic."
+          }
+        },
+        {
+          "beat": "t5.3",
+          "type": "decision",
+          "change": "new",
+          "title": "Keep one week after the pen test for fixes",
+          "at": {
+            "line": 249,
+            "text": "Okay, then let's keep one week in the plan after the test for fixes."
+          }
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t1.2",
+          "why": "logged defect, minor",
+          "at": {
+            "line": 68,
+            "text": "Tested on mobile too, works, one layout glitch on small screens which we logged."
+          }
+        },
+        {
+          "beat": "t3.2",
+          "why": "action",
+          "at": {
+            "line": 139,
+            "text": "I'll switch the plan in the first week of January."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m09",
+      "file": "m09-clinic-steering.vtt",
+      "project": "Clinic relocation",
+      "title": "Clinic relocation steering committee",
+      "date": "2026-12-18",
+      "words": 3382,
+      "minutes": 29,
+      "topics": [
+        {
+          "topic": "Overall status",
+          "mustSay": [
+            "overall amber; cutover still 13-14 Feb",
+            "licence, X-ray slot and handover have no slack"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Licence transfer",
+          "mustSay": [
+            "licence to be issued 6 February, in writing"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Vaccine stock and backup power",
+          "mustSay": [
+            "backup power commissioned and tested; vaccine risk much smaller",
+            "cool-box run kept as a second line"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Staff parking",
+          "mustSay": [
+            "HR subsidises 12 public lots for 6 months; gap covered"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Budget",
+          "mustSay": [
+            "3,000 of 20,000 contingency used (movers)",
+            "parking subsidy about 8,000 from contingency approved"
+          ],
+          "actions": []
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t2.1",
+          "type": "assumption",
+          "change": "update",
+          "of": "m04 Licence processing 8 weeks",
+          "title": "Confirmed: licence issued 6 February",
+          "at": {
+            "line": 53,
+            "text": "The ministry gave us a date: the licence for um the new address will be issued on the sixth of February."
+          }
+        },
+        {
+          "beat": "t3.1",
+          "type": "risk",
+          "change": "update",
+          "of": "m05 Vaccine stock lost if power trips",
+          "title": "Reduced: backup power commissioned and tested",
+          "at": {
+            "line": 87,
+            "text": "Backup power for the fridge circuit is now commissioned and tested, so the vaccine risk is much smaller."
+          }
+        },
+        {
+          "beat": "t4.1",
+          "type": "issue",
+          "change": "update",
+          "of": "m05 20 lots for 32 drivers",
+          "title": "Resolved: HR subsidises 12 public lots for 6 months",
+          "at": {
+            "line": 145,
+            "text": "HR agreed to subsidise twelve lots in the public car park next door for six months, which covers the gap of twelve."
+          }
+        },
+        {
+          "beat": "t5.3",
+          "type": "decision",
+          "change": "new",
+          "title": "Parking subsidy (about 8,000) taken from contingency",
+          "at": {
+            "line": 261,
+            "text": "Approved, Approved, take the parking uh subsidy from contingency."
+          }
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t1.1",
+          "why": "status report",
+          "at": {
+            "line": 27,
+            "text": "Overall amber. The cutover is still the thirteenth and fourteenth of February, but three things have no slack left: the licence, the X-ray slot and the handover."
+          }
+        },
+        {
+          "beat": "t5.1",
+          "why": "status",
+          "at": {
+            "line": 202,
+            "text": "Spend to date is in line. We've used three thousand of the twenty thousand contingency, for the movers."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m10",
+      "file": "m10-joint-steering-review.txt",
+      "project": "Regional office fit-out",
+      "title": "Joint steering review: office fit-out and portal",
+      "date": "2026-12-21",
+      "words": 3566,
+      "minutes": 32,
+      "topics": [
+        {
+          "topic": "Landlord approval and site start",
+          "mustSay": [
+            "landlord approval received 19 December; Kemlite starts 4 January"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Fire safety certificate",
+          "mustSay": [
+            "application submitted 18 December; inspection 5 February",
+            "move-in 23 February, two weeks of buffer"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Central IT for the portal",
+          "mustSay": [
+            "portal asks central IT for payment firewall in week 2 of January",
+            "office does not need central IT before week 3",
+            "agreed: firewall in week 2"
+          ],
+          "actions": []
+        },
+        {
+          "topic": "Budget",
+          "mustSay": [
+            "delay costs about 6,000 in supervision; change request to January board"
+          ],
+          "actions": [
+            {
+              "owner": "Ravi",
+              "due": "January board",
+              "what": "bring a change request with options"
+            }
+          ]
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t1.1",
+          "type": "issue",
+          "change": "update",
+          "of": "m07 Kemlite site start pushed to 4 January",
+          "title": "Closed: approval received, start 4 January",
+          "at": {
+            "line": 37,
+            "text": "The landlord approval came on the nineteenth, so Kemlite starts on site on the fourth of January like as planned last week."
+          }
+        },
+        {
+          "beat": "t2.1",
+          "type": "risk",
+          "change": "update",
+          "of": "m07 Fire safety inspection not booked in time",
+          "title": "Reduced: inspection 5 Feb, two weeks of buffer",
+          "at": {
+            "line": 85,
+            "text": "Kemlite, Kemlite submitted the SCDF application on the eighteenth you know and the inspection is booked for the fifth of February."
+          }
+        },
+        {
+          "beat": "t3.4",
+          "type": "decision",
+          "change": "new",
+          "title": "Central IT opens the portal payment firewall in week 2 of January",
+          "at": {
+            "line": 230,
+            "text": "Okay, Okay, agreed: central IT opens the portal's kind of payment firewall in the second week of January."
+          }
+        },
+        {
+          "beat": "t4.1",
+          "type": "issue",
+          "change": "new",
+          "title": "Two-week delay costs about 6,000 in site supervision",
+          "at": {
+            "line": 249,
+            "text": "For the office, the two-week uh delay costs about six thousand in extended site supervision, I'll bring a change request to the January board."
+          }
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t4.2",
+          "why": "action / instruction",
+          "at": {
+            "line": 280,
+            "text": "Fine, Fine, bring like it with the options."
+          }
+        }
+      ]
+    }
+  ]
+}
