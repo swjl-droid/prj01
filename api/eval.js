@@ -3,11 +3,15 @@
 //   ?task=dialogue&case=m01  the natural discussion of mock meeting m01 around its hand-written lines
 //                            (samples/meetings/specs.json), written by the model in two halves at once
 //   ?task=minutes&case=m01   minutes of mock transcript m01 (samples/meetings/), with the code checks
+//   ?task=judge&case=m01&judge=sonnet  one judge's verdicts (lib/minutes/judge.json) on the stored
+//                            evaluation minutes samples/meetings/minutes/m01.json (Hub row 305)
 // Synthetic data only: nothing here reads the database or any user's data.
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { createGateway } from '../lib/gateway/index.js';
 import { draftMinutes } from '../lib/minutes/draft.js';
+import { judgeMinutes } from '../lib/minutes/judge.js';
+import judgeSettings from '../lib/minutes/judge.json' with { type: 'json' };
 import settings from '../lib/minutes/settings.json' with { type: 'json' };
 import spec from '../samples/meetings/specs.json' with { type: 'json' };
 
@@ -77,6 +81,17 @@ async function minutes(gateway, m) {
   return { minutes: r.minutes, checks: r.checks, template: r.template, model: r.model, calls: r.calls, costUsd: r.costUsd };
 }
 
+async function judge(gateway, m, judgeId) {
+  const j = judgeSettings.judges.find((x) => x.id === judgeId);
+  if (!j) throw Object.assign(new Error('unknown judge'), { kind: 'bad_judge' });
+  const dir = join(process.cwd(), 'samples', 'meetings');
+  const raw = readFileSync(join(dir, m.file), 'utf8');
+  const stored = JSON.parse(readFileSync(join(dir, 'minutes', `${m.id}.json`), 'utf8'));
+  const project = SAMPLE_PROJECTS.find((p) => p.name === m.project);
+  const r = await judgeMinutes({ gateway, raw, minutes: stored.minutes, project, model: j.model });
+  return { judge: j.id, minutesTemplate: stored.template, counts: { topics: stored.minutes.topics.length, raidd: stored.minutes.raidd.length }, ...r };
+}
+
 // Tiny calls that differ in one setting, to find which one the API refuses (the gateway reports the
 // error type only, never the API's message).
 async function probe(gateway) {
@@ -105,11 +120,13 @@ export async function GET(request) {
   if (url.searchParams.get('task') === 'probe') return Response.json(await probe(createGateway({ app: 'prj01' })));
   const m = spec.meetings.find((x) => x.id === url.searchParams.get('case'));
   const task = url.searchParams.get('task');
-  if (!m || !['dialogue', 'minutes'].includes(task)) return Response.json({ ok: false, error: 'task=dialogue|minutes and case=m01..m10' }, { status: 400 });
-  const gateway = createGateway({ app: 'prj01', timeoutMs: settings.timeoutMs });
+  if (!m || !['dialogue', 'minutes', 'judge'].includes(task)) return Response.json({ ok: false, error: 'task=dialogue|minutes|judge and case=m01..m10' }, { status: 400 });
+  const gateway = createGateway({ app: 'prj01', timeoutMs: task === 'judge' ? judgeSettings.timeoutMs : settings.timeoutMs });
   const started = Date.now();
   try {
-    const out = task === 'dialogue' ? await dialogue(gateway, m) : await minutes(gateway, m);
+    const out = task === 'dialogue' ? await dialogue(gateway, m)
+      : task === 'judge' ? await judge(gateway, m, url.searchParams.get('judge'))
+        : await minutes(gateway, m);
     // pad: makes the answer large enough to be saved as a file on the evaluating side instead of read
     // into its context; it carries nothing.
     return Response.json({ ok: true, task, case: m.id, ms: Date.now() - started, ...out, pad: url.searchParams.has('pad') ? '.'.repeat(120000) : undefined });
