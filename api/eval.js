@@ -49,11 +49,11 @@ function dialoguePrompt(m, topics, half) {
     `Write the ${half} of a realistic ${m.title} (${m.project}, ${m.date}), a 30-minute video meeting of a synthetic project.`,
     `Attendees (key = name): ${people}. Chair: ${m.chair}.`,
     half === 'first half' ? `Start with people joining, small sound or screen trouble and a little small talk, then the chair opens: "${m.agendaLine}".` : 'Start straight into the next topic; end with a short wrap-up and goodbyes.',
-    'Cover these topics in this order. Each beat must appear exactly once, word for word, said by its speaker, with its beat id:',
+    'Cover these topics in this order. Each beat must appear exactly once, word for word, said by its speaker, as a line of its own with its beat id and nothing added before or after it. The chair\'s topic openers are not beats: give them no beat id.',
     beats,
     'Around the beats, write the natural discussion of a real meeting: questions and answers, people checking figures, thinking aloud, mild disagreement, going back to an earlier point, short side remarks, people talking over each other, "mm-hm" and "right". Spoken style, not polished.',
     'Strict rule: add no new decision, action, risk, issue, assumption, dependency, date, amount or name beyond what the beats say. Discussion may question or restate the beats, but must not change them.',
-    'Length: about 2,000 words for this half. Answer only by calling record_dialogue.',
+    'Length: about 2,800 words for this half (a 15-minute stretch of talk); it is a real working meeting, so let people talk. Answer only by calling record_dialogue.',
   ].join('\n');
 }
 
@@ -61,7 +61,7 @@ async function dialogue(gateway, m) {
   const mid = Math.ceil(m.topics.length / 2);
   const halves = [['first half', m.topics.slice(0, mid)], ['second half', m.topics.slice(mid)]];
   const results = await Promise.all(halves.map(([half, topics]) => gateway.call({
-    purpose: 'eval-mock-dialogue', model: DIALOGUE_MODEL, max_tokens: 6000,
+    purpose: 'eval-mock-dialogue', model: DIALOGUE_MODEL, max_tokens: 9000,
     messages: [{ role: 'user', content: dialoguePrompt(m, topics, half) }],
     tools: [dialogueTool],
   })));
