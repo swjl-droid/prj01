@@ -57,13 +57,15 @@ function good() {
       summary: [{ text: 'The movers quote is 42,000 and over budget.', quotes: [{ line: 2, text: 'the movers quote came in at, uh, forty two thousand' }, { line: 3, text: "That’s over budget." }] }],
       actions: [{ text: 'Get a second quote', owner: 'Ah Hock', due: 'Friday', quotes: [{ line: 3, text: 'ask Ah Hock for a second quote by Friday' }] }],
     }],
+    raidd: [{ type: 'issue', change: 'new', title: 'Movers quote over budget', topic: 1, quotes: [{ line: 3, text: "That's over budget." }] }],
   };
 }
 
 test('exact quotes pass, with case, spacing and curly quotes ignored', () => {
   const { checks } = verifyMinutes(good(), speechLines(VTT), template);
   assert.equal(checks.ok, true, JSON.stringify(checks.problems));
-  assert.equal(checks.stats.exact, 3);
+  assert.equal(checks.stats.exact, 4);
+  assert.equal(checks.stats.raidd, 1);
 });
 
 test('a topic title loses the number the model put in front of it', () => {
@@ -89,6 +91,29 @@ test('an invented or reworded quote, a point with no quote, an unknown owner and
   m.topics[0].actions[0].quotes.push({ line: 2, text: 'Yes. So the movers quote came in at, uh, forty two thousand. '.repeat(5) });
   const kinds = verifyMinutes(m, speechLines(VTT), template).checks.problems.map((p) => p.kind).sort();
   assert.deepEqual(kinds, ['long_quote', 'no_quote', 'owner_not_in_transcript', 'quote_not_found', 'quote_not_found']);
+});
+
+test('RAIDD table (template v3): a bad type, change or topic, a missing quote, a duplicate item and a missing table fail', () => {
+  const lines = speechLines(VTT);
+  const m = good();
+  m.raidd.push({ type: 'action', change: 'maybe', title: 'Second quote', topic: 7, quotes: [{ line: 3, text: 'second quote by Friday' }] });
+  m.raidd.push({ type: 'decision', change: 'new', title: 'Cutover date', topic: 1, quotes: [] });
+  const kinds = verifyMinutes(m, lines, template).checks.problems.map((p) => p.kind).sort();
+  assert.deepEqual(kinds, ['bad_change', 'bad_topic', 'bad_type', 'duplicate_raidd', 'no_quote']);
+  const none = good(); delete none.raidd;
+  assert.deepEqual(verifyMinutes(none, lines, template).checks.problems.map((p) => p.kind), ['no_raidd']);
+  const empty = good(); empty.raidd = [];
+  assert.equal(verifyMinutes(empty, lines, template).checks.ok, true);
+});
+
+test('the prompt carries the shared RAIDD rules and the tool asks for the table', async () => {
+  const { minutesTool, systemPrompt } = await import('../lib/minutes/prompt.js');
+  const tool = minutesTool(template);
+  assert.deepEqual(tool.input_schema.required, ['meeting', 'topics', 'raidd']);
+  assert.deepEqual(tool.input_schema.properties.raidd.items.properties.type.enum, ['risk', 'assumption', 'issue', 'dependency', 'decision']);
+  const sys = systemPrompt(template);
+  assert.match(sys, /An action \(who does what, by when\) is not a RAIDD entry/);
+  assert.match(sys, /An assumption that turns out false becomes an issue/);
 });
 
 function fakeGateway(answers) {
@@ -138,4 +163,6 @@ test('markdown: numbered topics, discussion and actions, each point followed by 
   assert.match(md, /## 1\. Movers quote\n\n\*\*Discussion\*\*/);
   assert.match(md, /> L3 \(00:00:21\.000\): "ask Ah Hock for a second quote by Friday"/);
   assert.match(md, /owner: Ah Hock, due: Friday/);
+  assert.match(md, /## RAIDD\n\n\| # \| Type \| New or update \| Item \| Topic \|/);
+  assert.match(md, /\| 1 \| issue \| new \| Movers quote over budget \| 1 \|/);
 });

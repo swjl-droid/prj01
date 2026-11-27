@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source": "John's AI-L07 golden labels and rubric (Learning AI-L07, 26/11/2026) and the AI-L15 review; decision 27/11/2026 (Hub row 299): one RAIDD table under the minutes' topics, rules shared by prj01-R1 US-4 (minutes) and US-5 (RAIDD proposals).",
+  "types": [
+    { "id": "risk", "label": "Risk", "definition": "Something that has not happened and may happen, and would hurt the project if it did (a chance of a late date, an extra cost, a lost slot)." },
+    { "id": "assumption", "label": "Assumption", "definition": "Something the plan takes as true without proof yet (a date, a duration, an approval expected by a date)." },
+    { "id": "issue", "label": "Issue", "definition": "A problem that is true now and needs handling (over budget, too few bids, a defect found, a shortage that exists today)." },
+    { "id": "dependency", "label": "Dependency", "definition": "Work that cannot start or finish until another party or piece of work delivers (a handover, an API, another team's slot)." },
+    { "id": "decision", "label": "Decision", "definition": "A choice the meeting made or confirmed, said as settled (approved, agreed, decided)." }
+  ],
+  "changes": [
+    { "id": "new", "definition": "Raised for the first time in this meeting." },
+    { "id": "update", "definition": "Changes, confirms or closes an item raised before (the meeting says it was discussed earlier, revised, now different, resolved, delivered, confirmed)." }
+  ],
+  "rules": [
+    "An action (who does what, by when) is not a RAIDD entry: it stays in the topic's actions.",
+    "A status report, a figure or a plan detail on its own is not a RAIDD entry unless it carries one of the five types.",
+    "Small talk, technical trouble and planned leave that the plan already absorbs are not RAIDD entries.",
+    "An assumption that turns out false becomes an issue (an update of the assumption when it was raised before).",
+    "A risk that happens becomes an issue; a risk that goes away is an update that closes it.",
+    "When the same item comes up in several topics, it is one row: give the topic where it was settled and quote the line that says it most clearly.",
+    "A risk names what may happen and its effect; a vague worry with neither is not a risk.",
+    "An item about another project is kept only when this meeting discussed it for this project."
+  ],
+  "limits": { "maxRows": 20 }
+}

@@ -22,6 +22,7 @@ const minutesInput = {
     summary: [{ text: 'The quote is 42,000, over budget.', quotes: [{ line: 2, text: 'The movers quote came in at forty two thousand.' }, { line: 3, text: 'That is over budget.' }] }],
     actions: [{ text: 'Second quote', owner: 'Marcus', due: 'Friday', quotes: [{ line: 3, text: 'Marcus, get a second quote by Friday.' }] }],
   }],
+  raidd: [{ type: 'issue', change: 'new', title: 'Movers quote over budget', topic: 1, quotes: [{ line: 3, text: 'That is over budget.' }] }],
 };
 
 function fakes() {
@@ -68,7 +69,8 @@ test('draft, store as the next version, read back and approve as oneself', async
   assert.match(seen.model[0].messages[0].content, /Project: Clinic relocation[\s\S]*Other projects in the same organisation: Other\./);
   assert.equal(seen.inserts[0].version, 1);
   assert.equal(seen.inserts[0].org_id, ORG);
-  assert.equal(seen.inserts[0].template, 'default v2');
+  assert.equal(seen.inserts[0].template, 'default v3');
+  assert.equal(d.body.minutes.content.raidd[0].type, 'issue');
   assert.equal(seen.inserts[0].checks.ok, true);
   assert.equal(d.body.minutes.content.topics[0].summary[0].quotes[0].line, 2);
 

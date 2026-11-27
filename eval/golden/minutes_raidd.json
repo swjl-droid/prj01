@@ -1,0 +1,137 @@
+{
+ "set": "RAIDD table in the minutes, rubric line 3 (prj01-R1 US-4, decision Hub row 299): every planted RAIDD event appears exactly once with the right type and no look-alike (action, status) is in the table; bar 7 of 10 meetings, set before the run",
+ "target": "lib/minutes/check.js#storedRaidd",
+ "threshold": 0.7,
+ "cases": [
+  {
+   "id": "m01",
+   "note": "m01-clinic-weekly-sync.txt (5 planted events, 3 look-alikes)",
+   "input": [
+    "m01"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "eachPlantedOnce": true,
+    "rightTypes": true,
+    "noLookAlikes": true
+   }
+  },
+  {
+   "id": "m02",
+   "note": "m02-fitout-project-board.vtt (5 planted events, 3 look-alikes)",
+   "input": [
+    "m02"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "eachPlantedOnce": true,
+    "rightTypes": true,
+    "noLookAlikes": true
+   }
+  },
+  {
+   "id": "m03",
+   "note": "m03-portal-sprint-review.srt (5 planted events, 3 look-alikes)",
+   "input": [
+    "m03"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "eachPlantedOnce": true,
+    "rightTypes": true,
+    "noLookAlikes": true
+   }
+  },
+  {
+   "id": "m04",
+   "note": "m04-clinic-weekly-sync.vtt (5 planted events, 1 look-alikes)",
+   "input": [
+    "m04"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "eachPlantedOnce": true,
+    "rightTypes": true,
+    "noLookAlikes": true
+   }
+  },
+  {
+   "id": "m05",
+   "note": "m05-clinic-staff-readiness.txt (5 planted events, 3 look-alikes)",
+   "input": [
+    "m05"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "eachPlantedOnce": true,
+    "rightTypes": true,
+    "noLookAlikes": true
+   }
+  },
+  {
+   "id": "m06",
+   "note": "m06-portal-backlog-refinement.vtt (5 planted events, 2 look-alikes)",
+   "input": [
+    "m06"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "eachPlantedOnce": true,
+    "rightTypes": true,
+    "noLookAlikes": true
+   }
+  },
+  {
+   "id": "m07",
+   "note": "m07-fitout-highlight-review.srt (5 planted events, 2 look-alikes)",
+   "input": [
+    "m07"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "eachPlantedOnce": true,
+    "rightTypes": true,
+    "noLookAlikes": true
+   }
+  },
+  {
+   "id": "m08",
+   "note": "m08-portal-sprint-review.vtt (6 planted events, 2 look-alikes)",
+   "input": [
+    "m08"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "eachPlantedOnce": true,
+    "rightTypes": true,
+    "noLookAlikes": true
+   }
+  },
+  {
+   "id": "m09",
+   "note": "m09-clinic-steering.vtt (4 planted events, 2 look-alikes)",
+   "input": [
+    "m09"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "eachPlantedOnce": true,
+    "rightTypes": true,
+    "noLookAlikes": true
+   }
+  },
+  {
+   "id": "m10",
+   "note": "m10-joint-steering-review.txt (4 planted events, 1 look-alikes)",
+   "input": [
+    "m10"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "eachPlantedOnce": true,
+    "rightTypes": true,
+    "noLookAlikes": true
+   }
+  }
+ ]
+}
