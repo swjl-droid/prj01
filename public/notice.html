@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PM copilot: terms and data notice</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 46rem; margin: 3rem auto; padding: 0 1rem; color: #1f2937; line-height: 1.5; }
+    h1 { font-size: 1.6rem; margin-bottom: 0.25rem; } h2 { font-size: 1.1rem; margin-top: 1.8rem; }
+    .meta { color: #6b7280; font-size: 0.9rem; }
+    .note { background: #fef3c7; padding: 0.7rem 1rem; border-radius: 6px; }
+    table { border-collapse: collapse; font-size: 0.9rem; width: 100%; }
+    th, td { border: 1px solid #d1d5db; padding: 0.35rem 0.5rem; text-align: left; vertical-align: top; }
+    th { background: #f3f4f6; }
+  </style>
+</head>
+<body>
+  <!-- prj01-R1 US-7. Source text: the Claude Doc 'PM copilot (prj01) - terms and data notice', kept in step with this page.
+       The version line below is checked by test/notice.test.js. -->
+  <h1>PM copilot: terms and data notice</h1>
+  <p class="meta" id="version">Version v0.1 (draft), 27 November 2026 (Singapore time). Web app of the PM copilot prototype (prj01).</p>
+  <p class="note">This is a prototype. Release 1 is used by one person with synthetic data only. Before it is opened to other project managers, this notice will be reviewed by someone qualified in Singapore law.</p>
+
+  <h2 id="s1">1. Who runs it</h2>
+  <p>John runs the PM copilot as a private, non-commercial prototype in Singapore. It is a personal build, not a company product, and nobody is charged for it. Questions go to John at [contact e-mail to add].</p>
+
+  <h2 id="s2">2. What it is</h2>
+  <p>The PM copilot is a web app that helps a project manager with meeting admin. You sign in, import a project schedule, and drop a meeting transcript. The copilot files it under the right project, drafts the minutes, and proposes new RAIDD entries (risks, assumptions, issues, dependencies, decisions).</p>
+  <ul>
+    <li><strong>AI writes the drafts.</strong> Minutes and RAIDD proposals are written by an AI model (Claude, by Anthropic). Every point in the minutes links to the transcript quote it comes from, so you can check it.</li>
+    <li><strong>You decide.</strong> Nothing enters your RAIDD register until you approve it. You can approve, reject or edit each proposal, and each choice is recorded with your name and the date.</li>
+    <li><strong>What it never does.</strong> It sends no e-mail or message on your behalf, changes no file outside the app, and makes no payment.</li>
+  </ul>
+
+  <h2 id="s3">3. What data it keeps, and why</h2>
+  <p>The copilot keeps only what it needs to run the features you use.</p>
+  <table>
+    <tr><th>Data</th><th>What exactly</th><th>Why</th></tr>
+    <tr><td>Your account</td><td>E-mail address, password (stored only as a scrambled hash, never readable), sign-up and sign-in times</td><td>To let you in and keep others out</td></tr>
+    <tr><td>Your organisation</td><td>Organisation name, who is a member, each member's role (owner or member)</td><td>So you see only your organisation's projects</td></tr>
+    <tr><td>Projects and schedules</td><td>Project name, method, summary and dates; imported tasks with their dates, owners, links and the file name</td><td>To match transcripts to projects and to read your plan</td></tr>
+    <tr><td>Transcripts</td><td>The full text you drop or paste, its file name, a fingerprint to spot duplicates, the project it was matched to, who uploaded it and when</td><td>To draft minutes and RAIDD proposals</td></tr>
+    <tr><td>Minutes and RAIDD (from this release)</td><td>Draft minutes, RAIDD proposals, your approvals, rejections and edits with your name and the date, and your like or dislike as feedback</td><td>To keep your register and to improve the drafts</td></tr>
+    <tr><td>Cost records</td><td>For each AI call: model, tokens, cost and timing, with no content</td><td>To keep the running cost known</td></tr>
+  </table>
+  <p><strong>Not kept:</strong> advertising or tracking cookies (your sign-in lives only in the open browser tab), data from other apps, and anything you do not drop or type into the copilot.</p>
+  <p><strong>Release 1 uses synthetic data only:</strong> a made-up sample programme loaded at your first sign-in, plus mock schedules and transcripts. No real client data is used.</p>
+
+  <h2 id="s4">4. Where data goes</h2>
+  <p>Your data is stored in Singapore. Some text leaves Singapore to be processed, as listed below.</p>
+  <table>
+    <tr><th>Service</th><th>What it receives</th><th>Where</th></tr>
+    <tr><td>Supabase (database and sign-in)</td><td>Everything in section 3; it also sends the sign-up confirmation e-mail. Each organisation can reach only its own data.</td><td>Singapore</td></tr>
+    <tr><td>Vercel (hosting)</td><td>Runs the app and keeps short technical logs (no transcript text)</td><td>Singapore</td></tr>
+    <tr><td>Anthropic (AI model, Claude)</td><td>The transcript and project text needed for each draft</td><td>Outside Singapore; under Anthropic's API terms it is not used to train models</td></tr>
+    <tr><td>Langfuse (AI monitoring)</td><td>A record of each AI call, with e-mail addresses, phone numbers, NRIC numbers and given names masked before sending</td><td>European Union (Ireland)</td></tr>
+    <tr id="voyage"><td>Voyage AI (text search)</td><td>Not used in release 1. If text search is switched on later, short pieces of project text are sent to it</td><td><strong>Any region:</strong> Voyage may process text in any country, and this cannot be fixed to one place on the plan in use</td></tr>
+  </table>
+  <p>No data is sold or shared for advertising. Later releases may add a Google Drive picker, which reaches only the files you pick yourself.</p>
+
+  <h2 id="s5">5. Trial and end</h2>
+  <p>The prototype may change or stop at any time. If it stops, all data is deleted within 30 days.</p>
+  <p><strong>For trial users (when the copilot opens to other PMs):</strong></p>
+  <ol>
+    <li>A trial starts when John approves your account.</li>
+    <li>It ends at whichever comes first: 14 days, or the trial's cost limit. You get a warning when 80 % of the trial is used.</li>
+    <li>After it ends, your data stays read-only for 30 days. During that time you can export it, ask to be forgotten, or ask John for an extension.</li>
+    <li>Unless the trial is extended, all of your organisation's data is deleted 30 days after the trial ends. Backup copies disappear within 7 days after that.</li>
+  </ol>
+
+  <h2 id="s6">6. Your rights</h2>
+  <ul>
+    <li><strong>Be forgotten.</strong> Press "Forget me" in the app. Your account is deleted at once.
+      <ul>
+        <li>If you are the only member of your organisation, all of its projects, schedules, transcripts, minutes and RAIDD entries are deleted too.</li>
+        <li>If others remain, the shared work stays with the organisation, but your name is removed from it (shown as a former member).</li>
+        <li>Cost and audit records are kept for accounting, with every link to you removed.</li>
+        <li>AI monitoring records that carry your user number are deleted by John in Langfuse.</li>
+      </ul>
+    </li>
+    <li><strong>Ask another way.</strong> A request sent to John is answered within 7 days.</li>
+    <li><strong>Backups.</strong> Copies in the database provider's backups disappear within 7 days.</li>
+    <li><strong>Know what is kept.</strong> Ask John for what the copilot keeps about you. A one-click export comes before the copilot opens to other PMs.</li>
+    <li><strong>See this notice again.</strong> It is linked from the sign-in page.</li>
+  </ul>
+
+  <h2 id="s7">7. What not to upload</h2>
+  <p>Please use made-up or non-confidential material. Do not upload:</p>
+  <ul>
+    <li>client-confidential documents or transcripts of confidential client meetings</li>
+    <li>passwords, bank or card details, or NRIC and passport numbers</li>
+    <li>health information or other sensitive personal data</li>
+    <li>material you are not allowed to share with the services in section 4</li>
+  </ul>
+  <p>If something like this is uploaded by mistake, tell John so he removes it, or use "Forget me".</p>
+
+  <h2 id="s8">8. Children</h2>
+  <p>The PM copilot is for adults at work. It is not meant for anyone under 18, and it should hold no information about children.</p>
+
+  <h2 id="s9">9. Limits and responsibility</h2>
+  <p>This is a prototype, offered free and as it is.</p>
+  <ul>
+    <li><strong>Drafts can be wrong.</strong> AI minutes and RAIDD proposals may miss points, misread a quote or put an item in the wrong category. Check each draft against its linked quote before you use it.</li>
+    <li><strong>You stay responsible.</strong> Your minutes, your register and your project decisions remain yours. The copilot is a helper, not a project manager or professional adviser.</li>
+    <li><strong>No guarantee of service.</strong> The app may be slow, unavailable, changed or stopped without notice, and data may be lost. Keep your own copy of anything important.</li>
+    <li><strong>Liability.</strong> To the extent the law allows, John is not liable for any loss caused by using the prototype or relying on its drafts. Nothing here limits a liability that Singapore law does not allow to be limited.</li>
+  </ul>
+
+  <h2 id="s10">10. Changes and contact</h2>
+  <p>Each version of this notice carries a number and a date. When it changes in a way that matters, the copilot shows the new version at sign-in, and you accept it before going on. Questions, requests and complaints go to John at [contact e-mail to add].</p>
+
+  <p class="meta"><a href="/">Back to the PM copilot</a></p>
+</body>
+</html>
