@@ -77,9 +77,32 @@ async function minutes(gateway, m) {
   return { minutes: r.minutes, checks: r.checks, template: r.template, model: r.model, calls: r.calls, costUsd: r.costUsd };
 }
 
+// Tiny calls that differ in one setting, to find which one the API refuses (the gateway reports the
+// error type only, never the API's message).
+async function probe(gateway) {
+  const tiny = { name: 'say', description: 'Say a word', input_schema: { type: 'object', properties: { w: { type: 'string' } }, required: ['w'] } };
+  const base = { max_tokens: 50, messages: [{ role: 'user', content: 'Say ok.' }] };
+  const variants = {
+    haiku_plain: { model: 'claude-haiku-5-5' },
+    sonnet_plain: { model: 'claude-sonnet-5-5' },
+    opus_plain: { model: 'claude-opus-5-5' },
+    sonnet_tool_auto: { model: 'claude-sonnet-5-5', tools: [tiny] },
+    sonnet_tool_forced: { model: 'claude-sonnet-5-5', tools: [tiny], tool_choice: { type: 'tool', name: 'say' } },
+    sonnet_tool_any: { model: 'claude-sonnet-5-5', tools: [tiny], tool_choice: { type: 'any' } },
+    sonnet_6000: { model: 'claude-sonnet-5-5', max_tokens: 6000 },
+    opus_12000: { model: 'claude-opus-5-5', max_tokens: 12000 },
+  };
+  const out = {};
+  for (const [k, v] of Object.entries(variants)) {
+    try { const r = await gateway.call({ purpose: 'eval-probe', ...base, ...v }); out[k] = { ok: true, stop: r.message.stop_reason, costUsd: r.costUsd }; } catch (e) { out[k] = { ok: false, errorType: e.type, status: e.status ?? null }; }
+  }
+  return { probe: out };
+}
+
 export async function GET(request) {
   if (process.env.VERCEL_ENV !== 'preview') return new Response('Not found', { status: 404 });
   const url = new URL(request.url);
+  if (url.searchParams.get('task') === 'probe') return Response.json(await probe(createGateway({ app: 'prj01' })));
   const m = spec.meetings.find((x) => x.id === url.searchParams.get('case'));
   const task = url.searchParams.get('task');
   if (!m || !['dialogue', 'minutes'].includes(task)) return Response.json({ ok: false, error: 'task=dialogue|minutes and case=m01..m10' }, { status: 400 });
