@@ -63,7 +63,7 @@ async function dialogue(gateway, m) {
   const results = await Promise.all(halves.map(([half, topics]) => gateway.call({
     purpose: 'eval-mock-dialogue', model: DIALOGUE_MODEL, max_tokens: 6000,
     messages: [{ role: 'user', content: dialoguePrompt(m, topics, half) }],
-    tools: [dialogueTool], tool_choice: { type: 'tool', name: 'record_dialogue' },
+    tools: [dialogueTool],
   })));
   const lines = results.flatMap((r) => r.message.content.find((c) => c.type === 'tool_use')?.input?.lines ?? []);
   return { lines, calls: results.map((r) => ({ costUsd: r.costUsd, latencyMs: r.latencyMs, usage: r.usage, traceId: r.traceId, logged: r.logged })) };

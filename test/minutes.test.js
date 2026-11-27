@@ -97,14 +97,15 @@ function fakeGateway(answers) {
   };
 }
 
-test('draft: forced tool call with the template; a failed check gets one repair round', async () => {
+test('draft: tool call with the template; a failed check gets one repair round', async () => {
   const bad = good();
   bad.topics[0].summary[0].quotes[0].text = 'the quote was forty-two thousand dollars';
   const gw = fakeGateway([bad, good()]);
   const r = await draftMinutes({ gateway: gw, raw: VTT, project, source: 'sync.vtt' });
   assert.equal(gw.seen.length, 2);
   assert.equal(gw.seen[0].model, 'claude-opus-5-5');
-  assert.deepEqual(gw.seen[0].tool_choice, { type: 'tool', name: 'record_minutes' });
+  assert.equal(gw.seen[0].tools[0].name, 'record_minutes');
+  assert.equal(gw.seen[0].tool_choice, undefined); // the API refuses a forced tool on these models
   assert.match(gw.seen[0].system, /Write only what was said in the meeting/);
   assert.equal(gw.seen[1].purpose, 'minutes-repair');
   assert.match(gw.seen[1].messages.at(-1).content[0].content, /is not in line 2 nor anywhere/);
