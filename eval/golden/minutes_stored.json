@@ -1,0 +1,157 @@
+{
+ "set": "Minutes from mock 30-minute meetings (prj01-R1 US-4): the stored Opus 5.5 minutes still pass the code checks against their transcripts (every quote found, every point quoted), have one topic per agenda topic and cite at least 80 % of the planted RAIDD lines",
+ "target": "lib/minutes/check.js#storedMinutes",
+ "threshold": 1,
+ "cases": [
+  {
+   "id": "m01",
+   "note": "m01-clinic-weekly-sync.txt",
+   "input": [
+    "m01"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "checksOk": true,
+    "quotesMissing": 0,
+    "everyPointQuoted": true,
+    "topicsMatchMeeting": true,
+    "plantedRaiddCitedAtLeast80": true
+   }
+  },
+  {
+   "id": "m02",
+   "note": "m02-fitout-project-board.vtt",
+   "input": [
+    "m02"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "checksOk": true,
+    "quotesMissing": 0,
+    "everyPointQuoted": true,
+    "topicsMatchMeeting": true,
+    "plantedRaiddCitedAtLeast80": true
+   }
+  },
+  {
+   "id": "m03",
+   "note": "m03-portal-sprint-review.srt",
+   "input": [
+    "m03"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "checksOk": true,
+    "quotesMissing": 0,
+    "everyPointQuoted": true,
+    "topicsMatchMeeting": true,
+    "plantedRaiddCitedAtLeast80": true
+   }
+  },
+  {
+   "id": "m04",
+   "note": "m04-clinic-weekly-sync.vtt",
+   "input": [
+    "m04"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "checksOk": true,
+    "quotesMissing": 0,
+    "everyPointQuoted": true,
+    "topicsMatchMeeting": true,
+    "plantedRaiddCitedAtLeast80": true
+   }
+  },
+  {
+   "id": "m05",
+   "note": "m05-clinic-staff-readiness.txt",
+   "input": [
+    "m05"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "checksOk": true,
+    "quotesMissing": 0,
+    "everyPointQuoted": true,
+    "topicsMatchMeeting": true,
+    "plantedRaiddCitedAtLeast80": true
+   }
+  },
+  {
+   "id": "m06",
+   "note": "m06-portal-backlog-refinement.vtt",
+   "input": [
+    "m06"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "checksOk": true,
+    "quotesMissing": 0,
+    "everyPointQuoted": true,
+    "topicsMatchMeeting": true,
+    "plantedRaiddCitedAtLeast80": true
+   }
+  },
+  {
+   "id": "m07",
+   "note": "m07-fitout-highlight-review.srt",
+   "input": [
+    "m07"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "checksOk": true,
+    "quotesMissing": 0,
+    "everyPointQuoted": true,
+    "topicsMatchMeeting": true,
+    "plantedRaiddCitedAtLeast80": true
+   }
+  },
+  {
+   "id": "m08",
+   "note": "m08-portal-sprint-review.vtt",
+   "input": [
+    "m08"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "checksOk": true,
+    "quotesMissing": 0,
+    "everyPointQuoted": true,
+    "topicsMatchMeeting": true,
+    "plantedRaiddCitedAtLeast80": true
+   }
+  },
+  {
+   "id": "m09",
+   "note": "m09-clinic-steering.vtt",
+   "input": [
+    "m09"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "checksOk": true,
+    "quotesMissing": 0,
+    "everyPointQuoted": true,
+    "topicsMatchMeeting": true,
+    "plantedRaiddCitedAtLeast80": true
+   }
+  },
+  {
+   "id": "m10",
+   "note": "m10-joint-steering-review.txt",
+   "input": [
+    "m10"
+   ],
+   "scorer": "equal",
+   "expect": {
+    "checksOk": true,
+    "quotesMissing": 0,
+    "everyPointQuoted": true,
+    "topicsMatchMeeting": true,
+    "plantedRaiddCitedAtLeast80": true
+   }
+  }
+ ]
+}

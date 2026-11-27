@@ -34,3 +34,15 @@ Build repo for the PM copilot (ADR-03: one platform repo, plus one repo per buil
   Weights, threshold, gap and runner-up share are settings in `lib/intake/match-settings.json`. When
   no project or two projects fit, it asks "Which project?" and files the transcript once the PM picks.
   Mock transcripts: `samples/transcripts` (golden set `transcript_match`).
+- **Minutes from a transcript (US-4):** "Minutes" on a filed transcript drafts them with Claude Opus 5.5
+  through the gateway (AI-L15 decision): numbered topics, each with its discussion and actions, every
+  point backed by quotes from the transcript. The template is data (`lib/minutes/template.json`, from
+  John's AI-L07 rubric); model and limits in `lib/minutes/settings.json`. Code checks every quote word
+  for word against the line it cites (`lib/minutes/verify.js`) and asks the model once to repair a
+  failed check. Minutes are stored as a draft (`app_prj01.minutes`, a new version per redraft) and the
+  PM approves them. The API refuses a forced tool choice on these models, so the tool is on auto and
+  an answer without it is a failure.
+- **Mock meetings:** `samples/meetings` holds 10 mock 30-minute meetings (specs written by hand,
+  discussion by Sonnet 5.5 kept in `dialogue/`, noise added by `node scripts/make-mock-meetings.mjs`),
+  their golden file and the evaluation minutes (`minutes/`). Golden set `minutes_stored` re-checks the
+  stored minutes in CI. `api/eval.js` (previews only) writes dialogue and drafts evaluation minutes.

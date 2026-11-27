@@ -1,0 +1,317 @@
+{
+ "ok": true,
+ "task": "minutes",
+ "case": "m07",
+ "ms": 28849,
+ "minutes": {
+  "meeting": {
+   "title": "Regional office fit-out – highlight review",
+   "attendees": [
+    "Ravi Kumar",
+    "Grace Koh",
+    "Wei Ling Tan",
+    "Jonas Weber"
+   ],
+   "date": ""
+  },
+  "topics": [
+   {
+    "title": "Landlord approval",
+    "summary": [
+     {
+      "text": "The landlord did not give approval by the 13th. They now say the 20th of December, which is a week late.",
+      "quotes": [
+       {
+        "line": 29,
+        "text": "The landlord didn't approve by the thirteenth, they now say the twentieth of December, a week late.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Because of this, Kemlite's start on site moves from the 28th of December to the 4th of January.",
+      "quotes": [
+       {
+        "line": 40,
+        "text": "That pushes Kemlite's start on site to the fourth of January instead of the twenty eighth of December.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The delay is inside the two-week stage time tolerance, so no exception report is needed yet. Jonas pointed out that it already uses half of the tolerance. The group agreed to watch how much of the two weeks it takes.",
+      "quotes": [
+       {
+        "line": 50,
+        "text": "It's within the stage time tolerance of two weeks, so no exception report yet.",
+        "found": true
+       },
+       {
+        "line": 55,
+        "text": "It's inside the tolerance, but basically it's already using up half of it.",
+        "found": true
+       },
+       {
+        "line": 61,
+        "text": "It's inside, and we can um see how much of the two weeks it takes.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": []
+   },
+   {
+    "title": "IT install weeks",
+    "summary": [
+     {
+      "text": "The IT director gave the project the third and fourth weeks of January instead of the second and third, because the portal team has the second week.",
+      "quotes": [
+       {
+        "line": 77,
+        "text": "The IT director gave us the third and fourth week of January, not the second and third, because the portal team has the second week.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The new weeks still work with Kemlite starting on the 4th of January, because cabling can go in after the first fix. There is no clash on the current information.",
+      "quotes": [
+       {
+        "line": 102,
+        "text": "Yes, cabling can um go in after the first fix, so third and fourth week is fine.",
+        "found": true
+       },
+       {
+        "line": 114,
+        "text": "It doesn't. Not on what we have.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": []
+   },
+   {
+    "title": "Furniture order",
+    "summary": [
+     {
+      "text": "The standard desks were ordered on the 3rd. They arrive in the second week of February, before the move-in.",
+      "quotes": [
+       {
+        "line": 124,
+        "text": "The standard desks were ordered on the third, so they arrive in basically the second week of February, before the move-in.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The desk risk is now much lower. The meeting room tables are still open.",
+      "quotes": [
+       {
+        "line": 140,
+        "text": "So the desk risk is much lower now. Only the meeting room tables are still open.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Keep the meeting room tables on watch.",
+      "owner": "Wei Ling Tan",
+      "due": "",
+      "quotes": [
+       {
+        "line": 152,
+        "text": "Keep the tables kind of on watch.",
+        "found": true
+       },
+       {
+        "line": 153,
+        "text": "Understood.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Kemlite mobilisation",
+    "summary": [
+     {
+      "text": "Kemlite signed the contract on the 5th. Their site manager is Halim, and he will be at the next board.",
+      "quotes": [
+       {
+        "line": 160,
+        "text": "Kemlite signed the contract on the fifth. Their site manager is Halim, he'll be at the next board.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Grace asked for Halim to bring a three-week look-ahead to the board, so the group can see something concrete. The request should be friendly.",
+      "quotes": [
+       {
+        "line": 175,
+        "text": "ask kind of Halim to bring the three-week look-ahead to that meeting",
+        "found": true
+       },
+       {
+        "line": 188,
+        "text": "Yes, of course. I'll keep it friendly.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Nobody knew whether the board will be in person or on video. This was left open as a small point.",
+      "quotes": [
+       {
+        "line": 194,
+        "text": "But let's not settle that now, it's a small point.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Ask Halim to bring the three-week look-ahead to the next board.",
+      "owner": "Ravi Kumar",
+      "due": "next board",
+      "quotes": [
+       {
+        "line": 176,
+        "text": "Will do.",
+        "found": true
+       },
+       {
+        "line": 286,
+        "text": "I'll ask him to bring the three-week look-ahead.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Fire safety certificate",
+    "summary": [
+     {
+      "text": "New item: the SCDF fire safety certificate is needed before anyone can occupy the floor. Inspections are booking six weeks out.",
+      "quotes": [
+       {
+        "line": 201,
+        "text": "We need the SCDF fire safety certificate before anyone can occupy the floor, and inspections are booking six weeks out.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "If the inspection is not booked by early January, the move-in might not happen on time. This is a risk, not a certainty.",
+      "quotes": [
+       {
+        "line": 229,
+        "text": "If we don't book the inspection by early January, we might not be allowed to move in on time.",
+        "found": true
+       },
+       {
+        "line": 239,
+        "text": "It's a risk, not a certainty.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The group agreed the application should go through Kemlite, as they will be on site. Ravi will ask them, but they have not agreed yet.",
+      "quotes": [
+       {
+        "line": 243,
+        "text": "Kemlite are the ones about to be on site, so it makes sense to me for it to go through them.",
+        "found": true
+       },
+       {
+        "line": 253,
+        "text": "I'll ask. I'm not telling you they've said yes, because I haven't asked yet.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The certificate application is kept separate from the look-ahead request to Halim.",
+      "quotes": [
+       {
+        "line": 260,
+        "text": "I'm not adding it to the look-ahead request, though.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Ask Kemlite to submit the fire safety certificate application.",
+      "owner": "Ravi Kumar",
+      "due": "as soon as they mobilise",
+      "quotes": [
+       {
+        "line": 250,
+        "text": "I'll ask Kemlite to submit the application as soon as they mobilise.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "checks": {
+  "ok": true,
+  "problems": [],
+  "stats": {
+   "quotes": 25,
+   "exact": 25,
+   "relocated": 0,
+   "missing": 0,
+   "points": 14,
+   "actions": 3
+  }
+ },
+ "template": {
+  "id": "default",
+  "version": 2
+ },
+ "model": "claude-opus-5-5",
+ "calls": [
+  {
+   "round": 0,
+   "costUsd": 0.132132,
+   "latencyMs": 27936,
+   "usage": {
+    "input_tokens": 15018,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 3603,
+    "output_tokens_details": {
+     "thinking_tokens": 1548
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   },
+   "traceId": "d883fe7b1e71433599998827ec6b09df",
+   "logged": {
+    "ledger": true,
+    "trace": true,
+    "traceContent": "masked",
+    "gatewayVersion": "1.0.0"
+   }
+  }
+ ],
+ "costUsd": 0.132132
+}

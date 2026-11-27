@@ -149,6 +149,14 @@
       if (d) { downloadSchedule(d.dataset.download); return; }
       var tl = ev.target.closest('[data-transcripts]');
       if (tl) { toggleTranscripts(tl.dataset.transcripts); return; }
+      var mi = ev.target.closest('[data-minutes]');
+      if (mi) { toggleMinutes(mi.dataset.minutes); return; }
+      var dm = ev.target.closest('[data-draft]');
+      if (dm) { draftMinutes(dm.dataset.draft); return; }
+      var ap = ev.target.closest('[data-approve]');
+      if (ap) { approveMinutes(ap.dataset.approve, ap.dataset.tid); return; }
+      var q = ev.target.closest('[data-qline]');
+      if (q) { showQuote(q); return; }
       var go = ev.target.closest('[data-import]');
       if (go) { runImport(go.dataset.import); }
     });
@@ -317,7 +325,8 @@
         box.innerHTML = d.transcripts.length ? d.transcripts.map(function (t) {
           var move = others.length ? ' <select data-other="' + esc(t.id) + '" aria-label="Move to another project"><option value="">Move to another project...</option>' +
             others.map(function (p) { return '<option value="' + esc(p.id) + '">' + esc(p.name) + '</option>'; }).join('') + '</select>' : '';
-          return '<div class="result">' + esc(t.source_name) + ' <span class="tag">' + esc(t.status) + '</span> ' + esc(String(t.created_at).slice(0, 10)) + move + '</div>';
+          return '<div class="result">' + esc(t.source_name) + ' <span class="tag">' + esc(t.status) + '</span> ' + esc(String(t.created_at).slice(0, 10)) + move +
+            ' <button class="secondary small" type="button" data-minutes="' + esc(t.id) + '">Minutes</button><div id="mi-' + esc(t.id) + '" class="hidden"></div></div>';
         }).join('') : '<p class="muted">No transcript filed here yet.</p>';
       } catch (e) { box.innerHTML = '<p class="bad">' + esc(e.message) + '</p>'; }
     }
@@ -327,6 +336,63 @@
         var box = $('tr-' + p.id);
         if (box && !box.classList.contains('hidden')) showTranscripts(p.id);
       });
+    }
+
+
+    // ---------- Minutes (prj01-R1 US-4): every point with the transcript lines it comes from ----------
+    var minutesLines = {};
+    async function toggleMinutes(tid) {
+      var box = $('mi-' + tid);
+      if (!box.classList.contains('hidden')) { box.classList.add('hidden'); return; }
+      box.classList.remove('hidden');
+      box.innerHTML = '<p class="muted">Loading the minutes...</p>';
+      try {
+        var d = await api('/api/minutes?transcriptId=' + encodeURIComponent(tid));
+        minutesLines[tid] = d.lines;
+        box.innerHTML = d.minutes ? renderMinutes(tid, d.minutes) : '<p class="muted">No minutes yet.</p><button class="small" type="button" data-draft="' + esc(tid) + '">Draft minutes</button>';
+      } catch (e) { box.innerHTML = '<p class="bad">' + esc(e.message) + '</p>'; }
+    }
+    async function draftMinutes(tid) {
+      var box = $('mi-' + tid);
+      box.innerHTML = '<p class="muted">Drafting the minutes, about half a minute...</p>';
+      try {
+        var d = await api('/api/minutes', { method: 'POST', body: { transcriptId: tid } });
+        minutesLines[tid] = d.lines;
+        box.innerHTML = renderMinutes(tid, d.minutes);
+      } catch (e) { box.innerHTML = '<p class="bad">' + esc(e.message) + '</p><button class="small" type="button" data-draft="' + esc(tid) + '">Try again</button>'; }
+    }
+    async function approveMinutes(id, tid) {
+      try {
+        await api('/api/minutes', { method: 'POST', body: { action: 'approve', id: id } });
+        var box = $('mi-' + tid); box.classList.add('hidden'); toggleMinutes(tid);
+      } catch (e) { say(e.message); }
+    }
+    function chips(tid, quotes) {
+      return quotes.map(function (q) { return '<button class="secondary small" type="button" data-qline="' + Number(q.line) + '" data-tid="' + esc(tid) + '" title="' + esc(q.text) + '">L' + Number(q.line) + '</button>'; }).join(' ');
+    }
+    function renderMinutes(tid, m) {
+      var c = m.content || {}, meet = c.meeting || {}, k = (m.checks && m.checks.stats) || {};
+      var head = '<div class="card"><h3>' + esc(meet.title || 'Minutes') + ' <span class="tag">' + esc(m.status) + '</span> <span class="tag">v' + esc(m.version) + '</span></h3>' +
+        '<p class="muted">Attendees: ' + esc((meet.attendees || []).join(', ') || 'not stated') + '. Quotes checked: ' + esc((k.exact || 0) + (k.relocated || 0)) + ' of ' + esc(k.quotes || 0) +
+        ' found in the transcript' + (m.checks && m.checks.ok ? '' : ' (some checks failed)') + '. ' + esc(m.model) + ', template ' + esc(m.template) + '.</p>';
+      var body = (c.topics || []).map(function (t, i) {
+        return '<h4>' + (i + 1) + '. ' + esc(t.title) + '</h4><p><strong>Discussion</strong></p><ul>' +
+          t.summary.map(function (p) { return '<li>' + esc(p.text) + ' ' + chips(tid, p.quotes) + '<div class="qbox"></div></li>'; }).join('') +
+          '</ul><p><strong>Actions</strong></p><ul>' + (t.actions.length ? t.actions.map(function (a) {
+            return '<li>' + esc(a.text) + ' <span class="muted">(owner: ' + esc(a.owner || 'not stated') + (a.due ? ', due: ' + esc(a.due) : '') + ')</span> ' + chips(tid, a.quotes) + '<div class="qbox"></div></li>';
+          }).join('') : '<li class="muted">None agreed.</li>') + '</ul>';
+      }).join('');
+      var foot = m.status === 'draft'
+        ? '<div><button class="small" type="button" data-approve="' + esc(m.id) + '" data-tid="' + esc(tid) + '">Approve these minutes</button> <button class="secondary small" type="button" data-draft="' + esc(tid) + '">Draft again</button></div>'
+        : '<p class="ok">Approved ' + esc(String(m.approved_at).slice(0, 10)) + '.</p>';
+      return head + body + foot + '</div>';
+    }
+    function showQuote(btn) {
+      var lines = minutesLines[btn.dataset.tid] || [];
+      var n = Number(btn.dataset.qline);
+      var l = lines.find(function (x) { return x.n === n; });
+      var box = btn.parentElement.querySelector('.qbox');
+      box.innerHTML = l ? '<p class="muted">L' + n + (l.time ? ' (' + esc(l.time) + ')' : '') + ' ' + esc(l.speaker || 'Unknown') + ': ' + esc(l.text) + '</p>' : '';
     }
 
     $('signout').addEventListener('click', async function () {

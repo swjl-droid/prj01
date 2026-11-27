@@ -7,6 +7,9 @@
     "api/eval.js": {
       "maxDuration": 300,
       "includeFiles": "samples/meetings/**"
+    },
+    "api/minutes.js": {
+      "maxDuration": 300
     }
   }
 }

@@ -1,0 +1,430 @@
+{
+ "ok": true,
+ "task": "minutes",
+ "case": "m05",
+ "ms": 34293,
+ "minutes": {
+  "meeting": {
+   "title": "Clinic relocation – staff readiness",
+   "attendees": [
+    "Siti Rahman",
+    "Benjamin Teo (Ben)",
+    "Kavitha Pillai (Sister Kavitha)",
+    "Priya Raman",
+    "Speaker 5 (IT, dial-in)"
+   ],
+   "date": ""
+  },
+  "topics": [
+   {
+    "title": "Patient letters about the new address",
+    "summary": [
+     {
+      "text": "About three thousand active patients will get a letter four weeks before the move and an SMS one week before. The three thousand covers active patients only.",
+      "quotes": [
+       {
+        "line": 53,
+        "text": "We have about three thousand active patients. Letters go out four weeks before the move, plus an SMS a week before.",
+        "found": true
+       },
+       {
+        "line": 55,
+        "text": "Right, active ones.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The letter is the proper notice and the text is a reminder. The text only reaches patients whose phone number is correct.",
+      "quotes": [
+       {
+        "line": 106,
+        "text": "The letter is the safety net, really, and the text is uh the extra.",
+        "found": true
+       },
+       {
+        "line": 103,
+        "text": "The text only helps people whose number we have I mean right, doesn't it?",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The plan assumes mail forwarding from the old address works for at least three months, so late letters still arrive. Nobody has checked this with the post office; it is closer to a guess.",
+      "quotes": [
+       {
+        "line": 71,
+        "text": "We're assuming the old address forwarding like works for at least three months, so late letters still arrive.",
+        "found": true
+       },
+       {
+        "line": 82,
+        "text": "Honestly, Honestly, it's closer to the second.",
+        "found": true
+       },
+       {
+        "line": 87,
+        "text": "Has anyone like actually checked that with the post office?",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Check the mail forwarding assumption (at least three months) with the post office.",
+      "owner": "Siti Rahman",
+      "due": "",
+      "quotes": [
+       {
+        "line": 90,
+        "text": "I'll check it.",
+        "found": true
+       },
+       {
+        "line": 114,
+        "text": "the forwarding assumption that I'm going to check",
+        "found": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Pharmacy vaccine fridge",
+    "summary": [
+     {
+      "text": "If the vaccine fridge is off for more than two hours, the stock (about eighteen thousand dollars of vaccines) has to be thrown away. Any time the fridge is not holding temperature counts, including while it is being moved.",
+      "quotes": [
+       {
+        "line": 122,
+        "text": "The vaccine fridge can't be off for more than two hours or we have to throw away the stock, about eighteen thousand dollars of vaccines.",
+        "found": true
+       },
+       {
+        "line": 130,
+        "text": "Any time it's not holding um temperature counts.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The risk: the backup power for the fridge circuit in the new building is not commissioned yet, so a power trip on move day would lose the stock. Leaving the fridge behind is not an option.",
+      "quotes": [
+       {
+        "line": 134,
+        "text": "The new building's backup power for the fridge circuit isn't commissioned yet, so if the power trips on move day we lose kind of the stock.",
+        "found": true
+       },
+       {
+        "line": 152,
+        "text": "It isn't really an option to leave it. It has to come across.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Agreed: the vaccines move separately in cool boxes with temperature loggers. The risk stays on the risk log because the backup power is still not commissioned.",
+      "quotes": [
+       {
+        "line": 173,
+        "text": "The plan helps, but the kind of backup still isn't commissioned.",
+        "found": true
+       },
+       {
+        "line": 175,
+        "text": "The risk stays on I mean the log, and the cool box run is what we're planning to do about it.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Plan a separate cool box run for the vaccines, with temperature loggers, apart from the general move.",
+      "owner": "Ben",
+      "due": "",
+      "quotes": [
+       {
+        "line": 157,
+        "text": "I'll plan a separate cool box run with temperature loggers.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Add the uncommissioned backup power for the fridge circuit to the risk log.",
+      "owner": "",
+      "due": "",
+      "quotes": [
+       {
+        "line": 156,
+        "text": "That one goes on the risk log for sure.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Training on the new rooms",
+    "summary": [
+     {
+      "text": "Staff need a walkthrough of the new building before day one, especially the emergency exits and where the resus trolley is.",
+      "quotes": [
+       {
+        "line": 191,
+        "text": "Staff need a walkthrough of the new building before day one, the emergency exits and uh the resus trolley location especially.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Siti confirmed what was agreed earlier: two walkthrough sessions in the week before cutover, mandatory for clinical staff. Two sessions let people fit one around their shifts.",
+      "quotes": [
+       {
+        "line": 204,
+        "text": "We agreed two walkthrough sessions in uh the week before cutover, mandatory for clinical staff.",
+        "found": true
+       },
+       {
+        "line": 210,
+        "text": "so people can fit one in around their shifts.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Ben asked about non-clinical staff. Nothing was decided beyond making the sessions mandatory for clinical staff.",
+      "quotes": [
+       {
+        "line": 217,
+        "text": "What we agreed was mandatory for clinical staff. I don't want to add anything beyond that right now.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Hold two walkthrough sessions, mandatory for clinical staff, covering emergency exits and the resus trolley location.",
+      "owner": "",
+      "due": "the week before cutover",
+      "quotes": [
+       {
+        "line": 232,
+        "text": "two mandatory walkthroughs in the week before cutover.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Staff parking",
+    "summary": [
+     {
+      "text": "The new building has only twenty season parking lots for staff, and thirty two staff drive today. The thirty two counts drivers only.",
+      "quotes": [
+       {
+        "line": 242,
+        "text": "The new building only has twenty season parking lots for staff and we have thirty two drivers today.",
+        "found": true
+       },
+       {
+        "line": 248,
+        "text": "Correct, drivers only.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "This is a current problem, not a possible one, and staff need to be told now.",
+      "quotes": [
+       {
+        "line": 262,
+        "text": "That's a problem um we already have, not a maybe. We need to tell staff now.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Priya will ask HR about subsidising the public car park next door. This is a question to HR, not a promise. Staff may hear about it only if it is made clear that it is a question.",
+      "quotes": [
+       {
+        "line": 277,
+        "text": "Right. Asking, not promising.",
+        "found": true
+       },
+       {
+        "line": 281,
+        "text": "as long I mean as we're clear it's a question and not an answer.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Still open: how the twenty lots will be handed out. Nobody at the meeting had an answer.",
+      "quotes": [
+       {
+        "line": 261,
+        "text": "Right, so that's an open question, we don't have an answer in the room.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Tell staff now: twenty lots, thirty two drivers, and HR is being asked about the public car park.",
+      "owner": "",
+      "due": "now",
+      "quotes": [
+       {
+        "line": 380,
+        "text": "On parking, there are twenty lots and thirty two drivers, and we need to tell staff now.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "When telling staff, word it carefully so the HR part is clearly only a question.",
+      "owner": "Kavitha",
+      "due": "",
+      "quotes": [
+       {
+        "line": 381,
+        "text": "And I'll be careful to say the HR part is uh only a question.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Ask HR whether the clinic can subsidise the public car park next door, and report back whatever they say.",
+      "owner": "Priya",
+      "due": "",
+      "quotes": [
+       {
+        "line": 272,
+        "text": "I'll ask HR whether we kind of can subsidise the public car park next door.",
+        "found": true
+       },
+       {
+        "line": 382,
+        "text": "I'll let you know what they say, whatever it is.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Phones",
+    "summary": [
+     {
+      "text": "The steps must happen in order: the landlord gives the telco riser access, then the new line goes live, then the main clinic number is ported.",
+      "quotes": [
+       {
+        "line": 307,
+        "text": "The main clinic number can only be ported once the new line is live, like and the telco needs the building's riser access first.",
+        "found": true
+       },
+       {
+        "line": 355,
+        "text": "Yes, Yes. In that order.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "The first step depends on the landlord, through Marcus, and is not in the team's hands.",
+      "quotes": [
+       {
+        "line": 330,
+        "text": "So the phone you know porting waits for the landlord to give the telco riser access.",
+        "found": true
+       },
+       {
+        "line": 358,
+        "text": "Right, Right. It's up to the landlord.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Kavitha raised what the front desk should tell patients in the meantime. There was no answer at the meeting.",
+      "quotes": [
+       {
+        "line": 341,
+        "text": "I don't think we've got an answer for that today, Kavitha.",
+        "found": true
+       }
+      ]
+     }
+    ],
+    "actions": [
+     {
+      "text": "Send the telco form to Marcus to pass to the landlord.",
+      "owner": "IT (Speaker 5)",
+      "due": "",
+      "quotes": [
+       {
+        "line": 331,
+        "text": "I'll send the telco form to Marcus for the landlord.",
+        "found": true
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "checks": {
+  "ok": true,
+  "problems": [],
+  "stats": {
+   "quotes": 38,
+   "exact": 38,
+   "relocated": 0,
+   "missing": 0,
+   "points": 16,
+   "actions": 8
+  }
+ },
+ "template": {
+  "id": "default",
+  "version": 2
+ },
+ "model": "claude-opus-5-5",
+ "calls": [
+  {
+   "round": 0,
+   "costUsd": 0.157248,
+   "latencyMs": 33414,
+   "usage": {
+    "input_tokens": 17952,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 4272,
+    "output_tokens_details": {
+     "thinking_tokens": 1369
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   },
+   "traceId": "3d518a8818834edf89b0f125f50385ef",
+   "logged": {
+    "ledger": true,
+    "trace": true,
+    "traceContent": "masked",
+    "gatewayVersion": "1.0.0"
+   }
+  }
+ ],
+ "costUsd": 0.157248
+}
