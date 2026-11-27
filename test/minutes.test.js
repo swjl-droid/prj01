@@ -66,6 +66,12 @@ test('exact quotes pass, with case, spacing and curly quotes ignored', () => {
   assert.equal(checks.stats.exact, 3);
 });
 
+test('a topic title loses the number the model put in front of it', () => {
+  const m = good();
+  m.topics[0].title = '1. Movers quote';
+  assert.equal(verifyMinutes(m, speechLines(VTT), template).minutes.topics[0].title, 'Movers quote');
+});
+
 test('a quote cited on the wrong line is moved to the line that has it', () => {
   const m = good();
   m.topics[0].summary[0].quotes[0].line = 5;
