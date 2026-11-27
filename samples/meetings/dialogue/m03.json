@@ -1,0 +1,1223 @@
+{
+ "case": "m03",
+ "model": "claude-sonnet-5-5",
+ "note": "Written through the gateway by GET /api/eval?task=dialogue; beats checked word for word.",
+ "lines": [
+  {
+   "who": "mei",
+   "text": "Hello, hello. Can people hear me okay?"
+  },
+  {
+   "who": "tom",
+   "text": "Yep, I can hear you. You're a bit quiet though, maybe it's just me."
+  },
+  {
+   "who": "mei",
+   "text": "Let me, hold on, I'll move the microphone closer. Is that better?"
+  },
+  {
+   "who": "tom",
+   "text": "Better, yeah. Much better."
+  },
+  {
+   "who": "ahmad",
+   "text": "Morning, everyone. Sorry, am I frozen? My picture's doing the thing where it just stops."
+  },
+  {
+   "who": "lisa",
+   "text": "You were frozen for a second, now you're moving. Mid-sentence, actually, you had your mouth open."
+  },
+  {
+   "who": "ahmad",
+   "text": "Great, so that's my look for the day. I'll turn my camera off and on again, one moment."
+  },
+  {
+   "who": "tom",
+   "text": "Classic. Switch it off and on. Works for everything."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay, back. Can you see me properly now?"
+  },
+  {
+   "who": "lisa",
+   "text": "Yes, crisp and clear. Hi, Ahmad."
+  },
+  {
+   "who": "mei",
+   "text": "Hi Lisa. Hi Tom. I think we're all here, that's four of us."
+  },
+  {
+   "who": "tom",
+   "text": "Sorry, I've got a slight echo on my side. Let me mute the other tab, I think the old meeting is still open somewhere."
+  },
+  {
+   "who": "lisa",
+   "text": "Yes, I can hear myself a little bit, a half-second late. Is that you, Tom?"
+  },
+  {
+   "who": "tom",
+   "text": "Probably. Hang on. Okay, found it, closed it. Is it gone?"
+  },
+  {
+   "who": "lisa",
+   "text": "Gone. Lovely."
+  },
+  {
+   "who": "ahmad",
+   "text": "Did everyone get through the week all right? It felt very long to me."
+  },
+  {
+   "who": "lisa",
+   "text": "It did. It's one of those weeks where Monday feels like a month ago."
+  },
+  {
+   "who": "tom",
+   "text": "Mm-hm. And it's gone dark so early now, I looked up at four o'clock and thought it was night."
+  },
+  {
+   "who": "mei",
+   "text": "Same here. I had the lamp on all afternoon."
+  },
+  {
+   "who": "ahmad",
+   "text": "I keep making coffee later and later in the day to cope. Not a good plan."
+  },
+  {
+   "who": "lisa",
+   "text": "That's exactly my plan, so I can't say anything."
+  },
+  {
+   "who": "tom",
+   "text": "Right, well, I've got mine here, so I'm ready."
+  },
+  {
+   "who": "mei",
+   "text": "Okay, shall we start? I'll share my screen in a second, it's just the sprint board, nothing fancy. Can you see it?"
+  },
+  {
+   "who": "lisa",
+   "text": "Not yet. Just a grey box with your name."
+  },
+  {
+   "who": "mei",
+   "text": "Ah. Let me stop and share again. There. Now?"
+  },
+  {
+   "who": "lisa",
+   "text": "Yes, there it is. A bit small but I can read it."
+  },
+  {
+   "who": "tom",
+   "text": "Same, it's readable."
+  },
+  {
+   "who": "mei",
+   "text": "Good. Right, thanks for joining everybody. We'll go through the sprint goal, the demo, the billing API, the pen test and the release cut-line."
+  },
+  {
+   "who": "ahmad",
+   "text": "Sounds good."
+  },
+  {
+   "who": "mei",
+   "text": "Sprint two goal was e-mail sign-up and viewing bills. Ahmad, demo please."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay. Let me share my screen as well, give me a moment, I need to stop yours, sorry Mei."
+  },
+  {
+   "who": "mei",
+   "text": "Go ahead, I've stopped. You should be able to share now."
+  },
+  {
+   "who": "ahmad",
+   "text": "Right, can you see the test site? The sign-up page with the portal logo on top?"
+  },
+  {
+   "who": "lisa",
+   "text": "Yes, I see it."
+  },
+  {
+   "who": "tom",
+   "text": "I see it too. The logo's a bit blurry but that's probably the video."
+  },
+  {
+   "who": "ahmad",
+   "text": "Probably the video, yes. So, I'll go through the sign-up now. I'm typing in an e-mail address, choosing a password, and pressing the button at the bottom."
+  },
+  {
+   "who": "lisa",
+   "text": "Mm-hm."
+  },
+  {
+   "who": "ahmad",
+   "text": "And then it takes me to the page that says check your inbox. And, here, I'll switch to the mailbox, the confirmation e-mail has just landed."
+  },
+  {
+   "who": "tom",
+   "text": "That was quick."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yes, it's usually a few seconds on the test site. And I click the link in it, and I'm in, I'm signed in to the portal."
+  },
+  {
+   "who": "ahmad",
+   "text": "Sign-up with e-mail is done and working on the test site, including the confirmation e-mail.",
+   "beat": "t1.1"
+  },
+  {
+   "who": "mei",
+   "text": "Good. So that half of the goal is finished, as far as the board goes."
+  },
+  {
+   "who": "ahmad",
+   "text": "As far as I'm concerned, yes. It's been through everything I could think of to try."
+  },
+  {
+   "who": "tom",
+   "text": "Does the confirmation e-mail look the same in different mail programs? Or have you only tried the one?"
+  },
+  {
+   "who": "ahmad",
+   "text": "I tried it in a couple. It looked fine in what I tried. I wouldn't promise it's perfect everywhere, though."
+  },
+  {
+   "who": "tom",
+   "text": "No, that's fair. I was just asking."
+  },
+  {
+   "who": "lisa",
+   "text": "Can you go back to the page after the sign-up, the one with the empty bills area?"
+  },
+  {
+   "who": "ahmad",
+   "text": "Sure, here. This is the account page. And this box here, this is where the bills would show."
+  },
+  {
+   "who": "mei",
+   "text": "And it's empty right now."
+  },
+  {
+   "who": "ahmad",
+   "text": "It's empty, yes. Viewing the last twelve bills is not done, it's blocked on the billing system API.",
+   "beat": "t1.2"
+  },
+  {
+   "who": "mei",
+   "text": "Right. So there's nothing to show there at all, not even fake data?"
+  },
+  {
+   "who": "ahmad",
+   "text": "I could put in placeholder rows to make it look nice, but it wouldn't prove anything. It'd just be me pretending, really."
+  },
+  {
+   "who": "mei",
+   "text": "No, no, I wasn't asking you to. I just wanted to be clear what we're looking at."
+  },
+  {
+   "who": "ahmad",
+   "text": "Understood. What you see is what's there."
+  },
+  {
+   "who": "lisa",
+   "text": "Can I go back to the sign-up part? I tried it myself on the test site yesterday, before this call."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yes, please. Go ahead."
+  },
+  {
+   "who": "lisa",
+   "text": "The sign-up flow looks good, but the error message for a used e-mail is confusing, can we reword it?",
+   "beat": "t1.3"
+  },
+  {
+   "who": "ahmad",
+   "text": "Which one is that? Do you mean when you type an address that's already registered?"
+  },
+  {
+   "who": "lisa",
+   "text": "Yes, that one. I typed one that already had an account, and it gave me a message that I had to read twice to understand."
+  },
+  {
+   "who": "tom",
+   "text": "Can you show us what it says, Ahmad? I haven't seen it."
+  },
+  {
+   "who": "ahmad",
+   "text": "Sure, let me type one in. Here, it comes up in red, under the e-mail box."
+  },
+  {
+   "who": "tom",
+   "text": "Oh. Yes. I see what Lisa means. It sounds more like something went wrong with the system than with the address."
+  },
+  {
+   "who": "lisa",
+   "text": "Right, that's it. A normal person would think the site is broken."
+  },
+  {
+   "who": "mei",
+   "text": "Mm-hm. It's a fair point, a customer would just get stuck there."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yeah, I wrote that one quickly, to be honest. It was a placeholder in my head and then I never went back to it."
+  },
+  {
+   "who": "lisa",
+   "text": "It happens. I'm not saying it's bad, just that it could say it more plainly."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yes, small fix, I'll add it to the next sprint.",
+   "beat": "t1.4"
+  },
+  {
+   "who": "mei",
+   "text": "Okay. I'll make sure it's noted down with the demo feedback."
+  },
+  {
+   "who": "tom",
+   "text": "Sorry, just checking, so is the sign-up counted as finished for this sprint, with the wording being separate?"
+  },
+  {
+   "who": "mei",
+   "text": "I'd say so, yes. The sign-up works, the wording is a tidy-up. Ahmad, you agree?"
+  },
+  {
+   "who": "ahmad",
+   "text": "I agree. It works, it's just the sentence that needs changing."
+  },
+  {
+   "who": "lisa",
+   "text": "I'm fine with that. I didn't want to make it sound bigger than it is."
+  },
+  {
+   "who": "tom",
+   "text": "No, no, it's a good catch. Better now than after customers see it."
+  },
+  {
+   "who": "mei",
+   "text": "Right. Anything else on the demo before we move on? Anyone?"
+  },
+  {
+   "who": "lisa",
+   "text": "Only that the page loaded fast. I was expecting it to be slower on the test site."
+  },
+  {
+   "who": "ahmad",
+   "text": "Ha, thanks. I'll take that."
+  },
+  {
+   "who": "tom",
+   "text": "Nothing from me. Oh, wait, sorry, one thing. The e-mail link, when you clicked it, did it open in the same window?"
+  },
+  {
+   "who": "ahmad",
+   "text": "It opened a new tab, and then signed me in there. So the old one stays behind."
+  },
+  {
+   "who": "tom",
+   "text": "Okay. That's what I thought I saw. Just wanted to check I wasn't imagining it."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. Let's talk about the billing API since it's blocking."
+  },
+  {
+   "who": "tom",
+   "text": "Yes. Do you want me to start, Mei?"
+  },
+  {
+   "who": "mei",
+   "text": "Please. You've been talking to them, haven't you?"
+  },
+  {
+   "who": "tom",
+   "text": "I have, a bit. It's mostly through messages, and one call. So, the billing team says the API is ready on the eighteenth of December, but their last two dates slipped.",
+   "beat": "t2.1"
+  },
+  {
+   "who": "lisa",
+   "text": "Sorry, the last two? So this is the third date we've been given?"
+  },
+  {
+   "who": "tom",
+   "text": "That's how I count it, yes. Two earlier ones that didn't happen, and now this one."
+  },
+  {
+   "who": "ahmad",
+   "text": "Did they say why the earlier ones slipped? Because if I knew what's holding them up, I'd feel a bit more comfortable with the new one."
+  },
+  {
+   "who": "tom",
+   "text": "Not in any detail. They just said it wasn't ready. I didn't want to push too hard on the call."
+  },
+  {
+   "who": "ahmad",
+   "text": "Mm. Okay. That's the bit that worries me, honestly. A date without a reason is just a date."
+  },
+  {
+   "who": "mei",
+   "text": "Well, we do have a date. Let's not make it sound like we have nothing."
+  },
+  {
+   "who": "ahmad",
+   "text": "No, I know, I'm not saying it's nothing. I'm just saying I'd trust it more with a reason."
+  },
+  {
+   "who": "lisa",
+   "text": "I'd say it both ways. It's good that they gave us a date, but I understand Ahmad being a bit careful, after two misses."
+  },
+  {
+   "who": "tom",
+   "text": "Yes, that's fair. I'm not very confident either, if I'm honest. I'm just reporting what they told me."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. And Ahmad, just so we're clear on your side, you can't do anything on the bills until you've got the API?"
+  },
+  {
+   "who": "ahmad",
+   "text": "Not really, no. I can't see the real bills without it. I can build the screen around nothing, but I can't check it works."
+  },
+  {
+   "who": "mei",
+   "text": "Right. So the bills story can't finish until the billing team delivers the API.",
+   "beat": "t2.2"
+  },
+  {
+   "who": "ahmad",
+   "text": "That's it exactly. Yes."
+  },
+  {
+   "who": "lisa",
+   "text": "Mm-hm."
+  },
+  {
+   "who": "tom",
+   "text": "And I should add something about what depends on it. And if it slips again past the holidays, paying a bill by card moves out of the first release.",
+   "beat": "t2.3"
+  },
+  {
+   "who": "lisa",
+   "text": "Wait, say that again? Paying by card is what moves out, not just the bills view?"
+  },
+  {
+   "who": "tom",
+   "text": "Paying a bill by card, yes. That's what I said. The bills view is the part that's already waiting."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay, I just wanted to be sure I heard it right. That's a bigger deal than I'd thought."
+  },
+  {
+   "who": "ahmad",
+   "text": "It does make sense, though. You can't pay a bill you can't see."
+  },
+  {
+   "who": "lisa",
+   "text": "True. When you put it like that, it's obvious. It's just a bit sad to hear it out loud."
+  },
+  {
+   "who": "mei",
+   "text": "Tom, when you say past the holidays, you mean if the eighteenth doesn't hold?"
+  },
+  {
+   "who": "tom",
+   "text": "That's how I understood it. If the date slips again, and it goes past the holidays, then the card payment can't be in the first release."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. I just wanted to hear it in your words."
+  },
+  {
+   "who": "ahmad",
+   "text": "So is anybody comfortable with the eighteenth? Just a quick feel."
+  },
+  {
+   "who": "tom",
+   "text": "I'd say, hopeful. Not comfortable."
+  },
+  {
+   "who": "lisa",
+   "text": "Hopeful is about right. I'd say the same."
+  },
+  {
+   "who": "mei",
+   "text": "I'd say the same as well. But that is what we've been given, so that's what we're working with for now."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yes. Yes, fine. I just wanted us to say it out loud so nobody's surprised later."
+  },
+  {
+   "who": "tom",
+   "text": "Fair enough. Nobody's pretending."
+  },
+  {
+   "who": "lisa",
+   "text": "Can I check one more thing? The eighteenth, that's when the API is ready on their side, and not when we have bills showing in the portal?"
+  },
+  {
+   "who": "tom",
+   "text": "Right, that's their date for the API. It's not our date for the screen."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay, good, thank you. I mixed those up for a second."
+  },
+  {
+   "who": "ahmad",
+   "text": "Easy to do. I did too when I first read it."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. Is there anything else on the billing API, or can I move on?"
+  },
+  {
+   "who": "tom",
+   "text": "Nothing else from me. I've said everything I know."
+  },
+  {
+   "who": "lisa",
+   "text": "No, I'm fine."
+  },
+  {
+   "who": "ahmad",
+   "text": "Nothing. Go on."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. Security test booking."
+  },
+  {
+   "who": "lisa",
+   "text": "That one's mine. So, security wants a penetration test before go-live and the testing firm needs three weeks' notice.",
+   "beat": "t3.1"
+  },
+  {
+   "who": "tom",
+   "text": "Three weeks. So it's not something you can just ring up and get for next Tuesday."
+  },
+  {
+   "who": "lisa",
+   "text": "No. It's not like that at all."
+  },
+  {
+   "who": "ahmad",
+   "text": "Is it a must, though? Before go-live? Or is it more of a nice-to-have?"
+  },
+  {
+   "who": "lisa",
+   "text": "Security's position is that they want it before go-live. I wouldn't call that optional."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay. I only asked because I didn't know."
+  },
+  {
+   "who": "lisa",
+   "text": "No, it's a reasonable question. I'd rather you ask than guess."
+  },
+  {
+   "who": "mei",
+   "text": "Lisa, do the three weeks start when we ask them, or when the money's agreed, or something? I don't know how these things work."
+  },
+  {
+   "who": "lisa",
+   "text": "It's three weeks' notice, that's what they told us. I'm not going to guess beyond that."
+  },
+  {
+   "who": "mei",
+   "text": "Fine. That's good enough for me."
+  },
+  {
+   "who": "tom",
+   "text": "What do they actually test? Is it the whole portal, or just the sign-up part?"
+  },
+  {
+   "who": "lisa",
+   "text": "I don't have the details of that. I only know they want a penetration test, and what the notice is."
+  },
+  {
+   "who": "tom",
+   "text": "Okay. No problem. I was just curious."
+  },
+  {
+   "who": "lisa",
+   "text": "And we're assuming the test can run in the second half of January with no major findings.",
+   "beat": "t3.2"
+  },
+  {
+   "who": "ahmad",
+   "text": "Hang on. The no major findings part. Is that something we're assuming, or something we know?"
+  },
+  {
+   "who": "lisa",
+   "text": "Assuming. That's why I said it that way. It's what the plan is built on."
+  },
+  {
+   "who": "ahmad",
+   "text": "Right. Okay. I just want to make sure we all hear that word, assuming."
+  },
+  {
+   "who": "tom",
+   "text": "Mm-hm. Because if there are major findings, that's a different conversation."
+  },
+  {
+   "who": "lisa",
+   "text": "Yes. I'm not saying there will be. I'm saying that's what we're assuming."
+  },
+  {
+   "who": "mei",
+   "text": "Understood. I think we all heard it. We're planning on the basis that there aren't any."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yep. That's all I wanted."
+  },
+  {
+   "who": "tom",
+   "text": "And second half of January. So that's after the holidays."
+  },
+  {
+   "who": "lisa",
+   "text": "Yes, it's after. That's what I said, second half of January."
+  },
+  {
+   "who": "tom",
+   "text": "Okay, yes, I just wanted to put it in my head next to the billing date."
+  },
+  {
+   "who": "ahmad",
+   "text": "Same, I was putting those two side by side as well."
+  },
+  {
+   "who": "mei",
+   "text": "Right. And the testing firm, they've not got a slot held for us yet, as far as I can tell?"
+  },
+  {
+   "who": "lisa",
+   "text": "Not that I know of, no. That's why I raised it."
+  },
+  {
+   "who": "mei",
+   "text": "Lisa, can you book the slot this week so we have it?",
+   "beat": "t3.3"
+  },
+  {
+   "who": "lisa",
+   "text": "Will do.",
+   "beat": "t3.4"
+  },
+  {
+   "who": "tom",
+   "text": "Thanks, Lisa."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yes, thank you. That's one less thing to hang over us."
+  },
+  {
+   "who": "mei",
+   "text": "Right. Let me just look at the clock. We're about halfway, so that's about where I'd hoped we'd be."
+  },
+  {
+   "who": "tom",
+   "text": "Good. We've done well."
+  },
+  {
+   "who": "mei",
+   "text": "Okay, let me close that board and pull up the next thing. Give me a second."
+  },
+  {
+   "who": "mei",
+   "text": "Release cut-line. We said we'd decide this today."
+  },
+  {
+   "who": "ahmad",
+   "text": "Right, we did. We kept pushing it back and I think everyone's a bit tired of it hanging over us."
+  },
+  {
+   "who": "lisa",
+   "text": "Yeah, I'd like to get it settled. Can I just check what we're actually choosing between? Because I've got it a bit muddled in my head."
+  },
+  {
+   "who": "mei",
+   "text": "Sure. Good question. Basically it's what goes in the first release and what waits."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay. So it's not about whether those pieces get built at all, it's about which release they land in."
+  },
+  {
+   "who": "mei",
+   "text": "Exactly. It's about the cut-line, where we draw it."
+  },
+  {
+   "who": "tom",
+   "text": "Mm-hm. And the billing API is the thing that's driving it, isn't it? That's what we were talking about before the break."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yeah, that's the one. The billing API sits underneath a lot of what we'd show."
+  },
+  {
+   "who": "lisa",
+   "text": "Sorry, when you say underneath, you mean the bills screen and the payment part both lean on it?"
+  },
+  {
+   "who": "ahmad",
+   "text": "Both of them touch it, yes. I'd say payment touches it more, but I'm thinking aloud, I wouldn't want to put a number on how much more."
+  },
+  {
+   "who": "tom",
+   "text": "Fair. I wouldn't either."
+  },
+  {
+   "who": "mei",
+   "text": "Okay, let me just put something on the table so we've got a concrete thing to react to."
+  },
+  {
+   "who": "mei",
+   "beat": "t4.1",
+   "text": "Given the billing API, I propose release one is sign-in, viewing bills and service requests, and card payment goes to release two."
+  },
+  {
+   "who": "lisa",
+   "text": "Right. So sign-in, viewing bills, service requests. Those three are in."
+  },
+  {
+   "who": "mei",
+   "text": "Those three, yes."
+  },
+  {
+   "who": "lisa",
+   "text": "And card payment is the only thing that moves."
+  },
+  {
+   "who": "mei",
+   "text": "That's the only thing that moves, as I'm proposing it."
+  },
+  {
+   "who": "ahmad",
+   "text": "Can I ask something? When you say viewing bills, that's just looking, right? Not paying them."
+  },
+  {
+   "who": "mei",
+   "text": "Right, just viewing. Customers can see their bills, they can't pay them by card in release one."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay. I just wanted to hear it said out loud so we're all picturing the same thing."
+  },
+  {
+   "who": "tom",
+   "text": "Yeah, that's helpful, because in my head I was sort of half picturing the pay button greyed out, and that's not what we're saying."
+  },
+  {
+   "who": "mei",
+   "text": "No, I'm not saying greyed out. I'm saying it's a release two item."
+  },
+  {
+   "who": "tom",
+   "text": "Okay, okay. Fine. Good to be clear."
+  },
+  {
+   "who": "lisa",
+   "text": "Mm. I do keep coming back to it, though. Paying is kind of the thing people want from a portal, isn't it?"
+  },
+  {
+   "who": "ahmad",
+   "text": "I mean, that's a fair point. It's a big one."
+  },
+  {
+   "who": "lisa",
+   "text": "I'm not saying no. I'm just saying it's the obvious thing people would look for."
+  },
+  {
+   "who": "mei",
+   "text": "No, that's fair, and I'm not going to pretend it isn't. That's why I wanted us to talk about it rather than just announce it."
+  },
+  {
+   "who": "tom",
+   "text": "Yeah. And that's where my head is too, actually."
+  },
+  {
+   "who": "ahmad",
+   "text": "Go on, Tom."
+  },
+  {
+   "who": "tom",
+   "text": "Well, I was going to say, the other side of it is what happens if we hold everything for payment."
+  },
+  {
+   "who": "lisa",
+   "text": "Right, so we'd be waiting."
+  },
+  {
+   "who": "tom",
+   "text": "We'd be waiting, and then nothing goes out. Whereas the other three things are, you know, they stand on their own."
+  },
+  {
+   "who": "ahmad",
+   "text": "They do stand on their own, I'd agree with that. Sign-in doesn't need payment. Service requests don't need payment."
+  },
+  {
+   "who": "lisa",
+   "text": "And viewing bills doesn't either, you said."
+  },
+  {
+   "who": "ahmad",
+   "text": "Viewing bills is on the billing API, but it's not the payment piece. That's how I understand it, anyway."
+  },
+  {
+   "who": "mei",
+   "text": "That's how I understand it too."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay. I was just checking I hadn't misheard."
+  },
+  {
+   "who": "tom",
+   "text": "No, no, you didn't."
+  },
+  {
+   "who": "mei",
+   "text": "Does anyone want to push back on the proposal? Ahmad, you've gone a bit quiet."
+  },
+  {
+   "who": "ahmad",
+   "text": "Sorry, no, I'm just, I'm turning it over. I don't have a strong objection. I think I just wanted to make sure it was a real choice and not, you know, a done deal."
+  },
+  {
+   "who": "mei",
+   "text": "It's a real choice. We've said we'd decide today, so I'd rather hear it if anyone disagrees."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay. Then no, I don't disagree. It makes sense to me."
+  },
+  {
+   "who": "lisa",
+   "text": "I'm kind of in the same place. I'd say I lean towards it, but I want to hear Tom, because he's the one who'll have to explain it."
+  },
+  {
+   "who": "tom",
+   "text": "Ha, yeah, thanks for that."
+  },
+  {
+   "who": "lisa",
+   "text": "Sorry. But it's true."
+  },
+  {
+   "who": "tom",
+   "text": "No, it's true. It's fine."
+  },
+  {
+   "who": "tom",
+   "beat": "t4.2",
+   "text": "Finance won't love it, but I'd rather ship on time."
+  },
+  {
+   "who": "lisa",
+   "text": "Mm-hm. Right."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yeah. I think that's honest."
+  },
+  {
+   "who": "mei",
+   "text": "I appreciate you saying that plainly, Tom."
+  },
+  {
+   "who": "tom",
+   "text": "Well, no point dressing it up. They'll have a view. I just think a release that's out is better than one that's late."
+  },
+  {
+   "who": "lisa",
+   "text": "Is that something we need to talk through more, the Finance side? Or is it just, they'll be disappointed and that's that?"
+  },
+  {
+   "who": "tom",
+   "text": "I mean, I'm not going to pretend I know exactly how they'll react. That's just my guess. I only meant they won't be thrilled."
+  },
+  {
+   "who": "mei",
+   "text": "Right, and that's all we've got on that. I don't want us to invent more than we know."
+  },
+  {
+   "who": "lisa",
+   "text": "No, that's fine. I wasn't trying to open a can of worms. I just wanted to make sure it wasn't something we were skipping over."
+  },
+  {
+   "who": "ahmad",
+   "text": "I don't think we're skipping it. Tom's named it. It's a trade-off and we're saying it out loud."
+  },
+  {
+   "who": "tom",
+   "text": "Yeah, it's a trade-off. We're choosing the on-time one."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay. Then I'm fine with it."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yeah, me too."
+  },
+  {
+   "who": "mei",
+   "text": "Just so I'm sure, let me go round. Lisa, you're fine with card payment going to release two."
+  },
+  {
+   "who": "lisa",
+   "text": "I'm fine with it, yes."
+  },
+  {
+   "who": "mei",
+   "text": "Ahmad?"
+  },
+  {
+   "who": "ahmad",
+   "text": "Fine. Yes."
+  },
+  {
+   "who": "mei",
+   "text": "Tom, obviously, you've said."
+  },
+  {
+   "who": "tom",
+   "text": "Yep. I'm in."
+  },
+  {
+   "who": "mei",
+   "beat": "t4.3",
+   "text": "Okay, so decided: card payment moves to release two."
+  },
+  {
+   "who": "lisa",
+   "text": "Good. That feels better, honestly. Having it open was bugging me."
+  },
+  {
+   "who": "ahmad",
+   "text": "Same. It's a relief to have a line drawn."
+  },
+  {
+   "who": "tom",
+   "text": "Mm. Yeah."
+  },
+  {
+   "who": "lisa",
+   "text": "Can I just say the three things back one more time, so the notes are right? Sign-in, viewing bills, service requests in release one."
+  },
+  {
+   "who": "mei",
+   "text": "Yes. And card payment in release two."
+  },
+  {
+   "who": "lisa",
+   "text": "Great. That's what I've got."
+  },
+  {
+   "who": "ahmad",
+   "text": "That's what I've got as well."
+  },
+  {
+   "who": "tom",
+   "text": "Same here. Nothing to add."
+  },
+  {
+   "who": "mei",
+   "text": "Good. Anything else on the cut-line before we leave it? Anyone feel it's not quite closed?"
+  },
+  {
+   "who": "lisa",
+   "text": "Not from me."
+  },
+  {
+   "who": "ahmad",
+   "text": "No, I think we're good."
+  },
+  {
+   "who": "tom",
+   "text": "I'm good. It's a decision, let's leave it as one."
+  },
+  {
+   "who": "ahmad",
+   "text": "Ha, yes. Let's not reopen it next time."
+  },
+  {
+   "who": "mei",
+   "text": "Please, no. Okay."
+  },
+  {
+   "who": "mei",
+   "text": "Last thing, January capacity."
+  },
+  {
+   "who": "lisa",
+   "text": "Right, that one. I know it's about who's around, but I haven't seen the detail. Ahmad, is that yours?"
+  },
+  {
+   "who": "ahmad",
+   "text": "Yeah, that's me. I've been looking at the people side of it."
+  },
+  {
+   "who": "tom",
+   "text": "Is this the leave thing? I vaguely remember something about it."
+  },
+  {
+   "who": "ahmad",
+   "text": "It is, yes. Let me just make sure I say it properly."
+  },
+  {
+   "who": "ahmad",
+   "beat": "t5.1",
+   "text": "Two of our four developers have leave in the first week of January, so velocity will be about half that sprint."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay. So two out of four. That's half the developers."
+  },
+  {
+   "who": "ahmad",
+   "text": "Half the developers, so about half the velocity. That's the rough maths."
+  },
+  {
+   "who": "tom",
+   "text": "Sorry, just checking, because I want to be sure I follow. Is it half of the sprint, or half of the team for the sprint?"
+  },
+  {
+   "who": "ahmad",
+   "text": "Half the team. The sprint is the sprint, it's the same length. It's that we have half the people for that first week."
+  },
+  {
+   "who": "tom",
+   "text": "Okay, right. And velocity is about half. Not exactly half."
+  },
+  {
+   "who": "ahmad",
+   "text": "About half. I wouldn't say exactly. It's approximately, I'm not going to claim it's precise."
+  },
+  {
+   "who": "lisa",
+   "text": "That's fair. Two over four is half, so about half sounds right."
+  },
+  {
+   "who": "mei",
+   "text": "Yes. It's the simple version of it."
+  },
+  {
+   "who": "lisa",
+   "text": "Is the leave definitely booked? Or is it, like, they might take it?"
+  },
+  {
+   "who": "ahmad",
+   "text": "I've got it as leave they have in that week. That's what I've been told, and that's all I'm going on."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay. That's good enough for me. I just wanted to hear it."
+  },
+  {
+   "who": "tom",
+   "text": "Mm. It does sound like it's, you know, settled."
+  },
+  {
+   "who": "ahmad",
+   "text": "It sounds settled to me, yeah."
+  },
+  {
+   "who": "mei",
+   "text": "And it's the first week of January. Not the whole month."
+  },
+  {
+   "who": "ahmad",
+   "text": "The first week. That's what I've said. That's the sprint where it hits."
+  },
+  {
+   "who": "lisa",
+   "text": "Right, and the other sprints aren't part of this conversation."
+  },
+  {
+   "who": "ahmad",
+   "text": "Not that I'm raising now, no."
+  },
+  {
+   "who": "tom",
+   "text": "Okay. I think I've got it. Half the developers, about half the velocity, that one sprint."
+  },
+  {
+   "who": "ahmad",
+   "text": "That's it. That's the whole thing."
+  },
+  {
+   "who": "lisa",
+   "text": "I suppose the question is, is that a problem? Or is it just a fact we need to hold in our heads when we plan?"
+  },
+  {
+   "who": "mei",
+   "text": "I'd say it's the second. It's a thing we know."
+  },
+  {
+   "who": "tom",
+   "text": "Yeah, it's not like someone's leaving or it's a surprise. It's leave."
+  },
+  {
+   "who": "ahmad",
+   "text": "It's normal. People take leave."
+  },
+  {
+   "who": "lisa",
+   "text": "No, totally. I wasn't trying to make it sound like a drama. I just wanted to be sure we weren't brushing past something."
+  },
+  {
+   "who": "mei",
+   "text": "No, I think that's right to ask. And my read is, it's fine."
+  },
+  {
+   "who": "mei",
+   "beat": "t5.2",
+   "text": "That's fine, it's planned leave, we'll plan the sprint smaller."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay. Good. That's how I'd have gone at it too."
+  },
+  {
+   "who": "lisa",
+   "text": "Mm-hm. Makes sense."
+  },
+  {
+   "who": "tom",
+   "text": "Smaller sprint, half the people. It adds up."
+  },
+  {
+   "who": "ahmad",
+   "text": "It does. It's nice when the maths is that tidy."
+  },
+  {
+   "who": "lisa",
+   "text": "Ha, it doesn't happen often."
+  },
+  {
+   "who": "tom",
+   "text": "No, it really doesn't."
+  },
+  {
+   "who": "lisa",
+   "text": "Can I loop back to something from earlier, just quickly? On the cut-line. I want to be sure I've got the release one list right in my head, since we've now talked about capacity."
+  },
+  {
+   "who": "mei",
+   "text": "Sure."
+  },
+  {
+   "who": "lisa",
+   "text": "Sign-in, viewing bills, service requests. Release one. Card payment, release two."
+  },
+  {
+   "who": "mei",
+   "text": "Yes, that's right."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay. I'm not linking the two topics, I just wanted to hold them both clearly."
+  },
+  {
+   "who": "ahmad",
+   "text": "No, that's sensible. They're separate. One's about scope, one's about people."
+  },
+  {
+   "who": "tom",
+   "text": "Right. Scope and people."
+  },
+  {
+   "who": "mei",
+   "text": "Yes. I don't want us to blur them either. We decided the cut-line, and separately we know about January."
+  },
+  {
+   "who": "lisa",
+   "text": "Agreed."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yeah, agreed. I'd keep them apart."
+  },
+  {
+   "who": "tom",
+   "text": "Fine by me."
+  },
+  {
+   "who": "mei",
+   "text": "Anything else on January? Any questions on the leave, or the half velocity?"
+  },
+  {
+   "who": "lisa",
+   "text": "I don't think so. I think it's clear."
+  },
+  {
+   "who": "ahmad",
+   "text": "No, nothing from me. I've said what I know."
+  },
+  {
+   "who": "tom",
+   "text": "Nothing. I'm happy."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. Then I think that's us. That was the last topic."
+  },
+  {
+   "who": "lisa",
+   "text": "Good, and we've still got a few minutes, which is a nice change."
+  },
+  {
+   "who": "tom",
+   "text": "Ha. Don't say that out loud."
+  },
+  {
+   "who": "mei",
+   "text": "Right, quick wrap-up. We settled the release cut-line, with card payment moving to release two. And we've noted the January capacity, and we'll plan that sprint smaller."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yep, that's both of them."
+  },
+  {
+   "who": "lisa",
+   "text": "That's how I've got it too."
+  },
+  {
+   "who": "tom",
+   "text": "Same. Good meeting."
+  },
+  {
+   "who": "mei",
+   "text": "Thanks, everyone. Good discussion today, and thanks for being straight about the trade-off."
+  },
+  {
+   "who": "ahmad",
+   "text": "Thanks, Mei. Thanks, all."
+  },
+  {
+   "who": "lisa",
+   "text": "Thanks. Bye, everyone."
+  },
+  {
+   "who": "tom",
+   "text": "Bye, all. Cheers."
+  },
+  {
+   "who": "mei",
+   "text": "Bye, everyone."
+  }
+ ]
+}

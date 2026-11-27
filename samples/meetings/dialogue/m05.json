@@ -1,0 +1,1316 @@
+{
+ "case": "m05",
+ "model": "claude-sonnet-5-5",
+ "note": "Written through the gateway by GET /api/eval?task=dialogue; beats checked word for word.",
+ "lines": [
+  {
+   "who": "siti",
+   "text": "Hello, morning everyone. Can you all hear me okay?"
+  },
+  {
+   "who": "pharm",
+   "text": "Morning. Yes, I can hear you. Bit of an echo, but fine."
+  },
+  {
+   "who": "nurse",
+   "text": "Morning, Siti. I can hear you. I can't see anyone yet though, my camera's just a black square."
+  },
+  {
+   "who": "siti",
+   "text": "Mm, you're showing as a black square on my side too. Try switching it off and on?"
+  },
+  {
+   "who": "nurse",
+   "text": "Okay, hang on. Off. And on. Is that any better?"
+  },
+  {
+   "who": "siti",
+   "text": "There you are. Hello, Kavitha."
+  },
+  {
+   "who": "nurse",
+   "text": "Oh good. It was pointing at the ceiling, I think. Sorry."
+  },
+  {
+   "who": "pharm",
+   "text": "I thought you'd gone for the mysterious look."
+  },
+  {
+   "who": "nurse",
+   "text": "Ha, no. Just bad luck with the laptop."
+  },
+  {
+   "who": "priya",
+   "text": "Hi all. Sorry, I'm joining from the corridor, I've only just come out of another call. Can you hear me?"
+  },
+  {
+   "who": "siti",
+   "text": "Yes, Priya, you're clear. A bit quiet."
+  },
+  {
+   "who": "priya",
+   "text": "Let me turn this up. Is that better?"
+  },
+  {
+   "who": "siti",
+   "text": "Much better."
+  },
+  {
+   "who": "priya",
+   "text": "Good. Right, I've got my notes open. Are we waiting for anyone?"
+  },
+  {
+   "who": "siti",
+   "text": "I think we're still missing the dial-in. I can see someone's on the list as Speaker 5."
+  },
+  {
+   "who": "it",
+   "text": "Hello? Hi, it's the dial-in. Can you hear me?"
+  },
+  {
+   "who": "siti",
+   "text": "Yes, we can hear you. Welcome."
+  },
+  {
+   "who": "it",
+   "text": "Sorry, I'm only on audio, so I won't show up with a name. I'm just here to listen in and help if there's something technical."
+  },
+  {
+   "who": "siti",
+   "text": "That's fine. We'll see how it goes. If you need to come in, just say."
+  },
+  {
+   "who": "it",
+   "text": "Will do. Thanks."
+  },
+  {
+   "who": "pharm",
+   "text": "Has anyone else had trouble with the screen sharing this week? Mine kept freezing yesterday."
+  },
+  {
+   "who": "nurse",
+   "text": "Mine too, on another meeting. It froze and then everybody was looking at my desktop wallpaper."
+  },
+  {
+   "who": "priya",
+   "text": "Oh no. Was it embarrassing?"
+  },
+  {
+   "who": "nurse",
+   "text": "It was a photo of my dog. So no, not really."
+  },
+  {
+   "who": "pharm",
+   "text": "That's the best wallpaper there is."
+  },
+  {
+   "who": "siti",
+   "text": "Okay, I think we're all here. Give it one more minute for people to settle, then we'll get going."
+  },
+  {
+   "who": "priya",
+   "text": "Did everyone get a bit of rain this morning? It was horrible on my way in."
+  },
+  {
+   "who": "pharm",
+   "text": "Yes, I got soaked just walking from the car."
+  },
+  {
+   "who": "nurse",
+   "text": "I was lucky, I got in before it started."
+  },
+  {
+   "who": "priya",
+   "text": "Typical. Okay, I'm ready whenever you are, Siti."
+  },
+  {
+   "who": "siti",
+   "text": "Right. Thanks for joining, everyone."
+  },
+  {
+   "who": "siti",
+   "text": "Today is about staff readiness: patient letters, the pharmacy fridge, training on the new rooms, parking, and the phones."
+  },
+  {
+   "who": "siti",
+   "text": "We've got about thirty minutes, and I'd like to get through the first three in this first part, so let's try to keep each of them moving."
+  },
+  {
+   "who": "priya",
+   "text": "Sounds good. Are we taking them in that order?"
+  },
+  {
+   "who": "siti",
+   "text": "Yes, in the order I just said. Letters first."
+  },
+  {
+   "who": "siti",
+   "text": "First, telling patients about the new address."
+  },
+  {
+   "who": "siti",
+   "text": "Kavitha, you've been looking at the patient list. Can you give us the picture?"
+  },
+  {
+   "who": "nurse",
+   "text": "Yes. Let me just find it. Okay."
+  },
+  {
+   "who": "nurse",
+   "text": "We have about three thousand active patients. Letters go out four weeks before the move, plus an SMS a week before.",
+   "beat": "t1.1"
+  },
+  {
+   "who": "priya",
+   "text": "Sorry, just so I've got it. Three thousand is active patients only, not everyone who's ever been on the books?"
+  },
+  {
+   "who": "nurse",
+   "text": "Right, active ones. The older records are a different thing, and I wouldn't want to put a number on those."
+  },
+  {
+   "who": "priya",
+   "text": "Okay, that's fine. I just wanted to be sure about what the three thousand meant."
+  },
+  {
+   "who": "pharm",
+   "text": "And the letter is the main thing, then the text message is a reminder?"
+  },
+  {
+   "who": "nurse",
+   "text": "Yes. The letter is the proper notice. The text is a nudge, a week before, so that people don't turn up at the old place."
+  },
+  {
+   "who": "pharm",
+   "text": "Mm-hm. That makes sense. Some of them won't open a letter."
+  },
+  {
+   "who": "nurse",
+   "text": "Exactly. Some of them put everything in a drawer."
+  },
+  {
+   "who": "siti",
+   "text": "Which is part of why the text is there. Four weeks for the letter, then the text a week before."
+  },
+  {
+   "who": "priya",
+   "text": "Four weeks feels about right to me. Not so early that they forget, not so late that it's a rush."
+  },
+  {
+   "who": "nurse",
+   "text": "That was the thinking, yes."
+  },
+  {
+   "who": "pharm",
+   "text": "Do the letters go to everyone at once, or in batches?"
+  },
+  {
+   "who": "nurse",
+   "text": "The way I understand it, they all go out at the same point, four weeks before. I haven't heard anything about batches."
+  },
+  {
+   "who": "pharm",
+   "text": "Okay. I only asked because three thousand letters is a lot to fold."
+  },
+  {
+   "who": "nurse",
+   "text": "Ha, yes, I wouldn't want to be the one doing it by hand."
+  },
+  {
+   "who": "siti",
+   "text": "We don't need to get into the folding. The point is the timing."
+  },
+  {
+   "who": "pharm",
+   "text": "Sure, sorry. Side remark."
+  },
+  {
+   "who": "siti",
+   "text": "No, it's fine. Now, there's one thing underneath all of this that I want to say out loud, because I think it matters for the late ones."
+  },
+  {
+   "who": "siti",
+   "text": "We're assuming the old address forwarding works for at least three months, so late letters still arrive.",
+   "beat": "t1.2"
+  },
+  {
+   "who": "nurse",
+   "text": "Mm-hm. So if someone's letter is slow, or the mail is slow, it's still going to reach them."
+  },
+  {
+   "who": "siti",
+   "text": "That's the thinking. The letters would go to the old address and get forwarded."
+  },
+  {
+   "who": "pharm",
+   "text": "Sorry, which letters? The ones we send, or the ones other people send to the old address?"
+  },
+  {
+   "who": "siti",
+   "text": "Both, really. Anything that lands at the old address in that time. But for us, it's mostly about our own late letters, and people who've moved and not told us."
+  },
+  {
+   "who": "pharm",
+   "text": "Right, okay. Because I was thinking about the letters from the labs and so on."
+  },
+  {
+   "who": "priya",
+   "text": "Can I jump in? Because I've been looking at the wording of that and something doesn't sit right with me."
+  },
+  {
+   "who": "siti",
+   "text": "Go ahead."
+  },
+  {
+   "who": "priya",
+   "text": "It says three months, at least. Where does that come from?"
+  },
+  {
+   "who": "siti",
+   "text": "It's what we've been working on as the assumption. That's why I said assuming."
+  },
+  {
+   "who": "priya",
+   "text": "Yes, I heard that. I'm just asking whether it's something we've been told or something we've guessed."
+  },
+  {
+   "who": "siti",
+   "text": "Honestly, it's closer to the second. It's what we've been planning around."
+  },
+  {
+   "who": "nurse",
+   "text": "I thought somebody had said it was fine, but I couldn't tell you who."
+  },
+  {
+   "who": "priya",
+   "text": "That's what worries me. Everyone thinks someone checked it."
+  },
+  {
+   "who": "pharm",
+   "text": "I thought it was just standard. You move, you pay for forwarding, it works."
+  },
+  {
+   "who": "priya",
+   "text": "Maybe. But for a clinic with letters that matter, I'd rather know than think."
+  },
+  {
+   "who": "priya",
+   "text": "Has anyone actually checked that with the post office?",
+   "beat": "t1.3"
+  },
+  {
+   "who": "nurse",
+   "text": "I haven't. I assumed it had been done."
+  },
+  {
+   "who": "pharm",
+   "text": "Not me either."
+  },
+  {
+   "who": "siti",
+   "text": "Not yet. I'll check it.",
+   "beat": "t1.4"
+  },
+  {
+   "who": "priya",
+   "text": "Thanks, Siti. I'm not trying to make a fuss, I just don't want it to be a surprise."
+  },
+  {
+   "who": "siti",
+   "text": "No, you're right to ask. It's sitting there as an assumption and it should be more than that."
+  },
+  {
+   "who": "nurse",
+   "text": "And it matters most for the late ones, like you said."
+  },
+  {
+   "who": "siti",
+   "text": "Yes. If forwarding is shorter than we think, then the late letters are the ones that suffer."
+  },
+  {
+   "who": "pharm",
+   "text": "Mm. Right."
+  },
+  {
+   "who": "priya",
+   "text": "Okay. Can I just go back to the text message for a second?"
+  },
+  {
+   "who": "siti",
+   "text": "Of course."
+  },
+  {
+   "who": "priya",
+   "text": "A week before. The text only helps people whose number we have right, doesn't it?"
+  },
+  {
+   "who": "nurse",
+   "text": "Yes, that's true. If the number's wrong, they don't get it."
+  },
+  {
+   "who": "priya",
+   "text": "I'm not saying that's a new problem. I just wanted to say it out loud so it's clear what the text can and can't do."
+  },
+  {
+   "who": "nurse",
+   "text": "It's fair. The letter is the safety net, really, and the text is the extra."
+  },
+  {
+   "who": "siti",
+   "text": "That's how I see it too. Letter first, text as a reminder."
+  },
+  {
+   "who": "it",
+   "text": "Sorry to cut in. Can I check, are you talking about the text going out from the clinic's system?"
+  },
+  {
+   "who": "siti",
+   "text": "Yes, the SMS a week before the move. Was there something you wanted to say about it?"
+  },
+  {
+   "who": "it",
+   "text": "No, no. I just wanted to be sure I'd understood which one you meant. Carry on."
+  },
+  {
+   "who": "siti",
+   "text": "Okay, thanks."
+  },
+  {
+   "who": "pharm",
+   "text": "Are we happy with letters, then? I don't want to rush you, I just want to make sure I've got it before we move on."
+  },
+  {
+   "who": "siti",
+   "text": "I think so. Three thousand active patients, letter four weeks before, text a week before, and the forwarding assumption that I'm going to check."
+  },
+  {
+   "who": "nurse",
+   "text": "That's what I have."
+  },
+  {
+   "who": "priya",
+   "text": "Same here."
+  },
+  {
+   "who": "siti",
+   "text": "Good. Ben, the pharmacy fridge."
+  },
+  {
+   "who": "pharm",
+   "text": "Right, yes. Thanks. Give me a second, I'll unmute properly, I've got the keyboard going."
+  },
+  {
+   "who": "pharm",
+   "text": "Okay. This is the one that keeps me awake a bit."
+  },
+  {
+   "who": "pharm",
+   "text": "The vaccine fridge can't be off for more than two hours or we have to throw away the stock, about eighteen thousand dollars of vaccines.",
+   "beat": "t2.1"
+  },
+  {
+   "who": "nurse",
+   "text": "Eighteen thousand. I knew it was a lot, but I didn't know it was that much."
+  },
+  {
+   "who": "pharm",
+   "text": "That's the stock as it stands. It goes up and down a little, but that's the ballpark."
+  },
+  {
+   "who": "priya",
+   "text": "And the two hours, is that a hard limit? Like, at two hours and one minute it's gone?"
+  },
+  {
+   "who": "pharm",
+   "text": "For our purposes, yes. After two hours off, we can't use what's in there. We don't get to argue about it."
+  },
+  {
+   "who": "priya",
+   "text": "Right. So it isn't a guideline, it's a line."
+  },
+  {
+   "who": "pharm",
+   "text": "It's a line."
+  },
+  {
+   "who": "nurse",
+   "text": "Mm. And does that include the time it's being moved, or just when it's switched off?"
+  },
+  {
+   "who": "pharm",
+   "text": "Any time it's not holding temperature counts. So if it's unplugged and carried, that's the clock running."
+  },
+  {
+   "who": "nurse",
+   "text": "Okay. That's tighter than I'd imagined."
+  },
+  {
+   "who": "siti",
+   "text": "Ben, you said the fridge is the issue. Is it the fridge itself, or the power at the other end?"
+  },
+  {
+   "who": "pharm",
+   "text": "It's the power at the other end, really. Let me explain that."
+  },
+  {
+   "who": "pharm",
+   "text": "The new building's backup power for the fridge circuit isn't commissioned yet, so if the power trips on move day we lose the stock.",
+   "beat": "t2.2"
+  },
+  {
+   "who": "nurse",
+   "text": "Oh. So it's not just the move itself, it's whatever happens on the day."
+  },
+  {
+   "who": "pharm",
+   "text": "Right. If everything runs fine, no problem. But if there's a trip, there's nothing behind it."
+  },
+  {
+   "who": "siti",
+   "text": "And by not commissioned, you mean it's there but hasn't been signed off, or it isn't there at all?"
+  },
+  {
+   "who": "pharm",
+   "text": "I only know what I've been told, which is that it isn't commissioned yet. I can't say more than that."
+  },
+  {
+   "who": "siti",
+   "text": "Okay. I just wanted to be careful not to say more than we know."
+  },
+  {
+   "who": "pharm",
+   "text": "Yes, exactly. All I'm saying is that today it isn't commissioned, and that's the risk."
+  },
+  {
+   "who": "priya",
+   "text": "Sorry, I want to be sure I'm hearing this properly. The risk is the power tripping on move day and the fridge circuit having no backup. Nothing else?"
+  },
+  {
+   "who": "pharm",
+   "text": "That's the one I'm worried about. Yes."
+  },
+  {
+   "who": "it",
+   "text": "Sorry, may I add something? Is it okay if I just ask a quick question?"
+  },
+  {
+   "who": "siti",
+   "text": "Yes, go ahead."
+  },
+  {
+   "who": "it",
+   "text": "When you say the power trips, do you mean the whole building, or just that one circuit?"
+  },
+  {
+   "who": "pharm",
+   "text": "Either would do it. If that circuit drops, the fridge is off."
+  },
+  {
+   "who": "it",
+   "text": "Okay, understood. Thanks. That's all I needed."
+  },
+  {
+   "who": "nurse",
+   "text": "So the answer to that is just leave the fridge as it is until it's safe? Or is that not an option?"
+  },
+  {
+   "who": "pharm",
+   "text": "It isn't really an option to leave it. It has to come across."
+  },
+  {
+   "who": "nurse",
+   "text": "No, of course. Silly question."
+  },
+  {
+   "who": "pharm",
+   "text": "Not silly. I've been asking myself the same thing."
+  },
+  {
+   "who": "priya",
+   "text": "That one goes on the risk log for sure. Can we move the vaccines in cool boxes separately?",
+   "beat": "t2.3"
+  },
+  {
+   "who": "pharm",
+   "text": "Yes, I'll plan a separate cool box run with temperature loggers.",
+   "beat": "t2.4"
+  },
+  {
+   "who": "nurse",
+   "text": "Oh, that's good. So the vaccines wouldn't depend on the fridge circuit at all."
+  },
+  {
+   "who": "pharm",
+   "text": "That's the idea. They'd be in the boxes, with loggers in with them, so we can see afterwards that they stayed in range."
+  },
+  {
+   "who": "priya",
+   "text": "And the loggers give you the record, so if someone asks later you can show it."
+  },
+  {
+   "who": "pharm",
+   "text": "Exactly. That's partly why I want them in there."
+  },
+  {
+   "who": "siti",
+   "text": "Mm-hm. So that's a separate run for the vaccines, not part of the general move."
+  },
+  {
+   "who": "pharm",
+   "text": "Yes, separate."
+  },
+  {
+   "who": "nurse",
+   "text": "Is it going to affect the rest of us? I mean, do we need to do anything for it?"
+  },
+  {
+   "who": "pharm",
+   "text": "Not that I can think of right now. If that changes, I'll say so."
+  },
+  {
+   "who": "nurse",
+   "text": "Okay. I just didn't want to be caught out."
+  },
+  {
+   "who": "priya",
+   "text": "Can I go back to the two hours for a moment? Because it ties together a bit."
+  },
+  {
+   "who": "pharm",
+   "text": "Sure."
+  },
+  {
+   "who": "priya",
+   "text": "The two hours is the limit for the fridge being off. And the cool boxes are the way round that. But the risk is still logged because the backup isn't commissioned."
+  },
+  {
+   "who": "pharm",
+   "text": "Right, yes. The plan helps, but the backup still isn't commissioned. Those are two separate things."
+  },
+  {
+   "who": "priya",
+   "text": "Okay, good. I wanted to be sure we weren't treating one as if it cancelled the other."
+  },
+  {
+   "who": "siti",
+   "text": "That's fair. The risk stays on the log, and the cool box run is what we're planning to do about it."
+  },
+  {
+   "who": "pharm",
+   "text": "I'm happy with that."
+  },
+  {
+   "who": "nurse",
+   "text": "Eighteen thousand dollars though. I keep coming back to it."
+  },
+  {
+   "who": "pharm",
+   "text": "It's a lot of vaccines. I'd rather be annoying about it now."
+  },
+  {
+   "who": "priya",
+   "text": "You're not annoying. This is what the meeting is for."
+  },
+  {
+   "who": "siti",
+   "text": "Agreed. Okay, anything else on the fridge before we move on?"
+  },
+  {
+   "who": "nurse",
+   "text": "Not from me."
+  },
+  {
+   "who": "priya",
+   "text": "No, I think I've got what I need."
+  },
+  {
+   "who": "it",
+   "text": "Nothing from me."
+  },
+  {
+   "who": "siti",
+   "text": "Right then. Training on the new rooms."
+  },
+  {
+   "who": "siti",
+   "text": "Kavitha, this one's yours, I think."
+  },
+  {
+   "who": "nurse",
+   "text": "Yes. Thanks, Siti. It's mostly about people feeling safe on the first day."
+  },
+  {
+   "who": "nurse",
+   "text": "Staff need a walkthrough of the new building before day one, the emergency exits and the resus trolley location especially.",
+   "beat": "t3.1"
+  },
+  {
+   "who": "pharm",
+   "text": "Mm, yes. Even I'd want to know where the exits are, and I'm in the back with the fridge."
+  },
+  {
+   "who": "nurse",
+   "text": "Exactly. Everyone, not just the people on the floor."
+  },
+  {
+   "who": "priya",
+   "text": "When you say before day one, you mean before the first day in the new building?"
+  },
+  {
+   "who": "nurse",
+   "text": "Yes. Nobody should be learning where the resus trolley is during an emergency."
+  },
+  {
+   "who": "priya",
+   "text": "No, that would be the worst time to find out."
+  },
+  {
+   "who": "pharm",
+   "text": "Do people get lost in a new building? I mean really. I think we always say that, and then they find the kettle within an hour."
+  },
+  {
+   "who": "nurse",
+   "text": "The kettle, yes. The exits, not necessarily. And the trolley is something you can't improvise."
+  },
+  {
+   "who": "pharm",
+   "text": "Fair point. I take it back."
+  },
+  {
+   "who": "siti",
+   "text": "We did already talk about this, so I'll say what we agreed."
+  },
+  {
+   "who": "siti",
+   "text": "We agreed two walkthrough sessions in the week before cutover, mandatory for clinical staff.",
+   "beat": "t3.2"
+  },
+  {
+   "who": "nurse",
+   "text": "Right. I remembered the two sessions, but I wasn't sure about mandatory."
+  },
+  {
+   "who": "siti",
+   "text": "It's mandatory for clinical staff. That was part of it."
+  },
+  {
+   "who": "nurse",
+   "text": "Okay good. Because if it's optional, the people who most need it won't come."
+  },
+  {
+   "who": "pharm",
+   "text": "That's always how it goes."
+  },
+  {
+   "who": "priya",
+   "text": "Sorry, a question, just so I've got the right picture. Two sessions, so that people have a choice of which one to go to?"
+  },
+  {
+   "who": "siti",
+   "text": "That's the idea, so people can fit one in around their shifts."
+  },
+  {
+   "who": "priya",
+   "text": "Right, that makes sense. And it's the week before cutover, so it's fresh in their heads."
+  },
+  {
+   "who": "nurse",
+   "text": "Yes. Not so early they forget it, not so late that there's no room."
+  },
+  {
+   "who": "pharm",
+   "text": "Mm-hm. What about non-clinical staff? Do they just not go?"
+  },
+  {
+   "who": "siti",
+   "text": "What we agreed was mandatory for clinical staff. I don't want to add anything beyond that right now."
+  },
+  {
+   "who": "pharm",
+   "text": "No, that's fine. I only wondered. I'm not saying it should change."
+  },
+  {
+   "who": "nurse",
+   "text": "I'd guess the others would want to come anyway, but that's just me thinking aloud."
+  },
+  {
+   "who": "siti",
+   "text": "Sure. It's a fair thought, but it isn't something we've decided."
+  },
+  {
+   "who": "priya",
+   "text": "Okay, that's decided then, two mandatory walkthroughs that week.",
+   "beat": "t3.3"
+  },
+  {
+   "who": "siti",
+   "text": "Yes. That's how I have it too."
+  },
+  {
+   "who": "nurse",
+   "text": "Good. I feel better about that one."
+  },
+  {
+   "who": "pharm",
+   "text": "Me too. It's one less thing to worry about."
+  },
+  {
+   "who": "priya",
+   "text": "Just for the sake of the notes. The exits and the resus trolley are the main things people need to see?"
+  },
+  {
+   "who": "nurse",
+   "text": "Those are the ones I'd put first, yes. Especially."
+  },
+  {
+   "who": "priya",
+   "text": "Great. Thanks."
+  },
+  {
+   "who": "siti",
+   "text": "Okay. Let me just run back over where we are, because that's three topics."
+  },
+  {
+   "who": "siti",
+   "text": "Letters: three thousand active patients, a letter four weeks before and a text a week before, and I'm checking the forwarding assumption."
+  },
+  {
+   "who": "siti",
+   "text": "Fridge: the two hour limit, the backup power not commissioned, and the separate cool box run with loggers."
+  },
+  {
+   "who": "siti",
+   "text": "And training: two mandatory walkthroughs in the week before cutover."
+  },
+  {
+   "who": "pharm",
+   "text": "That's right."
+  },
+  {
+   "who": "nurse",
+   "text": "Yes, that matches what I wrote down."
+  },
+  {
+   "who": "priya",
+   "text": "Same."
+  },
+  {
+   "who": "siti",
+   "text": "Good. Let me take a breath, and then we'll go on."
+  },
+  {
+   "who": "siti",
+   "text": "Parking, quickly."
+  },
+  {
+   "who": "pharm",
+   "text": "Quickly, she says. Every time somebody says quickly, it ends up being the longest item."
+  },
+  {
+   "who": "siti",
+   "text": "Ha, fair. Kavitha, you had the figures on this, didn't you?"
+  },
+  {
+   "who": "nurse",
+   "beat": "t4.1",
+   "text": "The new building only has twenty season parking lots for staff and we have thirty two drivers today."
+  },
+  {
+   "who": "pharm",
+   "text": "Sorry, say that again? Twenty lots, and thirty two people who drive?"
+  },
+  {
+   "who": "nurse",
+   "text": "Yes. Twenty lots, thirty two drivers. That's the count as it stands today, I went through the list myself."
+  },
+  {
+   "who": "pharm",
+   "text": "Right. And that's drivers, not everybody on the roster."
+  },
+  {
+   "who": "nurse",
+   "text": "Correct, drivers only. The people who take the train or get dropped off aren't in that number."
+  },
+  {
+   "who": "priya",
+   "text": "Mm-hm. So it's not even the whole team, it's just the ones who drive, and that's already more than the lots."
+  },
+  {
+   "who": "nurse",
+   "text": "Exactly. And I'd rather say it plainly now than have people find out when they turn up."
+  },
+  {
+   "who": "pharm",
+   "text": "No, no, I'm not doubting the number. I just wanted to be sure we're comparing the same thing. Lots on one side, drivers on the other."
+  },
+  {
+   "who": "siti",
+   "text": "That's a fair check. Kavitha, is that thirty two number likely to move much?"
+  },
+  {
+   "who": "nurse",
+   "text": "I can only tell you what it is today. People's situations change, but I'm not going to guess which way."
+  },
+  {
+   "who": "siti",
+   "text": "Okay. Fine. We use the number we have."
+  },
+  {
+   "who": "pharm",
+   "text": "Does anybody know how the twenty lots get handed out? Like, is it first come, or does somebody decide?"
+  },
+  {
+   "who": "nurse",
+   "text": "I don't know. That's a good question though, and honestly it's what people will ask me first."
+  },
+  {
+   "who": "priya",
+   "text": "I don't know either. I wouldn't want to make something up on that."
+  },
+  {
+   "who": "siti",
+   "text": "Right, so that's an open question, we don't have an answer in the room. Let me just stay on the main point for a second."
+  },
+  {
+   "who": "siti",
+   "beat": "t4.2",
+   "text": "That's a problem we already have, not a maybe. We need to tell staff now."
+  },
+  {
+   "who": "pharm",
+   "text": "Mm. I agree with that. Though I do wonder if people will panic a bit."
+  },
+  {
+   "who": "nurse",
+   "text": "Some will. But they'd panic more if we waited, I think."
+  },
+  {
+   "who": "pharm",
+   "text": "Yeah, yeah. That's true. I'm just thinking aloud."
+  },
+  {
+   "who": "siti",
+   "text": "I hear you, Benjamin. But the numbers don't change by us staying quiet. More drivers than lots is more drivers than lots."
+  },
+  {
+   "who": "pharm",
+   "text": "Sure. No, I'm not arguing for staying quiet. I'd just want us to be calm when we say it."
+  },
+  {
+   "who": "nurse",
+   "text": "I can be calm. I've got plenty of practice."
+  },
+  {
+   "who": "priya",
+   "text": "You really do."
+  },
+  {
+   "who": "siti",
+   "text": "Okay. Priya, you were going to say something about options?"
+  },
+  {
+   "who": "priya",
+   "beat": "t4.3",
+   "text": "I'll ask HR whether we can subsidise the public car park next door."
+  },
+  {
+   "who": "pharm",
+   "text": "Oh, the public one right next door. Okay. So that's the idea, HR decides if there's any subsidy."
+  },
+  {
+   "who": "priya",
+   "text": "Well, I'm only asking them at this point. I don't know what they'll say. It might be a no."
+  },
+  {
+   "who": "pharm",
+   "text": "Sure, sure. I'm just making sure I've got it right. You're asking, not promising."
+  },
+  {
+   "who": "priya",
+   "text": "Right. Asking, not promising. I don't want anybody going back to their team saying it's sorted."
+  },
+  {
+   "who": "nurse",
+   "text": "Yes, please. Because if I tell people there's a subsidy and then there isn't, that's worse than saying nothing."
+  },
+  {
+   "who": "siti",
+   "text": "Agreed. So when we tell staff, we say what's true. Twenty lots, thirty two drivers, and that HR is being asked about the public car park."
+  },
+  {
+   "who": "nurse",
+   "text": "Is it okay to mention the HR bit before they've answered?"
+  },
+  {
+   "who": "siti",
+   "text": "Hmm. I think so, as long as we're clear it's a question and not an answer. What do you two think?"
+  },
+  {
+   "who": "pharm",
+   "text": "I'd say yes, as long as it's clearly a question. Otherwise it sounds like we've got nothing."
+  },
+  {
+   "who": "priya",
+   "text": "I'm fine with that. As long as nobody says it's a done thing."
+  },
+  {
+   "who": "nurse",
+   "text": "Okay. I'll be careful with the wording."
+  },
+  {
+   "who": "pharm",
+   "text": "Sorry, one more thing, going back. When you said twenty season lots, is that twenty for the whole clinic or twenty for staff only?"
+  },
+  {
+   "who": "nurse",
+   "text": "For staff. The way I read it, twenty season parking lots for staff."
+  },
+  {
+   "who": "pharm",
+   "text": "Okay, good. Staff only. I just wanted to be sure, because those are different things."
+  },
+  {
+   "who": "siti",
+   "text": "Yeah. And we're not going to go beyond what we know. Twenty for staff, thirty two drivers."
+  },
+  {
+   "who": "nurse",
+   "text": "Right."
+  },
+  {
+   "who": "priya",
+   "text": "Mm-hm."
+  },
+  {
+   "who": "pharm",
+   "text": "I do feel bad for the people who've driven in for years though. It's a change."
+  },
+  {
+   "who": "nurse",
+   "text": "It is. A lot of them are going to take it personally, whatever we say."
+  },
+  {
+   "who": "siti",
+   "text": "They might. We can still be straight with them, and sooner is kinder than later."
+  },
+  {
+   "who": "pharm",
+   "text": "Yeah. Fair enough. I'll stop fretting."
+  },
+  {
+   "who": "nurse",
+   "text": "You're not fretting, you're thinking about people. It's fine."
+  },
+  {
+   "who": "siti",
+   "text": "Anything else on parking before I move on? Because I know I said quickly and we're, what, somewhere past that."
+  },
+  {
+   "who": "priya",
+   "text": "Not from me. I've got my bit with HR."
+  },
+  {
+   "who": "nurse",
+   "text": "Nothing from me. I've said my piece."
+  },
+  {
+   "who": "pharm",
+   "text": "I'm good. Just wanted the figures straight."
+  },
+  {
+   "who": "siti",
+   "text": "Great. Phones."
+  },
+  {
+   "who": "pharm",
+   "text": "Oh, this is the one I don't understand at all. I just know the phones need to keep working."
+  },
+  {
+   "who": "nurse",
+   "text": "Same. The front desk is nervous about it. If the main number goes quiet, that's the first thing patients notice."
+  },
+  {
+   "who": "siti",
+   "text": "Right, that's exactly why I wanted IT to join. I think they've dialled in, haven't they? Is that Speaker 5?"
+  },
+  {
+   "who": "it",
+   "beat": "t5.1",
+   "text": "Hi, it's IT on the phone. The main clinic number can only be ported once the new line is live, and the telco needs the building's riser access first."
+  },
+  {
+   "who": "siti",
+   "text": "Thanks for joining. Sorry, you cut out a little at the start. Can I check I've got the order right?"
+  },
+  {
+   "who": "it",
+   "text": "Sure. Can you hear me okay now?"
+  },
+  {
+   "who": "siti",
+   "text": "Yes, clear now."
+  },
+  {
+   "who": "pharm",
+   "text": "I've got a basic question, and sorry if it's a silly one. What does porting mean here, exactly?"
+  },
+  {
+   "who": "it",
+   "text": "It means moving the existing main clinic number over, so it rings at the new place instead of the old one. Same number, different line."
+  },
+  {
+   "who": "pharm",
+   "text": "Okay. So patients keep calling the number they know."
+  },
+  {
+   "who": "it",
+   "text": "That's the idea, yes."
+  },
+  {
+   "who": "nurse",
+   "text": "And that can't happen until the new line is live. Is that what you said?"
+  },
+  {
+   "who": "it",
+   "text": "Yes. The number can only be ported once the new line is live. It doesn't work the other way around."
+  },
+  {
+   "who": "nurse",
+   "text": "Okay. Right. So the new line comes first, then the number."
+  },
+  {
+   "who": "priya",
+   "text": "And the new line depends on the telco, and the telco wants riser access. Did I follow that?"
+  },
+  {
+   "who": "it",
+   "text": "You followed it. The telco needs the building's riser access first."
+  },
+  {
+   "who": "priya",
+   "text": "Sorry, what's a riser? I've heard the word but I couldn't tell you what it is."
+  },
+  {
+   "who": "it",
+   "text": "It's the part of the building the cabling runs through. The telco needs to get into it, and I can't do that myself."
+  },
+  {
+   "who": "priya",
+   "text": "Okay, that makes sense. So it's not something we control."
+  },
+  {
+   "who": "it",
+   "text": "Not directly, no. That's why it's on the telco's side and the building's side."
+  },
+  {
+   "who": "pharm",
+   "text": "Hang on, so it's a chain. Riser access, then the telco, then the new line, then the number."
+  },
+  {
+   "who": "it",
+   "text": "Roughly, yes. You've got it."
+  },
+  {
+   "who": "siti",
+   "beat": "t5.2",
+   "text": "So the phone porting waits for the landlord to give the telco riser access."
+  },
+  {
+   "who": "it",
+   "beat": "t5.3",
+   "text": "Correct. I'll send the telco form to Marcus for the landlord."
+  },
+  {
+   "who": "nurse",
+   "text": "Sorry, Marcus, that's the person who deals with the landlord?"
+  },
+  {
+   "who": "it",
+   "text": "That's how I understand it, yes. The form goes to him for the landlord."
+  },
+  {
+   "who": "nurse",
+   "text": "Okay. I just wanted to be sure I had the name right."
+  },
+  {
+   "who": "siti",
+   "text": "Good. So the form goes to Marcus, and Marcus takes it to the landlord. And we're waiting on that."
+  },
+  {
+   "who": "pharm",
+   "text": "Mm. And until then the phones stay as they are?"
+  },
+  {
+   "who": "it",
+   "text": "Until the new line is live, the main number can't be ported. That's all I can say for certain."
+  },
+  {
+   "who": "pharm",
+   "text": "Okay. Fair. I don't want you guessing."
+  },
+  {
+   "who": "it",
+   "text": "I'd rather not, honestly."
+  },
+  {
+   "who": "nurse",
+   "text": "Can I ask a front desk thing? Is there any way to tell what the front desk should say to patients while this is sitting there?"
+  },
+  {
+   "who": "siti",
+   "text": "Hmm. I don't think we've got an answer for that today, Kavitha. I don't want us making something up. We know what's waiting on what, and that's it."
+  },
+  {
+   "who": "nurse",
+   "text": "Okay. That's fine. I just wanted to say it out loud so it doesn't get lost."
+  },
+  {
+   "who": "siti",
+   "text": "No, that's fair. It's a good thing to have said."
+  },
+  {
+   "who": "pharm",
+   "text": "Yeah, I'd second that. The front desk will want to know."
+  },
+  {
+   "who": "priya",
+   "text": "Mm-hm."
+  },
+  {
+   "who": "it",
+   "text": "Sorry, I think I've got a bit of an echo on my side. Can everyone hear me?"
+  },
+  {
+   "who": "siti",
+   "text": "We can hear you. A tiny bit of echo but it's fine."
+  },
+  {
+   "who": "it",
+   "text": "Okay good. Sorry about that."
+  },
+  {
+   "who": "priya",
+   "text": "Can I check the dependency once more, just for my own notes? Landlord gives riser access to the telco. Then the new line goes live. Then the main number gets ported."
+  },
+  {
+   "who": "it",
+   "text": "Yes. In that order."
+  },
+  {
+   "who": "nurse",
+   "text": "And the first step is not in our hands."
+  },
+  {
+   "who": "it",
+   "text": "Right. It's up to the landlord."
+  },
+  {
+   "who": "siti",
+   "text": "Which is why the form matters. Everything else sits behind it."
+  },
+  {
+   "who": "it",
+   "text": "Yes, that's how it looks from my side."
+  },
+  {
+   "who": "pharm",
+   "text": "Sorry, I keep asking, but is there anything that anybody here needs to do on the phones? Or is it just IT with the form?"
+  },
+  {
+   "who": "siti",
+   "text": "As far as I heard, it's IT sending the form to Marcus for the landlord. I don't think there's anything for the rest of us right now."
+  },
+  {
+   "who": "it",
+   "text": "That matches what I have."
+  },
+  {
+   "who": "pharm",
+   "text": "Okay, good. Nothing for me then. That's a relief, I've got enough going on."
+  },
+  {
+   "who": "nurse",
+   "text": "Ha, same."
+  },
+  {
+   "who": "siti",
+   "text": "Alright. Anything else for IT before we let you go?"
+  },
+  {
+   "who": "priya",
+   "text": "Nothing from me. Thanks for explaining the riser thing."
+  },
+  {
+   "who": "nurse",
+   "text": "No, thank you. That helped."
+  },
+  {
+   "who": "pharm",
+   "text": "Same. Thank you."
+  },
+  {
+   "who": "it",
+   "text": "No problem. I'll drop off now if that's alright. Thanks, everyone."
+  },
+  {
+   "who": "siti",
+   "text": "Thanks for dialling in. Bye."
+  },
+  {
+   "who": "nurse",
+   "text": "Bye."
+  },
+  {
+   "who": "priya",
+   "text": "Bye, thanks."
+  },
+  {
+   "who": "pharm",
+   "text": "Thanks, bye."
+  },
+  {
+   "who": "siti",
+   "text": "Okay, so just to wrap up before we finish. On parking, there are twenty lots and thirty two drivers, and we need to tell staff now."
+  },
+  {
+   "who": "nurse",
+   "text": "Yes. And I'll be careful to say the HR part is only a question."
+  },
+  {
+   "who": "priya",
+   "text": "And I'm the one asking HR about the public car park next door. I'll let you know what they say, whatever it is."
+  },
+  {
+   "who": "siti",
+   "text": "Thanks, Priya. And on phones, the porting waits for the landlord to give the telco riser access, and IT is sending the form to Marcus."
+  },
+  {
+   "who": "pharm",
+   "text": "Good. I think that's everything I have written down too."
+  },
+  {
+   "who": "nurse",
+   "text": "Me too."
+  },
+  {
+   "who": "siti",
+   "text": "Great. Thanks, everyone. That's us for today."
+  },
+  {
+   "who": "pharm",
+   "text": "Thanks, Siti. Bye all."
+  },
+  {
+   "who": "nurse",
+   "text": "Bye, everyone."
+  },
+  {
+   "who": "priya",
+   "text": "Bye."
+  },
+  {
+   "who": "siti",
+   "text": "Bye, take care."
+  }
+ ]
+}

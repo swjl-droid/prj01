@@ -1,0 +1,904 @@
+{
+ "case": "m09",
+ "model": "claude-sonnet-5-5",
+ "note": "Written through the gateway by GET /api/eval?task=dialogue; beats checked word for word.",
+ "lines": [
+  {
+   "who": "priya",
+   "text": "Morning, Helen. Can you hear me okay? I've got the little bars going up and down so I think it's working."
+  },
+  {
+   "who": "director",
+   "text": "I can hear you, Priya. A bit of an echo, but it's fine. Is that you or is that me?"
+  },
+  {
+   "who": "priya",
+   "text": "Might be me. Let me put the headset on. Hang on."
+  },
+  {
+   "who": "director",
+   "text": "Take your time. We're still waiting for the others anyway."
+  },
+  {
+   "who": "pharm",
+   "text": "Hello, hello. Sorry, am I on mute? I think I'm on mute."
+  },
+  {
+   "who": "priya",
+   "text": "You were, Ben. You're fine now."
+  },
+  {
+   "who": "pharm",
+   "text": "Right, good. The button's in a different place on this laptop. I keep hitting the wrong one."
+  },
+  {
+   "who": "director",
+   "text": "Morning, Ben. We can see you, but you're a bit dark. Is there a light behind you?"
+  },
+  {
+   "who": "pharm",
+   "text": "It's the window. Let me turn the screen. Is that better?"
+  },
+  {
+   "who": "director",
+   "text": "Much better. Now we can see your face and not just your outline."
+  },
+  {
+   "who": "pharm",
+   "text": "That's what my wife says too."
+  },
+  {
+   "who": "priya",
+   "text": "Ha. Raymond's just joined, I think. Raymond, can you hear us?"
+  },
+  {
+   "who": "finance",
+   "text": "Yes, yes, I'm here. Sorry. The meeting link took me to the wrong room first, and then I had to log in again."
+  },
+  {
+   "who": "director",
+   "text": "It does that. Good morning, Raymond."
+  },
+  {
+   "who": "finance",
+   "text": "Morning, all. Can you see my screen? I've got a spreadsheet open and I'm not sharing it, I hope."
+  },
+  {
+   "who": "priya",
+   "text": "No, we just see you. Your camera's pointing a little at the ceiling."
+  },
+  {
+   "who": "finance",
+   "text": "Oh. Is that better? I'm never sure with this stand."
+  },
+  {
+   "who": "pharm",
+   "text": "Now we see the top of your head."
+  },
+  {
+   "who": "finance",
+   "text": "Well, that's worse. Hold on. There. Okay."
+  },
+  {
+   "who": "director",
+   "text": "Lovely. Everyone's here, then. Priya, are you sharing the status page, or shall I just ask you?"
+  },
+  {
+   "who": "priya",
+   "text": "I can share it, but I don't think we need it. It's all in my head, honestly. Well, and in the report."
+  },
+  {
+   "who": "director",
+   "text": "Fine. Let's get going, it's a full agenda and I'd like us to finish on time. Steering: overall status, the licence, the vaccines and power, parking, and the budget."
+  },
+  {
+   "who": "finance",
+   "text": "Sounds good. I'll be listening hardest for the budget bit, you won't be surprised."
+  },
+  {
+   "who": "director",
+   "text": "I never am. Priya, overall status please."
+  },
+  {
+   "who": "priya",
+   "beat": "t1.1",
+   "text": "Overall amber. The cutover is still the thirteenth and fourteenth of February, but three things have no slack left: the licence, the X-ray slot and the handover."
+  },
+  {
+   "who": "director",
+   "text": "Mm-hm. Okay. Say that again, the three things, so I've got them straight."
+  },
+  {
+   "who": "priya",
+   "text": "The licence, the X-ray slot, and the handover. Those three."
+  },
+  {
+   "who": "director",
+   "text": "Right. And everything else is where we want it?"
+  },
+  {
+   "who": "priya",
+   "text": "Everything else I'd call on track. Those three are the ones where there's nothing in reserve. If they move, the date moves."
+  },
+  {
+   "who": "finance",
+   "text": "Sorry, can I just check, when you say no slack, you mean literally none? Not a little?"
+  },
+  {
+   "who": "priya",
+   "text": "Literally none, Raymond. That's why it's amber and not green."
+  },
+  {
+   "who": "finance",
+   "text": "Okay. That's clear. I just wanted to be sure I wasn't reading too much into it."
+  },
+  {
+   "who": "pharm",
+   "text": "I'd say amber is fair. I wouldn't call it green, with three of them sitting like that."
+  },
+  {
+   "who": "director",
+   "beat": "t1.2",
+   "text": "Amber is honest. What would make it red?"
+  },
+  {
+   "who": "priya",
+   "beat": "t1.3",
+   "text": "Any one of those three slipping by more than a week."
+  },
+  {
+   "who": "director",
+   "text": "Any one. Not all three together, just one of them."
+  },
+  {
+   "who": "priya",
+   "text": "Just one. That's how I've been looking at it."
+  },
+  {
+   "who": "finance",
+   "text": "So it's a fairly tight trigger, then."
+  },
+  {
+   "who": "priya",
+   "text": "It is. But I'd rather say it plainly now than have you hear it later."
+  },
+  {
+   "who": "director",
+   "text": "Agreed. I'd much rather have it plain. Ben, you're nodding. Anything to add on that?"
+  },
+  {
+   "who": "pharm",
+   "text": "No, no, I was just agreeing. I think it's a fair description. Mine is mostly the last topic anyway, so I'll hold it."
+  },
+  {
+   "who": "director",
+   "text": "Okay. Raymond, anything on status before we go on?"
+  },
+  {
+   "who": "finance",
+   "text": "Not on status. I'll come back to it in the budget, if that's all right. I just wanted to know what amber means so I can say it properly to the others."
+  },
+  {
+   "who": "director",
+   "text": "Sure. Amber means the date is holding, but with nothing in reserve on three items. Priya, is that fair?"
+  },
+  {
+   "who": "priya",
+   "text": "That's fair. That's the whole message."
+  },
+  {
+   "who": "director",
+   "text": "Good. Then the licence."
+  },
+  {
+   "who": "priya",
+   "beat": "t2.1",
+   "text": "The ministry gave us a date: the licence for the new address will be issued on the sixth of February."
+  },
+  {
+   "who": "director",
+   "beat": "t2.2",
+   "text": "Good, that's a week before the cutover. Is that in writing?"
+  },
+  {
+   "who": "priya",
+   "beat": "t2.3",
+   "text": "Yes, we have the e-mail from the ministry."
+  },
+  {
+   "who": "director",
+   "text": "Okay. I only ask because I've been on the wrong end of a verbal date before."
+  },
+  {
+   "who": "priya",
+   "text": "Understood. This one's not verbal. It's written down."
+  },
+  {
+   "who": "finance",
+   "text": "Sorry, just so I follow. The sixth, and then the cutover is the thirteenth. Is that right?"
+  },
+  {
+   "who": "priya",
+   "text": "Yes. The sixth is when it's issued, and the cutover is the thirteenth and fourteenth."
+  },
+  {
+   "who": "finance",
+   "text": "Right. So about a week between the two."
+  },
+  {
+   "who": "director",
+   "text": "A week, yes. Which is why I called it good. But it's also why it's one of the three with no slack, isn't it?"
+  },
+  {
+   "who": "priya",
+   "text": "Exactly. A week sounds like a lot, but if the licence slips by more than a week, that's the red trigger we just talked about."
+  },
+  {
+   "who": "director",
+   "text": "Mm-hm. So the cushion is that week and nothing more."
+  },
+  {
+   "who": "priya",
+   "text": "That's right."
+  },
+  {
+   "who": "pharm",
+   "text": "Can I ask, and tell me if it's a silly question. Is the sixth the date they issue it, or the date we receive it?"
+  },
+  {
+   "who": "priya",
+   "text": "What the e-mail says is that it will be issued on the sixth. That's the wording I've got."
+  },
+  {
+   "who": "pharm",
+   "text": "Okay. Issued. Fine. I just wanted to be sure I had the word right."
+  },
+  {
+   "who": "director",
+   "text": "Good question, though. The words matter with ministries."
+  },
+  {
+   "who": "finance",
+   "text": "They always do."
+  },
+  {
+   "who": "director",
+   "text": "Priya, you're comfortable with it? You're not worried about the e-mail?"
+  },
+  {
+   "who": "priya",
+   "text": "I'm comfortable that it's in writing. That was the thing I wanted. I can't speak for the ministry beyond what they've told us."
+  },
+  {
+   "who": "director",
+   "text": "No, of course. That's a fair way to put it."
+  },
+  {
+   "who": "finance",
+   "text": "Sorry, I'm going to go back one step, if I can. On the status, you said the licence, X-ray and handover. Is the licence the one you're most comfortable with now that you have the date?"
+  },
+  {
+   "who": "priya",
+   "text": "I wouldn't rank them, Raymond. I'd say the licence now has a date in writing, which is better than before. But it still has no slack, so it's still on the list."
+  },
+  {
+   "who": "finance",
+   "text": "Okay, so it's on the list, but it's better than it was."
+  },
+  {
+   "who": "priya",
+   "text": "Yes. That's a fair way to say it."
+  },
+  {
+   "who": "director",
+   "text": "I'm happy with that. Let's not spend longer on it. Ben, the vaccine risk."
+  },
+  {
+   "who": "pharm",
+   "beat": "t3.1",
+   "text": "Backup power for the fridge circuit is now commissioned and tested, so the vaccine risk is much smaller."
+  },
+  {
+   "who": "director",
+   "text": "Mm-hm. Much smaller. Not gone."
+  },
+  {
+   "who": "pharm",
+   "text": "Not gone, no. I wouldn't say gone. I'd say much smaller."
+  },
+  {
+   "who": "finance",
+   "text": "Sorry, Ben, when you say commissioned and tested, is that finished? Like, it's done?"
+  },
+  {
+   "who": "pharm",
+   "text": "Commissioned and tested, yes. That's what I'm telling you. It's been through both."
+  },
+  {
+   "who": "finance",
+   "text": "Right. I just wanted to hear it in plain words. Thank you."
+  },
+  {
+   "who": "director",
+   "text": "And that's the fridge circuit specifically."
+  },
+  {
+   "who": "pharm",
+   "text": "The fridge circuit, yes. That's the part that matters for the vaccines."
+  },
+  {
+   "who": "priya",
+   "text": "That's a big one to tick off, Ben. I know it's been on everyone's mind."
+  },
+  {
+   "who": "pharm",
+   "text": "It has. It's been on mine for a long time, to be honest. So it's a relief."
+  },
+  {
+   "who": "director",
+   "text": "I can imagine. So where does that leave the vaccine risk, in your words?"
+  },
+  {
+   "who": "pharm",
+   "text": "Much smaller than it was. That's the honest version. It's not zero, but it's much smaller."
+  },
+  {
+   "who": "pharm",
+   "beat": "t3.2",
+   "text": "We'll still do the cool box run with loggers, just as a second line of defence."
+  },
+  {
+   "who": "director",
+   "text": "Right. So belt and braces."
+  },
+  {
+   "who": "pharm",
+   "text": "Belt and braces, yes. Second line, that's all."
+  },
+  {
+   "who": "finance",
+   "text": "Is that a case of the backup power not being trusted, or just being careful?"
+  },
+  {
+   "who": "pharm",
+   "text": "Careful. I trust the backup power, that's why I said much smaller. The cool boxes are there as a second line, in case."
+  },
+  {
+   "who": "finance",
+   "text": "Okay. That makes sense. I wasn't trying to suggest anything, I just wanted to understand the reason."
+  },
+  {
+   "who": "pharm",
+   "text": "No, that's fair. It's a reasonable thing to ask."
+  },
+  {
+   "who": "director",
+   "text": "I think it's the right attitude, frankly. The first line is tested, and the second line is there anyway."
+  },
+  {
+   "who": "priya",
+   "text": "And it fits with what we said at the start, that we'd rather be plain than surprised."
+  },
+  {
+   "who": "director",
+   "text": "It does. Mm-hm."
+  },
+  {
+   "who": "finance",
+   "text": "Can I just say, from my side, it's good to hear it described as smaller and not as solved. I trust that more."
+  },
+  {
+   "who": "pharm",
+   "text": "I'd rather not say solved. If I said solved and then something happened, you'd never believe me again."
+  },
+  {
+   "who": "director",
+   "text": "Ha. Quite right."
+  },
+  {
+   "who": "priya",
+   "text": "Sorry, small thing. Ben, you said the cool box run is a second line. Is that the right way for me to write it up? Second line, not main plan?"
+  },
+  {
+   "who": "pharm",
+   "text": "Yes. Second line of defence. The backup power is the main protection, the cool box run sits behind it."
+  },
+  {
+   "who": "priya",
+   "text": "Okay, good. I wanted to get the wording right."
+  },
+  {
+   "who": "director",
+   "text": "Fine. I think we're clear on that. Anyone want to go back to anything before we move on? Raymond?"
+  },
+  {
+   "who": "finance",
+   "text": "Only that I want to be sure I've got the story straight for the people I report to. Amber overall, licence in writing, and vaccine risk much smaller. Is that fair?"
+  },
+  {
+   "who": "director",
+   "text": "That's fair. And with the cool box run still being done as a second line."
+  },
+  {
+   "who": "finance",
+   "text": "Yes, and that. Thank you."
+  },
+  {
+   "who": "priya",
+   "text": "And the three with no slack, don't lose those."
+  },
+  {
+   "who": "finance",
+   "text": "The licence, the X-ray slot and the handover. I've got them written down."
+  },
+  {
+   "who": "director",
+   "text": "Good. Right, I think that's the first three in good shape. Is everyone still with us, no one lost the connection?"
+  },
+  {
+   "who": "pharm",
+   "text": "Still here."
+  },
+  {
+   "who": "priya",
+   "text": "Still here, no echo now either."
+  },
+  {
+   "who": "finance",
+   "text": "Here. My camera's still pointing the right way, I think."
+  },
+  {
+   "who": "director",
+   "text": "It is. Well done, Raymond."
+  },
+  {
+   "who": "director",
+   "text": "Parking."
+  },
+  {
+   "who": "priya",
+   "text": "Right, yes. This one's been going round for a while, so I'm glad to have something to say on it. Let me just find my note. Sorry, one second."
+  },
+  {
+   "who": "director",
+   "text": "Take your time. Benjamin, you've got your hand up, or is that you waving at someone?"
+  },
+  {
+   "who": "pharm",
+   "text": "No, that's me waving at the cat. Sorry. Go on, Priya, I'm listening."
+  },
+  {
+   "who": "priya",
+   "text": "Okay. So the position was that we had a gap, and the gap was twelve. Twelve staff who would've had nowhere to park once we're in the new building."
+  },
+  {
+   "who": "finance",
+   "text": "Twelve spaces short. Yes. That's the number I've had in my head as well."
+  },
+  {
+   "who": "priya",
+   "text": "Good, same number then. And the news is this."
+  },
+  {
+   "who": "priya",
+   "beat": "t4.1",
+   "text": "HR agreed to subsidise twelve lots in the public car park next door for six months, which covers the gap of twelve."
+  },
+  {
+   "who": "pharm",
+   "text": "Mm-hm. Sorry, just so I have it straight. Twelve lots, and the gap is twelve. So it's one for one?"
+  },
+  {
+   "who": "priya",
+   "text": "One for one, yes. Twelve lots against a gap of twelve. That's why I said it covers it."
+  },
+  {
+   "who": "pharm",
+   "text": "Right. Good. I only ask because in pharmacy we've been getting questions, and I'd rather give people the right number than a vague one."
+  },
+  {
+   "who": "director",
+   "text": "What kind of questions, Benjamin?"
+  },
+  {
+   "who": "pharm",
+   "text": "Mostly just, is it sorted, is it not sorted. People like a straight answer. I think they've been hearing bits of it in the corridor."
+  },
+  {
+   "who": "director",
+   "text": "Yes, that's how it goes. Everyone hears half a sentence."
+  },
+  {
+   "who": "priya",
+   "text": "Which is fair, because until this week I only had half a sentence myself."
+  },
+  {
+   "who": "finance",
+   "text": "Can I check one thing? The car park is next door. It's the public one, so it's not ours."
+  },
+  {
+   "who": "priya",
+   "text": "Correct, it's the public car park next door. The subsidy is for twelve lots in there."
+  },
+  {
+   "who": "finance",
+   "text": "Okay. And the six months, that's the length of the subsidy, not, I don't know, a trial of something else."
+  },
+  {
+   "who": "priya",
+   "text": "It's the length of the subsidy. Six months. That's what HR agreed, and that's all I've got on it."
+  },
+  {
+   "who": "finance",
+   "text": "Right. I just wanted to be sure I wasn't mixing it up with another timeline."
+  },
+  {
+   "who": "director",
+   "text": "I don't think there's another one. Is there, Priya?"
+  },
+  {
+   "who": "priya",
+   "text": "Not that I'm aware of, no. It's one agreement, twelve lots, six months."
+  },
+  {
+   "who": "pharm",
+   "text": "Sorry, going back a second. When you say HR agreed, is that done, or is that agreed in principle?"
+  },
+  {
+   "who": "priya",
+   "text": "They've agreed it. That's the word they used, agreed. I'm not going to dress it up as anything more than that, and I'm not going to water it down either."
+  },
+  {
+   "who": "pharm",
+   "text": "Fair enough. Agreed is agreed."
+  },
+  {
+   "who": "director",
+   "text": "I'm happy with agreed. It's a lot better than where we were a few weeks ago."
+  },
+  {
+   "who": "priya",
+   "text": "It is. I'll admit I was a bit nervous about this one."
+  },
+  {
+   "who": "finance",
+   "text": "You weren't the only one. I kept seeing it come up and thinking, here we go."
+  },
+  {
+   "who": "pharm",
+   "text": "Ha, same. It felt like the sort of thing that sits there and never moves."
+  },
+  {
+   "who": "director",
+   "text": "Well, it's moved. Anything else on the parking itself before I sum it up? Raymond?"
+  },
+  {
+   "who": "finance",
+   "text": "Only that I'll want to talk about how it's paid for, but I think that's the next item, so I'll hold it."
+  },
+  {
+   "who": "director",
+   "text": "Yes, hold that, we'll come to it straight after. Benjamin, anything?"
+  },
+  {
+   "who": "pharm",
+   "text": "No, I'm fine. Well, one small thing. Twelve covers the gap of twelve. So nobody's left over?"
+  },
+  {
+   "who": "priya",
+   "text": "Nobody left over, on the numbers we've got. Twelve and twelve."
+  },
+  {
+   "who": "pharm",
+   "text": "Lovely. That's what I'll say, then. Twelve lots, next door, six months."
+  },
+  {
+   "who": "director",
+   "text": "That's a clean way to put it."
+  },
+  {
+   "who": "director",
+   "beat": "t4.2",
+   "text": "Good, so the parking issue is solved, at least for six months."
+  },
+  {
+   "who": "priya",
+   "text": "Yes. For six months. I'd say it just like that."
+  },
+  {
+   "who": "pharm",
+   "text": "Mm-hm. I like the 'at least'. It's honest."
+  },
+  {
+   "who": "director",
+   "text": "I try. Right, I think that's parking. Priya, thank you, that was a useful bit of news to get."
+  },
+  {
+   "who": "priya",
+   "text": "Thanks. I'm relieved to be honest."
+  },
+  {
+   "who": "director",
+   "text": "Budget, Raymond."
+  },
+  {
+   "who": "finance",
+   "text": "Yes. Hang on, let me get the right sheet up. I've got three tabs open and none of them are the one I want."
+  },
+  {
+   "who": "director",
+   "text": "We've all been there. Take a moment."
+  },
+  {
+   "who": "pharm",
+   "text": "Is that the one with the green column? I always find the green one."
+  },
+  {
+   "who": "finance",
+   "text": "That's the one. Okay, I've got it. Can you all see it, or should I just talk?"
+  },
+  {
+   "who": "director",
+   "text": "I can't see anything yet. Oh, there. Yes. It's a bit small, though."
+  },
+  {
+   "who": "finance",
+   "text": "I'll just talk through it. The sheet's not telling you much that I won't say anyway."
+  },
+  {
+   "who": "finance",
+   "beat": "t5.1",
+   "text": "Spend to date is in line. We've used three thousand of the twenty thousand contingency, for the movers."
+  },
+  {
+   "who": "director",
+   "text": "Three of twenty. Just so I'm clear, that's three thousand used, and the twenty is the whole contingency."
+  },
+  {
+   "who": "finance",
+   "text": "Yes. Twenty thousand is the total contingency. Three thousand is gone, and it went on the movers."
+  },
+  {
+   "who": "pharm",
+   "text": "And when you say in line, in line with what? The plan?"
+  },
+  {
+   "who": "finance",
+   "text": "In line with what we expected at this point. Nothing's jumped out at me. That's all I mean by it."
+  },
+  {
+   "who": "pharm",
+   "text": "Okay. Good. I wasn't trying to catch you out, I just like to know what the words mean."
+  },
+  {
+   "who": "finance",
+   "text": "No, it's a fair question. I use 'in line' a lot and I don't always say what it's in line with."
+  },
+  {
+   "who": "director",
+   "text": "I do the same with 'on track'. It can mean almost anything."
+  },
+  {
+   "who": "priya",
+   "text": "Ha, it really can. I'm guilty of that one."
+  },
+  {
+   "who": "director",
+   "text": "So the movers are the three thousand. Is that the only thing that's come out of contingency so far?"
+  },
+  {
+   "who": "finance",
+   "text": "As far as the three thousand goes, yes. That's what I've got. Movers, three thousand."
+  },
+  {
+   "who": "director",
+   "text": "Right. Okay. I just wanted to hear it said plainly."
+  },
+  {
+   "who": "pharm",
+   "text": "So, that leaves a fair bit. Seventeen, if I've done it right."
+  },
+  {
+   "who": "finance",
+   "text": "Seventeen thousand, yes. Twenty less three."
+  },
+  {
+   "who": "pharm",
+   "text": "Good, my maths is working today."
+  },
+  {
+   "who": "priya",
+   "text": "Mine isn't. I'd have said sixteen and then doubted myself."
+  },
+  {
+   "who": "director",
+   "text": "Well, we've got Benjamin for the sums. Go on, Raymond. You said you wanted to talk about the parking."
+  },
+  {
+   "who": "finance",
+   "text": "I did. Sorry, I was getting there. It's the obvious follow-on from the last item."
+  },
+  {
+   "who": "finance",
+   "beat": "t5.2",
+   "text": "The parking subsidy adds about eight thousand over six months, which I'd also take from contingency."
+  },
+  {
+   "who": "pharm",
+   "text": "Sorry, 'about' eight thousand. Is that a firm figure or an estimate?"
+  },
+  {
+   "who": "finance",
+   "text": "It's about eight thousand. That's the word I'd use. I'm not going to claim it's more exact than that."
+  },
+  {
+   "who": "pharm",
+   "text": "Okay. Understood. I only ask because 'about' can move."
+  },
+  {
+   "who": "finance",
+   "text": "It can. But about eight thousand over the six months is what I'm working to."
+  },
+  {
+   "who": "director",
+   "text": "And the six months is the same six months Priya just gave us."
+  },
+  {
+   "who": "finance",
+   "text": "Same six months, yes. The twelve lots, the six months, that's what the eight thousand sits on."
+  },
+  {
+   "who": "priya",
+   "text": "Right. That matches what I told you, I think. Twelve lots, six months."
+  },
+  {
+   "who": "finance",
+   "text": "It does. I'm not changing any of it. I'm just putting a cost against it."
+  },
+  {
+   "who": "pharm",
+   "text": "So just so I follow. The movers are three thousand, already used. The parking would be about eight thousand more. Both from the same pot."
+  },
+  {
+   "who": "finance",
+   "text": "Both from contingency, yes. That's what I'd suggest."
+  },
+  {
+   "who": "pharm",
+   "text": "Mm-hm. And that pot is twenty thousand to begin with."
+  },
+  {
+   "who": "finance",
+   "text": "Twenty thousand to begin with. Yes."
+  },
+  {
+   "who": "director",
+   "text": "Hold on, let me just say it back, because I want to be sure I've got it. Three thousand's gone on the movers. Parking adds about eight thousand. Both from contingency."
+  },
+  {
+   "who": "finance",
+   "text": "That's it. You've got it."
+  },
+  {
+   "who": "director",
+   "text": "And you're happy that's the right place for it? I'm not putting words in your mouth."
+  },
+  {
+   "who": "finance",
+   "text": "I am. I said I'd take it from contingency, and I would. I don't see another obvious place for it."
+  },
+  {
+   "who": "pharm",
+   "text": "Can I ask why contingency, rather than somewhere else? I'm not against it. I'm just curious how you got there."
+  },
+  {
+   "who": "finance",
+   "text": "Fair. It's because the parking is the kind of thing contingency is there for. It came up and we need it covered. That's how I see it."
+  },
+  {
+   "who": "pharm",
+   "text": "Right. That makes sense. I wasn't pushing back, I just wanted the reasoning."
+  },
+  {
+   "who": "finance",
+   "text": "No, no, that's fine. I'd rather you ask."
+  },
+  {
+   "who": "priya",
+   "text": "Can I add something? From my side, the subsidy is what makes the parking work, so if it comes out of contingency, I'm comfortable with that."
+  },
+  {
+   "who": "director",
+   "text": "Good. Thank you."
+  },
+  {
+   "who": "priya",
+   "text": "I just wanted to say it, so it's on record that I'm not unhappy with it."
+  },
+  {
+   "who": "director",
+   "text": "Noted. Benjamin, are you comfortable?"
+  },
+  {
+   "who": "pharm",
+   "text": "I'm comfortable. I think I was just thinking aloud, really. Three used, about eight more. It's fine."
+  },
+  {
+   "who": "finance",
+   "text": "I'd say the same. It's tidy, to be honest."
+  },
+  {
+   "who": "director",
+   "text": "Okay. Anyone want to go back to anything before I say it? Parking, movers, anything?"
+  },
+  {
+   "who": "pharm",
+   "text": "Just a quick one. On the movers, the three thousand. That's been spent, not just promised?"
+  },
+  {
+   "who": "finance",
+   "text": "It's what we've used. That's how I'd put it. Used, for the movers."
+  },
+  {
+   "who": "pharm",
+   "text": "Fine. Thanks. I keep wanting to pin the words down. Sorry."
+  },
+  {
+   "who": "director",
+   "text": "Don't be sorry. It's useful. Priya?"
+  },
+  {
+   "who": "priya",
+   "text": "Nothing from me. Well, only that I'm glad it's a short conversation. I thought the parking might need a longer one."
+  },
+  {
+   "who": "director",
+   "text": "I did too. So did I, honestly."
+  },
+  {
+   "who": "finance",
+   "text": "It's the benefit of having an actual answer, I suppose."
+  },
+  {
+   "who": "director",
+   "text": "Ha, yes. It does save time. Right."
+  },
+  {
+   "who": "director",
+   "beat": "t5.3",
+   "text": "Approved, take the parking subsidy from contingency."
+  },
+  {
+   "who": "finance",
+   "text": "Thank you. Understood."
+  },
+  {
+   "who": "pharm",
+   "text": "Mm-hm. Good."
+  },
+  {
+   "who": "priya",
+   "text": "Great. Thanks, everyone."
+  },
+  {
+   "who": "director",
+   "text": "Well, that's a good place to be. I think that's us for the day, and for the year, really. Thanks all, it's been a pleasure."
+  },
+  {
+   "who": "pharm",
+   "text": "Thanks, Helen. Thanks, everyone. Goodbye."
+  },
+  {
+   "who": "finance",
+   "text": "Bye all."
+  },
+  {
+   "who": "priya",
+   "text": "Bye, everyone. Take care."
+  },
+  {
+   "who": "director",
+   "text": "Bye now."
+  }
+ ]
+}

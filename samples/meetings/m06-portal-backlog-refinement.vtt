@@ -1,0 +1,1216 @@
+WEBVTT
+
+NOTE Synthetic meeting transcript (prj01-R1 US-4 mock m06).
+
+1
+00:00:08.000 --> 00:00:17.000
+<v Mei Chen (Product Owner)>Morning, everyone. Can you hear me okay? I've got the little bars jumping up and down, so I think my mic's working.</v>
+
+2
+00:00:18.000 --> 00:00:21.000
+<v Lisa Wong (QA)>Yeah, I can hear you. Morning, Mei.</v>
+
+3
+00:00:22.000 --> 00:00:28.000
+<v Ahmad Faizal (Dev Lead)>Morning. Hear you fine. Can you hear me? I switched headsets this morning.</v>
+
+4
+00:00:28.000 --> 00:00:33.000
+<v Mei Chen (Product Owner)>You're a bit quiet, Ahmad. Maybe a bit far from the mic.</v>
+
+5
+00:00:34.000 --> 00:00:38.000
+<v Ahmad Faizal (Dev Lead)>Is that better? I moved it closer to my mouth.</v>
+
+6
+00:00:38.000 --> 00:00:41.000
+<v Mei Chen (Product Owner)>Much, Much um better. Yes, that's good.</v>
+
+7
+00:00:41.000 --> 00:00:47.000
+<v Lisa Wong (QA)>Ahmad, you froze for a second there. Your picture's stuck, but the sound's fine.</v>
+
+8
+00:00:48.000 --> 00:00:54.000
+<v Ahmad Faizal (Dev Lead)>Oh. Hang on, let me turn the camera off and on again. Better?</v>
+
+9
+00:00:55.000 --> 00:01:02.000
+<v Lisa Wong (QA)>Yep, you're moving again. sort of You were stuck with your mouth open, it was very flattering.</v>
+
+10
+00:01:02.000 --> 00:01:06.000
+<v Ahmad Faizal (Dev Lead)>Great, Great. That's the picture I wanted everyone to remember.</v>
+
+11
+00:01:06.000 --> 00:01:13.000
+<v Mei Chen (Product Owner)>Jonas, Jonas isn't in yet, is he? sort of I only see the three of us.</v>
+
+12
+00:01:14.000 --> 00:01:23.000
+<v Lisa Wong (QA)>I think he's in the lobby. There was something about the meeting link in my chat a I mean minute ago.</v>
+
+13
+00:01:23.000 --> 00:01:25.000
+<v Jonas Weber (Central IT)>[inaudible] no, you first.</v>
+
+14
+00:01:27.000 --> 00:01:30.000
+<v Lisa Wong (QA)>No worries. As I was saying.</v>
+
+15
+00:01:31.000 --> 00:01:40.000
+<v Jonas Weber (Central IT)>Hello? Sorry, I'm in. Can you hear me? I think I'm on mute. No, I'm not on mute. Hang on.</v>
+
+16
+00:01:40.000 --> 00:01:43.000
+<v Mei Chen (Product Owner)>We you know can hear you, Jonas. Welcome.</v>
+
+17
+00:01:45.000 --> 00:01:52.000
+<v Jonas Weber (Central IT)>Oh good. The button was in a different place on my screen. It moved since last time.</v>
+
+18
+00:01:53.000 --> 00:02:00.000
+<v Ahmad Faizal (Dev Lead)>They move it every update. I've given up trying to sort of learn where anything is.</v>
+
+19
+00:02:01.000 --> 00:02:04.000
+<v Lisa Wong (QA)>Mm-hm. I just click around until something works.</v>
+
+20
+00:02:06.000 --> 00:02:13.000
+<v Jonas Weber (Central IT)>Right, that's my method too. Sorry you know I'm a bit late. The previous call ran over.</v>
+
+21
+00:02:13.000 --> 00:02:20.000
+<v Mei Chen (Product Owner)>No problem, we've only just started. Everyone get coffee? I'm on kind of my second already.</v>
+
+22
+00:02:20.000 --> 00:02:30.000
+<v Lisa Wong (QA)>First one, still waking up. um It's one of those mornings where it's dark when you get up and dark when you finish.</v>
+
+23
+00:02:30.000 --> 00:02:35.000
+<v Jonas Weber (Central IT)>Yes, I noticed that this week. It does something to you.</v>
+
+24
+00:02:36.000 --> 00:02:44.000
+<v Ahmad Faizal (Dev Lead)>I, I just keep the lamp on all day. My kid says my room looks like an interrogation.</v>
+
+25
+00:02:44.000 --> 00:02:47.000
+<v Lisa Wong (QA)>Ha. Well, at least the lamp's honest.</v>
+
+26
+00:02:49.000 --> 00:02:51.000
+<v Mei Chen (Product Owner)>Uh-huh.</v>
+
+27
+00:02:51.000 --> 00:03:01.000
+<v Mei Chen (Product Owner)>Okay. Let me share my screen so we can all see the board. Can you see it? It should be the refinement column.</v>
+
+28
+00:03:01.000 --> 00:03:03.000
+<v Ahmad Faizal (Dev Lead)>I see a calendar.</v>
+
+29
+00:03:03.000 --> 00:03:09.000
+<v Mei Chen (Product Owner)>Oh, wrong window. Sorry. Give me a second. Is it the board now?</v>
+
+30
+00:03:10.000 --> 00:03:16.000
+<v Lisa Wong (QA)>Now I see the board, but it's small. Can you zoom in a bit?</v>
+
+31
+00:03:16.000 --> 00:03:20.000
+<v Mei Chen (Product Owner)>Is that better? I'll uh bump it up once more.</v>
+
+32
+00:03:20.000 --> 00:03:23.000
+<v Jonas Weber (Central IT)>That's readable on my side. Thanks.</v>
+
+33
+00:03:23.000 --> 00:03:33.000
+<v Mei Chen (Product Owner)>Good, Good. Right, let's like get going, we've got a fair bit to cover and I don't want to run out of time.</v>
+
+34
+00:03:34.000 --> 00:03:40.000
+<v Mei Chen (Product Owner)>Refinement: service requests, the identity provide her, accessibility, analytics, like and the payment sand box.</v>
+
+35
+00:03:42.000 --> 00:03:47.000
+<v Lisa Wong (QA)>That's kind of a long list for the time we have.</v>
+
+36
+00:03:47.000 --> 00:03:53.000
+<v Mei Chen (Product Owner)>It is, so let's try to keep each one moving. Ahmad, I'll start with you.</v>
+
+37
+00:03:53.000 --> 00:03:56.000
+<v Mei Chen (Product Owner)>Service requests first. Ahmad, is the story ready?</v>
+
+38
+00:03:56.000 --> 00:04:05.000
+<v Ahmad Faizal (Dev Lead)>Not really, no. I looked at it again yesterday and I'm not comfortable kind of with it as it stands.</v>
+
+39
+00:04:07.000 --> 00:04:16.000
+<v Ahmad Faizal (Dev Lead)>The service request story is too big, it covers new requests, tracking and attachments. I want to split it in three.</v>
+
+40
+00:04:18.000 --> 00:04:23.000
+<v Mei Chen (Product Owner)>Okay. So that's one story per piece, right? New requests, tracking, attachments?</v>
+
+41
+00:04:23.000 --> 00:04:32.000
+<v Ahmad Faizal (Dev Lead)>Yes, that's what I mean. Each one stands alone and the team can pick it up and finish it without waiting.</v>
+
+42
+00:04:33.000 --> 00:04:46.000
+<v Jonas Weber (Central IT)>From my side, does that change what kind of the portal needs from us? I'm trying to work out if I have to look at it three times or once.</v>
+
+43
+00:04:48.000 --> 00:04:57.000
+<v Ahmad Faizal (Dev Lead)>I don't think it changes what you see. It's the same feature, we're you know just cutting it differently for planning.</v>
+
+44
+00:04:57.000 --> 00:05:01.000
+<v Jonas Weber (Central IT)>Okay, mm-hm. That's fine, I just wanted to be sure.</v>
+
+45
+00:05:01.000 --> 00:05:12.000
+<v Mei Chen (Product Owner)>I'm fine with that. I never liked it being one lump anyway. When I read it I couldn't tell where it started basically and where it stopped.</v>
+
+46
+00:05:13.000 --> 00:05:22.000
+<v Lisa Wong (QA)>That's my problem too. When I try to write tests against a story that big, I never know when I'm done.</v>
+
+47
+00:05:24.000 --> 00:05:32.000
+<v Ahmad Faizal (Dev Lead)>Right. That's the other reason. If it stays as one, it just sits there half finished for ages.</v>
+
+48
+00:05:33.000 --> 00:05:39.000
+<v Mei Chen (Product Owner)>So, order. Is there any reason to do them in a particular order?</v>
+
+49
+00:05:39.000 --> 00:05:41.000
+<v Lisa Wong (QA)>[crosstalk]</v>
+
+50
+00:05:41.000 --> 00:05:43.000
+<v Mei Chen (Product Owner)>Okay, so, yeah.</v>
+
+51
+00:05:45.000 --> 00:05:56.000
+<v Ahmad Faizal (Dev Lead)>New requests is the obvious starting point. Tracking only makes sense once there's something like to track. Attachments, I'd say that's the one that could go anywhere.</v>
+
+52
+00:05:58.000 --> 00:06:02.000
+<v Mei Chen (Product Owner)>Then attachments last. sort of That's easy for me.</v>
+
+53
+00:06:04.000 --> 00:06:09.000
+<v Mei Chen (Product Owner)>Fine, split it. Attachments can um go last, they're the least used.</v>
+
+54
+00:06:09.000 --> 00:06:14.000
+<v Ahmad Faizal (Dev Lead)>Good, Good. I'll make the three stories from the one we have.</v>
+
+55
+00:06:15.000 --> 00:06:17.000
+<v Lisa Wong (QA)>[crosstalk]</v>
+
+56
+00:06:18.000 --> 00:06:20.000
+<v Ahmad Faizal (Dev Lead)>Okay, so, yeah.</v>
+
+57
+00:06:21.000 --> 00:06:31.000
+<v Lisa Wong (QA)>Can I ask about tracking, since like it's the middle one? I've been trying to write the acceptance criteria and I keep getting stuck.</v>
+
+58
+00:06:31.000 --> 00:06:34.000
+<v Mei Chen (Product Owner)>Sure, go you know ahead. What's blocking you?</v>
+
+59
+00:06:35.000 --> 00:06:41.000
+<v Lisa Wong (QA)>Acceptance criteria for uh tracking need the status list from operations, we don't have it.</v>
+
+60
+00:06:43.000 --> 00:06:52.000
+<v Ahmad Faizal (Dev Lead)>Yeah, I noticed that too. I was going to say, I can't size tracking kind of properly without it either.</v>
+
+61
+00:06:53.000 --> 00:07:01.000
+<v Mei Chen (Product Owner)>What exactly are you missing, Lisa? Is it the names of the statuses, or the order they go in?</v>
+
+62
+00:07:03.000 --> 00:07:16.000
+<v Lisa Wong (QA)>Both, really. I'd need to know what a customer is supposed to see, and then what moves a basically request from one to the next. Right now I'd be inventing it.</v>
+
+63
+00:07:18.000 --> 00:07:27.000
+<v Jonas Weber (Central IT)>Is it something Central IT would have? I don't think we hold kind of it, but I can't say for sure.</v>
+
+64
+00:07:27.000 --> 00:07:35.000
+<v Mei Chen (Product Owner)>I um don't think so. It's an operations thing, they're the ones who handle the requests day to day.</v>
+
+65
+00:07:35.000 --> 00:07:44.000
+<v Jonas Weber (Central IT)>Okay, good. Then it's not me. sort of I just didn't want to sit there and say nothing if it was.</v>
+
+66
+00:07:45.000 --> 00:07:54.000
+<v Lisa Wong (QA)>Without that list I like could write something, but it would be a guess, and then we'd test the guess.</v>
+
+67
+00:07:54.000 --> 00:07:58.000
+<v Ahmad Faizal (Dev Lead)>And then um we'd build the guess. No thanks.</v>
+
+68
+00:07:58.000 --> 00:08:02.000
+<v Mei Chen (Product Owner)>No, No, agreed. We shouldn't like build on a guess.</v>
+
+69
+00:08:03.000 --> 00:08:05.000
+<v Jonas Weber (Central IT)>[inaudible] no, you first.</v>
+
+70
+00:08:07.000 --> 00:08:10.000
+<v Mei Chen (Product Owner)>No worries. As I was saying.</v>
+
+71
+00:08:12.000 --> 00:08:16.000
+<v Mei Chen (Product Owner)>I'll get the status list from operations by Wednesday.</v>
+
+72
+00:08:18.000 --> 00:08:23.000
+<v Lisa Wong (QA)>Great, thank you. sort of That unblocks me on that one.</v>
+
+73
+00:08:23.000 --> 00:08:31.000
+<v Ahmad Faizal (Dev Lead)>And that's fine for the order. uh New requests doesn't need the list, so it's not holding us up.</v>
+
+74
+00:08:31.000 --> 00:08:38.000
+<v Lisa Wong (QA)>Right, uh I can do the criteria for new requests without it. That one's clear enough.</v>
+
+75
+00:08:39.000 --> 00:08:43.000
+<v Mei Chen (Product Owner)>Good. So the new requests story isn't waiting on anything.</v>
+
+76
+00:08:45.000 --> 00:08:53.000
+<v Ahmad Faizal (Dev Lead)>Not as far as I can see. Lisa, you'd know better than me if the criteria um look complete.</v>
+
+77
+00:08:55.000 --> 00:09:06.000
+<v Lisa Wong (QA)>For new requests, I think so. I'd want to read it over once the split is done, in case something falls in the wrong story.</v>
+
+78
+00:09:06.000 --> 00:09:14.000
+<v Ahmad Faizal (Dev Lead)>Yeah, that's the risk when you cut things up. Something sits in basically the gap between two of them.</v>
+
+79
+00:09:14.000 --> 00:09:22.000
+<v Mei Chen (Product Owner)>Then we look for that when we see the three stories. Okay. basically Anything else on service requests?</v>
+
+80
+00:09:23.000 --> 00:09:34.000
+<v Jonas Weber (Central IT)>Just a small thing. When you say tracking, it's the customer looking at their own requests, right? Not staff looking at I mean all of them?</v>
+
+81
+00:09:34.000 --> 00:09:37.000
+<v Ahmad Faizal (Dev Lead)>The, The customer, yes. It's the self-service side.</v>
+
+82
+00:09:38.000 --> 00:09:44.000
+<v Jonas Weber (Central IT)>Okay. Good. That's what I like assumed, I just wanted to hear it said.</v>
+
+83
+00:09:46.000 --> 00:09:57.000
+<v Lisa Wong (QA)>Sorry, one more. Going back to what Ahmad said earlier, the basically three of them are tied together a bit, aren't they? Attachments sit on a request.</v>
+
+84
+00:09:59.000 --> 00:10:08.000
+<v Ahmad Faizal (Dev Lead)>They do, in the sense that an attachment belongs to a request. But we can still build them one at a time.</v>
+
+85
+00:10:08.000 --> 00:10:17.000
+<v Lisa Wong (QA)>Okay, that's what I uh was checking. If attachments is last, then it already has a request to hang onto.</v>
+
+86
+00:10:19.000 --> 00:10:23.000
+<v Ahmad Faizal (Dev Lead)>Exactly. That's another reason I'm happy with that order.</v>
+
+87
+00:10:25.000 --> 00:10:27.000
+<v Mei Chen (Product Owner)>Right.</v>
+
+88
+00:10:29.000 --> 00:10:33.000
+<v Mei Chen (Product Owner)>Good, that kind of fits together. Let's move on, then.</v>
+
+89
+00:10:34.000 --> 00:10:36.000
+<v Mei Chen (Product Owner)>Identity provider.</v>
+
+90
+00:10:37.000 --> 00:10:42.000
+<v Ahmad Faizal (Dev Lead)>This, This one worries me more than the stories, to be honest.</v>
+
+91
+00:10:42.000 --> 00:10:49.000
+<v Jonas Weber (Central IT)>I was hoping we'd get to this one. It's the part where Central IT gets asked questions.</v>
+
+92
+00:10:51.000 --> 00:11:00.000
+<v Ahmad Faizal (Dev Lead)>The identity provider's free tier caps us at sort of five thousand monthly users and we expect about twelve thousand customers.</v>
+
+93
+00:11:01.000 --> 00:11:09.000
+<v Jonas Weber (Central IT)>Sorry, say the numbers again? Five thousand is the cap, and twelve thousand is what you think we'll have?</v>
+
+94
+00:11:11.000 --> 00:11:20.000
+<v Ahmad Faizal (Dev Lead)>Yes. Five thousand is the limit sort of on the free tier. Twelve thousand is roughly how many customers we expect.</v>
+
+95
+00:11:22.000 --> 00:11:26.000
+<v Mei Chen (Product Owner)>So it's well over, not just a bit over.</v>
+
+96
+00:11:27.000 --> 00:11:30.000
+<v Ahmad Faizal (Dev Lead)>Well over, yes. basically More than double.</v>
+
+97
+00:11:30.000 --> 00:11:37.000
+<v Lisa Wong (QA)>Is, Is that twelve thousand all signing in every month, or twelve thousand customers in total?</v>
+
+98
+00:11:38.000 --> 00:11:50.000
+<v Ahmad Faizal (Dev Lead)>I'm saying twelve thousand customers. How many of them sign in each month, I can't tell you. But I wouldn't plan around hoping most of them stay away.</v>
+
+99
+00:11:50.000 --> 00:11:56.000
+<v Lisa Wong (QA)>Fair. I'm just trying to understand how close to the line we'd be.</v>
+
+100
+00:11:57.000 --> 00:12:08.000
+<v Jonas Weber (Central IT)>It, It's a fair question, though. Monthly users um and customers aren't the same thing. But I take the point that it's a big gap.</v>
+
+101
+00:12:10.000 --> 00:12:13.000
+<v Ahmad Faizal (Dev Lead)>Oh sorry, I talked over you.</v>
+
+102
+00:12:13.000 --> 00:12:15.000
+<v Jonas Weber (Central IT)>Okay, so, yeah.</v>
+
+103
+00:12:16.000 --> 00:12:23.000
+<v Ahmad Faizal (Dev Lead)>Right. I'm not saying it's exact. I'm saying there's a very wide gap between the two numbers.</v>
+
+104
+00:12:24.000 --> 00:12:29.000
+<v Mei Chen (Product Owner)>Okay. So what does that sort of mean for how we build?</v>
+
+105
+00:12:29.000 --> 00:12:37.000
+<v Ahmad Faizal (Dev Lead)>We're building on the assumption that the paid tier gets approved before go-live, otherwise sign-in stops at five thousand.</v>
+
+106
+00:12:37.000 --> 00:12:46.000
+<v Jonas Weber (Central IT)>Stops, meaning people can't sign in at all once we hit the cap? sort of They don't just get slower service?</v>
+
+107
+00:12:47.000 --> 00:12:55.000
+<v Ahmad Faizal (Dev Lead)>That's how I read it. Once we're at the cap, sign-in stops. That's um what I wrote there.</v>
+
+108
+00:12:57.000 --> 00:13:01.000
+<v Lisa Wong (QA)>That would be basically a bad day for customers.</v>
+
+109
+00:13:01.000 --> 00:13:10.000
+<v Ahmad Faizal (Dev Lead)>Yes, Yes. Which is why I wanted to say it out loud in this meeting and not leave it in a ticket.</v>
+
+110
+00:13:11.000 --> 00:13:15.000
+<v Jonas Weber (Central IT)>Mm-hm. I'm glad you did. I'd rather hear it now.</v>
+
+111
+00:13:16.000 --> 00:13:27.000
+<v Mei Chen (Product Owner)>Just so I've got it straight. The build assumes the paid tier. If the paid tier isn't approved by go-live, then we have the five thousand problem.</v>
+
+112
+00:13:27.000 --> 00:13:34.000
+<v Ahmad Faizal (Dev Lead)>Yes, Yes, that's it exactly. Nothing about the build changes, it's the approval that decides it.</v>
+
+113
+00:13:34.000 --> 00:13:41.000
+<v Jonas Weber (Central IT)>And the approval is a budget thing, I'm um guessing? Not something Central IT signs off on?</v>
+
+114
+00:13:42.000 --> 00:13:46.000
+<v Mei Chen (Product Owner)>It's a budget thing, yes. That part sits with me.</v>
+
+115
+00:13:47.000 --> 00:13:56.000
+<v Jonas Weber (Central IT)>Okay. Then I'll stay out of it, you know except to say I'm happy to answer questions if anyone asks.</v>
+
+116
+00:13:58.000 --> 00:14:06.000
+<v Ahmad Faizal (Dev Lead)>I don't think basically we need anything else from you on it, Jonas. I just wanted you to know.</v>
+
+117
+00:14:07.000 --> 00:14:09.000
+<v Lisa Wong (QA)>[inaudible] no, you first.</v>
+
+118
+00:14:11.000 --> 00:14:13.000
+<v Ahmad Faizal (Dev Lead)>Right, where was I. Yes.</v>
+
+119
+00:14:13.000 --> 00:14:19.000
+<v Jonas Weber (Central IT)>That's fine. Better to hear it in the meeting than find out later.</v>
+
+120
+00:14:20.000 --> 00:14:22.000
+<v Mei Chen (Product Owner)>Okay.</v>
+
+121
+00:14:23.000 --> 00:14:32.000
+<v Lisa Wong (QA)>Can I ask something that might be obvious? When you say the free tier, is that what we're on now, in testing?</v>
+
+122
+00:14:32.000 --> 00:14:40.000
+<v Ahmad Faizal (Dev Lead)>That, That's what we're using now, yes. It's fine for testing, since there are only a few of us.</v>
+
+123
+00:14:40.000 --> 00:14:44.000
+<v Lisa Wong (QA)>Right, so nobody's going to notice until it matters.</v>
+
+124
+00:14:46.000 --> 00:14:52.000
+<v Ahmad Faizal (Dev Lead)>Which is basically exactly the problem. It works perfectly right up until it doesn't.</v>
+
+125
+00:14:53.000 --> 00:14:59.000
+<v Mei Chen (Product Owner)>Okay, I hear that. I don't want to be the reason sign-in stops.</v>
+
+126
+00:15:01.000 --> 00:15:05.000
+<v Mei Chen (Product Owner)>I'll put the paid tier into the January budget request.</v>
+
+127
+00:15:06.000 --> 00:15:10.000
+<v Ahmad Faizal (Dev Lead)>Good, thanks Mei. That's what I needed to hear.</v>
+
+128
+00:15:12.000 --> 00:15:16.000
+<v Jonas Weber (Central IT)>Great. So it's covered on the sort of budget side.</v>
+
+129
+00:15:17.000 --> 00:15:24.000
+<v Lisa Wong (QA)>Sorry, just checking I've got the order right. Budget request first, then the approval, then go-live?</v>
+
+130
+00:15:24.000 --> 00:15:35.000
+<v Mei Chen (Product Owner)>I'm not going to say more than what I said. The paid tier goes in the January request. Beyond that, I can't promise what comes back.</v>
+
+131
+00:15:36.000 --> 00:15:38.000
+<v Jonas Weber (Central IT)>[inaudible] no, you first.</v>
+
+132
+00:15:40.000 --> 00:15:42.000
+<v Mei Chen (Product Owner)>Okay, so, yeah.</v>
+
+133
+00:15:43.000 --> 00:15:49.000
+<v Lisa Wong (QA)>Understood, I wasn't asking um you to. I just wanted to see the sequence.</v>
+
+134
+00:15:49.000 --> 00:15:58.000
+<v Ahmad Faizal (Dev Lead)>The sequence is what I said. We're building like as if it's approved, and the request is how it gets approved.</v>
+
+135
+00:16:00.000 --> 00:16:05.000
+<v Jonas Weber (Central IT)>Okay, Okay. Mm-hm. I think we're all on the same page.</v>
+
+136
+00:16:07.000 --> 00:16:13.000
+<v Mei Chen (Product Owner)>Good, Good. Anything else on the identity provider? Otherwise I'd like to keep going.</v>
+
+137
+00:16:15.000 --> 00:16:17.000
+<v Jonas Weber (Central IT)>Nothing from me.</v>
+
+138
+00:16:19.000 --> 00:16:24.000
+<v Lisa Wong (QA)>Nothing. I just wanted to be sure I understood the cap.</v>
+
+139
+00:16:25.000 --> 00:16:27.000
+<v Ahmad Faizal (Dev Lead)>I'm done. Go ahead.</v>
+
+140
+00:16:28.000 --> 00:16:30.000
+<v Mei Chen (Product Owner)>Accessibility, Accessibility.</v>
+
+141
+00:16:30.000 --> 00:16:36.000
+<v Lisa Wong (QA)>This is kind of mine. It's a short one, but I do want it said.</v>
+
+142
+00:16:38.000 --> 00:16:40.000
+<v Mei Chen (Product Owner)>Sure.</v>
+
+143
+00:16:42.000 --> 00:16:51.000
+<v Lisa Wong (QA)>The bills page fails the WCAG colour contrast check on the amount due, I mean that's a defect we already have.</v>
+
+144
+00:16:51.000 --> 00:16:58.000
+<v Mei Chen (Product Owner)>Sorry, so it's on the bills page, and it's specifically the amount due? Not the whole page?</v>
+
+145
+00:17:00.000 --> 00:17:02.000
+<v Jonas Weber (Central IT)>Got it.</v>
+
+146
+00:17:04.000 --> 00:17:11.000
+<v Jonas Weber (Central IT)>Also, the office fit-out guys want my team the same weeks in January, that's a separate conversation.</v>
+
+147
+00:17:13.000 --> 00:17:19.000
+<v Lisa Wong (QA)>The amount due is the part that fails. That's the one the check flagged.</v>
+
+148
+00:17:19.000 --> 00:17:22.000
+<v Jonas Weber (Central IT)>Oh sorry, I talked over you.</v>
+
+149
+00:17:22.000 --> 00:17:24.000
+<v Lisa Wong (QA)>Right, where was I. Yes.</v>
+
+150
+00:17:26.000 --> 00:17:32.000
+<v Jonas Weber (Central IT)>And that's the one number a customer most needs to read. Not great.</v>
+
+151
+00:17:32.000 --> 00:17:36.000
+<v Lisa Wong (QA)>No. That's why uh it stands out to me.</v>
+
+152
+00:17:37.000 --> 00:17:43.000
+<v Mei Chen (Product Owner)>You said it's a defect we already have. So it's not new, it's been there.</v>
+
+153
+00:17:45.000 --> 00:17:47.000
+<v Ahmad Faizal (Dev Lead)>Sure.</v>
+
+154
+00:17:48.000 --> 00:17:58.000
+<v Lisa Wong (QA)>Right. It's already on our list, so it isn't something I found today. I just want it to get a place in the sprint.</v>
+
+155
+00:18:00.000 --> 00:18:08.000
+<v Ahmad Faizal (Dev Lead)>Hang on, let me look at that. It's the colour of the amount, you know right? Against the background?</v>
+
+156
+00:18:10.000 --> 00:18:16.000
+<v Lisa Wong (QA)>That's what the check is comparing, yes. The text colour and the background behind it.</v>
+
+157
+00:18:16.000 --> 00:18:19.000
+<v Ahmad Faizal (Dev Lead)>Easy fix, it's one colour token.</v>
+
+158
+00:18:20.000 --> 00:18:24.000
+<v Lisa Wong (QA)>Really? I thought it might be more involved than that.</v>
+
+159
+00:18:24.000 --> 00:18:31.000
+<v Ahmad Faizal (Dev Lead)>No, No, I think it's just the one token. Change it once and it carries through.</v>
+
+160
+00:18:32.000 --> 00:18:35.000
+<v Jonas Weber (Central IT)>Mm, Mm-hm. That's the nice thing about tokens.</v>
+
+161
+00:18:37.000 --> 00:18:43.000
+<v Lisa Wong (QA)>Okay, good. Then I'd just re-run the check afterwards to see it pass.</v>
+
+162
+00:18:45.000 --> 00:18:51.000
+<v Ahmad Faizal (Dev Lead)>Yes, that would be the basically proof. If the check passes, we're done.</v>
+
+163
+00:18:51.000 --> 00:18:59.000
+<v Mei Chen (Product Owner)>Is there any reason like not to just do it? I don't see a reason to keep it waiting.</v>
+
+164
+00:19:01.000 --> 00:19:03.000
+<v Jonas Weber (Central IT)>Mm-hm.</v>
+
+165
+00:19:05.000 --> 00:19:09.000
+<v Ahmad Faizal (Dev Lead)>None that I can see. I mean It's small.</v>
+
+166
+00:19:10.000 --> 00:19:16.000
+<v Lisa Wong (QA)>And it's a defect, so I'd feel better having it out of the way.</v>
+
+167
+00:19:18.000 --> 00:19:21.000
+<v Mei Chen (Product Owner)>Okay, fix I mean it in this sprint.</v>
+
+168
+00:19:23.000 --> 00:19:25.000
+<v Ahmad Faizal (Dev Lead)>Fine by me.</v>
+
+169
+00:19:25.000 --> 00:19:29.000
+<v Lisa Wong (QA)>Thanks. That's all I mean I had on that.</v>
+
+170
+00:19:29.000 --> 00:19:40.000
+<v Jonas Weber (Central IT)>Quick question, and tell me if it's off topic. Is that the only page with a contrast problem, or just the only one we know about?</v>
+
+171
+00:19:40.000 --> 00:19:49.000
+<v Lisa Wong (QA)>Just the one I know about. I'm not going to say the rest is clean, because I haven't said that.</v>
+
+172
+00:19:51.000 --> 00:19:56.000
+<v Jonas Weber (Central IT)>Fair enough. I only wanted to know how far the finding went.</v>
+
+173
+00:19:56.000 --> 00:19:58.000
+<v Mei Chen (Product Owner)>Mm-hm.</v>
+
+174
+00:19:58.000 --> 00:20:02.000
+<v Ahmad Faizal (Dev Lead)>Same here, I can only speak for the one.</v>
+
+175
+00:20:04.000 --> 00:20:10.000
+<v Mei Chen (Product Owner)>Okay, Okay. That's what we know today, and um we'll leave it at that.</v>
+
+176
+00:20:11.000 --> 00:20:13.000
+<v Mei Chen (Product Owner)>Analytics.</v>
+
+177
+00:20:13.000 --> 00:20:22.000
+<v Mei Chen (Product Owner)>Marketing, Marketing asked for page analytics. We decided no third uh party analytics in release one, only our own server counts.</v>
+
+178
+00:20:24.000 --> 00:20:42.000
+<v Ahmad Faizal (Dev Lead)>Right, yeah. We talked about that before, and I think everyone was fine with it. Just so I've got it straight in my head, when you say our own server counts, you mean what the server already sees. Requests, that kind of thing.</v>
+
+179
+00:20:42.000 --> 00:20:51.000
+<v Mei Chen (Product Owner)>That's how I understand it, yes. Nothing added on the pages themselves. Nothing that sends data out to somebody else.</v>
+
+180
+00:20:51.000 --> 00:21:04.000
+<v Ahmad Faizal (Dev Lead)>Okay. Mm-hm. Because that changes how we think about the tickets. you know If there's nothing on the page, there's nothing for us to build on the front end for it.</v>
+
+181
+00:21:04.000 --> 00:21:06.000
+<v Lisa Wong (QA)>[crosstalk]</v>
+
+182
+00:21:08.000 --> 00:21:10.000
+<v Ahmad Faizal (Dev Lead)>Okay, so, yeah.</v>
+
+183
+00:21:12.000 --> 00:21:18.000
+<v Mei Chen (Product Owner)>Right. That's the point of the decision, really. We keep release one simple.</v>
+
+184
+00:21:19.000 --> 00:21:29.000
+<v Lisa Wong (QA)>Can, Can I ask something? When marketing asked, did they say what they wanted to look at? Like specific pages, or just everything?</v>
+
+185
+00:21:31.000 --> 00:21:42.000
+<v Mei Chen (Product Owner)>It, It was fairly general, to be honest. They asked for page analytics. I didn't get a detailed list, and I'm not going to pretend I did.</v>
+
+186
+00:21:43.000 --> 00:21:55.000
+<v Lisa Wong (QA)>Okay, that's fair. I just wondered, because if it's like general then maybe server counts cover most of it. But I don't know what they had in mind.</v>
+
+187
+00:21:55.000 --> 00:21:58.000
+<v Ahmad Faizal (Dev Lead)>Oh sorry, I talked over you.</v>
+
+188
+00:21:59.000 --> 00:22:02.000
+<v Lisa Wong (QA)>No worries. As I was saying.</v>
+
+189
+00:22:03.000 --> 00:22:13.000
+<v Jonas Weber (Central IT)>From my side, it's easier too. I mean, if nothing goes to an outside party, I don't have anything to look at there.</v>
+
+190
+00:22:14.000 --> 00:22:17.000
+<v Mei Chen (Product Owner)>Yeah, that's also a good thing about it.</v>
+
+191
+00:22:17.000 --> 00:22:28.000
+<v Ahmad Faizal (Dev Lead)>Do we want to say anything to marketing about what they'll actually get? Because I can see them hearing no analytics and thinking they get nothing.</v>
+
+192
+00:22:29.000 --> 00:22:43.000
+<v Mei Chen (Product Owner)>Hmm. Good point. They'll get something, it's just our own counts. I should make sure the wording is clear when I talk to them. It's not nothing, it's just not third party.</v>
+
+193
+00:22:43.000 --> 00:22:49.000
+<v Ahmad Faizal (Dev Lead)>Yeah, that's all I mean. The word no uh can sound bigger than it is.</v>
+
+194
+00:22:51.000 --> 00:22:57.000
+<v Lisa Wong (QA)>Mm-hm. And it's only for release one, right? That's how it was put.</v>
+
+195
+00:22:58.000 --> 00:23:08.000
+<v Mei Chen (Product Owner)>Release, Release kind of one, yes. That's what we decided. I'm not saying anything about after that, because we haven't talked about it.</v>
+
+196
+00:23:08.000 --> 00:23:14.000
+<v Lisa Wong (QA)>No, sort of no, I wasn't pushing. I just wanted to hear it said again.</v>
+
+197
+00:23:16.000 --> 00:23:18.000
+<v Ahmad Faizal (Dev Lead)>Mm-hm.</v>
+
+198
+00:23:19.000 --> 00:23:24.000
+<v Ahmad Faizal (Dev Lead)>I, I'd rather not reopen it, honestly. We went round it already.</v>
+
+199
+00:23:26.000 --> 00:23:32.000
+<v Mei Chen (Product Owner)>Agreed. Let's not go round again. Lisa, you had something about the banner.</v>
+
+200
+00:23:32.000 --> 00:23:35.000
+<v Lisa Wong (QA)>Yeah, so, from the testing side.</v>
+
+201
+00:23:37.000 --> 00:23:41.000
+<v Lisa Wong (QA)>Good, that also means no cookie banner for now.</v>
+
+202
+00:23:41.000 --> 00:23:49.000
+<v Ahmad Faizal (Dev Lead)>Oh, yeah. That follows, doesn't it. basically If there's nothing third party, there's nothing to ask people about.</v>
+
+203
+00:23:50.000 --> 00:24:00.000
+<v Jonas Weber (Central IT)>Is that for sure? I mean, I'm not a legal you know person, I just know banners come up a lot in these discussions.</v>
+
+204
+00:24:01.000 --> 00:24:13.000
+<v Lisa Wong (QA)>I'm not a legal person either. I'm just saying that's the connection I made. No third party analytics, so no banner for now. That's all I was saying.</v>
+
+205
+00:24:15.000 --> 00:24:28.000
+<v Mei Chen (Product Owner)>Yes, and I think that's the right reading of what we decided. I'm not going to go beyond that. For now, no banner, because there's um no third party analytics.</v>
+
+206
+00:24:29.000 --> 00:24:31.000
+<v Jonas Weber (Central IT)>Yeah, yeah.</v>
+
+207
+00:24:33.000 --> 00:24:39.000
+<v Jonas Weber (Central IT)>Okay. Fine by me. I just wanted to check you know I hadn't missed something.</v>
+
+208
+00:24:40.000 --> 00:24:50.000
+<v Ahmad Faizal (Dev Lead)>It, It does take one thing off the list for the front end. A banner always looks small until you start on it.</v>
+
+209
+00:24:51.000 --> 00:24:59.000
+<v Lisa Wong (QA)>Ha, true. And the tests around it. You always end up you know checking it on every page.</v>
+
+210
+00:25:00.000 --> 00:25:02.000
+<v Jonas Weber (Central IT)>Okay.</v>
+
+211
+00:25:04.000 --> 00:25:08.000
+<v Ahmad Faizal (Dev Lead)>Right. Every page, every state. So, less of that.</v>
+
+212
+00:25:08.000 --> 00:25:12.000
+<v Mei Chen (Product Owner)>Okay, I like that. Less to build, less to test.</v>
+
+213
+00:25:13.000 --> 00:25:20.000
+<v Jonas Weber (Central IT)>Sorry, one more thing. When you say for now, does that mean it might come back?</v>
+
+214
+00:25:21.000 --> 00:25:31.000
+<v Mei Chen (Product Owner)>For now just means that's where we are with release one. I don't want to promise anything about later, because we haven't discussed it.</v>
+
+215
+00:25:32.000 --> 00:25:34.000
+<v Lisa Wong (QA)>Right.</v>
+
+216
+00:25:36.000 --> 00:25:38.000
+<v Jonas Weber (Central IT)>Fair enough. Understood.</v>
+
+217
+00:25:40.000 --> 00:25:50.000
+<v Lisa Wong (QA)>Yeah, I think that's all fine from me on analytics. I just wanted the banner point said out loud so it's in the notes.</v>
+
+218
+00:25:51.000 --> 00:25:55.000
+<v Mei Chen (Product Owner)>It's said. Good. Anything else on this like one? Ahmad?</v>
+
+219
+00:25:56.000 --> 00:26:01.000
+<v Ahmad Faizal (Dev Lead)>No, I'm good. Just the wording for marketing, but that's yours.</v>
+
+220
+00:26:02.000 --> 00:26:04.000
+<v Mei Chen (Product Owner)>Yes, noted. Okay.</v>
+
+221
+00:26:06.000 --> 00:26:11.000
+<v Mei Chen (Product Owner)>Payment, Payment sand box, even though card payment moved to release two.</v>
+
+222
+00:26:12.000 --> 00:26:20.000
+<v Jonas Weber (Central IT)>Yeah, I you know wanted to bring this up, since I know it's not in release one anymore.</v>
+
+223
+00:26:20.000 --> 00:26:31.000
+<v Jonas Weber (Central IT)>The, The payment sandbox for release two needs my team to set up the firewall rules, and we're only free in the last week of January.</v>
+
+224
+00:26:32.000 --> 00:26:35.000
+<v Ahmad Faizal (Dev Lead)>Last week of January. Hm. Okay.</v>
+
+225
+00:26:35.000 --> 00:26:44.000
+<v Lisa Wong (QA)>Sorry, can I check? It's the firewall rules that I mean your team has to do, nobody else can do those?</v>
+
+226
+00:26:44.000 --> 00:26:46.000
+<v Mei Chen (Product Owner)>[crosstalk]</v>
+
+227
+00:26:46.000 --> 00:26:49.000
+<v Lisa Wong (QA)>No worries. As I was saying.</v>
+
+228
+00:26:51.000 --> 00:26:58.000
+<v Jonas Weber (Central IT)>That, That's right, it's my team. It's not like something the project team does on its own.</v>
+
+229
+00:27:00.000 --> 00:27:06.000
+<v Lisa Wong (QA)>Okay, Okay. I just wanted to be sure it's not something we could do ourselves.</v>
+
+230
+00:27:06.000 --> 00:27:09.000
+<v Jonas Weber (Central IT)>No, No, it goes through us.</v>
+
+231
+00:27:11.000 --> 00:27:16.000
+<v Ahmad Faizal (Dev Lead)>And that's for the sand box. Not the real thing, the sandbox.</v>
+
+232
+00:27:18.000 --> 00:27:23.000
+<v Jonas Weber (Central IT)>The sand box for release two, yes. That's what I'm talking about.</v>
+
+233
+00:27:24.000 --> 00:27:30.000
+<v Ahmad Faizal (Dev Lead)>Right, right. I just wanted to keep the two apart in my head.</v>
+
+234
+00:27:31.000 --> 00:27:41.000
+<v Mei Chen (Product Owner)>Can I just say it back to make sure I've understood? Because I want to be accurate when I like say this to others.</v>
+
+235
+00:27:43.000 --> 00:27:45.000
+<v Jonas Weber (Central IT)>Sure, go ahead.</v>
+
+236
+00:27:45.000 --> 00:27:53.000
+<v Mei Chen (Product Owner)>So release two payment testing can't start before central IT opens the firewall in the last week of January.</v>
+
+237
+00:27:55.000 --> 00:27:57.000
+<v Jonas Weber (Central IT)>Yes, that's the earliest.</v>
+
+238
+00:27:59.000 --> 00:28:07.000
+<v Lisa Wong (QA)>Okay, Okay. So that's the limit for the testing side. Nothing can happen on the sandbox before then.</v>
+
+239
+00:28:07.000 --> 00:28:09.000
+<v Mei Chen (Product Owner)>Got it.</v>
+
+240
+00:28:10.000 --> 00:28:16.000
+<v Jonas Weber (Central IT)>Not, Not on the sandbox, no. The rules need to be in place first.</v>
+
+241
+00:28:16.000 --> 00:28:23.000
+<v Ahmad Faizal (Dev Lead)>Mm-hm. I mean, it is what it is. It's not like we can push on it.</v>
+
+242
+00:28:25.000 --> 00:28:35.000
+<v Mei Chen (Product Owner)>Well, I'd say we can ask, but I heard um Jonas. That's the earliest. I'm not going to ask him to say something different.</v>
+
+243
+00:28:37.000 --> 00:28:42.000
+<v Jonas Weber (Central IT)>I appreciate that. If I said sooner, I'd be making it up.</v>
+
+244
+00:28:43.000 --> 00:28:45.000
+<v Lisa Wong (QA)>Yep, makes sense.</v>
+
+245
+00:28:45.000 --> 00:28:51.000
+<v Ahmad Faizal (Dev Lead)>No, no, I wasn't asking you to. I was just thinking out loud.</v>
+
+246
+00:28:51.000 --> 00:28:57.000
+<v Jonas Weber (Central IT)>Sure. I get it. It's a long wait when you say it like that.</v>
+
+247
+00:28:58.000 --> 00:29:07.000
+<v Lisa Wong (QA)>It's not that I'm complaining. I just wanted to be clear that testing for payment sits behind that. That's all.</v>
+
+248
+00:29:09.000 --> 00:29:12.000
+<v Mei Chen (Product Owner)>Oh sorry, I talked over you.</v>
+
+249
+00:29:13.000 --> 00:29:15.000
+<v Lisa Wong (QA)>Right, where was I. Yes.</v>
+
+250
+00:29:17.000 --> 00:29:20.000
+<v Mei Chen (Product Owner)>Yes. basically That's how I read it too.</v>
+
+251
+00:29:22.000 --> 00:29:24.000
+<v Ahmad Faizal (Dev Lead)>Okay.</v>
+
+252
+00:29:26.000 --> 00:29:38.000
+<v Ahmad Faizal (Dev Lead)>Can I ask something a bit side-on? Is I mean the sand box only about the firewall, from your side? Or is there more that your team does?</v>
+
+253
+00:29:38.000 --> 00:29:49.000
+<v Jonas Weber (Central IT)>What I said is the firewall rules. That's what I know I'm responsible for in this. I don't want to list things I haven't thought through.</v>
+
+254
+00:29:49.000 --> 00:29:53.000
+<v Ahmad Faizal (Dev Lead)>Fair. I'd rather you say that um than guess.</v>
+
+255
+00:29:55.000 --> 00:29:57.000
+<v Lisa Wong (QA)>[inaudible] no, you first.</v>
+
+256
+00:29:58.000 --> 00:30:01.000
+<v Ahmad Faizal (Dev Lead)>No worries. As I was saying.</v>
+
+257
+00:30:03.000 --> 00:30:10.000
+<v Mei Chen (Product Owner)>Yeah, let's stick with what we know. I mean Firewall rules, last week of January, earliest.</v>
+
+258
+00:30:12.000 --> 00:30:14.000
+<v Lisa Wong (QA)>Mm-hm.</v>
+
+259
+00:30:15.000 --> 00:30:17.000
+<v Jonas Weber (Central IT)>Yes. That's it.</v>
+
+260
+00:30:19.000 --> 00:30:31.000
+<v Ahmad Faizal (Dev Lead)>Okay, so I'm just going back to something. Card payment moved to release two, and that's why this isn't a problem for release one. um Is that right?</v>
+
+261
+00:30:31.000 --> 00:30:37.000
+<v Mei Chen (Product Owner)>That's right. Card payment moved to release two. So this is about release two.</v>
+
+262
+00:30:37.000 --> 00:30:47.000
+<v Ahmad Faizal (Dev Lead)>Okay. Good. Because for a second I kind of thought we were talking about something that blocks release one, and I wanted to check.</v>
+
+263
+00:30:48.000 --> 00:30:50.000
+<v Lisa Wong (QA)>Right.</v>
+
+264
+00:30:50.000 --> 00:30:56.000
+<v Mei Chen (Product Owner)>No, I wouldn't say that. It's release two payment testing. That's what's behind the firewall.</v>
+
+265
+00:30:56.000 --> 00:31:03.000
+<v Lisa Wong (QA)>Right, Right, and I'm only talking about the payment testing. Everything else, I'm not saying anything about.</v>
+
+266
+00:31:05.000 --> 00:31:09.000
+<v Jonas Weber (Central IT)>Yeah, same. kind of I'm only talking about the sandbox.</v>
+
+267
+00:31:10.000 --> 00:31:16.000
+<v Mei Chen (Product Owner)>Good. We're all saying the same thing, then, which is nice for a change.</v>
+
+268
+00:31:16.000 --> 00:31:18.000
+<v Ahmad Faizal (Dev Lead)>Ha. Don't jinx it.</v>
+
+269
+00:31:20.000 --> 00:31:23.000
+<v Lisa Wong (QA)>Oh sorry, I talked over you.</v>
+
+270
+00:31:23.000 --> 00:31:25.000
+<v Ahmad Faizal (Dev Lead)>Okay, so, yeah.</v>
+
+271
+00:31:27.000 --> 00:31:33.000
+<v Lisa Wong (QA)>Honestly, I was ready to disagree about something, but I can't basically find anything.</v>
+
+272
+00:31:34.000 --> 00:31:36.000
+<v Mei Chen (Product Owner)>Mm-hm.</v>
+
+273
+00:31:38.000 --> 00:31:41.000
+<v Mei Chen (Product Owner)>Save it for like next time.</v>
+
+274
+00:31:43.000 --> 00:31:47.000
+<v Jonas Weber (Central IT)>I'll have something for you next time too, probably.</v>
+
+275
+00:31:49.000 --> 00:32:03.000
+<v Ahmad Faizal (Dev Lead)>Sorry, Sorry, Jonas, just to double check I heard it properly. You said only free in you know the last week. Not that it takes the whole week, just that's when you're free.</v>
+
+276
+00:32:04.000 --> 00:32:18.000
+<v Jonas Weber (Central IT)>What I said is we're only free in the last kind of week of January. I haven't said how long it takes, because that isn't what I said. I'd just be guessing.</v>
+
+277
+00:32:19.000 --> 00:32:22.000
+<v Ahmad Faizal (Dev Lead)>Okay, understood. I won't read anything into it.</v>
+
+278
+00:32:23.000 --> 00:32:27.000
+<v Mei Chen (Product Owner)>Good. Let's not add things. We have what we have.</v>
+
+279
+00:32:28.000 --> 00:32:37.000
+<v Lisa Wong (QA)>Yeah. I think what I wanted was just to hear the date again, and I've heard it a few times now.</v>
+
+280
+00:32:37.000 --> 00:32:42.000
+<v Jonas Weber (Central IT)>Ha, yes. Last week of January. You won't you know forget it.</v>
+
+281
+00:32:44.000 --> 00:32:46.000
+<v Ahmad Faizal (Dev Lead)>Uh-huh.</v>
+
+282
+00:32:47.000 --> 00:32:49.000
+<v Lisa Wong (QA)>I really won't.</v>
+
+283
+00:32:51.000 --> 00:32:58.000
+<v Ahmad Faizal (Dev Lead)>Okay, I think I'm done with the sand box, from sort of my side. Anything else, Lisa?</v>
+
+284
+00:32:58.000 --> 00:33:01.000
+<v Lisa Wong (QA)>No, um I'm fine. It's clear.</v>
+
+285
+00:33:02.000 --> 00:33:07.000
+<v Mei Chen (Product Owner)>Jonas, like anything you want to add before we move on?</v>
+
+286
+00:33:09.000 --> 00:33:13.000
+<v Jonas Weber (Central IT)>No, No. I think I've said what I know.</v>
+
+287
+00:33:14.000 --> 00:33:19.000
+<v Mei Chen (Product Owner)>Okay, good. Then I think that's it for me as well.</v>
+
+288
+00:33:19.000 --> 00:33:21.000
+<v Ahmad Faizal (Dev Lead)>Yep, makes sense.</v>
+
+289
+00:33:21.000 --> 00:33:28.000
+<v Ahmad Faizal (Dev Lead)>Should, Should we do a quick wrap-up, then? I think we're like nearly at time anyway.</v>
+
+290
+00:33:30.000 --> 00:33:41.000
+<v Mei Chen (Product Owner)>Yes. Quick wrap-up. On analytics, release one has no third party analytics, only our own server counts, and that means no cookie banner for now.</v>
+
+291
+00:33:42.000 --> 00:33:45.000
+<v Lisa Wong (QA)>Mm-hm, that matches basically my notes.</v>
+
+292
+00:33:47.000 --> 00:33:49.000
+<v Jonas Weber (Central IT)>Okay.</v>
+
+293
+00:33:51.000 --> 00:34:03.000
+<v Mei Chen (Product Owner)>And on the payment sandbox, card payment is in release two, and payment testing there can't start before central IT opens the firewall in the last week of January.</v>
+
+294
+00:34:04.000 --> 00:34:06.000
+<v Jonas Weber (Central IT)>Yes, that's right.</v>
+
+295
+00:34:06.000 --> 00:34:09.000
+<v Ahmad Faizal (Dev Lead)>Good. That's basically what I have too.</v>
+
+296
+00:34:09.000 --> 00:34:13.000
+<v Mei Chen (Product Owner)>Great, Great. Thanks, everybody. That was a good session.</v>
+
+297
+00:34:15.000 --> 00:34:17.000
+<v Lisa Wong (QA)>Thanks, Thanks, all. Bye.</v>
+
+298
+00:34:19.000 --> 00:34:21.000
+<v Jonas Weber (Central IT)>Thanks, bye.</v>
+
+299
+00:34:23.000 --> 00:34:25.000
+<v Ahmad Faizal (Dev Lead)>Bye, Bye, everyone.</v>
+
+300
+00:34:26.000 --> 00:34:28.000
+<v Mei Chen (Product Owner)>Bye.</v>
+
+301
+00:34:28.000 --> 00:34:30.000
+<v Jonas Weber (Central IT)>Uh-huh.</v>
+
+302
+00:34:30.000 --> 00:34:32.000
+<v Jonas Weber (Central IT)>Sorry, go ahead.</v>
+
+303
+00:34:33.000 --> 00:34:35.000
+<v Mei Chen (Product Owner)>Right, where was I. Yes.</v>
+

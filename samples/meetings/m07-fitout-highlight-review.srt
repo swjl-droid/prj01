@@ -1,0 +1,1180 @@
+1
+00:00:15,000 --> 00:00:18,000
+Ravi Kumar: Morning, Morning, Grace. Can you hear me okay?
+
+2
+00:00:20,000 --> 00:00:27,000
+Grace Koh: I can hear you, yes. There's a bit of an echo though. Is that me or you?
+
+3
+00:00:28,000 --> 00:00:35,000
+Ravi Kumar: Might be me. Hang uh on, I'll take my headset off and put it back on.
+
+4
+00:00:35,000 --> 00:00:41,000
+Grace Koh: Mm-hm. No, still there. Actually it's gone a bit better now. Say something else.
+
+5
+00:00:41,000 --> 00:00:44,000
+Ravi Kumar: Testing, testing, one two. Is that any better?
+
+6
+00:00:46,000 --> 00:00:48,000
+Grace Koh: Better. Yes, that's fine.
+
+7
+00:00:48,000 --> 00:00:56,000
+Wei Ling Tan: Morning, Morning, everyone. Sorry, I'm in. Can you see me? My camera's showing a black square on my side.
+
+8
+00:00:56,000 --> 00:01:02,000
+Ravi Kumar: We can't see you yet. Just basically a grey circle with your initials.
+
+9
+00:01:02,000 --> 00:01:10,000
+WL: Right, Right, hang on. I think the laptop's choosing the wrong camera. Let me switch it in the settings.
+
+10
+00:01:12,000 --> 00:01:23,000
+Grace Koh: It does that to me every time I come back to my desk. It always wants uh to use the one on the other screen.
+
+11
+00:01:25,000 --> 00:01:29,000
+Wei Ling Tan: There, There we uh go. Is that me now?
+
+12
+00:01:31,000 --> 00:01:36,000
+Ravi: Yes, there you are. Bit dark, but kind of there you are.
+
+13
+00:01:36,000 --> 00:01:42,000
+WL: I'll live with dark. I'm not touching anything else, it'll um all break.
+
+14
+00:01:44,000 --> 00:01:51,000
+Jonas Weber: Hello, hello. Sorry, am I late? I was stuck on um the previous call, it overran.
+
+15
+00:01:53,000 --> 00:01:56,000
+Ravi: No, you're fine, we haven't started. Morning, Jonas.
+
+16
+00:01:57,000 --> 00:02:03,000
+Jonas: Morning, Morning. Oh, I'm on mute, aren't I? Can you hear me now?
+
+17
+00:02:05,000 --> 00:02:13,000
+Grace: Yes, we can hear you now. You were I mean on mute for the first bit of that.
+
+18
+00:02:13,000 --> 00:02:22,000
+Jonas: Classic. I do it every single time. I think I should have it written on a basically sticky note on my screen.
+
+19
+00:02:24,000 --> 00:02:30,000
+Wei Ling Tan: I've got one of those. It uh doesn't help. I still do it.
+
+20
+00:02:30,000 --> 00:02:36,000
+Grace: It, It's properly cold this morning. I walked in and my hands were numb.
+
+21
+00:02:36,000 --> 00:02:42,000
+Jonas: Same here. I had to scrape the car before I could leave. I'm still defrosting.
+
+22
+00:02:44,000 --> 00:02:52,000
+Wei Ling Tan: I, I stayed in. Working from the kitchen table today, with a hot drink right next to me.
+
+23
+00:02:53,000 --> 00:03:04,000
+Ravi Kumar: Sensible. Right, basically I think we've got everyone. Shall we make a start? I'll keep this tight, it's a highlight review, not the full report.
+
+24
+00:03:05,000 --> 00:03:07,000
+Grace Koh: Fine, Fine by me.
+
+25
+00:03:07,000 --> 00:03:15,000
+Jonas Weber: Go for it. Sorry, the screen share thing is popping up on my side, ignore that, it's gone.
+
+26
+00:03:16,000 --> 00:03:24,000
+Ravi Kumar: Okay. Highlight report: landlord approval, IT install weeks, furniture order, Chem light mobilisation, and the fire safety certificate.
+
+27
+00:03:24,000 --> 00:03:27,000
+Grace Koh: Mm-hm, that's the list I have as well.
+
+28
+00:03:28,000 --> 00:03:31,000
+Ravi Kumar: Landlord first. you know Good news or bad?
+
+29
+00:03:31,000 --> 00:03:39,000
+Ravi Kumar: Bad. The landlord didn't approve by the thirteenth, they now say the twentieth of December, a week late.
+
+30
+00:03:40,000 --> 00:03:45,000
+Wei Ling Tan: Oh. That's a shame. I was hoping it would just slip through.
+
+31
+00:03:47,000 --> 00:03:49,000
+Ravi: Yeah, yeah.
+
+32
+00:03:50,000 --> 00:04:01,000
+Grace: So just you know to be clear, we were expecting it on the thirteenth, and what they're now saying is the twentieth. Is that right?
+
+33
+00:04:01,000 --> 00:04:07,000
+Ravi Kumar: That's right. Thirteenth was the date, twentieth is what they're telling us now.
+
+34
+00:04:08,000 --> 00:04:11,000
+Jonas Weber: So it's seven days. A full week.
+
+35
+00:04:13,000 --> 00:04:19,000
+Ravi Kumar: A, A sort of week, yes. And it's the landlord's date, not ours.
+
+36
+00:04:19,000 --> 00:04:28,000
+WL: Do we know it's definitely the twentieth? Or is that them saying the um twentieth and then it moves again?
+
+37
+00:04:29,000 --> 00:04:39,000
+Ravi Kumar: That, That's what they've told us. The twentieth. I'm uh not going to say more than that, because I don't know more than that.
+
+38
+00:04:39,000 --> 00:04:44,000
+Wei Ling Tan: No, fair enough. I mean I just wondered. I'm thinking aloud really.
+
+39
+00:04:44,000 --> 00:04:49,000
+Grace: It's a reasonable question. I'd probably like have asked the same.
+
+40
+00:04:50,000 --> 00:04:58,000
+Ravi Kumar: That pushes Kemlite's start on site to the fourth of January instead of the twenty eighth of December.
+
+41
+00:04:59,000 --> 00:05:05,000
+Jonas Weber: Sorry, Sorry, say that again? The fourth of you know January instead of...
+
+42
+00:05:07,000 --> 00:05:15,000
+Ravi Kumar: Instead of the twenty eighth of December. So Chem light's start moves from the twenty eighth to the fourth.
+
+43
+00:05:16,000 --> 00:05:22,000
+Jonas: Right. Okay. So it's the same week's difference as the landlord, more or less.
+
+44
+00:05:23,000 --> 00:05:28,000
+Ravi: Yes, Yes, it moves by about like the same amount. A week.
+
+45
+00:05:28,000 --> 00:05:36,000
+Wei Ling Tan: So, So the landlord's a week late and Chem light's start moves back a week. It's one for one.
+
+46
+00:05:36,000 --> 00:05:39,000
+Ravi: Roughly, yes. That's how I'd describe it.
+
+47
+00:05:39,000 --> 00:05:41,000
+Grace: Mm-hm.
+
+48
+00:05:43,000 --> 00:05:47,000
+Grace: Mm-hm. Go uh on, I've got a question on that.
+
+49
+00:05:48,000 --> 00:05:50,000
+Grace Koh: Is that within tolerance?
+
+50
+00:05:50,000 --> 00:05:56,000
+Ravi Kumar: It's within the stage time tolerance of two weeks, so no exception report yet.
+
+51
+00:05:58,000 --> 00:06:02,000
+Grace Koh: Okay. So um a week against two weeks of tolerance.
+
+52
+00:06:04,000 --> 00:06:07,000
+Ravi Kumar: Yes. A week late, two weeks of tolerance.
+
+53
+00:06:08,000 --> 00:06:14,000
+Grace: And the word you used was yet. No exception sort of report yet.
+
+54
+00:06:16,000 --> 00:06:24,000
+Ravi: Yes, yet. Right now it's inside tolerance, so we don't need one. That's all I mean by it.
+
+55
+00:06:25,000 --> 00:06:35,000
+Jonas Weber: I, I'm a bit uneasy about it, if I'm honest. It's inside the tolerance, but basically it's already using up half of it.
+
+56
+00:06:35,000 --> 00:06:37,000
+Grace: Got it.
+
+57
+00:06:37,000 --> 00:06:46,000
+Ravi Kumar: It, It's half, yes, you're right kind of about the arithmetic. But it's still inside, and that's what matters for the report.
+
+58
+00:06:46,000 --> 00:06:52,000
+Jonas Weber: No, I know. I'm not saying it's wrong. I'm just saying it out loud.
+
+59
+00:06:54,000 --> 00:07:00,000
+Grace Koh: I'd rather uh hear it out loud. It's useful to have it said.
+
+60
+00:07:00,000 --> 00:07:12,000
+Wei Ling Tan: I, I think I agree with Jonas a bit, but I also agree with Ravi. It's inside um the line, and it's also quite a lot of the line.
+
+61
+00:07:13,000 --> 00:07:23,000
+Ravi Kumar: Fair. I won't argue with either of you. It's inside, and we can um see how much of the two weeks it takes.
+
+62
+00:07:25,000 --> 00:07:31,000
+Grace Koh: Mm-hm. I'm happy with that. I just wanted to hear that uh it was inside.
+
+63
+00:07:31,000 --> 00:07:39,000
+Jonas: Can I just go back to the date again? The thirteenth was the one the landlord missed, yes?
+
+64
+00:07:40,000 --> 00:07:44,000
+Ravi Kumar: Yes, Yes. um They didn't approve by the thirteenth.
+
+65
+00:07:45,000 --> 00:07:52,000
+Jonas: And now it's the twentieth of December. Right. I just wanted it straight in my notes.
+
+66
+00:07:54,000 --> 00:07:58,000
+Wei Ling: I've got the same. Thirteenth you know missed, twentieth now.
+
+67
+00:07:59,000 --> 00:08:05,000
+Grace Koh: And Chem sort of light's start was the twenty eighth, now the fourth.
+
+68
+00:08:06,000 --> 00:08:09,000
+Ravi Kumar: That, That's it. Those are the figures.
+
+69
+00:08:10,000 --> 00:08:22,000
+Wei Ling Tan: It's odd, isn't kind of it, that the start on site is the thing that moves, not the approval itself. The approval's just a date on a letter.
+
+70
+00:08:24,000 --> 00:08:30,000
+Ravi Kumar: Well, the approval is what the start hangs off. That's why one moves the other.
+
+71
+00:08:31,000 --> 00:08:36,000
+Wei Ling Tan: Right, yes. That's what I meant, I just said it badly.
+
+72
+00:08:36,000 --> 00:08:43,000
+Grace: No, you said it fine. Okay. Anything else on the landlord, or shall we move on?
+
+73
+00:08:45,000 --> 00:08:47,000
+Jonas Weber: Not from me.
+
+74
+00:08:49,000 --> 00:08:51,000
+Ravi Kumar: Sure.
+
+75
+00:08:53,000 --> 00:08:55,000
+WL: No, I'm fine.
+
+76
+00:08:55,000 --> 00:08:57,000
+Ravi: Then IT install, Jonas.
+
+77
+00:08:57,000 --> 00:09:08,000
+Jonas: The IT director gave us the third and fourth week of January, not the second and third, because the portal team has the second week.
+
+78
+00:09:09,000 --> 00:09:16,000
+Grace: Sorry, can you go through that again? Third and fourth, and not the second and third?
+
+79
+00:09:16,000 --> 00:09:25,000
+Jonas Weber: Yes. We had been planning on the second and third week of January. What we've been given is the third and fourth.
+
+80
+00:09:25,000 --> 00:09:28,000
+Wei Ling: So it's moved by a week.
+
+81
+00:09:29,000 --> 00:09:34,000
+Jonas: By, By a kind of week, yes. Everything's shifted along one.
+
+82
+00:09:34,000 --> 00:09:37,000
+Wei Ling Tan: And the reason is the um portal team?
+
+83
+00:09:37,000 --> 00:09:46,000
+Jonas Weber: Yes. The portal team has the second week, so it's not available to us. That's what the IT director told us.
+
+84
+00:09:48,000 --> 00:09:54,000
+Grace: Mm-hm. So that's not something we've caused. It's just what they've given us.
+
+85
+00:09:55,000 --> 00:10:02,000
+Jonas: It, It's what they've given us, yes. you know I didn't have a choice in it.
+
+86
+00:10:04,000 --> 00:10:07,000
+Grace: Oh sorry, I talked over you.
+
+87
+00:10:08,000 --> 00:10:11,000
+Jonas Weber: No worries. As I was saying.
+
+88
+00:10:13,000 --> 00:10:19,000
+Wei Ling: Did you ask if there was any way to keep the second week?
+
+89
+00:10:21,000 --> 00:10:32,000
+Jonas: I'm uh just telling you what the IT director gave us. I'd rather not say more than that, because I don't want to make something up.
+
+90
+00:10:32,000 --> 00:10:36,000
+WL: No, that's okay. I wasn't pushing, I was just curious.
+
+91
+00:10:36,000 --> 00:10:42,000
+Ravi Kumar: The point is, the IT director's decision was third and fourth. um That's the window.
+
+92
+00:10:42,000 --> 00:10:46,000
+Jonas: Right. Third and fourth week kind of of January.
+
+93
+00:10:48,000 --> 00:10:50,000
+Wei Ling: Yep, makes sense.
+
+94
+00:10:50,000 --> 00:11:08,000
+Grace Koh: Hold, Hold on. I'm just looking at this. The landlord um thing moved Chem light's start to the fourth of January. And now IT has moved to the third and fourth week. Those two things landed at the same time, didn't they?
+
+95
+00:11:09,000 --> 00:11:12,000
+Wei Ling Tan: Oh sorry, I talked over you.
+
+96
+00:11:13,000 --> 00:11:15,000
+Grace Koh: Right, where was I. Yes.
+
+97
+00:11:16,000 --> 00:11:18,000
+Jonas Weber: Funny timing, yes.
+
+98
+00:11:20,000 --> 00:11:26,000
+Wei Ling Tan: Two different reasons, you know though. One's the landlord, one's the portal team.
+
+99
+00:11:26,000 --> 00:11:33,000
+Grace Koh: Yes, Yes, no, I know, they're separate. I'm just wondering how they sit next to each other.
+
+100
+00:11:35,000 --> 00:11:37,000
+Jonas Weber: Sure.
+
+101
+00:11:39,000 --> 00:11:45,000
+Grace: And with Kemlite starting on the fourth, does the third week still work?
+
+102
+00:11:45,000 --> 00:11:52,000
+Ravi Kumar: Yes, cabling can um go in after the first fix, so third and fourth week is fine.
+
+103
+00:11:54,000 --> 00:12:01,000
+Grace Koh: Okay. So the third week still works, you know even with Kemlite starting on the fourth.
+
+104
+00:12:03,000 --> 00:12:06,000
+Ravi Kumar: Yes. I mean That's what I'm saying.
+
+105
+00:12:08,000 --> 00:12:15,000
+Jonas: So the cabling comes I mean after the first fix. Which is Chem light's, I take it.
+
+106
+00:12:17,000 --> 00:12:23,000
+Ravi: Yes, the first fix is theirs. After that, the cabling can go in.
+
+107
+00:12:25,000 --> 00:12:27,000
+Jonas: Mm-hm.
+
+108
+00:12:27,000 --> 00:12:35,000
+Wei Ling Tan: And that would have been true of the second and third week too, if we'd um kept them?
+
+109
+00:12:36,000 --> 00:12:45,000
+Ravi: I'm not going to go back over the old plan. What matters is that the third and fourth like week is fine.
+
+110
+00:12:46,000 --> 00:12:50,000
+Wei Ling Tan: Sure. Sorry, that's just I mean me thinking sideways.
+
+111
+00:12:50,000 --> 00:12:57,000
+Jonas Weber: No, I was wondering the same thing. But Ravi's right, it doesn't I mean change the answer.
+
+112
+00:12:58,000 --> 00:13:04,000
+Grace: I'm happy. kind of Third and fourth works, cabling goes in after the first fix.
+
+113
+00:13:05,000 --> 00:13:14,000
+Jonas: Yes, that's all I needed. I just wanted to be sure the third kind of week wasn't going to clash.
+
+114
+00:13:16,000 --> 00:13:19,000
+Ravi: It doesn't. Not on what we have.
+
+115
+00:13:20,000 --> 00:13:23,000
+Grace Koh: Mm-hm. Good. Let's leave IT there, then.
+
+116
+00:13:24,000 --> 00:13:38,000
+Wei Ling Tan: Can, Can I ask one small thing before we go? Just so I've got the right weeks written down. It's third and fourth week of January, and Chem light starts on the fourth.
+
+117
+00:13:38,000 --> 00:13:46,000
+Jonas: Yes. Third and fourth week of January for us. The fourth kind of of January for Chem light.
+
+118
+00:13:48,000 --> 00:13:56,000
+Wei Ling: Great. Thanks. I mixed up the kind of two fourths in my head. Fourth week, fourth day, whatever.
+
+119
+00:13:56,000 --> 00:13:58,000
+Grace Koh: Okay.
+
+120
+00:14:00,000 --> 00:14:05,000
+Grace Koh: Ha. It's easy to do. I did it too, a minute ago.
+
+121
+00:14:05,000 --> 00:14:07,000
+Jonas: [crosstalk]
+
+122
+00:14:08,000 --> 00:14:11,000
+Grace Koh: No worries. As I was saying.
+
+123
+00:14:11,000 --> 00:14:13,000
+Ravi Kumar: Okay, Okay. Furniture.
+
+124
+00:14:15,000 --> 00:14:24,000
+Wei Ling Tan: The standard desks were ordered on the third, so they arrive in basically the second week of February, before the move-in.
+
+125
+00:14:24,000 --> 00:14:30,000
+Grace: Sorry, ordered on the third. And arriving like in the second week of February.
+
+126
+00:14:32,000 --> 00:14:34,000
+Jonas: Mm-hm.
+
+127
+00:14:36,000 --> 00:14:42,000
+Wei Ling Tan: Yes, Yes. Ordered on the third, arriving in the second kind of week of February.
+
+128
+00:14:44,000 --> 00:14:46,000
+Grace Koh: Sorry, go ahead.
+
+129
+00:14:46,000 --> 00:14:48,000
+Wei Ling Tan: Right, where was I. Yes.
+
+130
+00:14:49,000 --> 00:14:51,000
+Jonas Weber: And that's before the move-in.
+
+131
+00:14:51,000 --> 00:14:54,000
+Wei Ling Tan: Yes, before the move-in. That's the main thing.
+
+132
+00:14:56,000 --> 00:15:02,000
+Ravi: Good. That's one I was a bit worried about, so that's a relief to hear.
+
+133
+00:15:03,000 --> 00:15:07,000
+Grace Koh: Mm-hm. I'd been wondering about the desks for a while.
+
+134
+00:15:09,000 --> 00:15:14,000
+Jonas Weber: Is it all of the desks? Or just some of them?
+
+135
+00:15:16,000 --> 00:15:20,000
+Wei Ling Tan: It, It's the like standard desks. That's what's been ordered.
+
+136
+00:15:20,000 --> 00:15:29,000
+Jonas Weber: Right. kind of Standard desks. Okay, I'll leave it there, I don't want to ask something that's not on the page.
+
+137
+00:15:31,000 --> 00:15:44,000
+Wei Ling Tan: No, it's a fair thing to check. The standard desks are the ones that have been ordered, and those are the like ones arriving in the second week of February.
+
+138
+00:15:44,000 --> 00:15:48,000
+Grace Koh: And, And you're happy sort of with that timing?
+
+139
+00:15:48,000 --> 00:15:52,000
+Wei Ling Tan: Yes. They arrive before the move-in. That's what I wanted.
+
+140
+00:15:54,000 --> 00:16:01,000
+Wei Ling: So the desk risk is much lower now. Only the meeting room tables are still open.
+
+141
+00:16:03,000 --> 00:16:09,000
+Grace Koh: Right. So the desks have come down, and the tables are what's left.
+
+142
+00:16:11,000 --> 00:16:13,000
+Wei Ling Tan: Yes. That's the one.
+
+143
+00:16:13,000 --> 00:16:15,000
+Jonas Weber: [crosstalk]
+
+144
+00:16:15,000 --> 00:16:17,000
+Wei Ling: Okay, so, yeah.
+
+145
+00:16:19,000 --> 00:16:26,000
+Ravi: Just so I've got um it straight. Desks ordered, arriving before the move-in. Tables still open.
+
+146
+00:16:28,000 --> 00:16:30,000
+Wei Ling: Got it.
+
+147
+00:16:32,000 --> 00:16:36,000
+Wei Ling Tan: That's it. Desks are done, you know tables are open.
+
+148
+00:16:38,000 --> 00:16:43,000
+Wei Ling Tan: Random, but did anyone book the year end lunch? No? Okay, later.
+
+149
+00:16:45,000 --> 00:16:51,000
+Jonas Weber: So what's the um difference in how worried we should be? Between the two?
+
+150
+00:16:53,000 --> 00:17:01,000
+Wei Ling Tan: I'd say the desks are much lower now, and the tables are the open bit. That's all I'm saying.
+
+151
+00:17:01,000 --> 00:17:03,000
+Jonas Weber: Okay. Fair enough.
+
+152
+00:17:05,000 --> 00:17:08,000
+Grace Koh: Good. Keep the tables kind of on watch.
+
+153
+00:17:08,000 --> 00:17:10,000
+Wei Ling Tan: Understood.
+
+154
+00:17:10,000 --> 00:17:20,000
+Ravi: Okay. Thanks, Wei Ling. That's the first three done. Give me a second, I just need to scroll down to the next item.
+
+155
+00:17:22,000 --> 00:17:25,000
+Jonas Weber: Take your time. I'm just refilling my coffee.
+
+156
+00:17:27,000 --> 00:17:36,000
+Grace Koh: Can I just say, thanks for keeping it short. It's um easier to follow when it's one thing at a time.
+
+157
+00:17:36,000 --> 00:17:41,000
+Ravi Kumar: Thanks, Grace. Right, kind of I've got it. Let's keep going.
+
+158
+00:17:42,000 --> 00:17:44,000
+Ravi: Chem light mobilization.
+
+159
+00:17:45,000 --> 00:17:47,000
+Jonas Weber: Got it.
+
+160
+00:17:49,000 --> 00:17:57,000
+Ravi Kumar: Kemlite signed the contract on the fifth. Their site manager is Halim, he'll be at the next board.
+
+161
+00:17:59,000 --> 00:18:09,000
+Jonas Weber: Okay, so that's signed. Good. Sorry, just so I've got it right, Halim is the site manager, not someone from their head office?
+
+162
+00:18:10,000 --> 00:18:16,000
+Ravi: Site manager, yes. That's the person we'll actually be dealing with on the floor.
+
+163
+00:18:18,000 --> 00:18:27,000
+Jonas Weber: Right, right. Then it's useful he comes to the basically board himself. Better than us passing messages through someone else.
+
+164
+00:18:29,000 --> 00:18:38,000
+Wei Ling Tan: Mm-hm. I haven't met him yet. Has anyone here spoken to him, or is the next board the first time?
+
+165
+00:18:39,000 --> 00:18:49,000
+Ravi Kumar: I, I think the next board is the first time for most of us. I've only seen his name um on the paperwork.
+
+166
+00:18:50,000 --> 00:18:53,000
+Wei Ling Tan: Fine. I'll just introduce myself then, nothing formal.
+
+167
+00:18:55,000 --> 00:19:05,000
+Grace Koh: Can I check one thing, Ravi? When you say signed on the you know fifth, that's the contract, the whole thing, nothing left hanging?
+
+168
+00:19:05,000 --> 00:19:17,000
+Ravi Kumar: The contract basically is signed. That's what I've got in front of me. I'm not aware of anything outstanding on it, but I'd only be guessing past that.
+
+169
+00:19:18,000 --> 00:19:24,000
+Grace Koh: No, that's fine. I just wanted to hear it said. Signed is signed.
+
+170
+00:19:24,000 --> 00:19:32,000
+Jonas Weber: So from now on it's mobilisation. Which I assume just means they get themselves organised sort of and start.
+
+171
+00:19:32,000 --> 00:19:38,000
+Ravi Kumar: That's how I read it, yes. They've signed, um and now they mobilise.
+
+172
+00:19:38,000 --> 00:19:46,000
+Jonas Weber: Mm. It's a bit of a vague word, isn't it? Mobilise. Everyone seems you know to use it differently.
+
+173
+00:19:46,000 --> 00:19:57,000
+Wei Ling: It is. I always take it as, they've committed and now they're getting ready to start. But I wouldn't want to put more on it than that.
+
+174
+00:19:59,000 --> 00:20:08,000
+Grace: Same. And that's partly why I want to see something concrete from Halim, rather than us all guessing what it means.
+
+175
+00:20:08,000 --> 00:20:14,000
+Grace Koh: Please, Please ask kind of Halim to bring the three-week look-ahead to that meeting.
+
+176
+00:20:15,000 --> 00:20:17,000
+Ravi: Will do.
+
+177
+00:20:19,000 --> 00:20:25,000
+Jonas Weber: Sorry, the three-week look-ahead. That's, what, a short programme looking forward three weeks?
+
+178
+00:20:27,000 --> 00:20:37,000
+Grace: Yes, that's I mean what I mean. What's coming up over the next three weeks, laid out so we can all see it.
+
+179
+00:20:39,000 --> 00:20:46,000
+Jonas Weber: Okay. I like that. It's much easier to talk about than a big programme nobody reads.
+
+180
+00:20:47,000 --> 00:20:56,000
+Wei Ling Tan: Right, and it gives us something to ask questions against. I'd rather look at three weeks properly than skim something enormous.
+
+181
+00:20:57,000 --> 00:21:06,000
+Grace: That's the idea. Short and specific, so if something looks off I mean we can say so at the board.
+
+182
+00:21:07,000 --> 00:21:16,000
+Ravi: I'll make sure Halim knows that's what you're asking for. I'll say bring the look-ahead, and that it's three weeks.
+
+183
+00:21:18,000 --> 00:21:26,000
+Grace Koh: Thanks. And just so he doesn't think it's a trap, it's not. I only want to see it.
+
+184
+00:21:28,000 --> 00:21:30,000
+Jonas Weber: [inaudible] no, you first.
+
+185
+00:21:32,000 --> 00:21:35,000
+Grace: No worries. As I was saying.
+
+186
+00:21:36,000 --> 00:21:42,000
+Jonas: Ha. Nobody thinks that. Well, maybe a bit, first meeting um and all.
+
+187
+00:21:42,000 --> 00:21:48,000
+Wei Ling: Can, Can we make sure it's phrased as a request, not a demand? First impressions.
+
+188
+00:21:48,000 --> 00:21:51,000
+Ravi Kumar: Yes, of course. I'll keep it friendly.
+
+189
+00:21:51,000 --> 00:21:57,000
+Grace Koh: Friendly is fine. I sort of just want the look-ahead in the room.
+
+190
+00:21:58,000 --> 00:22:08,000
+Jonas Weber: Going back a second. Did anyone say whether the board is in person or on video? Because that changes how he'd bring it.
+
+191
+00:22:09,000 --> 00:22:18,000
+Ravi Kumar: I, I don't know, honestly. I haven't said anything about that, and I don't want to say something I'm not sure of.
+
+192
+00:22:18,000 --> 00:22:24,000
+Jonas: No, fair. It was a stray thought. Either way he can bring it.
+
+193
+00:22:26,000 --> 00:22:28,000
+Grace Koh: Okay.
+
+194
+00:22:29,000 --> 00:22:38,000
+WL: Whichever it is, he can send it round as well. But let's not settle that now, it's a small point.
+
+195
+00:22:38,000 --> 00:22:42,000
+Grace Koh: Agreed, small point. The main thing is that it comes.
+
+196
+00:22:43,000 --> 00:22:52,000
+Ravi Kumar: Okay. Anything um else on Kemlite before we move on? I think we've got the contract, Halim, and the look-ahead.
+
+197
+00:22:52,000 --> 00:22:58,000
+Jonas: Just that it's good to have a name. It feels more real now.
+
+198
+00:22:59,000 --> 00:23:01,000
+Wei Ling Tan: Mm-hm. It does.
+
+199
+00:23:01,000 --> 00:23:03,000
+Grace Koh: Nothing else from me.
+
+200
+00:23:05,000 --> 00:23:08,000
+Ravi Kumar: Fire safety certificate, basically new item.
+
+201
+00:23:09,000 --> 00:23:18,000
+Wei Ling Tan: We need the SCDF fire safety certificate before anyone can occupy the floor, and inspections are booking six weeks out.
+
+202
+00:23:19,000 --> 00:23:23,000
+Jonas Weber: Sorry, say that again? Inspections are booking six weeks out?
+
+203
+00:23:23,000 --> 00:23:32,000
+Wei Ling Tan: Yes. If you ask for an inspection now, the slots are kind of about six weeks away. That's what I'm told.
+
+204
+00:23:33,000 --> 00:23:35,000
+Jonas: [crosstalk]
+
+205
+00:23:36,000 --> 00:23:38,000
+Wei Ling Tan: Right, where was I. Yes.
+
+206
+00:23:38,000 --> 00:23:44,000
+Jonas Weber: Right, Right. And the certificate is what lets people actually be on the floor.
+
+207
+00:23:45,000 --> 00:23:51,000
+Wei Ling Tan: Yes. Before anyone can occupy it, we need the certificate. That's the point of it.
+
+208
+00:23:53,000 --> 00:24:00,000
+Grace Koh: So, So nobody can move in without it. Not even a few I mean people to start.
+
+209
+00:24:01,000 --> 00:24:12,000
+Wei Ling Tan: As I understand it, no. We need the certificate before anyone occupies the floor. I wouldn't want to promise there's a softer version of that.
+
+210
+00:24:14,000 --> 00:24:22,000
+Grace: No, I'm not asking for a softer version. I just wanted to be clear about how strict it is.
+
+211
+00:24:23,000 --> 00:24:25,000
+Jonas Weber: It sounds strict. Okay.
+
+212
+00:24:27,000 --> 00:24:35,000
+Ravi Kumar: And, And it's the S C D F one specifically, so there's nobody else involved in the certificate?
+
+213
+00:24:35,000 --> 00:24:37,000
+Wei Ling Tan: [crosstalk]
+
+214
+00:24:37,000 --> 00:24:39,000
+Ravi: Right, where was I. Yes.
+
+215
+00:24:41,000 --> 00:24:50,000
+Wei Ling Tan: The one I'm talking about like is the SCDF fire safety certificate. That's the one I raised. I'm not raising anything else.
+
+216
+00:24:50,000 --> 00:24:56,000
+Ravi Kumar: Right, good. I just wanted I mean to keep it to what you said.
+
+217
+00:24:58,000 --> 00:25:09,000
+Jonas Weber: So the six weeks. Is that from when we book, or from when we apply? Because that feels like it could um be two different things.
+
+218
+00:25:11,000 --> 00:25:26,000
+Wei Ling Tan: What, What I know is that inspections are booking six weeks out. I'd say that's from when you're asking for the slot. Beyond that I don't have more detail, so I'd rather sort of not guess.
+
+219
+00:25:26,000 --> 00:25:30,000
+Jonas: Okay, that's um fair. I'd rather you didn't guess either.
+
+220
+00:25:32,000 --> 00:25:39,000
+Grace: But the point is, there's a wait. Whatever we do, there's a wait before an inspection.
+
+221
+00:25:39,000 --> 00:25:45,000
+Wei Ling Tan: Right, that's the whole kind of concern. There's a queue, and the queue is long.
+
+222
+00:25:46,000 --> 00:25:48,000
+Jonas Weber: Yep, makes sense.
+
+223
+00:25:48,000 --> 00:25:56,000
+Grace: Mm, Mm. So I mean it's not something we can leave until the end and then tidy up.
+
+224
+00:25:58,000 --> 00:26:01,000
+Wei Ling Tan: No. That's what worries me about it.
+
+225
+00:26:02,000 --> 00:26:10,000
+Jonas Weber: It's a bit of a trap, in that sense. It looks like a last step, but it's not.
+
+226
+00:26:11,000 --> 00:26:13,000
+Wei Ling Tan: Mm-hm.
+
+227
+00:26:15,000 --> 00:26:20,000
+Wei Ling Tan: Well, I'd say it's a step that needs booking early. That's all.
+
+228
+00:26:21,000 --> 00:26:26,000
+Jonas Weber: Yes, Yes, that's a better way to put it. Booked early.
+
+229
+00:26:28,000 --> 00:26:36,000
+Wei Ling Tan: If we don't book the inspection by early January, we might not be allowed to move in on time.
+
+230
+00:26:37,000 --> 00:26:40,000
+Grace Koh: Early um January. That's not far off.
+
+231
+00:26:41,000 --> 00:26:47,000
+Wei Ling Tan: No, it isn't. That's why I wanted it on the agenda today and not later.
+
+232
+00:26:48,000 --> 00:26:59,000
+Jonas Weber: Hang on, let me think this through. If inspections are six weeks out, and we book by early January, that sets when the inspection can happen.
+
+233
+00:27:00,000 --> 00:27:09,000
+Wei Ling Tan: Yes, that's the logic. The booking has to happen first, and the slot is a long way off after that.
+
+234
+00:27:10,000 --> 00:27:19,000
+Jonas Weber: Okay. like I'm not going to do the sums out loud, because I'd get it wrong, but I follow the idea.
+
+235
+00:27:19,000 --> 00:27:23,000
+Grace Koh: Don't do the sums. We'd only argue about the dates.
+
+236
+00:27:23,000 --> 00:27:25,000
+Jonas: Ha, Ha, exactly.
+
+237
+00:27:25,000 --> 00:27:35,000
+Grace: Wei Ling, you said might. We might not be allowed to move in on time. Is that a hedge, or is it fairly likely?
+
+238
+00:27:37,000 --> 00:27:52,000
+Wei Ling Tan: It, It's what I said, we might not. I I mean don't want to turn it into a certainty or play it down. If we miss early January, it puts moving in on time at risk.
+
+239
+00:27:52,000 --> 00:27:56,000
+Grace Koh: Okay. That's clear enough. It's a risk, not a certainty.
+
+240
+00:27:58,000 --> 00:28:00,000
+Wei Ling: Right.
+
+241
+00:28:00,000 --> 00:28:08,000
+Ravi Kumar: So, So who actually you know submits the application? Is that us, or is that on the contractor's side?
+
+242
+00:28:08,000 --> 00:28:20,000
+Wei Ling: Honestly, Honestly, I was hoping you'd have a view on that, Ravi. I raised the need for the certificate and the booking time. I haven't said who files it.
+
+243
+00:28:21,000 --> 00:28:31,000
+Ravi Kumar: Fair enough. Well, Kemlite are the ones about to be on site, so it makes sense to me for it to go through them.
+
+244
+00:28:32,000 --> 00:28:34,000
+Grace Koh: [inaudible] no, you first.
+
+245
+00:28:34,000 --> 00:28:36,000
+Ravi Kumar: Right, where was I. Yes.
+
+246
+00:28:38,000 --> 00:28:42,000
+Jonas Weber: That seems sensible. They're the ones who'll be there.
+
+247
+00:28:44,000 --> 00:28:50,000
+Grace Koh: But they've only just signed. They're like not mobilised yet. Does that matter?
+
+248
+00:28:52,000 --> 00:29:01,000
+Ravi Kumar: That's a fair question. I'd say we ask them as soon as they do mobilise, so it isn't left sitting.
+
+249
+00:29:02,000 --> 00:29:09,000
+Wei Ling Tan: And I'd want that to be the first thing, really. Not something that comes after everything else.
+
+250
+00:29:10,000 --> 00:29:15,000
+Ravi Kumar: I'll ask Kemlite to submit the application as soon as they mobilise.
+
+251
+00:29:17,000 --> 00:29:21,000
+Wei Ling: Thank you. That's what I I mean was after.
+
+252
+00:29:21,000 --> 00:29:29,000
+Jonas: Good. Can I just check, um that's all you're saying, you'll ask? You're not saying they've already agreed.
+
+253
+00:29:31,000 --> 00:29:37,000
+Ravi Kumar: Correct. I'll ask. I'm not telling you they've said yes, because I haven't asked yet.
+
+254
+00:29:39,000 --> 00:29:43,000
+Jonas Weber: Okay, good. I just wanted to keep it straight.
+
+255
+00:29:44,000 --> 00:29:54,000
+Grace: And it ties back to the first um topic, doesn't it? Halim's at the next board. That's a natural place to bring it up.
+
+256
+00:29:56,000 --> 00:30:07,000
+Ravi Kumar: It, It could be. I'd be asking Chem light anyway. But if like Halim's there, yes, it's a good moment to mention it face to face.
+
+257
+00:30:08,000 --> 00:30:10,000
+Jonas Weber: [inaudible] no, you first.
+
+258
+00:30:12,000 --> 00:30:14,000
+Ravi: Right, where was I. Yes.
+
+259
+00:30:14,000 --> 00:30:19,000
+WL: Mm-hm. I'd be glad to hear him say something about it directly.
+
+260
+00:30:19,000 --> 00:30:28,000
+Grace Koh: I'm not adding it to the look-ahead request, though. I only asked for the look-ahead. I don't want to muddy that.
+
+261
+00:30:30,000 --> 00:30:36,000
+Ravi Kumar: No, understood. The look-ahead I mean is one thing. The application is the other.
+
+262
+00:30:37,000 --> 00:30:39,000
+Grace: Got it.
+
+263
+00:30:41,000 --> 00:30:43,000
+Jonas Weber: Two separate things. Okay.
+
+264
+00:30:44,000 --> 00:30:46,000
+Ravi Kumar: Yeah, yeah.
+
+265
+00:30:46,000 --> 00:30:57,000
+Wei Ling Tan: Can I go back to the six weeks once more? I just want to be sure nobody leaves thinking it's shorter basically than it is.
+
+266
+00:30:57,000 --> 00:30:59,000
+Jonas Weber: [inaudible] no, you first.
+
+267
+00:31:00,000 --> 00:31:03,000
+Wei Ling Tan: No worries. As I was saying.
+
+268
+00:31:03,000 --> 00:31:05,000
+Grace Koh: Go on.
+
+269
+00:31:06,000 --> 00:31:14,000
+Wei Ling Tan: Inspections, Inspections are booking six weeks out. That's the number. I'd just like everyone to hold on to it.
+
+270
+00:31:16,000 --> 00:31:18,000
+Jonas Weber: Six weeks. Noted.
+
+271
+00:31:18,000 --> 00:31:23,000
+Grace Koh: Six weeks, and early January for the booking. I've got both.
+
+272
+00:31:23,000 --> 00:31:28,000
+Ravi Kumar: Same. Early January for the booking, six weeks for the inspection slot.
+
+273
+00:31:29,000 --> 00:31:34,000
+Jonas Weber: Mm. It does basically make the whole thing feel closer, doesn't it?
+
+274
+00:31:35,000 --> 00:31:39,000
+Wei Ling: It does. That's why I wanted to flag it.
+
+275
+00:31:39,000 --> 00:31:41,000
+Grace: [crosstalk]
+
+276
+00:31:43,000 --> 00:31:46,000
+Wei Ling: No worries. As I was saying.
+
+277
+00:31:46,000 --> 00:31:52,000
+Grace Koh: And, And I'm glad you did. I don't think I'd have thought of it.
+
+278
+00:31:52,000 --> 00:31:58,000
+Wei Ling Tan: Well, it's easy to overlook. It sits in the background until it doesn't.
+
+279
+00:31:58,000 --> 00:32:04,000
+Jonas Weber: Right. The sort of thing that's fine kind of until suddenly it isn't.
+
+280
+00:32:06,000 --> 00:32:14,000
+Ravi Kumar: Okay. Is there anything else on the certificate? I want to be sure I've got everything I'm taking away.
+
+281
+00:32:16,000 --> 00:32:25,000
+Wei Ling: I don't think so. You've got the main point. Book early, and we need the certificate before anyone occupies the floor.
+
+282
+00:32:26,000 --> 00:32:28,000
+Grace Koh: Nothing more from me.
+
+283
+00:32:29,000 --> 00:32:32,000
+Jonas Weber: Me neither. I'm happy that it's moving.
+
+284
+00:32:33,000 --> 00:32:40,000
+Ravi: Good. Let me just run through what I've got, and tell me if I've missed something.
+
+285
+00:32:41,000 --> 00:32:43,000
+Wei Ling Tan: Sure.
+
+286
+00:32:45,000 --> 00:32:55,000
+Ravi: Chem light have signed, Halim is their site manager and he'll be at the next board. I'll ask him to bring the three-week look-ahead.
+
+287
+00:32:55,000 --> 00:32:57,000
+Grace Koh: Yes.
+
+288
+00:32:59,000 --> 00:33:13,000
+Ravi Kumar: And on the certificate, we need it before anyone occupies the floor, inspections are booking out six weeks, and I'll ask Chem I mean light to submit the application as soon as they mobilise.
+
+289
+00:33:14,000 --> 00:33:17,000
+WL: That, That's right. like That covers it.
+
+290
+00:33:17,000 --> 00:33:19,000
+Jonas: Right.
+
+291
+00:33:19,000 --> 00:33:22,000
+Jonas Weber: Sounds right to kind of me too.
+
+292
+00:33:24,000 --> 00:33:26,000
+Grace: Good. Thanks, everyone.
+
+293
+00:33:26,000 --> 00:33:28,000
+Wei Ling Tan: Thanks. Talk soon.
+
+294
+00:33:29,000 --> 00:33:31,000
+Jonas Weber: Thanks all. Bye.
+
+295
+00:33:33,000 --> 00:33:36,000
+Ravi Kumar: Thanks, sort of everyone. Bye for now.
+

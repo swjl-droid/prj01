@@ -1,0 +1,1200 @@
+WEBVTT
+
+NOTE Synthetic meeting transcript (prj01-R1 US-4 mock m08).
+
+1
+00:00:20.000 --> 00:00:28.000
+<v Mei Chen>Hello, basically hello. I can see Ahmad. Can anyone else see me, or am I just talking to myself?</v>
+
+2
+00:00:30.000 --> 00:00:36.000
+<v Ahmad Faizal>I see you, Mei. Morning. Or afternoon, depending on where you are, I never know.</v>
+
+3
+00:00:37.000 --> 00:00:39.000
+<v Tom Hartley>Sure.</v>
+
+4
+00:00:41.000 --> 00:00:48.000
+<v Mei Chen>Morning here. Good, so the video works at least. Lisa, Tom, are basically you coming in?</v>
+
+5
+00:00:49.000 --> 00:00:58.000
+<v Lisa Wong>Hi, Hi, sorry, I'm here. Can you hear me? I think my mic was muted by the browser or something.</v>
+
+6
+00:00:58.000 --> 00:01:05.000
+<v Mei Chen>Yes, we hear you now. You you know were a bit quiet at first, but it's fine.</v>
+
+7
+00:01:07.000 --> 00:01:11.000
+<v Lisa>Okay, good. Let me move this headset. It keeps slipping.</v>
+
+8
+00:01:12.000 --> 00:01:16.000
+<v Ahmad>Mm, Mm-hm, we hear you fine. Louder than me, probably.</v>
+
+9
+00:01:18.000 --> 00:01:22.000
+<v Lisa Wong>Ha, that's not hard. You're always a bit quiet, Ahmad.</v>
+
+10
+00:01:24.000 --> 00:01:30.000
+<v Ahmad Faizal>I know, I know. It's the laptop. I should use the proper microphone.</v>
+
+11
+00:01:32.000 --> 00:01:39.000
+<v Mei Chen>Tom, I see you in the list but there's no video yet. Are like you there?</v>
+
+12
+00:01:40.000 --> 00:01:49.000
+<v Tom Hartley>Yes, I'm here, I'm here. Give me a second, the camera's doing something odd. It says it's in use by another app.</v>
+
+13
+00:01:49.000 --> 00:01:54.000
+<v Lisa Wong>That always happens to me. Did you close the other call window?</v>
+
+14
+00:01:55.000 --> 00:02:03.000
+<v Tom Hartley>I think so. Hang on. Right, uh I closed something and now it's showing. Can you see me?</v>
+
+15
+00:02:05.000 --> 00:02:10.000
+<v Mei C>We, We can see you. Bit dark, but we can see you.</v>
+
+16
+00:02:12.000 --> 00:02:18.000
+<v Tom Hartley>It's the weather. Everything's grey here today. uh I'll turn the lamp on.</v>
+
+17
+00:02:20.000 --> 00:02:27.000
+<v Ahmad Faizal>Same, Same here, honestly. Grey and cold. I had um to run to get in on time.</v>
+
+18
+00:02:28.000 --> 00:02:30.000
+<v Lisa Wong>Okay.</v>
+
+19
+00:02:32.000 --> 00:02:38.000
+<v Lisa Wong>Cold here too. I'm drinking my third coffee and it's not even close to lunch.</v>
+
+20
+00:02:38.000 --> 00:02:44.000
+<v Tom>Third? You're ahead of me. I'm on my second, and I'm already regretting it.</v>
+
+21
+00:02:46.000 --> 00:03:00.000
+<v Mei Chen>Okay, that's the whole team, then. Everyone can hear everyone? Good. Ahmad, you'll be sharing your screen in a minute, so if that gives any trouble, tell me early rather than basically halfway through.</v>
+
+22
+00:03:01.000 --> 00:03:12.000
+<v Ahmad Faizal>Yes, I'll try it now so we know. Let me see if it lets me choose the window. Mm. It's asking for some permission again.</v>
+
+23
+00:03:14.000 --> 00:03:22.000
+<v Lisa Wong>It does that every time on mine. You have you know to allow it and then restart the share.</v>
+
+24
+00:03:23.000 --> 00:03:30.000
+<v Ahmad Faizal>Right, that's what it is. basically Okay. Let me allow it. Can you see anything yet?</v>
+
+25
+00:03:30.000 --> 00:03:36.000
+<v Mei Chen>Not, Not yet. I just see your kind of face. A nice big face.</v>
+
+26
+00:03:37.000 --> 00:03:42.000
+<v Ahmad Faizal>Thank you. Very helpful. Hang on, sort of hang on. There. Now?</v>
+
+27
+00:03:43.000 --> 00:03:48.000
+<v Tom>Yes, I see kind of a browser. It's a bit small, though.</v>
+
+28
+00:03:49.000 --> 00:03:58.000
+<v Ahmad>I'll uh make it bigger when we get to it. I'll stop sharing for now so it doesn't distract us.</v>
+
+29
+00:03:58.000 --> 00:04:10.000
+<v Mei C>Fine. Okay, shall we start? It's the sprint three review sort of for the customer self-service portal, and we have about half an hour, so let's keep moving.</v>
+
+30
+00:04:10.000 --> 00:04:19.000
+<v Mei C>Sprint three: the demo, the building API, the identity provider budget, the con trust fix, and the pen test booking.</v>
+
+31
+00:04:20.000 --> 00:04:24.000
+<v Tom>That's the full list, then. Five things. Fine by me.</v>
+
+32
+00:04:25.000 --> 00:04:32.000
+<v Lisa>Sounds good. I might have a question or two uh on the demo, but I'll wait.</v>
+
+33
+00:04:32.000 --> 00:04:34.000
+<v Mei Chen>Demo, Demo first, Ahmad.</v>
+
+34
+00:04:34.000 --> 00:04:36.000
+<v Ahmad>[inaudible] no, you first.</v>
+
+35
+00:04:37.000 --> 00:04:39.000
+<v Mei Chen>Okay, so, yeah.</v>
+
+36
+00:04:40.000 --> 00:04:50.000
+<v Ahmad Faizal>Okay, Okay. Let me share again, give me a second. I want to show it live rather basically than just talk about it.</v>
+
+37
+00:04:50.000 --> 00:05:01.000
+<v Ahmad Faizal>Right, you should see the portal now. This is the logged-in view, the customer's home page, and here is where you start a new service request.</v>
+
+38
+00:05:02.000 --> 00:05:07.000
+<v Tom Hartley>Yes, I see it. The font looks bigger than I remembered.</v>
+
+39
+00:05:08.000 --> 00:05:11.000
+<v Mei Chen>Oh sorry, I talked over you.</v>
+
+40
+00:05:12.000 --> 00:05:15.000
+<v Tom>No worries. As I was saying.</v>
+
+41
+00:05:15.000 --> 00:05:21.000
+<v Ahmad>It's I mean the zoom on my browser. Sorry. Let me reset it. Better?</v>
+
+42
+00:05:21.000 --> 00:05:23.000
+<v Tom>Better, Better, yes.</v>
+
+43
+00:05:25.000 --> 00:05:30.000
+<v Ahmad>So, So. Where we are with the sprint, in like plain words.</v>
+
+44
+00:05:30.000 --> 00:05:37.000
+<v Ahmad Faizal>Service request creation is done, the first of the three split like stories. Tracking is half done.</v>
+
+45
+00:05:37.000 --> 00:05:48.000
+<v Mei C>Okay. So when you say done, you mean done as in finished and working, not done as in the code is written and still waiting?</v>
+
+46
+00:05:50.000 --> 00:06:02.000
+<v Ahmad Faizal>Done as in working. I'm showing it to you right now, so it's not hiding anywhere. You fill in the form, you submit, and the request is created.</v>
+
+47
+00:06:02.000 --> 00:06:09.000
+<v Mei C>Mm-hm. Good. I just like to check that word, because we've had different meanings of it before.</v>
+
+48
+00:06:11.000 --> 00:06:14.000
+<v Lisa Wong>Yes, that's fair. We've had that.</v>
+
+49
+00:06:15.000 --> 00:06:26.000
+<v Tom>And tracking is half done. What does half look like? Is that you know a screen that shows something, or is it not visible yet?</v>
+
+50
+00:06:27.000 --> 00:06:29.000
+<v Lisa>Sure.</v>
+
+51
+00:06:30.000 --> 00:06:43.000
+<v Ahmad Faizal>Half means half. Some of it is there, some of it isn't. I'd rather not call it more than half, because I don't want anyone to hear finished when it isn't.</v>
+
+52
+00:06:43.000 --> 00:06:49.000
+<v Tom Hartley>No, No, that's fine. I just wanted to picture like it. Half is half.</v>
+
+53
+00:06:50.000 --> 00:07:00.000
+<v Mei C>And, And the first of the three split stories is the creation one. So there are two still sort of to come after it?</v>
+
+54
+00:07:02.000 --> 00:07:12.000
+<v Ahmad Faizal>Yes, Yes. Creation is the first. Tracking you know is in progress, and that's the half we're talking about. And then the third one.</v>
+
+55
+00:07:12.000 --> 00:07:16.000
+<v Mei Chen>Okay. So two of uh three are at least started.</v>
+
+56
+00:07:16.000 --> 00:07:26.000
+<v Ahmad Faizal>One finished, one half uh done. I wouldn't say two of three, I'd say one and a half, if you want to be strict.</v>
+
+57
+00:07:26.000 --> 00:07:30.000
+<v Mei C>One and a half. Fine, that's fairer. I'll use that.</v>
+
+58
+00:07:31.000 --> 00:07:33.000
+<v Tom Hartley>[crosstalk]</v>
+
+59
+00:07:34.000 --> 00:07:36.000
+<v Mei Chen>Okay, so, yeah.</v>
+
+60
+00:07:37.000 --> 00:07:43.000
+<v Lisa Wong>One, One and a half sounds right to me. Better to be careful.</v>
+
+61
+00:07:45.000 --> 00:07:47.000
+<v Tom Hartley>Got it.</v>
+
+62
+00:07:47.000 --> 00:07:57.000
+<v Ahmad Faizal>Let me click through once more so everyone sees the whole flow. Start a request, fill the fields, submit. And uh there's the confirmation.</v>
+
+63
+00:07:57.000 --> 00:08:05.000
+<v Tom Hartley>Mm. That went quickly. Is it always that quick, or uh is it because it's a test setup?</v>
+
+64
+00:08:07.000 --> 00:08:17.000
+<v Ahmad>I can't promise anything about how it behaves later with real uh use, I only know what I see now. Today it's quick.</v>
+
+65
+00:08:19.000 --> 00:08:23.000
+<v Tom>Fair. Today it's quick. That's basically all I wanted.</v>
+
+66
+00:08:23.000 --> 00:08:27.000
+<v Mei Chen>Lisa, Lisa, you've been testing. What did you find?</v>
+
+67
+00:08:29.000 --> 00:08:37.000
+<v Lisa>Yes, Yes. So, I went through basically it on a laptop first, the same flow Ahmad just showed.</v>
+
+68
+00:08:39.000 --> 00:08:45.000
+<v Lisa Wong>Tested on mobile too, works, one layout glitch on small screens which we logged.</v>
+
+69
+00:08:45.000 --> 00:08:51.000
+<v Ahmad Faizal>Right, I saw that one uh in the log. I haven't forgotten it.</v>
+
+70
+00:08:52.000 --> 00:09:00.000
+<v Tom Hartley>Sorry, just so I'm clear. The glitch is only on small you know screens. Not on the laptop view?</v>
+
+71
+00:09:01.000 --> 00:09:12.000
+<v Lisa Wong>Only, Only on kind of small screens. The laptop was fine. And the mobile worked, I mean the request went through, it's the layout that looks off.</v>
+
+72
+00:09:14.000 --> 00:09:19.000
+<v Tom>Okay. So it works, it just doesn't look right in one place.</v>
+
+73
+00:09:19.000 --> 00:09:22.000
+<v Mei Chen>Oh sorry, I talked over you.</v>
+
+74
+00:09:24.000 --> 00:09:26.000
+<v Tom>Right, where was I. Yes.</v>
+
+75
+00:09:27.000 --> 00:09:33.000
+<v Lisa Wong>Yes. Works, but a bit off. And it's logged, um so it's not lost.</v>
+
+76
+00:09:33.000 --> 00:09:40.000
+<v Mei Chen>Is it kind of something a customer would be confused by, or is it more cosmetic?</v>
+
+77
+00:09:40.000 --> 00:09:53.000
+<v Lisa Wong>I, I'd have to be careful here. I'd say it's a layout glitch, that's how I logged it. I wouldn't call it more than that, and I wouldn't call it less.</v>
+
+78
+00:09:54.000 --> 00:10:02.000
+<v Mei Chen>Fair enough. I'm not asking you to rate it, I just wanted to know how you saw it.</v>
+
+79
+00:10:04.000 --> 00:10:13.000
+<v Ahmad Faizal>Can, Can I add something? It's in the log with basically the rest, so whoever opens it can see the screenshot.</v>
+
+80
+00:10:15.000 --> 00:10:20.000
+<v Lisa Wong>Yes, there's a screenshot on it. That's the one I attached.</v>
+
+81
+00:10:22.000 --> 00:10:26.000
+<v Tom Hartley>Good, so nobody has to guess what we meant.</v>
+
+82
+00:10:28.000 --> 00:10:43.000
+<v Mei Chen>Okay, Okay. Going back to Ahmad's point for a second, just basically so I've got the picture. Creation done, tracking half, one glitch on small screens, logged. Is that all of it for the demo?</v>
+
+83
+00:10:44.000 --> 00:10:50.000
+<v Ahmad Faizal>That's all of it for me. Unless somebody wants to see something again.</v>
+
+84
+00:10:52.000 --> 00:10:58.000
+<v Lisa Wong>No, I'm happy. I've seen it enough times you know this week, to be honest.</v>
+
+85
+00:11:00.000 --> 00:11:03.000
+<v Tom Hartley>Ha, I bet. No, nothing from me.</v>
+
+86
+00:11:04.000 --> 00:11:07.000
+<v Mei Chen>Then you can stop sharing, Ahmad. Thank you.</v>
+
+87
+00:11:08.000 --> 00:11:13.000
+<v Ahmad Faizal>Stopped. There, you can see my face again. Sorry about that.</v>
+
+88
+00:11:14.000 --> 00:11:17.000
+<v Tom Hartley>Nice, Nice face. Very big again.</v>
+
+89
+00:11:18.000 --> 00:11:21.000
+<v Ahmad Faizal>Thank you, Tom. Always happy to help.</v>
+
+90
+00:11:21.000 --> 00:11:24.000
+<v Mei Chen>Okay, on um to the next one.</v>
+
+91
+00:11:24.000 --> 00:11:26.000
+<v Mei C>Billing API, did it arrive?</v>
+
+92
+00:11:27.000 --> 00:11:35.000
+<v Tom>Yes, it did. I was going to say it quickly, because I'm a bit pleased uh about this one.</v>
+
+93
+00:11:35.000 --> 00:11:44.000
+<v Tom Hartley>The billing API was delivered on the sixteenth, two days early for once, and the bills story is now unblocked.</v>
+
+94
+00:11:44.000 --> 00:11:46.000
+<v Ahmad Faizal>Sorry, go ahead.</v>
+
+95
+00:11:48.000 --> 00:11:51.000
+<v Tom Hartley>No worries. As I was saying.</v>
+
+96
+00:11:53.000 --> 00:11:58.000
+<v Lisa Wong>Two days early. I'm writing that down. That um doesn't happen much.</v>
+
+97
+00:11:59.000 --> 00:12:04.000
+<v Tom Hartley>For once, that's what I said. Don't get used to it.</v>
+
+98
+00:12:05.000 --> 00:12:12.000
+<v Ahmad Faizal>Sorry, just to check I heard right. The sixteenth, which was yesterday, and early by two days?</v>
+
+99
+00:12:14.000 --> 00:12:22.000
+<v Tom Hartley>Yes. Delivered on the sixteenth. Two days earlier than it was meant to be. That's what like I have.</v>
+
+100
+00:12:23.000 --> 00:12:33.000
+<v Ahmad>Okay, that's what I thought. I just wanted to hear it basically again, because I didn't want to plan on a wrong date.</v>
+
+101
+00:12:34.000 --> 00:12:37.000
+<v Tom Hartley>Fair. I'd do kind of the same.</v>
+
+102
+00:12:37.000 --> 00:12:42.000
+<v Mei Chen>And the bills story, that's the one that was waiting for it?</v>
+
+103
+00:12:43.000 --> 00:12:50.000
+<v Tom Hartley>Yes, that's the one. It was waiting for the API, and now it isn't. So it's unblocked.</v>
+
+104
+00:12:51.000 --> 00:12:57.000
+<v Lisa Wong>So, So I can start looking at it, from the testing side, once it's built?</v>
+
+105
+00:12:59.000 --> 00:13:10.000
+<v Tom Hartley>I wouldn't say anything beyond what I said. The story is unblocked. How it gets picked up is for the team to say, not me.</v>
+
+106
+00:13:11.000 --> 00:13:15.000
+<v Lisa Wong>Right, fair. I'm basically only thinking aloud. Forget I asked.</v>
+
+107
+00:13:16.000 --> 00:13:23.000
+<v Ahmad>No, it's a good uh question, but I think it belongs to planning, not to this item.</v>
+
+108
+00:13:24.000 --> 00:13:32.000
+<v Mei Chen>Yes. Let's stay with what we know. The API basically is delivered, the story is unblocked. That's the news.</v>
+
+109
+00:13:33.000 --> 00:13:41.000
+<v Mei C>Great, so that dependency is closed, and the risk of it slipping past the basically holidays is gone too.</v>
+
+110
+00:13:42.000 --> 00:13:46.000
+<v Tom Hartley>Yes. you know That one's closed. I'm happy with that.</v>
+
+111
+00:13:47.000 --> 00:13:53.000
+<v Ahmad Faizal>Mm-hm. That's a relief. It's one thing less to keep an eye on.</v>
+
+112
+00:13:53.000 --> 00:13:56.000
+<v Lisa Wong>Oh sorry, I talked over you.</v>
+
+113
+00:13:58.000 --> 00:14:00.000
+<v Ahmad>Okay, so, yeah.</v>
+
+114
+00:14:00.000 --> 00:14:08.000
+<v Lisa>Agreed, Agreed. I was a bit nervous about that one, to be honest. It's good to hear it's gone.</v>
+
+115
+00:14:08.000 --> 00:14:13.000
+<v Tom Hartley>I, I was a bit nervous too, but I didn't say it.</v>
+
+116
+00:14:14.000 --> 00:14:20.000
+<v Mei Chen>Ha, you should have said. We could have kind of been nervous together.</v>
+
+117
+00:14:22.000 --> 00:14:26.000
+<v Tom Hartley>Next time. Next time I'll I mean say it.</v>
+
+118
+00:14:28.000 --> 00:14:35.000
+<v Ahmad Faizal>Right. Anything else on the basically billing API, or can we move on? I don't have anything.</v>
+
+119
+00:14:36.000 --> 00:14:38.000
+<v Lisa Wong>Nothing from me.</v>
+
+120
+00:14:38.000 --> 00:14:42.000
+<v Tom>Nor me. kind of It arrived, that's the main thing.</v>
+
+121
+00:14:44.000 --> 00:14:46.000
+<v Mei C>Okay. Next.</v>
+
+122
+00:14:46.000 --> 00:14:48.000
+<v Mei Chen>Identity provider paid tier.</v>
+
+123
+00:14:50.000 --> 00:14:56.000
+<v Ahmad Faizal>Yes, Yes, I've been waiting for this one. I wasn't sure where it stood.</v>
+
+124
+00:14:58.000 --> 00:15:02.000
+<v Mei Chen>I have news. I heard back, and it's good.</v>
+
+125
+00:15:02.000 --> 00:15:09.000
+<v Mei Chen>Finance approved the paid tier yesterday, so the five thousand user cap goes away before go-live.</v>
+
+126
+00:15:09.000 --> 00:15:16.000
+<v Tom>Good. Sorry, say that again, the five thousand was the number of users on the free one?</v>
+
+127
+00:15:17.000 --> 00:15:26.000
+<v Mei Chen>Yes. The five thousand user cap is the limit on the current plan. With the paid tier it goes away.</v>
+
+128
+00:15:27.000 --> 00:15:31.000
+<v Tom>Okay, so no cap after the switch. Got it.</v>
+
+129
+00:15:33.000 --> 00:15:37.000
+<v Lisa>And, And that's before go-live, you said. Not after.</v>
+
+130
+00:15:37.000 --> 00:15:44.000
+<v Mei C>Before, Before go-live. That's how I said it, and that's how kind of I understand it.</v>
+
+131
+00:15:45.000 --> 00:15:51.000
+<v Lisa Wong>Okay. Good. I just wanted to be sure I hadn't misheard the order.</v>
+
+132
+00:15:51.000 --> 00:16:00.000
+<v Ahmad Faizal>I'm glad it went through. I thought it might take longer, to be honest. basically I wasn't sure Finance would say yes.</v>
+
+133
+00:16:02.000 --> 00:16:09.000
+<v Mei C>I wasn't sure either. But it's approved, so we don't need to argue the case any more.</v>
+
+134
+00:16:09.000 --> 00:16:12.000
+<v Tom Hartley>Yesterday, you said? basically That's quick.</v>
+
+135
+00:16:13.000 --> 00:16:20.000
+<v Mei C>Yesterday, yes. I didn't want to wait to tell you, which is why I'm saying it now.</v>
+
+136
+00:16:22.000 --> 00:16:25.000
+<v Lisa>That's good. Thanks for chasing it, Mei.</v>
+
+137
+00:16:26.000 --> 00:16:32.000
+<v Mei Chen>No problem. Ahmad, that one touches your side, so I'll hand it over.</v>
+
+138
+00:16:33.000 --> 00:16:40.000
+<v Ahmad Faizal>Yes. Okay. The paid tier means a uh change of plan on the provider, and that's mine.</v>
+
+139
+00:16:42.000 --> 00:16:46.000
+<v Ahmad Faizal>I'll switch the plan in the first week of January.</v>
+
+140
+00:16:47.000 --> 00:16:51.000
+<v Tom Hartley>First week of January. Okay. So that's after the break.</v>
+
+141
+00:16:52.000 --> 00:16:56.000
+<v Ahmad Faizal>That's what I said. The first week of January.</v>
+
+142
+00:16:58.000 --> 00:17:03.000
+<v Tom Hartley>Yes, I'm basically not arguing, I'm only repeating it so I remember.</v>
+
+143
+00:17:05.000 --> 00:17:10.000
+<v Lisa>And the cap goes away once that's done, right? Not before.</v>
+
+144
+00:17:10.000 --> 00:17:19.000
+<v Ahmad Faizal>I'd say once the plan is switched, yes. That's the logical order. Approval first, like switch second, then the cap is gone.</v>
+
+145
+00:17:21.000 --> 00:17:26.000
+<v Mei Chen>Mm, Mm-hm. And all of it before go-live, as I said.</v>
+
+146
+00:17:26.000 --> 00:17:29.000
+<v Lisa Wong>Right. Good. That's clear to me now.</v>
+
+147
+00:17:30.000 --> 00:17:32.000
+<v Tom Hartley>Clear, Clear to me too.</v>
+
+148
+00:17:34.000 --> 00:17:36.000
+<v Mei Chen>Okay.</v>
+
+149
+00:17:37.000 --> 00:17:43.000
+<v Tom>Does anyone know if the office downstairs is moving? There were boxes everywhere this morning.</v>
+
+150
+00:17:45.000 --> 00:17:48.000
+<v Mei Chen>No idea, let's stay on track.</v>
+
+151
+00:17:48.000 --> 00:17:55.000
+<v Mei Chen>Okay. That's the demo, the building API and the identity provider budget. Three out of five.</v>
+
+152
+00:17:56.000 --> 00:17:58.000
+<v Mei C>Contrast defect.</v>
+
+153
+00:18:00.000 --> 00:18:09.000
+<v Tom>Oh, good, this one. I remember um this one came up in the earlier review and everyone kind of winced.</v>
+
+154
+00:18:10.000 --> 00:18:17.000
+<v Ahmad Faizal>Yeah, it was the one where the text was a bit washed out. You had to squint.</v>
+
+155
+00:18:19.000 --> 00:18:24.000
+<v Mei Chen>Right, Right. Lisa, you have the latest on it, don't you?</v>
+
+156
+00:18:25.000 --> 00:18:31.000
+<v Lisa>I do. Give me a second, I've got the page open on the other screen.</v>
+
+157
+00:18:33.000 --> 00:18:41.000
+<v Lisa Wong>Okay. The contrast defect on the bills page is fixed and passes the kind of WCAG check now.</v>
+
+158
+00:18:43.000 --> 00:18:49.000
+<v Tom Hartley>Passes, Passes. So you know not just looks better, it actually passes the check.</v>
+
+159
+00:18:49.000 --> 00:19:00.000
+<v Lisa Wong>Right, it passes. I ran it again this morning just to be sure, because I didn't want to kind of say it and then have it fail.</v>
+
+160
+00:19:02.000 --> 00:19:10.000
+<v Ahmad>Mm-hm. That's the thing you know I'd want to know, honestly. Looking better to the eye is one thing.</v>
+
+161
+00:19:10.000 --> 00:19:18.000
+<v Tom>Yeah, to my eye it was fine before, which is sort of the point. My eyes aren't the test.</v>
+
+162
+00:19:20.000 --> 00:19:25.000
+<v Lisa>Exactly. That's why we basically use the check and not our opinions.</v>
+
+163
+00:19:26.000 --> 00:19:33.000
+<v Mei C>Ha, fair. And it's only the bills page we're talking about here, yes? Not other pages.</v>
+
+164
+00:19:34.000 --> 00:19:41.000
+<v Lisa>For this defect, sort of yes, the bills page. That's what the defect was written against.</v>
+
+165
+00:19:43.000 --> 00:19:53.000
+<v Ahmad Faizal>Okay. I was just trying to remember if it had spread out to anything basically else, but I think it was just that page.</v>
+
+166
+00:19:53.000 --> 00:20:02.000
+<v Tom Hartley>I think so too. Sorry, sort of I'm going from memory. I don't want to say something that's not right.</v>
+
+167
+00:20:02.000 --> 00:20:09.000
+<v Mei Chen>No, that's fine. Lisa, you're saying it's the bills page, and that's you know what's fixed.</v>
+
+168
+00:20:11.000 --> 00:20:13.000
+<v Lisa>Yes. That's what I'm saying.</v>
+
+169
+00:20:13.000 --> 00:20:22.000
+<v Ahmad Faizal>Can I ask something small? When you say passes now, you mean the same check that failed before? Same one?</v>
+
+170
+00:20:22.000 --> 00:20:30.000
+<v Lisa Wong>Same check. It failed, we changed it, and now it passes. Nothing different about how I ran it.</v>
+
+171
+00:20:32.000 --> 00:20:39.000
+<v Ahmad Faizal>Good, Good. Good, that's what I wanted. Otherwise it's a bit like moving kind of the goalposts.</v>
+
+172
+00:20:41.000 --> 00:20:46.000
+<v Tom Hartley>Ha, Ha, yeah. uh Marking your own homework with a different pen.</v>
+
+173
+00:20:47.000 --> 00:20:50.000
+<v Lisa>No, no, same check. I wouldn't do that.</v>
+
+174
+00:20:51.000 --> 00:20:53.000
+<v Mei Chen>Nobody's accusing you, Lisa.</v>
+
+175
+00:20:55.000 --> 00:21:00.000
+<v Lisa Wong>I know, I know. I just want it to like be clear.</v>
+
+176
+00:21:00.000 --> 00:21:04.000
+<v Tom Hartley>It's clear. I'm happy with basically that, from my side.</v>
+
+177
+00:21:04.000 --> 00:21:07.000
+<v Ahmad Faizal>Yeah, me too. Nothing um from me.</v>
+
+178
+00:21:09.000 --> 00:21:11.000
+<v Mei C>Close, Close it then.</v>
+
+179
+00:21:11.000 --> 00:21:15.000
+<v Lisa Wong>Okay. I'll take that as I mean agreed, then.</v>
+
+180
+00:21:17.000 --> 00:21:19.000
+<v Tom Hartley>Agreed, Agreed, yeah.</v>
+
+181
+00:21:21.000 --> 00:21:24.000
+<v Ahmad Faizal>Yep, Yep. One less thing on the list.</v>
+
+182
+00:21:26.000 --> 00:21:28.000
+<v Lisa Wong>Yeah, yeah.</v>
+
+183
+00:21:28.000 --> 00:21:33.000
+<v Mei Chen>It's always nice when um one of them just goes away.</v>
+
+184
+00:21:33.000 --> 00:21:43.000
+<v Tom Hartley>Right. Though I'll say it uh never feels that way when they're open. Then they close and it's like, oh, that was easy.</v>
+
+185
+00:21:45.000 --> 00:21:50.000
+<v Ahmad>That's the way it goes. Open, they're enormous. Closed, nobody remembers them.</v>
+
+186
+00:21:51.000 --> 00:21:54.000
+<v Mei Chen>Okay, Okay. Moving on. I mean Pen test.</v>
+
+187
+00:21:56.000 --> 00:22:02.000
+<v Tom Hartley>Ah. Now this is the one I've been kind of waiting to hear about.</v>
+
+188
+00:22:03.000 --> 00:22:07.000
+<v Ahmad Faizal>Same. Lisa, you've been in touch with the firm, right?</v>
+
+189
+00:22:08.000 --> 00:22:15.000
+<v Lisa>I, I have, yes. And I can give you the actual answer now rather than a maybe.</v>
+
+190
+00:22:15.000 --> 00:22:24.000
+<v Lisa Wong>The pen I mean test is booked for the nineteenth to the twenty third of January, the firm confirmed in writing.</v>
+
+191
+00:22:24.000 --> 00:22:27.000
+<v Tom>In uh writing. Okay, so that's solid.</v>
+
+192
+00:22:27.000 --> 00:22:33.000
+<v Lisa Wong>That's what they kind of gave me, yes. In writing, not just on a call.</v>
+
+193
+00:22:35.000 --> 00:22:44.000
+<v Ahmad Faizal>Sorry, Sorry, say the dates once more? I was writing them down uh and I think I missed the end one.</v>
+
+194
+00:22:45.000 --> 00:22:49.000
+<v Lisa Wong>The nineteenth to the twenty kind of third of January.</v>
+
+195
+00:22:51.000 --> 00:22:55.000
+<v Ahmad Faizal>Nineteenth to the twenty third. Got kind of it. Thanks.</v>
+
+196
+00:22:57.000 --> 00:23:02.000
+<v Tom Hartley>So that's, what, a run of days, not just one day.</v>
+
+197
+00:23:03.000 --> 00:23:05.000
+<v Ahmad Faizal>Yeah, yeah.</v>
+
+198
+00:23:07.000 --> 00:23:15.000
+<v Lisa>Right, it's the range, the nineteenth through to the kind of twenty third. That's the window they've confirmed.</v>
+
+199
+00:23:15.000 --> 00:23:22.000
+<v Mei Chen>And that's booked, not pencilled in. I just want to be sure I'm hearing that properly.</v>
+
+200
+00:23:22.000 --> 00:23:24.000
+<v Tom>Uh-huh.</v>
+
+201
+00:23:26.000 --> 00:23:32.000
+<v Lisa>Booked. They confirmed in kind of writing, so I'm treating it as booked.</v>
+
+202
+00:23:33.000 --> 00:23:35.000
+<v Ahmad Faizal>Uh-huh.</v>
+
+203
+00:23:37.000 --> 00:23:42.000
+<v Mei C>Good. That's good news, that's a real thing we can point at.</v>
+
+204
+00:23:44.000 --> 00:23:53.000
+<v Tom Hartley>Mm-hm. It was one of those things that kept feeling a bit vague. Now kind of it's got a date on it.</v>
+
+205
+00:23:54.000 --> 00:23:59.000
+<v Ahmad Faizal>Yeah, it's much better I mean when it's not floating around.</v>
+
+206
+00:24:01.000 --> 00:24:09.000
+<v Lisa Wong>There's one more thing they said though, and I should pass it on, because I think it matters.</v>
+
+207
+00:24:09.000 --> 00:24:11.000
+<v Mei C>Go on.</v>
+
+208
+00:24:11.000 --> 00:24:19.000
+<v Lisa>But they said a typical first test has two or three high findings, so no major findings is optimistic.</v>
+
+209
+00:24:20.000 --> 00:24:22.000
+<v Tom Hartley>Hm. Okay.</v>
+
+210
+00:24:22.000 --> 00:24:25.000
+<v Mei Chen>Oh sorry, I talked over you.</v>
+
+211
+00:24:27.000 --> 00:24:29.000
+<v Tom>Okay, so, yeah.</v>
+
+212
+00:24:29.000 --> 00:24:35.000
+<v Ahmad Faizal>Right. So two or three high ones is sort of normal for them.</v>
+
+213
+00:24:36.000 --> 00:24:41.000
+<v Lisa Wong>That's how they put it. Typical for uh a first test.</v>
+
+214
+00:24:41.000 --> 00:24:49.000
+<v Tom>I mean, I'd have liked to hear we'd sail through. you know But I can't say I'm shocked.</v>
+
+215
+00:24:49.000 --> 00:24:55.000
+<v Ahmad Faizal>No, no. I wasn't expecting a clean sheet either, to uh be honest.</v>
+
+216
+00:24:55.000 --> 00:25:04.000
+<v Mei Chen>Hang on, though. Let me make sure I've got the wording. They basically said no major findings would be optimistic.</v>
+
+217
+00:25:04.000 --> 00:25:10.000
+<v Lisa Wong>Yes. That's what they said, that expecting sort of no major findings is optimistic.</v>
+
+218
+00:25:10.000 --> 00:25:12.000
+<v Mei C>Got it.</v>
+
+219
+00:25:14.000 --> 00:25:16.000
+<v Tom Hartley>Optimistic is a polite word.</v>
+
+220
+00:25:16.000 --> 00:25:18.000
+<v Ahmad>Yeah, yeah.</v>
+
+221
+00:25:18.000 --> 00:25:25.000
+<v Ahmad>Ha. It is a polite word. It's the consultant's way of saying don't count on it.</v>
+
+222
+00:25:25.000 --> 00:25:32.000
+<v Lisa Wong>I think they were being straight with me, which I appreciated. Better than a nice story.</v>
+
+223
+00:25:33.000 --> 00:25:35.000
+<v Tom>Mm-hm.</v>
+
+224
+00:25:36.000 --> 00:25:39.000
+<v Mei Chen>Yeah, I'd basically rather hear it now.</v>
+
+225
+00:25:41.000 --> 00:25:52.000
+<v Tom Hartley>Can I check one thing? When they say two or three high findings, that's um for a typical first test, not about us in particular.</v>
+
+226
+00:25:54.000 --> 00:26:03.000
+<v Lisa Wong>Right, that's what they said. It's a general comment about typical first tests. It's not a verdict on our portal.</v>
+
+227
+00:26:03.000 --> 00:26:09.000
+<v Tom>Okay. That's um how I heard it, but I wanted to hear you say it.</v>
+
+228
+00:26:10.000 --> 00:26:17.000
+<v Ahmad>Yeah, that's a fair distinction. They haven't looked at it yet. It's just what they usually see.</v>
+
+229
+00:26:17.000 --> 00:26:24.000
+<v Lisa>Exactly, Exactly. They haven't started, so it's their sort of usual experience, nothing more than that.</v>
+
+230
+00:26:25.000 --> 00:26:34.000
+<v Tom Hartley>Fine, Fine. Then uh I don't think we need to read too much into it. But I wouldn't ignore it either.</v>
+
+231
+00:26:34.000 --> 00:26:41.000
+<v Ahmad>No. I'd go a little further than that, actually. If they say expect some, I'd expect some.</v>
+
+232
+00:26:42.000 --> 00:26:49.000
+<v Tom Hartley>Sure, I'm like not saying don't expect some. I'm saying it's not a prediction about our code.</v>
+
+233
+00:26:49.000 --> 00:26:52.000
+<v Ahmad Faizal>Mm, fair. It's a prediction about first tests.</v>
+
+234
+00:26:52.000 --> 00:26:55.000
+<v Tom>Yeah, Yeah. That's all I meant.</v>
+
+235
+00:26:55.000 --> 00:26:57.000
+<v Ahmad Faizal>[inaudible] no, you first.</v>
+
+236
+00:26:57.000 --> 00:26:59.000
+<v Tom Hartley>Okay, so, yeah.</v>
+
+237
+00:27:01.000 --> 00:27:07.000
+<v Mei Chen>I think you're both you know saying roughly the same thing, in different words.</v>
+
+238
+00:27:07.000 --> 00:27:11.000
+<v Ahmad>Probably. I tend to you know lean careful, that's all.</v>
+
+239
+00:27:11.000 --> 00:27:16.000
+<v Tom>And I lean the other way. That's why it works, I suppose.</v>
+
+240
+00:27:18.000 --> 00:27:25.000
+<v Mei C>Ha, sure. Lisa, was there anything else in basically what they said? Anything about what happens after?</v>
+
+241
+00:27:27.000 --> 00:27:36.000
+<v Lisa Wong>Not beyond that. What I've told you is what they told me, the dates and the comment about typical first tests.</v>
+
+242
+00:27:38.000 --> 00:27:44.000
+<v Mei C>Okay. I don't want to kind of guess at things they didn't say.</v>
+
+243
+00:27:46.000 --> 00:27:48.000
+<v Ahmad Faizal>Got it.</v>
+
+244
+00:27:50.000 --> 00:27:56.000
+<v Lisa Wong>No, I don't uh want to either. I'd rather stick to what's in writing.</v>
+
+245
+00:27:56.000 --> 00:28:04.000
+<v Ahmad Faizal>Agreed. If we sort of start filling in the gaps ourselves, we'll end up arguing about things nobody said.</v>
+
+246
+00:28:05.000 --> 00:28:10.000
+<v Tom Hartley>Right, Right. Which is a very easy trap to fall into.</v>
+
+247
+00:28:12.000 --> 00:28:24.000
+<v Mei Chen>Okay, I mean so thinking about the plan. We've got the test in that window, and we've been told to be realistic about what comes out of it.</v>
+
+248
+00:28:26.000 --> 00:28:28.000
+<v Tom Hartley>Mm, Mm-hm.</v>
+
+249
+00:28:29.000 --> 00:28:35.000
+<v Mei C>Okay, then let's keep one week in the plan after the test for fixes.</v>
+
+250
+00:28:37.000 --> 00:28:40.000
+<v Ahmad Faizal>One week after the test. Okay.</v>
+
+251
+00:28:42.000 --> 00:28:49.000
+<v Tom Hartley>So, So that's a week that's in there already, and we keep it. We don't squeeze it.</v>
+
+252
+00:28:51.000 --> 00:28:54.000
+<v Mei Chen>Right. Keep it. That's what I'm saying.</v>
+
+253
+00:28:54.000 --> 00:29:02.000
+<v Ahmad Faizal>Sorry, I just want to be sure I understand. It's one week, after the test, for basically fixes. Yes?</v>
+
+254
+00:29:02.000 --> 00:29:06.000
+<v Mei C>Yes. One um week after the test, for fixes.</v>
+
+255
+00:29:08.000 --> 00:29:11.000
+<v Ahmad Faizal>Okay. kind of Good. That's clear to me.</v>
+
+256
+00:29:13.000 --> 00:29:21.000
+<v Tom Hartley>And it fits with what Lisa said, doesn't it. If there are some findings, there's room for them.</v>
+
+257
+00:29:21.000 --> 00:29:27.000
+<v Lisa Wong>That was what I was thinking too. It lines up with the comment they made.</v>
+
+258
+00:29:29.000 --> 00:29:39.000
+<v Ahmad Faizal>I do wonder if one week is enough, but then I don't know what sort of we'll get, so I can't really say.</v>
+
+259
+00:29:40.000 --> 00:29:46.000
+<v Tom>Yeah, Yeah, that's the problem. We can't size it until we see what comes out.</v>
+
+260
+00:29:47.000 --> 00:29:49.000
+<v Ahmad Faizal>Mm-hm.</v>
+
+261
+00:29:50.000 --> 00:29:59.000
+<v Mei Chen>That, That's true. And I don't want to reopen it now, because we can't know yet. One week is what we keep.</v>
+
+262
+00:29:59.000 --> 00:30:05.000
+<v Ahmad Faizal>No, that's fine. I'm not asking to change it. I was just thinking aloud.</v>
+
+263
+00:30:07.000 --> 00:30:10.000
+<v Mei Chen>No, that's okay, thinking aloud is allowed.</v>
+
+264
+00:30:11.000 --> 00:30:17.000
+<v Tom Hartley>Is, Is it? I thought we were supposed to have our answers ready.</v>
+
+265
+00:30:19.000 --> 00:30:21.000
+<v Ahmad Faizal>Yep, makes sense.</v>
+
+266
+00:30:23.000 --> 00:30:25.000
+<v Mei Chen>Ha, not in this meeting.</v>
+
+267
+00:30:26.000 --> 00:30:37.000
+<v Lisa Wong>Can I go back to something earlier? On the con trust one, I just want to say I'm glad that's basically finished before the test.</v>
+
+268
+00:30:39.000 --> 00:30:45.000
+<v Tom>Oh, yeah. That's a good I mean point. Better that one's out of the way.</v>
+
+269
+00:30:47.000 --> 00:30:51.000
+<v Ahmad Faizal>Mm-hm, I'd agree. One fewer thing to think about.</v>
+
+270
+00:30:53.000 --> 00:31:02.000
+<v Mei C>Yes. Though the con trust thing was its own item. We've closed it, and the test is its own item.</v>
+
+271
+00:31:04.000 --> 00:31:10.000
+<v Lisa Wong>Oh, sure, sure. I'm not mixing them up. I just meant it's good it's done.</v>
+
+272
+00:31:12.000 --> 00:31:16.000
+<v Mei Chen>No, No, understood. Just keeping like the two straight.</v>
+
+273
+00:31:17.000 --> 00:31:23.000
+<v Tom Hartley>I think you know we're all keeping them straight. It's a short list anyway.</v>
+
+274
+00:31:23.000 --> 00:31:31.000
+<v Ahmad Faizal>It's a very short list when you say it out loud. Defect closed, test booked, a week for fixes.</v>
+
+275
+00:31:31.000 --> 00:31:34.000
+<v Mei C>That's pretty like much it, yes.</v>
+
+276
+00:31:35.000 --> 00:31:37.000
+<v Lisa Wong>Right.</v>
+
+277
+00:31:38.000 --> 00:31:44.000
+<v Tom Hartley>Funny how that sounds quite tidy, doesn't it, uh for a meeting this long.</v>
+
+278
+00:31:45.000 --> 00:31:49.000
+<v Ahmad>The meeting you know felt long. The list is short.</v>
+
+279
+00:31:51.000 --> 00:31:53.000
+<v Lisa Wong>That's most meetings.</v>
+
+280
+00:31:55.000 --> 00:32:05.000
+<v Mei Chen>Okay, is there anything anyone wants to go back to before we finish? Anything on the basically con trust fix or the pen test.</v>
+
+281
+00:32:05.000 --> 00:32:07.000
+<v Tom>Not from me.</v>
+
+282
+00:32:08.000 --> 00:32:17.000
+<v Ahmad>Just one thing. Lisa, the firm's confirmation, it's in writing, so uh it's something we could look at if we needed to?</v>
+
+283
+00:32:19.000 --> 00:32:25.000
+<v Lisa Wong>Yes, it's in writing. That's what I meant. It's not a verbal thing.</v>
+
+284
+00:32:27.000 --> 00:32:29.000
+<v Ahmad Faizal>Good. Okay. That was all.</v>
+
+285
+00:32:31.000 --> 00:32:34.000
+<v Lisa Wong>Nothing more basically from me either.</v>
+
+286
+00:32:34.000 --> 00:32:51.000
+<v Mei Chen>Right, then. Let me wrap up quickly. The con trust defect on the bills page is closed. The pen test is you know booked, with the firm's confirmation in writing, and we keep one week after it for fixes.</v>
+
+287
+00:32:53.000 --> 00:32:56.000
+<v Tom>That, That's how I have it too.</v>
+
+288
+00:32:58.000 --> 00:33:00.000
+<v Ahmad Faizal>Same. Sounds right.</v>
+
+289
+00:33:00.000 --> 00:33:02.000
+<v Lisa>Yep, matches my notes.</v>
+
+290
+00:33:02.000 --> 00:33:05.000
+<v Mei C>Good. Thanks, everyone. That was a useful review.</v>
+
+291
+00:33:06.000 --> 00:33:08.000
+<v Tom>Thanks, Mei. Thanks, all.</v>
+
+292
+00:33:09.000 --> 00:33:11.000
+<v Lisa Wong>Sorry, go ahead.</v>
+
+293
+00:33:13.000 --> 00:33:15.000
+<v Tom Hartley>Okay, so, yeah.</v>
+
+294
+00:33:17.000 --> 00:33:19.000
+<v Ahmad Faizal>Thanks, bye for now.</v>
+
+295
+00:33:21.000 --> 00:33:23.000
+<v Mei C>Yeah, yeah.</v>
+
+296
+00:33:25.000 --> 00:33:27.000
+<v Lisa Wong>Bye, everyone.</v>
+
+297
+00:33:27.000 --> 00:33:30.000
+<v Ahmad>Oh sorry, I talked over you.</v>
+
+298
+00:33:32.000 --> 00:33:34.000
+<v Lisa Wong>Right, where was I. Yes.</v>
+
+299
+00:33:35.000 --> 00:33:37.000
+<v Mei Chen>Bye, Bye.</v>
+

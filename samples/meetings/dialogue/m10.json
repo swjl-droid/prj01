@@ -1,0 +1,1002 @@
+{
+ "case": "m10",
+ "model": "claude-sonnet-5-5",
+ "note": "Written through the gateway by GET /api/eval?task=dialogue; beats checked word for word.",
+ "lines": [
+  {
+   "who": "grace",
+   "text": "Hello, can people hear me okay? I see Ravi and Mei, I think Jonas is just joining."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes, I can hear you fine. Your video is a bit frozen though. You're stuck with your mouth open."
+  },
+  {
+   "who": "grace",
+   "text": "Oh no. Hang on, let me turn the camera off and on again."
+  },
+  {
+   "who": "mei",
+   "text": "Hi all. Ravi, I can hear you but it's a bit quiet. Is that just me?"
+  },
+  {
+   "who": "ravi",
+   "text": "Let me move the mic closer. Is that better?"
+  },
+  {
+   "who": "mei",
+   "text": "Yes, much better. Thanks."
+  },
+  {
+   "who": "grace",
+   "text": "Okay, is my video back? Can you see me now?"
+  },
+  {
+   "who": "ravi",
+   "text": "Yes, you moved this time. That's good."
+  },
+  {
+   "who": "jonas",
+   "text": "Hi everyone, sorry, I'm here. It was asking me to update something and I just kept clicking."
+  },
+  {
+   "who": "mei",
+   "text": "Ha, that always happens right when the meeting starts."
+  },
+  {
+   "who": "jonas",
+   "text": "Every single time. Can you all hear me? I can't tell if I'm muted."
+  },
+  {
+   "who": "grace",
+   "text": "We hear you, Jonas. Loud and clear."
+  },
+  {
+   "who": "jonas",
+   "text": "Good. Then I'll leave it alone and not touch anything else."
+  },
+  {
+   "who": "dial",
+   "text": "Hello? Hello, is this the steering review?"
+  },
+  {
+   "who": "grace",
+   "text": "Yes, it is. Who's that on the call-in, please?"
+  },
+  {
+   "who": "dial",
+   "text": "I'm just on the phone, it only shows me as a number. I can hear you, but I can't see anything."
+  },
+  {
+   "who": "grace",
+   "text": "That's fine, you don't need to see anything. We're not sharing a screen yet anyway. If we do, we'll say what's on it."
+  },
+  {
+   "who": "dial",
+   "text": "Okay, thank you. I'll stay on mute unless I have something to say."
+  },
+  {
+   "who": "mei",
+   "text": "Is there an echo for anyone else? I keep hearing a little bit of myself."
+  },
+  {
+   "who": "ravi",
+   "text": "A tiny one, yes. It might be the phone line that just joined."
+  },
+  {
+   "who": "dial",
+   "text": "Sorry, I'll put the phone down on the desk. Is that any better?"
+  },
+  {
+   "who": "mei",
+   "text": "Yes, it's gone. Thanks."
+  },
+  {
+   "who": "jonas",
+   "text": "It's the end of the year and everything feels like it's running slowly. My laptop included."
+  },
+  {
+   "who": "mei",
+   "text": "Mine too. I think everybody is half on holiday already."
+  },
+  {
+   "who": "ravi",
+   "text": "Not me, I've been on the site side all week, so it hasn't felt quiet at all."
+  },
+  {
+   "who": "grace",
+   "text": "I believe that. Okay, I think everyone's here. Shall we start?"
+  },
+  {
+   "who": "mei",
+   "text": "Yes, go ahead."
+  },
+  {
+   "who": "grace",
+   "text": "Joint review. Office fit-out first, mainly the landlord and the fire certificate, then the portal team's request for central IT, then budget."
+  },
+  {
+   "who": "jonas",
+   "text": "Sounds good. So the portal item comes after the fit-out part, not before?"
+  },
+  {
+   "who": "grace",
+   "text": "After, yes. I know some of you are mostly here for that one, so we'll get there. I just want the fit-out dealt with first because those two points affect everything else."
+  },
+  {
+   "who": "jonas",
+   "text": "No problem, I just wanted to be sure about the order."
+  },
+  {
+   "who": "mei",
+   "text": "Same here. I'll just listen for now."
+  },
+  {
+   "who": "grace",
+   "text": "Ravi, the landlord."
+  },
+  {
+   "who": "ravi",
+   "beat": "t1.1",
+   "text": "The landlord approval came on the nineteenth, so Kemlite starts on site on the fourth of January as planned last week."
+  },
+  {
+   "who": "grace",
+   "text": "Sorry, just so I have it right. The approval came on the nineteenth, and that's the thing that was holding up the start?"
+  },
+  {
+   "who": "ravi",
+   "text": "Right. Without the approval, Kemlite couldn't start, so that was what we were waiting for."
+  },
+  {
+   "who": "mei",
+   "text": "And the start date of the fourth of January, that's the same one we talked about last week? It hasn't moved?"
+  },
+  {
+   "who": "ravi",
+   "text": "Same one. Last week we planned it as the fourth, on the assumption that the approval would arrive. Now it has arrived, so the plan stays."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. I wanted to check, because I thought I heard a different date somewhere."
+  },
+  {
+   "who": "ravi",
+   "text": "It might have been someone mixing it up with another date. The fourth is the site start. That's the one for this."
+  },
+  {
+   "who": "jonas",
+   "text": "Mm-hm. So it's the nineteenth for the approval and the fourth for Kemlite on site."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes, that's it."
+  },
+  {
+   "who": "grace",
+   "text": "Was it a written approval, or did somebody just tell you?"
+  },
+  {
+   "who": "ravi",
+   "text": "I'd rather not say more than I know. What I can tell you is that it came on the nineteenth and that's what we're working from."
+  },
+  {
+   "who": "grace",
+   "text": "Fair enough. I shouldn't push on the detail, I just wanted to be sure we're not building on something loose."
+  },
+  {
+   "who": "ravi",
+   "text": "No, I understand the question. As far as I'm concerned, it's done."
+  },
+  {
+   "who": "mei",
+   "text": "I think the way you put it makes it clear. The approval is in, the start date is the same."
+  },
+  {
+   "who": "dial",
+   "text": "Sorry to jump in, can I just check, is the fourth of January the date people start work, or is it something before that?"
+  },
+  {
+   "who": "ravi",
+   "text": "It's when Kemlite starts on site. That's the date from the plan."
+  },
+  {
+   "who": "dial",
+   "text": "Okay, thanks. I just wanted to be sure I'd written it down right."
+  },
+  {
+   "who": "grace",
+   "text": "No, that's a good question. Better to ask now."
+  },
+  {
+   "who": "jonas",
+   "text": "It's been quite a long time waiting on this one, hasn't it?"
+  },
+  {
+   "who": "grace",
+   "text": "It has. That's why I keep wanting to hear it said twice."
+  },
+  {
+   "who": "ravi",
+   "text": "Fair. I'd be the same."
+  },
+  {
+   "who": "grace",
+   "beat": "t1.2",
+   "text": "So that's finally closed."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes, I'd say so. On our side, yes."
+  },
+  {
+   "who": "mei",
+   "text": "Good. It's one less thing to keep asking about."
+  },
+  {
+   "who": "jonas",
+   "text": "I'd say it's worth a small round of applause. Maybe a quiet one, with everyone on mute."
+  },
+  {
+   "who": "mei",
+   "text": "Ha, I'll clap silently."
+  },
+  {
+   "who": "grace",
+   "text": "I'll take it. Okay, before we leave it, does anyone have anything else on the landlord? Mei?"
+  },
+  {
+   "who": "mei",
+   "text": "No, I'm fine. I just wanted the date, and I have it now."
+  },
+  {
+   "who": "grace",
+   "text": "Jonas?"
+  },
+  {
+   "who": "jonas",
+   "text": "Nothing from me. I'm happy with that."
+  },
+  {
+   "who": "grace",
+   "text": "And on the call-in?"
+  },
+  {
+   "who": "dial",
+   "text": "No, nothing from me. Thank you."
+  },
+  {
+   "who": "ravi",
+   "text": "Can I just say one more thing on that? I know we said finally closed, but I don't want to make it sound bigger than it is. It's the approval and the start. It's not everything."
+  },
+  {
+   "who": "grace",
+   "text": "No, understood. That's why the next item is the fire certificate. That's the other half of it."
+  },
+  {
+   "who": "ravi",
+   "text": "Right, exactly."
+  },
+  {
+   "who": "mei",
+   "text": "Yes, I did wonder if we'd get to that. It was the next thing I wanted to ask about."
+  },
+  {
+   "who": "grace",
+   "text": "Fire certificate."
+  },
+  {
+   "who": "ravi",
+   "beat": "t2.1",
+   "text": "Kemlite submitted the SCDF application on the eighteenth and the inspection is booked for the fifth of February."
+  },
+  {
+   "who": "mei",
+   "text": "Sorry, can you say that again? The eighteenth for the application, and the fifth of February for the inspection?"
+  },
+  {
+   "who": "ravi",
+   "text": "Yes. The application went in on the eighteenth, and the inspection is on the fifth of February."
+  },
+  {
+   "who": "jonas",
+   "text": "So the application went in the day before the landlord approval came?"
+  },
+  {
+   "who": "ravi",
+   "text": "The eighteenth is the day before the nineteenth, yes. I know it looks like the wrong way round, but those are the two dates I have."
+  },
+  {
+   "who": "jonas",
+   "text": "No, I'm not saying it's wrong. I just noticed it when I looked at the two dates next to each other."
+  },
+  {
+   "who": "grace",
+   "text": "I did too, but I'm not going to make anything of it. The dates are what they are."
+  },
+  {
+   "who": "ravi",
+   "text": "Right. I can only tell you what I've got. The submission is on the eighteenth, the approval is on the nineteenth."
+  },
+  {
+   "who": "mei",
+   "text": "That's fine. I just wanted to see it was understood."
+  },
+  {
+   "who": "grace",
+   "text": "And the inspection is booked. So that's not just requested, it's actually in the diary."
+  },
+  {
+   "who": "ravi",
+   "text": "It's booked, yes. The fifth of February."
+  },
+  {
+   "who": "dial",
+   "text": "Sorry, who does the application? Is it Kemlite or is it us?"
+  },
+  {
+   "who": "ravi",
+   "text": "Kemlite submitted it. That's what I said."
+  },
+  {
+   "who": "dial",
+   "text": "Oh, sorry, I missed that. I think the line dropped for a second."
+  },
+  {
+   "who": "ravi",
+   "text": "No problem. Kemlite submitted the application, on the eighteenth."
+  },
+  {
+   "who": "dial",
+   "text": "Okay, got it. Thank you."
+  },
+  {
+   "who": "mei",
+   "text": "Ravi, what happens on the fifth of February? Is that the inspection itself, or a step before it?"
+  },
+  {
+   "who": "ravi",
+   "text": "The inspection. That's the date it's booked for."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. I only ask because sometimes people say the date and then mean something else."
+  },
+  {
+   "who": "ravi",
+   "text": "I know. In this case it's the inspection itself."
+  },
+  {
+   "who": "jonas",
+   "text": "Mm-hm. And that's for the fire safety certificate?"
+  },
+  {
+   "who": "grace",
+   "text": "That's what the application is for, yes. That's why we're calling it the fire certificate."
+  },
+  {
+   "who": "jonas",
+   "text": "Right, right. Just checking I had it straight."
+  },
+  {
+   "who": "ravi",
+   "beat": "t2.2",
+   "text": "Move-in is the twenty third of February, so we have about two weeks of buffer if the inspection asks for fixes."
+  },
+  {
+   "who": "grace",
+   "text": "Okay. Let me just think that through. The fifth of February for the inspection, and the twenty third for move-in."
+  },
+  {
+   "who": "mei",
+   "text": "That's a bit more than two weeks, if I count it. Is that what you meant by about two weeks?"
+  },
+  {
+   "who": "ravi",
+   "text": "Yes. About two weeks. I said about on purpose, I didn't want to oversell it."
+  },
+  {
+   "who": "mei",
+   "text": "No, I think that's the right way to say it. Better to be careful with the buffer."
+  },
+  {
+   "who": "jonas",
+   "text": "Mm. So if the inspection comes back with fixes, those would have to fit into that gap."
+  },
+  {
+   "who": "ravi",
+   "text": "That's what I mean by buffer. It's the gap between the inspection and move-in."
+  },
+  {
+   "who": "jonas",
+   "text": "And we don't know yet whether it will ask for fixes."
+  },
+  {
+   "who": "ravi",
+   "text": "No, we don't know that. That's why I said if."
+  },
+  {
+   "who": "grace",
+   "text": "Right. So nobody is saying there will be fixes. We're only saying that if there are, there's some room."
+  },
+  {
+   "who": "ravi",
+   "text": "Exactly that. I wouldn't want anyone to leave this call thinking I expect problems."
+  },
+  {
+   "who": "mei",
+   "text": "No, I didn't hear it like that."
+  },
+  {
+   "who": "jonas",
+   "text": "I did wonder a bit how long fixes would take, but I suppose that depends on what they are."
+  },
+  {
+   "who": "ravi",
+   "text": "It would, yes. I can't say more than that, because I don't know what they'd ask for, if anything."
+  },
+  {
+   "who": "jonas",
+   "text": "No, that's fine. I'm only thinking aloud."
+  },
+  {
+   "who": "grace",
+   "text": "I think that's a fair thing to wonder, though. We just can't answer it today."
+  },
+  {
+   "who": "mei",
+   "text": "Can I go back to one thing? The twenty third of February is the move-in. That hasn't changed either?"
+  },
+  {
+   "who": "ravi",
+   "text": "No, it's the same. Twenty third."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. And that's the date the buffer is counted to."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes. From the inspection on the fifth to the move-in on the twenty third."
+  },
+  {
+   "who": "dial",
+   "text": "Sorry, can I just check I've understood? Inspection on the fifth of February, move-in on the twenty third, and the gap between them is the buffer."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes, that's right."
+  },
+  {
+   "who": "dial",
+   "text": "Thank you. I wanted to say it back to be sure."
+  },
+  {
+   "who": "grace",
+   "text": "That's useful, actually. It's a good summary."
+  },
+  {
+   "who": "jonas",
+   "text": "Mm-hm."
+  },
+  {
+   "who": "mei",
+   "text": "I do think that looks reasonable. I was worried it would be much tighter."
+  },
+  {
+   "who": "grace",
+   "text": "Me too. I had it in my head as being tighter than that."
+  },
+  {
+   "who": "ravi",
+   "text": "I know. That's partly why I wanted to say it clearly."
+  },
+  {
+   "who": "grace",
+   "beat": "t2.3",
+   "text": "Good, that risk looks a lot better."
+  },
+  {
+   "who": "ravi",
+   "text": "I think so too. I wouldn't call it gone, but it looks better than before."
+  },
+  {
+   "who": "grace",
+   "text": "No, I wouldn't either. Better, not gone. That's my reading."
+  },
+  {
+   "who": "mei",
+   "text": "Same. I'm comfortable with that wording."
+  },
+  {
+   "who": "jonas",
+   "text": "Yes. That sounds right to me."
+  },
+  {
+   "who": "grace",
+   "text": "Okay. Let me just go back over the whole thing quickly, to be sure I haven't got anything wrong."
+  },
+  {
+   "who": "ravi",
+   "text": "Go ahead."
+  },
+  {
+   "who": "grace",
+   "text": "The landlord approval came on the nineteenth. Kemlite starts on site on the fourth of January. The application went in on the eighteenth, and the inspection is on the fifth of February. Move-in is the twenty third, with about two weeks of buffer."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes, that's all correct."
+  },
+  {
+   "who": "mei",
+   "text": "I have the same."
+  },
+  {
+   "who": "jonas",
+   "text": "Same here."
+  },
+  {
+   "who": "dial",
+   "text": "Same on my notes too."
+  },
+  {
+   "who": "grace",
+   "text": "Good. Then I think we're all on the same page. Does anyone want to go back to anything before we move on?"
+  },
+  {
+   "who": "mei",
+   "text": "I'm fine. I only wanted to be sure of the dates."
+  },
+  {
+   "who": "jonas",
+   "text": "Nothing from me. I'm happy to move on whenever you are."
+  },
+  {
+   "who": "ravi",
+   "text": "Nothing more from me either. I think I've said what I know."
+  },
+  {
+   "who": "grace",
+   "text": "All right. Give me a moment to find my next page, I've lost it under the other papers."
+  },
+  {
+   "who": "jonas",
+   "text": "Take your time. I'm still trying to work out if I'm muted or not."
+  },
+  {
+   "who": "mei",
+   "text": "You're not muted, Jonas. We can hear you."
+  },
+  {
+   "who": "jonas",
+   "text": "Ha, good. Then I'll stop talking."
+  },
+  {
+   "who": "grace",
+   "text": "Mei, the portal team has a request for central IT."
+  },
+  {
+   "who": "mei",
+   "beat": "t3.1",
+   "text": "For the customer portal, we'd like central IT to open the payment firewall in the second week of January instead of the last."
+  },
+  {
+   "who": "grace",
+   "text": "Right. So that's earlier than what we had, the second week rather than the last week."
+  },
+  {
+   "who": "mei",
+   "text": "Yes, earlier. That's the whole ask, really. It's just the one firewall, the payment one."
+  },
+  {
+   "who": "dial",
+   "text": "Sorry, can I jump in? Is this the one for the portal, or the office? I joined a bit late and I lost the thread."
+  },
+  {
+   "who": "grace",
+   "text": "This is the portal. Mei's asking central IT to open the payment firewall earlier. The office comes up in a minute, because it touches Jonas's team too."
+  },
+  {
+   "who": "dial",
+   "text": "Okay, got it. Thanks. Go on, I'll stay quiet."
+  },
+  {
+   "who": "jonas",
+   "text": "No, no, ask whenever. Mei, just so I'm sure I heard you right, you said second week of January, and the current plan is the last week?"
+  },
+  {
+   "who": "mei",
+   "text": "That's right. Second week instead of the last."
+  },
+  {
+   "who": "jonas",
+   "text": "Mm-hm. And it's only the payment firewall you want opened, nothing else on that list?"
+  },
+  {
+   "who": "mei",
+   "text": "Just the payment firewall. That's what I'm asking for today."
+  },
+  {
+   "who": "jonas",
+   "text": "Okay. Let me think about it for a second, because I'm looking at who is where in that period."
+  },
+  {
+   "who": "ravi",
+   "text": "While you're looking, Jonas, I think it ties into what you're doing for us, doesn't it? The office side."
+  },
+  {
+   "who": "jonas",
+   "text": "It does, yes. That's exactly why I'm checking. Give me a moment."
+  },
+  {
+   "who": "grace",
+   "text": "Take your time. Mei, is there anything on your side that depends on it being the second week, or is it just that earlier is better?"
+  },
+  {
+   "who": "mei",
+   "text": "Earlier is better for us. I don't want to oversell it. We asked, and we'd like it if it's possible."
+  },
+  {
+   "who": "grace",
+   "text": "Fair enough. I just wanted to be clear about how hard the ask is."
+  },
+  {
+   "who": "mei",
+   "text": "It's a request. If it can't be done, we'll hear that and we'll work with it."
+  },
+  {
+   "who": "ravi",
+   "text": "Sounds reasonable to me. I'd just like to hear from Jonas before I say anything about the office."
+  },
+  {
+   "who": "jonas",
+   "beat": "t3.2",
+   "text": "My team is on the office network install in weeks three and four, so the second week is possible only if the office doesn't need us earlier."
+  },
+  {
+   "who": "grace",
+   "text": "Okay. So the condition is the office. Ravi, that's you."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes, I got that. Let me just double check. Jonas, you said weeks three and four for the network install?"
+  },
+  {
+   "who": "jonas",
+   "text": "Weeks three and four, yes. That's when my people are on it."
+  },
+  {
+   "who": "ravi",
+   "text": "And the second week for the portal firewall would come before that."
+  },
+  {
+   "who": "jonas",
+   "text": "Before it, right. So there's no overlap, as long as nobody pulls me forward."
+  },
+  {
+   "who": "mei",
+   "text": "Which is the bit I can't judge from my side. I don't know what the office needs."
+  },
+  {
+   "who": "grace",
+   "text": "That's why we're asking Ravi. Ravi?"
+  },
+  {
+   "who": "ravi",
+   "text": "Sorry, I'm just scrolling back to make sure I'm not about to say something wrong. Give me a second."
+  },
+  {
+   "who": "dial",
+   "text": "Do you want me to look anything up? I've got the plan open here."
+  },
+  {
+   "who": "ravi",
+   "text": "No, it's fine, thanks. I've got it. It's what I remembered."
+  },
+  {
+   "who": "ravi",
+   "beat": "t3.3",
+   "text": "The office doesn't need you before week three, so fine by us."
+  },
+  {
+   "who": "jonas",
+   "text": "Good. Then I don't see a problem on my side either."
+  },
+  {
+   "who": "mei",
+   "text": "That's great. Thank you, both of you."
+  },
+  {
+   "who": "grace",
+   "text": "Just to be sure, because I don't want to find out later we heard different things. Jonas, you're saying yes?"
+  },
+  {
+   "who": "jonas",
+   "text": "Yes. The condition was that the office doesn't need my team earlier, and Ravi has just said it doesn't."
+  },
+  {
+   "who": "ravi",
+   "text": "Right. Nothing before week three."
+  },
+  {
+   "who": "grace",
+   "text": "Mei, does that work for you as stated?"
+  },
+  {
+   "who": "mei",
+   "text": "Yes, that's what we wanted. The second week of January."
+  },
+  {
+   "who": "dial",
+   "text": "Sorry, one more catch-up question from me. Is that a yes already, then? That was quick."
+  },
+  {
+   "who": "grace",
+   "text": "It looks like it. Jonas said it's possible on one condition, and Ravi has covered the condition."
+  },
+  {
+   "who": "dial",
+   "text": "Okay, good. I thought there would be more back and forth."
+  },
+  {
+   "who": "jonas",
+   "text": "Sometimes there is. Today we got lucky."
+  },
+  {
+   "who": "ravi",
+   "text": "Don't jinx it."
+  },
+  {
+   "who": "mei",
+   "text": "Ha. Right."
+  },
+  {
+   "who": "grace",
+   "beat": "t3.4",
+   "text": "Okay, agreed: central IT opens the portal's payment firewall in the second week of January."
+  },
+  {
+   "who": "mei",
+   "text": "Thanks, Grace. That's all from me on that one."
+  },
+  {
+   "who": "jonas",
+   "text": "Mm. Fine from my side too."
+  },
+  {
+   "who": "grace",
+   "text": "Good. Anyone want to go back to anything on that before I move on? Last chance."
+  },
+  {
+   "who": "ravi",
+   "text": "No, I'm fine. I only wanted to hear the weeks said out loud once more, and I did."
+  },
+  {
+   "who": "jonas",
+   "text": "Same. Weeks three and four are mine, second week is the portal. That's clear."
+  },
+  {
+   "who": "grace",
+   "text": "Right. Then I'll move on."
+  },
+  {
+   "who": "grace",
+   "text": "Budget."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes. That's mine. Give me a moment to open the right page, I had it a second ago."
+  },
+  {
+   "who": "grace",
+   "text": "No rush. We have some time on this one."
+  },
+  {
+   "who": "dial",
+   "text": "Is it okay if I ask questions on budget, even though I'm only dialling in?"
+  },
+  {
+   "who": "grace",
+   "text": "Of course. Ask anything. That's what the call is for."
+  },
+  {
+   "who": "ravi",
+   "text": "Okay, I've got it. Right."
+  },
+  {
+   "who": "ravi",
+   "beat": "t4.1",
+   "text": "For the office, the two-week delay costs about six thousand in extended site supervision, I'll bring a change request to the January board."
+  },
+  {
+   "who": "grace",
+   "text": "Okay. Six thousand. And that's for the office only, not the portal?"
+  },
+  {
+   "who": "ravi",
+   "text": "For the office, yes. That's how I said it. Extended site supervision."
+  },
+  {
+   "who": "grace",
+   "text": "Right. And you said about six thousand. Is that a firm figure, or is it a rough one?"
+  },
+  {
+   "who": "ravi",
+   "text": "About. That's the word I'd keep. It's about six thousand, I'm not going to pretend it's exact."
+  },
+  {
+   "who": "mei",
+   "text": "Can I just check I'm following? The two-week delay, that's the office delay we have been talking about, not something to do with the portal."
+  },
+  {
+   "who": "ravi",
+   "text": "The office. The delay on the office side. The cost is the supervision on site for those extra two weeks."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. I only asked because the portal was the last topic and I didn't want to mix them up."
+  },
+  {
+   "who": "grace",
+   "text": "Sensible. Let's keep them separate. The firewall agreement stands as it is, and this is a separate matter about the office."
+  },
+  {
+   "who": "jonas",
+   "text": "Yes, I'd like it kept separate too. I wouldn't want the six thousand to end up attached to my team's weeks by accident."
+  },
+  {
+   "who": "ravi",
+   "text": "It isn't. It's supervision. It's nothing to do with the network install."
+  },
+  {
+   "who": "jonas",
+   "text": "Good. Just checking. I don't want to be asked about it in January."
+  },
+  {
+   "who": "ravi",
+   "text": "Ha, no. You're fine."
+  },
+  {
+   "who": "dial",
+   "text": "So the figure is about six thousand, for extended site supervision, because of the two-week delay. Have I got that right?"
+  },
+  {
+   "who": "ravi",
+   "text": "That's it, yes. That's exactly what I said."
+  },
+  {
+   "who": "dial",
+   "text": "Okay. I'm writing it down so I don't get it wrong in the notes."
+  },
+  {
+   "who": "grace",
+   "text": "Thanks. And the change request goes to the January board. Ravi, you're bringing it yourself?"
+  },
+  {
+   "who": "ravi",
+   "text": "Yes, I'll bring it. To the January board."
+  },
+  {
+   "who": "grace",
+   "text": "Okay. I'm only asking because I want to be sure we're all hearing the same thing."
+  },
+  {
+   "who": "mei",
+   "text": "It's a good habit. Last time we all went away with different versions."
+  },
+  {
+   "who": "grace",
+   "text": "Mm, I remember. That's why I keep asking."
+  },
+  {
+   "who": "jonas",
+   "text": "Can I ask something, Ravi? Not about the figure. About the board. Will they want to see the figure broken down?"
+  },
+  {
+   "who": "ravi",
+   "text": "I can't speak for what the board wants. I'd say they'll ask what the choices are."
+  },
+  {
+   "who": "jonas",
+   "text": "Right, that makes sense. Choices, not just the number."
+  },
+  {
+   "who": "ravi",
+   "text": "Yes, more or less. I'd rather arrive with options than just a bill."
+  },
+  {
+   "who": "grace",
+   "text": "I'd prefer that too. A bare number with nothing around it never goes down well."
+  },
+  {
+   "who": "mei",
+   "text": "Agreed. Boards always ask what else you could have done."
+  },
+  {
+   "who": "dial",
+   "text": "Yes, they do. Every time."
+  },
+  {
+   "who": "ravi",
+   "text": "So I'll do that. The change request, and the options with it."
+  },
+  {
+   "who": "grace",
+   "beat": "t4.2",
+   "text": "Fine, bring it with the options."
+  },
+  {
+   "who": "ravi",
+   "text": "Will do."
+  },
+  {
+   "who": "grace",
+   "text": "Okay. Does anyone have anything more on budget? Mei? Jonas?"
+  },
+  {
+   "who": "mei",
+   "text": "Nothing from me. My side's done."
+  },
+  {
+   "who": "jonas",
+   "text": "Nothing. I'm fine."
+  },
+  {
+   "who": "dial",
+   "text": "Nothing from me either. Thanks for letting me ask."
+  },
+  {
+   "who": "ravi",
+   "text": "No, I'm good. Just the change request and the six thousand, and I know where it's going."
+  },
+  {
+   "who": "grace",
+   "text": "Right, then let me wrap up quickly so we're all on the same page."
+  },
+  {
+   "who": "grace",
+   "text": "On the portal, central IT opens the payment firewall in the second week of January, and Jonas and Ravi are both comfortable with that. On the budget, Ravi brings the change request for the office to the January board, with the options."
+  },
+  {
+   "who": "ravi",
+   "text": "That's what I have."
+  },
+  {
+   "who": "jonas",
+   "text": "Same here."
+  },
+  {
+   "who": "mei",
+   "text": "Yes, same."
+  },
+  {
+   "who": "dial",
+   "text": "And me. Thanks, all."
+  },
+  {
+   "who": "grace",
+   "text": "Good. Thank you, everyone. That's us done for today."
+  },
+  {
+   "who": "mei",
+   "text": "Thanks, Grace. Bye, everyone."
+  },
+  {
+   "who": "jonas",
+   "text": "Bye, all."
+  },
+  {
+   "who": "ravi",
+   "text": "Thanks. Bye."
+  },
+  {
+   "who": "dial",
+   "text": "Bye."
+  },
+  {
+   "who": "grace",
+   "text": "Bye, everyone."
+  }
+ ]
+}

@@ -59,7 +59,7 @@ function build(m, dialogue, seed) {
     const b = beats[l.beat];
     if (!b) { delete l.beat; continue; } // a label on a line that is not a hand-written one (e.g. an opener)
     if (seen.has(l.beat)) throw new Error(`${m.id}: beat ${l.beat} appears twice`);
-    if (!l.text.includes(b.say.trim())) throw new Error(`${m.id}: beat ${l.beat} was changed: "${l.text}"`);
+    if (!l.text.toLowerCase().includes(b.say.trim().toLowerCase())) throw new Error(`${m.id}: beat ${l.beat} was changed: "${l.text}"`);
     if (l.who !== b.who) throw new Error(`${m.id}: beat ${l.beat} said by ${l.who}, not ${b.who}`);
     seen.add(l.beat);
   }

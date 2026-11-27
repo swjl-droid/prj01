@@ -1,0 +1,1152 @@
+{
+ "case": "m04",
+ "model": "claude-sonnet-5-5",
+ "note": "Written through the gateway by GET /api/eval?task=dialogue; beats checked word for word.",
+ "lines": [
+  {
+   "who": "daniel",
+   "text": "Hello? Can anyone hear me? I think I'm on mute. No, I'm not on mute. Hang on."
+  },
+  {
+   "who": "siti",
+   "text": "I can hear you, Daniel. You're a bit quiet, though."
+  },
+  {
+   "who": "daniel",
+   "text": "Quiet. Okay, let me move this microphone thing. Is that better?"
+  },
+  {
+   "who": "siti",
+   "text": "Much better, yes. Now you're loud."
+  },
+  {
+   "who": "daniel",
+   "text": "Ha. Great. Goldilocks audio, I'll take it."
+  },
+  {
+   "who": "marcus",
+   "text": "Morning, everyone. Sorry, I'm still getting my camera to come on. It says it's in use by another application."
+  },
+  {
+   "who": "siti",
+   "text": "Is that the one where you have to close the other call first?"
+  },
+  {
+   "who": "marcus",
+   "text": "Probably. I thought I'd closed everything. Give me a second, I'll just leave it off if it doesn't work."
+  },
+  {
+   "who": "priya",
+   "text": "Morning all. Can you see my screen, or is it just my face? I'm trying to share the tracker but it's being slow."
+  },
+  {
+   "who": "daniel",
+   "text": "I just see your face. Nice and clear, though."
+  },
+  {
+   "who": "priya",
+   "text": "Thanks, I think. Okay, give it a moment. It's loading. There, now it should be up."
+  },
+  {
+   "who": "siti",
+   "text": "Yes, I can see the tracker now. It's a bit small. Can you zoom in?"
+  },
+  {
+   "who": "priya",
+   "text": "Is that better? Let me make it bigger. Oh, that's too big. Hang on."
+  },
+  {
+   "who": "daniel",
+   "text": "That's fine, that's readable. Leave it there."
+  },
+  {
+   "who": "marcus",
+   "text": "Okay, camera's on. Or is it? Can you see me?"
+  },
+  {
+   "who": "siti",
+   "text": "We see a very dark rectangle. Is that you?"
+  },
+  {
+   "who": "marcus",
+   "text": "Yeah, that's me. The light's behind me, I'll turn around. Better?"
+  },
+  {
+   "who": "siti",
+   "text": "Yes, there you are. Hello, Marcus."
+  },
+  {
+   "who": "marcus",
+   "text": "Hello. Sorry, long morning already and it's not even properly started."
+  },
+  {
+   "who": "daniel",
+   "text": "Mm-hm, same here. I had a bit of a fight with the lift this morning, and then the coffee machine."
+  },
+  {
+   "who": "siti",
+   "text": "The coffee machine is always the real problem."
+  },
+  {
+   "who": "daniel",
+   "text": "It is. Whoever designed it clearly never needed a coffee at this time of day."
+  },
+  {
+   "who": "marcus",
+   "text": "Ha. Right."
+  },
+  {
+   "who": "siti",
+   "text": "It's properly cold today, isn't it? I came in with my coat and gloves and I still wasn't warm."
+  },
+  {
+   "who": "daniel",
+   "text": "Same. I'm sitting here with a scarf on. You can't see it, but I'm wearing a scarf."
+  },
+  {
+   "who": "priya",
+   "text": "I can see it, Daniel. It's a nice scarf."
+  },
+  {
+   "who": "daniel",
+   "text": "Thank you. It's the only thing keeping me going."
+  },
+  {
+   "who": "priya",
+   "text": "Okay, I think everyone's here, so let's get going. Updates on the movers, Radix and the X-ray, the licence, and the handover date."
+  },
+  {
+   "who": "daniel",
+   "text": "Sounds good. Are we going in that order?"
+  },
+  {
+   "who": "priya",
+   "text": "Yes, that order. Movers first, then Radix, and we'll see how far we get on the others."
+  },
+  {
+   "who": "daniel",
+   "text": "Okay, fine by me."
+  },
+  {
+   "who": "priya",
+   "text": "Marcus, the revised movers quote?"
+  },
+  {
+   "who": "marcus",
+   "text": "Yes. So I've got it open here. Give me one second, I just want to get the right line up so I don't misquote it."
+  },
+  {
+   "who": "priya",
+   "text": "Take your time."
+  },
+  {
+   "who": "marcus",
+   "text": "Okay. Right. The revised quote with the weekday split is thirty three thousand, so we're three thousand over budget now instead of twelve.",
+   "beat": "t1.1"
+  },
+  {
+   "who": "daniel",
+   "text": "Sorry, say that again? Thirty three thousand, and over by three? Or did I mishear?"
+  },
+  {
+   "who": "marcus",
+   "text": "Thirty three thousand is the quote. Over budget by three thousand. It was twelve over before."
+  },
+  {
+   "who": "daniel",
+   "text": "Right, right. So that's quite a big move from the first one."
+  },
+  {
+   "who": "marcus",
+   "text": "It is, yeah. That's what the weekday split did."
+  },
+  {
+   "who": "siti",
+   "text": "Can I just check, the thirty three, is that the whole thing? Or is that one part of it?"
+  },
+  {
+   "who": "marcus",
+   "text": "That's the number on the revised quote. That's what I've got in front of me, thirty three thousand."
+  },
+  {
+   "who": "siti",
+   "text": "Okay. I just wanted to be sure we were talking about the same figure."
+  },
+  {
+   "who": "daniel",
+   "text": "And the budget figure that three is measured against, that's the same one we've been using the whole time? Not something that got changed?"
+  },
+  {
+   "who": "marcus",
+   "text": "Same one. The twelve over was against that, and the three over is against that. Nothing's changed on the budget side."
+  },
+  {
+   "who": "daniel",
+   "text": "Okay. I just wanted to make sure we weren't comparing two different things."
+  },
+  {
+   "who": "priya",
+   "text": "No, that makes sense to check."
+  },
+  {
+   "who": "marcus",
+   "text": "Mm-hm. I did check it twice myself, to be fair. I didn't believe it the first time."
+  },
+  {
+   "who": "siti",
+   "text": "Ha, I can understand that. Twelve down to three is quite a difference."
+  },
+  {
+   "who": "marcus",
+   "text": "It is. I'd have liked to say it was my negotiating, but really it's the quote that changed."
+  },
+  {
+   "who": "daniel",
+   "text": "Well, you asked for it to be revised, so some credit."
+  },
+  {
+   "who": "marcus",
+   "text": "I'll take a bit of credit, thanks."
+  },
+  {
+   "who": "priya",
+   "text": "Okay. Let me just think about this for a second. Three thousand over."
+  },
+  {
+   "who": "daniel",
+   "text": "Is that something contingency can absorb? I don't remember what we said about that."
+  },
+  {
+   "who": "priya",
+   "text": "Three thousand we can take from contingency. So the budget issue is basically resolved.",
+   "beat": "t1.2"
+  },
+  {
+   "who": "daniel",
+   "text": "Okay. Good. That's what I was hoping you'd say, to be honest."
+  },
+  {
+   "who": "siti",
+   "text": "Basically resolved. Is there a part that isn't resolved? You said basically."
+  },
+  {
+   "who": "priya",
+   "text": "No, I just mean the budget side is sorted. It's a figure of speech, Siti. I'm not hiding anything."
+  },
+  {
+   "who": "siti",
+   "text": "Okay, I just wanted to hear it. Sorry, I'm picking at words."
+  },
+  {
+   "who": "priya",
+   "text": "No, it's fine, it's good to ask."
+  },
+  {
+   "who": "daniel",
+   "text": "I suppose I'd just say, going back to what you said earlier, Marcus, it's still over. It's just over by a smaller amount."
+  },
+  {
+   "who": "marcus",
+   "text": "Yes, still over. Three thousand over, and that's what we'd be covering from contingency."
+  },
+  {
+   "who": "daniel",
+   "text": "Right. I'm not objecting. I just like to say it out loud so it's in the room."
+  },
+  {
+   "who": "priya",
+   "text": "Fair. It is still over, and we're covering it. Both of those are true."
+  },
+  {
+   "who": "daniel",
+   "text": "Yeah. That's all I wanted."
+  },
+  {
+   "who": "marcus",
+   "text": "Do you want me to say anything more about the weekday split? Or are people happy with that?"
+  },
+  {
+   "who": "daniel",
+   "text": "I'm curious, honestly. What does the weekday split actually mean in the quote? I'm only seeing the headline figure."
+  },
+  {
+   "who": "marcus",
+   "text": "It's in the revised quote, that's the version we've been talking about. I don't want to go into details I haven't got in front of me. The headline is the thirty three."
+  },
+  {
+   "who": "daniel",
+   "text": "Fair enough. I just wondered. I'm happy with the headline."
+  },
+  {
+   "who": "siti",
+   "text": "Yeah, me too. Nothing on my side."
+  },
+  {
+   "who": "priya",
+   "text": "Okay. Anything else on the quote before I say something? Anyone?"
+  },
+  {
+   "who": "marcus",
+   "text": "Not from me."
+  },
+  {
+   "who": "daniel",
+   "text": "No. Go ahead."
+  },
+  {
+   "who": "priya",
+   "text": "Let's accept the revised quote at thirty three thousand.",
+   "beat": "t1.3"
+  },
+  {
+   "who": "marcus",
+   "text": "Okay. Good. Right."
+  },
+  {
+   "who": "daniel",
+   "text": "Fine by me."
+  },
+  {
+   "who": "siti",
+   "text": "Yes, agreed."
+  },
+  {
+   "who": "marcus",
+   "text": "Good, that's one off the list. That was the one I was dreading a bit, if I'm honest."
+  },
+  {
+   "who": "daniel",
+   "text": "Why dreading? It came in better than before."
+  },
+  {
+   "who": "marcus",
+   "text": "I know, I know. I just didn't want to be the one to bring a number and then have it all go round again."
+  },
+  {
+   "who": "priya",
+   "text": "No, it was clear. Thank you, Marcus."
+  },
+  {
+   "who": "marcus",
+   "text": "Thanks."
+  },
+  {
+   "who": "daniel",
+   "text": "Sorry, one more thing, I just want to be sure I've got the numbers right in my notes. Thirty three thousand, three over, twelve before. Is that right?"
+  },
+  {
+   "who": "marcus",
+   "text": "That's right. Thirty three, three over, twelve before."
+  },
+  {
+   "who": "daniel",
+   "text": "Good. Okay. I've got that."
+  },
+  {
+   "who": "priya",
+   "text": "Right, Siti, any news from Radix?"
+  },
+  {
+   "who": "siti",
+   "text": "Yes, there's some. Hold on, let me find my notes. I had them open a minute ago."
+  },
+  {
+   "who": "daniel",
+   "text": "Take your time. We'll just admire Marcus's dark rectangle."
+  },
+  {
+   "who": "marcus",
+   "text": "It's not dark now, it's fixed."
+  },
+  {
+   "who": "daniel",
+   "text": "It's a lot better, yes. I can see your face."
+  },
+  {
+   "who": "siti",
+   "text": "Okay, found it. Sorry. So, Radix confirmed one engineer slot on the eleventh of February, and the second provisional date fell through.",
+   "beat": "t2.1"
+  },
+  {
+   "who": "daniel",
+   "text": "The second one fell through. Right. So we're down to the one."
+  },
+  {
+   "who": "siti",
+   "text": "We're down to the one, yes."
+  },
+  {
+   "who": "marcus",
+   "text": "Sorry, just to be clear, the eleventh of February is the one that's confirmed? Not the provisional?"
+  },
+  {
+   "who": "siti",
+   "text": "The eleventh is the confirmed one. The provisional was the second date, and that's the one that fell through."
+  },
+  {
+   "who": "marcus",
+   "text": "Okay, got it. I got a bit tangled."
+  },
+  {
+   "who": "siti",
+   "text": "No, it's confusing. There were two dates floating around and now there's one."
+  },
+  {
+   "who": "daniel",
+   "text": "The eleventh of February. Okay. I'll write that down so I don't lose it."
+  },
+  {
+   "who": "priya",
+   "text": "Mm-hm. And that's one engineer. Just the one."
+  },
+  {
+   "who": "siti",
+   "text": "One engineer, one slot, yes."
+  },
+  {
+   "who": "priya",
+   "text": "Right. Okay."
+  },
+  {
+   "who": "siti",
+   "text": "So we have a slot before cutover, but with no backup, if that engineer is sick we're stuck.",
+   "beat": "t2.2"
+  },
+  {
+   "who": "daniel",
+   "text": "Yeah. That's the thing that's slightly uncomfortable. If it's one person on one day."
+  },
+  {
+   "who": "siti",
+   "text": "That's what I'm saying. There's nothing behind it."
+  },
+  {
+   "who": "marcus",
+   "text": "But it is before cutover. That part's good."
+  },
+  {
+   "who": "siti",
+   "text": "Yes, that part's good. It's before cutover. I don't want to sound too negative."
+  },
+  {
+   "who": "daniel",
+   "text": "No, you're not. You're describing it. It's good and it's thin, both."
+  },
+  {
+   "who": "siti",
+   "text": "Yes, exactly that. Good and thin."
+  },
+  {
+   "who": "marcus",
+   "text": "Ha, that could go on a t-shirt."
+  },
+  {
+   "who": "daniel",
+   "text": "Good and thin. Right."
+  },
+  {
+   "who": "siti",
+   "text": "I did ask about the second date. They just said it didn't work out, and that's all I've got on it."
+  },
+  {
+   "who": "daniel",
+   "text": "Okay. So nothing more to be said about why."
+  },
+  {
+   "who": "siti",
+   "text": "No, nothing more. I don't know any more than that."
+  },
+  {
+   "who": "marcus",
+   "text": "Fair enough."
+  },
+  {
+   "who": "daniel",
+   "text": "And the eleventh, that's a firm slot as far as they've said? Not tentative?"
+  },
+  {
+   "who": "siti",
+   "text": "They confirmed it. That's the word they used, confirmed."
+  },
+  {
+   "who": "daniel",
+   "text": "Okay. Good. I just wanted to hear that word."
+  },
+  {
+   "who": "siti",
+   "text": "Yes. Confirmed."
+  },
+  {
+   "who": "priya",
+   "text": "Better than last week. Can we get their written confirmation?",
+   "beat": "t2.3"
+  },
+  {
+   "who": "siti",
+   "text": "Yes, they're sending it today.",
+   "beat": "t2.4"
+  },
+  {
+   "who": "daniel",
+   "text": "Today. Okay, that's quick."
+  },
+  {
+   "who": "marcus",
+   "text": "That's good. Today's good."
+  },
+  {
+   "who": "priya",
+   "text": "Yes. Good. I feel a bit better about that than I did a week ago, anyway."
+  },
+  {
+   "who": "siti",
+   "text": "Yes, me too. A week ago I had nothing to tell you, so even a single slot is something."
+  },
+  {
+   "who": "daniel",
+   "text": "It's progress. It's not perfect, but it's progress."
+  },
+  {
+   "who": "marcus",
+   "text": "Mm-hm. I'd take that."
+  },
+  {
+   "who": "daniel",
+   "text": "Sorry, I keep going back to it, but the no-backup thing, we're all comfortable just noting that for now? I'm not asking for anything, I just want to make sure it's been said properly."
+  },
+  {
+   "who": "priya",
+   "text": "It's been said. Siti said it clearly, one slot, no backup."
+  },
+  {
+   "who": "siti",
+   "text": "Yes, I said it. I wasn't trying to bury it."
+  },
+  {
+   "who": "daniel",
+   "text": "No, no, I didn't think you were. Okay, I'm happy it's been said."
+  },
+  {
+   "who": "marcus",
+   "text": "Fine. Moving on, then?"
+  },
+  {
+   "who": "priya",
+   "text": "Yes. Let me just scroll the tracker down. Give me a second, it's gone slow again."
+  },
+  {
+   "who": "daniel",
+   "text": "It's fine. Take your time."
+  },
+  {
+   "who": "siti",
+   "text": "Oh, mine's frozen too. Is it the connection or just the tracker?"
+  },
+  {
+   "who": "priya",
+   "text": "It's moving again for me now. Can you see the next item?"
+  },
+  {
+   "who": "siti",
+   "text": "Yes, it's back. I can see it."
+  },
+  {
+   "who": "marcus",
+   "text": "Yep, fine here."
+  },
+  {
+   "who": "priya",
+   "text": "Good. Okay, the licence is next."
+  },
+  {
+   "who": "priya",
+   "text": "Licence."
+  },
+  {
+   "who": "daniel",
+   "beat": "t3.1",
+   "text": "We filed the licence transfer on Monday. The ministry now says processing is eight weeks, not six."
+  },
+  {
+   "who": "siti",
+   "text": "Sorry, say that again? Eight, not six?"
+  },
+  {
+   "who": "daniel",
+   "text": "Yes. Eight weeks. When we looked before, the figure we had was six."
+  },
+  {
+   "who": "siti",
+   "text": "Right. Okay. So it's two weeks longer than we were working with."
+  },
+  {
+   "who": "daniel",
+   "text": "Two weeks longer, yes. That's the change."
+  },
+  {
+   "who": "marcus",
+   "text": "Is that in writing from them, or is it what somebody said on the phone?"
+  },
+  {
+   "who": "daniel",
+   "text": "It's what the ministry told us when we filed. That's the figure we've been given, so that's the one I'm using."
+  },
+  {
+   "who": "marcus",
+   "text": "Mm-hm. Okay. I just wanted to know which kind of figure it was."
+  },
+  {
+   "who": "daniel",
+   "text": "Fair question. I'd say it's the one they're giving everybody now."
+  },
+  {
+   "who": "priya",
+   "beat": "t3.2",
+   "text": "Eight weeks from Monday the seventh is early February. That's tight against the cutover."
+  },
+  {
+   "who": "siti",
+   "text": "Let me just count it forward. Monday the seventh, eight weeks on... yeah, I get early February as well."
+  },
+  {
+   "who": "daniel",
+   "text": "Same here. I did it twice on the calendar because I didn't believe it the first time."
+  },
+  {
+   "who": "priya",
+   "text": "And the cutover is the thirteenth, so we're not far off it."
+  },
+  {
+   "who": "daniel",
+   "beat": "t3.3",
+   "text": "Yes, it still lands before the thirteenth, but there's no room left."
+  },
+  {
+   "who": "priya",
+   "text": "No room left. Okay. I want to be sure I'm hearing that properly. It does land before the thirteenth?"
+  },
+  {
+   "who": "daniel",
+   "text": "It does. Before the thirteenth. It just doesn't have any slack in it."
+  },
+  {
+   "who": "siti",
+   "text": "So if it were six weeks we'd have had some breathing space, and now we've used it."
+  },
+  {
+   "who": "daniel",
+   "text": "That's a fair way to put it. The two extra weeks took it."
+  },
+  {
+   "who": "marcus",
+   "text": "Hang on, so is the thirteenth the day we move, or the day everything has to be ready before?"
+  },
+  {
+   "who": "priya",
+   "text": "The cutover. That's the date we've all been calling the cutover. I'm just saying the licence has to be through before it."
+  },
+  {
+   "who": "marcus",
+   "text": "Right, right. I just wanted to say it out loud so we're all talking about the same thing."
+  },
+  {
+   "who": "siti",
+   "text": "Yeah, that helps me too, honestly. I sometimes lose track of which date is which."
+  },
+  {
+   "who": "priya",
+   "text": "No, that's useful. The licence lands before the thirteenth. That's what we have."
+  },
+  {
+   "who": "daniel",
+   "text": "That's what we have. I'm not saying more than that, because I don't know more than that."
+  },
+  {
+   "who": "siti",
+   "text": "Can I ask, and I might be asking something obvious, does the eight weeks start from the day we filed, or from some other point?"
+  },
+  {
+   "who": "daniel",
+   "text": "From the filing. Monday. That's how Priya counted it too."
+  },
+  {
+   "who": "siti",
+   "text": "Okay. Good. That's what I assumed, I just wanted it said."
+  },
+  {
+   "who": "priya",
+   "text": "Mm-hm. And we're not hearing anything different from the ministry about that?"
+  },
+  {
+   "who": "daniel",
+   "text": "Not that I've been told. Eight weeks from filing. That's all I've got."
+  },
+  {
+   "who": "marcus",
+   "text": "It's a bit annoying, though, isn't it. Six to eight, and just when we'd settled on the plan."
+  },
+  {
+   "who": "daniel",
+   "text": "It is annoying. But it's still inside the date, so I'd rather say that part clearly as well."
+  },
+  {
+   "who": "marcus",
+   "text": "No, sure, sure. I'm not arguing with it. I'm just saying it's annoying."
+  },
+  {
+   "who": "siti",
+   "text": "I think it's fine to say it's annoying. It's also still before the thirteenth. Both are true."
+  },
+  {
+   "who": "priya",
+   "text": "Both are true. Yes. Tight, but still before."
+  },
+  {
+   "who": "daniel",
+   "text": "And I'd rather we all say it the same way, so nobody walks away thinking it's comfortable."
+  },
+  {
+   "who": "priya",
+   "text": "Agreed. It's not comfortable. It's early February, and the cutover is the thirteenth."
+  },
+  {
+   "who": "siti",
+   "text": "Wait, sorry, one more. When you said the ministry now says eight weeks, was that when you filed on Monday, or did it change after?"
+  },
+  {
+   "who": "daniel",
+   "text": "When we filed. We filed on Monday and that's when they gave us eight weeks."
+  },
+  {
+   "who": "siti",
+   "text": "Okay, so it wasn't a second message later. Good. That's clearer."
+  },
+  {
+   "who": "marcus",
+   "text": "So the answer was already eight when you got it. Not six that moved to eight."
+  },
+  {
+   "who": "daniel",
+   "text": "Well, we'd been expecting six. They said eight. So from our side it moved, but nobody changed their mind on us, if that makes sense."
+  },
+  {
+   "who": "marcus",
+   "text": "Yeah. That makes sense. Okay."
+  },
+  {
+   "who": "priya",
+   "text": "Fine. I think we've got the licence as clearly as we can for now. Anything else on it before we move on?"
+  },
+  {
+   "who": "siti",
+   "text": "Not from me. I just wanted to be sure I'd got the numbers right."
+  },
+  {
+   "who": "daniel",
+   "text": "Nothing more from me. Eight weeks, early February, before the thirteenth, no room left."
+  },
+  {
+   "who": "marcus",
+   "text": "Mm-hm. That's four things and I've got all four."
+  },
+  {
+   "who": "priya",
+   "text": "Good. Right. Let's go on."
+  },
+  {
+   "who": "priya",
+   "text": "Handover date in writing?"
+  },
+  {
+   "who": "marcus",
+   "beat": "t4.1",
+   "text": "The landlord confirmed in writing, but the handover is now the twenty second of January, a week later than they said."
+  },
+  {
+   "who": "siti",
+   "text": "Oh. A week later than they said. Okay."
+  },
+  {
+   "who": "priya",
+   "text": "Hold on. So it's in writing. That part is good."
+  },
+  {
+   "who": "marcus",
+   "text": "Yes, it's in writing. The date's just not the one we wanted."
+  },
+  {
+   "who": "siti",
+   "text": "Sorry, the twenty second of January. Is that the day we get the keys, or the day the building is finished?"
+  },
+  {
+   "who": "marcus",
+   "text": "It's the handover. That's the word they used. The building's handed over to us on the twenty second."
+  },
+  {
+   "who": "siti",
+   "text": "Okay. Handover. I'll stick with that word then."
+  },
+  {
+   "who": "daniel",
+   "text": "And before it was a week earlier, you said."
+  },
+  {
+   "who": "marcus",
+   "text": "A week earlier, yes. That's what they'd told us before. Now it's a week later than that."
+  },
+  {
+   "who": "daniel",
+   "text": "Right. So the same thing, just pushed by a week."
+  },
+  {
+   "who": "marcus",
+   "text": "Same thing, pushed by a week."
+  },
+  {
+   "who": "priya",
+   "beat": "t4.2",
+   "text": "So the treatment rooms start a week later. Do we still make it?"
+  },
+  {
+   "who": "siti",
+   "text": "That's what I was about to ask. Because I'd been thinking about the treatment rooms the whole time you were talking."
+  },
+  {
+   "who": "marcus",
+   "text": "Yeah. It's the same worry I had when I read it."
+  },
+  {
+   "who": "priya",
+   "text": "And you said it's confirmed. So there's no chance of it moving again, or is that me being nervous?"
+  },
+  {
+   "who": "marcus",
+   "text": "I can only say what the letter says. It says the twenty second. I haven't got anything that says otherwise."
+  },
+  {
+   "who": "priya",
+   "text": "No, that's fair. I'm not asking you to promise. I'm just thinking aloud."
+  },
+  {
+   "who": "marcus",
+   "text": "Sure. And I'd be thinking the same thing in your seat."
+  },
+  {
+   "who": "daniel",
+   "text": "Can I check something? The treatment rooms start a week later because the handover is a week later. Is it a straight one for one?"
+  },
+  {
+   "who": "marcus",
+   "text": "That's how I read it. The handover moved by a week, so the start moves by a week."
+  },
+  {
+   "who": "daniel",
+   "text": "Okay. Good. I just didn't want to assume."
+  },
+  {
+   "who": "siti",
+   "text": "So the question is still the one Priya asked. Do we make it?"
+  },
+  {
+   "who": "priya",
+   "text": "Yes. Marcus, do we?"
+  },
+  {
+   "who": "marcus",
+   "beat": "t4.3",
+   "text": "Just about, if the fit-out crew works two Saturdays. I'll check with them."
+  },
+  {
+   "who": "siti",
+   "text": "Just about. Okay. That's not a no."
+  },
+  {
+   "who": "marcus",
+   "text": "It's not a no. It's also not a comfortable yes."
+  },
+  {
+   "who": "priya",
+   "text": "Right. So it depends on the two Saturdays."
+  },
+  {
+   "who": "marcus",
+   "text": "It depends on the two Saturdays, yes. That's the condition I put on it."
+  },
+  {
+   "who": "daniel",
+   "text": "Two Saturdays. Not more than two?"
+  },
+  {
+   "who": "marcus",
+   "text": "Two. That's what I said. I haven't got another number."
+  },
+  {
+   "who": "daniel",
+   "text": "Okay. I only asked because it's easy to hear it differently."
+  },
+  {
+   "who": "marcus",
+   "text": "No, that's fine. Two Saturdays."
+  },
+  {
+   "who": "siti",
+   "text": "And you'll check with the crew. Is it a question of whether they can, or whether they will?"
+  },
+  {
+   "who": "marcus",
+   "text": "Honestly, I don't know yet. That's why I said I'd check. I'd be guessing if I answered."
+  },
+  {
+   "who": "siti",
+   "text": "Okay. That's honest. I'd rather you say you don't know."
+  },
+  {
+   "who": "priya",
+   "text": "Yes, same. I'd rather have 'I'll check' than a confident answer that turns out to be wrong."
+  },
+  {
+   "who": "marcus",
+   "text": "Well, I'm not going to pretend to be confident. Just about is the honest answer."
+  },
+  {
+   "who": "daniel",
+   "text": "It sort of mirrors the licence, doesn't it. Just about, not much room."
+  },
+  {
+   "who": "priya",
+   "text": "It does. Both of them land, but neither has any slack."
+  },
+  {
+   "who": "siti",
+   "text": "That's a bit uncomfortable when you put it like that."
+  },
+  {
+   "who": "priya",
+   "text": "It is. But I'd still rather put it like that than pretend it isn't so."
+  },
+  {
+   "who": "siti",
+   "text": "No, agreed. Better to say it."
+  },
+  {
+   "who": "marcus",
+   "text": "Mm-hm."
+  },
+  {
+   "who": "daniel",
+   "text": "Sorry, going back to the handover for a second. The landlord said it in writing. Did they give a reason for the week?"
+  },
+  {
+   "who": "marcus",
+   "text": "Not that I've got in front of me. The letter gives the date. That's the part I have."
+  },
+  {
+   "who": "daniel",
+   "text": "Okay. I just wondered. It doesn't change the date either way."
+  },
+  {
+   "who": "marcus",
+   "text": "No. The date's the date. The twenty second."
+  },
+  {
+   "who": "siti",
+   "text": "The twenty second of January. I'm writing it down so I don't mix it up with anything else."
+  },
+  {
+   "who": "priya",
+   "text": "Good idea. And the licence is eight weeks from the seventh, early February."
+  },
+  {
+   "who": "siti",
+   "text": "Yes. Got both."
+  },
+  {
+   "who": "marcus",
+   "text": "Can I ask something back at the licence, since we're comparing the two?"
+  },
+  {
+   "who": "priya",
+   "text": "Go on."
+  },
+  {
+   "who": "marcus",
+   "text": "Daniel, you said it lands before the thirteenth. Is that the same thirteenth Priya meant when she said cutover?"
+  },
+  {
+   "who": "daniel",
+   "text": "Yes. The same one. Before the thirteenth, and the thirteenth is the cutover."
+  },
+  {
+   "who": "marcus",
+   "text": "Okay. Thanks. I just wanted to be certain I wasn't mixing two dates."
+  },
+  {
+   "who": "daniel",
+   "text": "You're not. It's the one date."
+  },
+  {
+   "who": "priya",
+   "text": "Right. So let me say where we are, and you tell me if I've got any of it wrong."
+  },
+  {
+   "who": "priya",
+   "text": "The licence is eight weeks from Monday the seventh. That's early February. It lands before the thirteenth, but with no room left."
+  },
+  {
+   "who": "daniel",
+   "text": "Yes. That's right."
+  },
+  {
+   "who": "priya",
+   "text": "And the handover is confirmed in writing for the twenty second of January, a week later than they'd said."
+  },
+  {
+   "who": "marcus",
+   "text": "Yes, that's right."
+  },
+  {
+   "who": "priya",
+   "text": "And the treatment rooms start a week later, and we make it just about, if the fit-out crew works two Saturdays."
+  },
+  {
+   "who": "marcus",
+   "text": "Just about, yes. And I'll check with them."
+  },
+  {
+   "who": "siti",
+   "text": "That's the same as I've got."
+  },
+  {
+   "who": "daniel",
+   "text": "Same as mine."
+  },
+  {
+   "who": "priya",
+   "text": "Good. Does anyone think I've said something that doesn't match what we heard?"
+  },
+  {
+   "who": "siti",
+   "text": "No. I think it's all the same as what was said."
+  },
+  {
+   "who": "marcus",
+   "text": "No, it matches."
+  },
+  {
+   "who": "daniel",
+   "text": "It matches."
+  },
+  {
+   "who": "siti",
+   "text": "Can I say one more thing, and it's not new, it's just me thinking?"
+  },
+  {
+   "who": "priya",
+   "text": "Of course."
+  },
+  {
+   "who": "siti",
+   "text": "It's odd that both things came in this week and both of them are about a bit less time. I'm not saying anything is wrong. It just felt like a lot at once."
+  },
+  {
+   "who": "priya",
+   "text": "Yes, it did feel like a lot at once. I had the same feeling."
+  },
+  {
+   "who": "daniel",
+   "text": "It's a coincidence, I'd say. They're two separate things, one's the ministry and one's the landlord."
+  },
+  {
+   "who": "siti",
+   "text": "Yeah, no, I know. They're separate. I just noticed it."
+  },
+  {
+   "who": "marcus",
+   "text": "They're separate. Different people, different letters."
+  },
+  {
+   "who": "siti",
+   "text": "Right. Fine. I'll leave it there."
+  },
+  {
+   "who": "priya",
+   "text": "No, I'm glad you said it. It's easier to say it than to carry it quietly."
+  },
+  {
+   "who": "siti",
+   "text": "Thanks. Yes."
+  },
+  {
+   "who": "daniel",
+   "text": "I'd add that the licence part still works. I don't want it to come across as worse than it is."
+  },
+  {
+   "who": "priya",
+   "text": "No, understood. It works. It's tight, but it works."
+  },
+  {
+   "who": "marcus",
+   "text": "And mine, I'd say the same. It works just about."
+  },
+  {
+   "who": "priya",
+   "text": "Yes. Just about. That's the wording we keep."
+  },
+  {
+   "who": "daniel",
+   "text": "I'm happy with that wording."
+  },
+  {
+   "who": "siti",
+   "text": "Me too."
+  },
+  {
+   "who": "marcus",
+   "text": "Okay. Yes. Fine by me."
+  },
+  {
+   "who": "priya",
+   "text": "Okay. I think that's both topics covered for this stretch. Does anyone have anything else on either of them before we wrap?"
+  },
+  {
+   "who": "siti",
+   "text": "Not on the licence. Not on the handover either. I'm clear on both."
+  },
+  {
+   "who": "daniel",
+   "text": "Nothing from me."
+  },
+  {
+   "who": "marcus",
+   "text": "Nothing, except that I'll check with the fit-out crew, like I said."
+  },
+  {
+   "who": "priya",
+   "text": "Yes. Thanks, Marcus. So to wrap up, the licence is eight weeks and still before the thirteenth, the handover is the twenty second of January, and you're checking with the crew."
+  },
+  {
+   "who": "marcus",
+   "text": "That's it. Yes."
+  },
+  {
+   "who": "priya",
+   "text": "Good. Thanks, everybody. That was useful."
+  },
+  {
+   "who": "daniel",
+   "text": "Thanks, Priya. Thanks, all."
+  },
+  {
+   "who": "siti",
+   "text": "Thanks. Bye, everyone."
+  },
+  {
+   "who": "marcus",
+   "text": "Bye, all."
+  },
+  {
+   "who": "priya",
+   "text": "Bye, everyone."
+  }
+ ]
+}

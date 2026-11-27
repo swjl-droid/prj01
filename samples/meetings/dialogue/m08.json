@@ -1,0 +1,1058 @@
+{
+ "case": "m08",
+ "model": "claude-sonnet-5-5",
+ "note": "Written through the gateway by GET /api/eval?task=dialogue; beats checked word for word.",
+ "lines": [
+  {
+   "who": "mei",
+   "text": "Hello, hello. I can see Ahmad. Can anyone else see me, or am I just talking to myself?"
+  },
+  {
+   "who": "ahmad",
+   "text": "I see you, Mei. Morning. Or afternoon, depending on where you are, I never know."
+  },
+  {
+   "who": "mei",
+   "text": "Morning here. Good, so the video works at least. Lisa, Tom, are you coming in?"
+  },
+  {
+   "who": "lisa",
+   "text": "Hi, sorry, I'm here. Can you hear me? I think my mic was muted by the browser or something."
+  },
+  {
+   "who": "mei",
+   "text": "Yes, we hear you now. You were a bit quiet at first, but it's fine."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay, good. Let me move this headset. It keeps slipping."
+  },
+  {
+   "who": "ahmad",
+   "text": "Mm-hm, we hear you fine. Louder than me, probably."
+  },
+  {
+   "who": "lisa",
+   "text": "Ha, that's not hard. You're always a bit quiet, Ahmad."
+  },
+  {
+   "who": "ahmad",
+   "text": "I know, I know. It's the laptop. I should use the proper microphone."
+  },
+  {
+   "who": "mei",
+   "text": "Tom, I see you in the list but there's no video yet. Are you there?"
+  },
+  {
+   "who": "tom",
+   "text": "Yes, I'm here, I'm here. Give me a second, the camera's doing something odd. It says it's in use by another app."
+  },
+  {
+   "who": "lisa",
+   "text": "That always happens to me. Did you close the other call window?"
+  },
+  {
+   "who": "tom",
+   "text": "I think so. Hang on. Right, I closed something and now it's showing. Can you see me?"
+  },
+  {
+   "who": "mei",
+   "text": "We can see you. Bit dark, but we can see you."
+  },
+  {
+   "who": "tom",
+   "text": "It's the weather. Everything's grey here today. I'll turn the lamp on."
+  },
+  {
+   "who": "ahmad",
+   "text": "Same here, honestly. Grey and cold. I had to run to get in on time."
+  },
+  {
+   "who": "lisa",
+   "text": "Cold here too. I'm drinking my third coffee and it's not even close to lunch."
+  },
+  {
+   "who": "tom",
+   "text": "Third? You're ahead of me. I'm on my second, and I'm already regretting it."
+  },
+  {
+   "who": "mei",
+   "text": "Okay, that's the whole team, then. Everyone can hear everyone? Good. Ahmad, you'll be sharing your screen in a minute, so if that gives any trouble, tell me early rather than halfway through."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yes, I'll try it now so we know. Let me see if it lets me choose the window. Mm. It's asking for some permission again."
+  },
+  {
+   "who": "lisa",
+   "text": "It does that every time on mine. You have to allow it and then restart the share."
+  },
+  {
+   "who": "ahmad",
+   "text": "Right, that's what it is. Okay. Let me allow it. Can you see anything yet?"
+  },
+  {
+   "who": "mei",
+   "text": "Not yet. I just see your face. A nice big face."
+  },
+  {
+   "who": "ahmad",
+   "text": "Thank you. Very helpful. Hang on, hang on. There. Now?"
+  },
+  {
+   "who": "tom",
+   "text": "Yes, I see a browser. It's a bit small, though."
+  },
+  {
+   "who": "ahmad",
+   "text": "I'll make it bigger when we get to it. I'll stop sharing for now so it doesn't distract us."
+  },
+  {
+   "who": "mei",
+   "text": "Fine. Okay, shall we start? It's the sprint three review for the customer self-service portal, and we have about half an hour, so let's keep moving."
+  },
+  {
+   "who": "mei",
+   "text": "Sprint three: the demo, the billing API, the identity provider budget, the contrast fix, and the pen test booking."
+  },
+  {
+   "who": "tom",
+   "text": "That's the full list, then. Five things. Fine by me."
+  },
+  {
+   "who": "lisa",
+   "text": "Sounds good. I might have a question or two on the demo, but I'll wait."
+  },
+  {
+   "who": "mei",
+   "text": "Demo first, Ahmad."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay. Let me share again, give me a second. I want to show it live rather than just talk about it."
+  },
+  {
+   "who": "ahmad",
+   "text": "Right, you should see the portal now. This is the logged-in view, the customer's home page, and here is where you start a new service request."
+  },
+  {
+   "who": "tom",
+   "text": "Yes, I see it. The font looks bigger than I remembered."
+  },
+  {
+   "who": "ahmad",
+   "text": "It's the zoom on my browser. Sorry. Let me reset it. Better?"
+  },
+  {
+   "who": "tom",
+   "text": "Better, yes."
+  },
+  {
+   "who": "ahmad",
+   "text": "So. Where we are with the sprint, in plain words."
+  },
+  {
+   "who": "ahmad",
+   "text": "Service request creation is done, the first of the three split stories. Tracking is half done.",
+   "beat": "t1.1"
+  },
+  {
+   "who": "mei",
+   "text": "Okay. So when you say done, you mean done as in finished and working, not done as in the code is written and still waiting?"
+  },
+  {
+   "who": "ahmad",
+   "text": "Done as in working. I'm showing it to you right now, so it's not hiding anywhere. You fill in the form, you submit, and the request is created."
+  },
+  {
+   "who": "mei",
+   "text": "Mm-hm. Good. I just like to check that word, because we've had different meanings of it before."
+  },
+  {
+   "who": "lisa",
+   "text": "Yes, that's fair. We've had that."
+  },
+  {
+   "who": "tom",
+   "text": "And tracking is half done. What does half look like? Is that a screen that shows something, or is it not visible yet?"
+  },
+  {
+   "who": "ahmad",
+   "text": "Half means half. Some of it is there, some of it isn't. I'd rather not call it more than half, because I don't want anyone to hear finished when it isn't."
+  },
+  {
+   "who": "tom",
+   "text": "No, that's fine. I just wanted to picture it. Half is half."
+  },
+  {
+   "who": "mei",
+   "text": "And the first of the three split stories is the creation one. So there are two still to come after it?"
+  },
+  {
+   "who": "ahmad",
+   "text": "Yes. Creation is the first. Tracking is in progress, and that's the half we're talking about. And then the third one."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. So two of three are at least started."
+  },
+  {
+   "who": "ahmad",
+   "text": "One finished, one half done. I wouldn't say two of three, I'd say one and a half, if you want to be strict."
+  },
+  {
+   "who": "mei",
+   "text": "One and a half. Fine, that's fairer. I'll use that."
+  },
+  {
+   "who": "lisa",
+   "text": "One and a half sounds right to me. Better to be careful."
+  },
+  {
+   "who": "ahmad",
+   "text": "Let me click through once more so everyone sees the whole flow. Start a request, fill the fields, submit. And there's the confirmation."
+  },
+  {
+   "who": "tom",
+   "text": "Mm. That went quickly. Is it always that quick, or is it because it's a test setup?"
+  },
+  {
+   "who": "ahmad",
+   "text": "I can't promise anything about how it behaves later with real use, I only know what I see now. Today it's quick."
+  },
+  {
+   "who": "tom",
+   "text": "Fair. Today it's quick. That's all I wanted."
+  },
+  {
+   "who": "mei",
+   "text": "Lisa, you've been testing. What did you find?"
+  },
+  {
+   "who": "lisa",
+   "text": "Yes. So, I went through it on a laptop first, the same flow Ahmad just showed."
+  },
+  {
+   "who": "lisa",
+   "text": "Tested on mobile too, works, one layout glitch on small screens which we logged.",
+   "beat": "t1.2"
+  },
+  {
+   "who": "ahmad",
+   "text": "Right, I saw that one in the log. I haven't forgotten it."
+  },
+  {
+   "who": "tom",
+   "text": "Sorry, just so I'm clear. The glitch is only on small screens. Not on the laptop view?"
+  },
+  {
+   "who": "lisa",
+   "text": "Only on small screens. The laptop was fine. And the mobile worked, I mean the request went through, it's the layout that looks off."
+  },
+  {
+   "who": "tom",
+   "text": "Okay. So it works, it just doesn't look right in one place."
+  },
+  {
+   "who": "lisa",
+   "text": "Yes. Works, but a bit off. And it's logged, so it's not lost."
+  },
+  {
+   "who": "mei",
+   "text": "Is it something a customer would be confused by, or is it more cosmetic?"
+  },
+  {
+   "who": "lisa",
+   "text": "I'd have to be careful here. I'd say it's a layout glitch, that's how I logged it. I wouldn't call it more than that, and I wouldn't call it less."
+  },
+  {
+   "who": "mei",
+   "text": "Fair enough. I'm not asking you to rate it, I just wanted to know how you saw it."
+  },
+  {
+   "who": "ahmad",
+   "text": "Can I add something? It's in the log with the rest, so whoever opens it can see the screenshot."
+  },
+  {
+   "who": "lisa",
+   "text": "Yes, there's a screenshot on it. That's the one I attached."
+  },
+  {
+   "who": "tom",
+   "text": "Good, so nobody has to guess what we meant."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. Going back to Ahmad's point for a second, just so I've got the picture. Creation done, tracking half, one glitch on small screens, logged. Is that all of it for the demo?"
+  },
+  {
+   "who": "ahmad",
+   "text": "That's all of it for me. Unless somebody wants to see something again."
+  },
+  {
+   "who": "lisa",
+   "text": "No, I'm happy. I've seen it enough times this week, to be honest."
+  },
+  {
+   "who": "tom",
+   "text": "Ha, I bet. No, nothing from me."
+  },
+  {
+   "who": "mei",
+   "text": "Then you can stop sharing, Ahmad. Thank you."
+  },
+  {
+   "who": "ahmad",
+   "text": "Stopped. There, you can see my face again. Sorry about that."
+  },
+  {
+   "who": "tom",
+   "text": "Nice face. Very big again."
+  },
+  {
+   "who": "ahmad",
+   "text": "Thank you, Tom. Always happy to help."
+  },
+  {
+   "who": "mei",
+   "text": "Okay, on to the next one."
+  },
+  {
+   "who": "mei",
+   "text": "Billing API, did it arrive?"
+  },
+  {
+   "who": "tom",
+   "text": "Yes, it did. I was going to say it quickly, because I'm a bit pleased about this one."
+  },
+  {
+   "who": "tom",
+   "text": "The billing API was delivered on the sixteenth, two days early for once, and the bills story is now unblocked.",
+   "beat": "t2.1"
+  },
+  {
+   "who": "lisa",
+   "text": "Two days early. I'm writing that down. That doesn't happen much."
+  },
+  {
+   "who": "tom",
+   "text": "For once, that's what I said. Don't get used to it."
+  },
+  {
+   "who": "ahmad",
+   "text": "Sorry, just to check I heard right. The sixteenth, which was yesterday, and early by two days?"
+  },
+  {
+   "who": "tom",
+   "text": "Yes. Delivered on the sixteenth. Two days earlier than it was meant to be. That's what I have."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay, that's what I thought. I just wanted to hear it again, because I didn't want to plan on a wrong date."
+  },
+  {
+   "who": "tom",
+   "text": "Fair. I'd do the same."
+  },
+  {
+   "who": "mei",
+   "text": "And the bills story, that's the one that was waiting for it?"
+  },
+  {
+   "who": "tom",
+   "text": "Yes, that's the one. It was waiting for the API, and now it isn't. So it's unblocked."
+  },
+  {
+   "who": "lisa",
+   "text": "So I can start looking at it, from the testing side, once it's built?"
+  },
+  {
+   "who": "tom",
+   "text": "I wouldn't say anything beyond what I said. The story is unblocked. How it gets picked up is for the team to say, not me."
+  },
+  {
+   "who": "lisa",
+   "text": "Right, fair. I'm only thinking aloud. Forget I asked."
+  },
+  {
+   "who": "ahmad",
+   "text": "No, it's a good question, but I think it belongs to planning, not to this item."
+  },
+  {
+   "who": "mei",
+   "text": "Yes. Let's stay with what we know. The API is delivered, the story is unblocked. That's the news."
+  },
+  {
+   "who": "mei",
+   "text": "Great, so that dependency is closed, and the risk of it slipping past the holidays is gone too.",
+   "beat": "t2.2"
+  },
+  {
+   "who": "tom",
+   "text": "Yes. That one's closed. I'm happy with that."
+  },
+  {
+   "who": "ahmad",
+   "text": "Mm-hm. That's a relief. It's one thing less to keep an eye on."
+  },
+  {
+   "who": "lisa",
+   "text": "Agreed. I was a bit nervous about that one, to be honest. It's good to hear it's gone."
+  },
+  {
+   "who": "tom",
+   "text": "I was a bit nervous too, but I didn't say it."
+  },
+  {
+   "who": "mei",
+   "text": "Ha, you should have said. We could have been nervous together."
+  },
+  {
+   "who": "tom",
+   "text": "Next time. Next time I'll say it."
+  },
+  {
+   "who": "ahmad",
+   "text": "Right. Anything else on the billing API, or can we move on? I don't have anything."
+  },
+  {
+   "who": "lisa",
+   "text": "Nothing from me."
+  },
+  {
+   "who": "tom",
+   "text": "Nor me. It arrived, that's the main thing."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. Next."
+  },
+  {
+   "who": "mei",
+   "text": "Identity provider paid tier."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yes, I've been waiting for this one. I wasn't sure where it stood."
+  },
+  {
+   "who": "mei",
+   "text": "I have news. I heard back, and it's good."
+  },
+  {
+   "who": "mei",
+   "text": "Finance approved the paid tier yesterday, so the five thousand user cap goes away before go-live.",
+   "beat": "t3.1"
+  },
+  {
+   "who": "tom",
+   "text": "Good. Sorry, say that again, the five thousand was the number of users on the free one?"
+  },
+  {
+   "who": "mei",
+   "text": "Yes. The five thousand user cap is the limit on the current plan. With the paid tier it goes away."
+  },
+  {
+   "who": "tom",
+   "text": "Okay, so no cap after the switch. Got it."
+  },
+  {
+   "who": "lisa",
+   "text": "And that's before go-live, you said. Not after."
+  },
+  {
+   "who": "mei",
+   "text": "Before go-live. That's how I said it, and that's how I understand it."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay. Good. I just wanted to be sure I hadn't misheard the order."
+  },
+  {
+   "who": "ahmad",
+   "text": "I'm glad it went through. I thought it might take longer, to be honest. I wasn't sure Finance would say yes."
+  },
+  {
+   "who": "mei",
+   "text": "I wasn't sure either. But it's approved, so we don't need to argue the case any more."
+  },
+  {
+   "who": "tom",
+   "text": "Yesterday, you said? That's quick."
+  },
+  {
+   "who": "mei",
+   "text": "Yesterday, yes. I didn't want to wait to tell you, which is why I'm saying it now."
+  },
+  {
+   "who": "lisa",
+   "text": "That's good. Thanks for chasing it, Mei."
+  },
+  {
+   "who": "mei",
+   "text": "No problem. Ahmad, that one touches your side, so I'll hand it over."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yes. Okay. The paid tier means a change of plan on the provider, and that's mine."
+  },
+  {
+   "who": "ahmad",
+   "text": "I'll switch the plan in the first week of January.",
+   "beat": "t3.2"
+  },
+  {
+   "who": "tom",
+   "text": "First week of January. Okay. So that's after the break."
+  },
+  {
+   "who": "ahmad",
+   "text": "That's what I said. The first week of January."
+  },
+  {
+   "who": "tom",
+   "text": "Yes, I'm not arguing, I'm only repeating it so I remember."
+  },
+  {
+   "who": "lisa",
+   "text": "And the cap goes away once that's done, right? Not before."
+  },
+  {
+   "who": "ahmad",
+   "text": "I'd say once the plan is switched, yes. That's the logical order. Approval first, switch second, then the cap is gone."
+  },
+  {
+   "who": "mei",
+   "text": "Mm-hm. And all of it before go-live, as I said."
+  },
+  {
+   "who": "lisa",
+   "text": "Right. Good. That's clear to me now."
+  },
+  {
+   "who": "tom",
+   "text": "Clear to me too."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. That's the demo, the billing API and the identity provider budget. Three out of five."
+  },
+  {
+   "who": "mei",
+   "text": "Contrast defect."
+  },
+  {
+   "who": "tom",
+   "text": "Oh, good, this one. I remember this one came up in the earlier review and everyone kind of winced."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yeah, it was the one where the text was a bit washed out. You had to squint."
+  },
+  {
+   "who": "mei",
+   "text": "Right. Lisa, you have the latest on it, don't you?"
+  },
+  {
+   "who": "lisa",
+   "text": "I do. Give me a second, I've got the page open on the other screen."
+  },
+  {
+   "who": "lisa",
+   "text": "Okay. The contrast defect on the bills page is fixed and passes the WCAG check now.",
+   "beat": "t4.1"
+  },
+  {
+   "who": "tom",
+   "text": "Passes. So not just looks better, it actually passes the check."
+  },
+  {
+   "who": "lisa",
+   "text": "Right, it passes. I ran it again this morning just to be sure, because I didn't want to say it and then have it fail."
+  },
+  {
+   "who": "ahmad",
+   "text": "Mm-hm. That's the thing I'd want to know, honestly. Looking better to the eye is one thing."
+  },
+  {
+   "who": "tom",
+   "text": "Yeah, to my eye it was fine before, which is sort of the point. My eyes aren't the test."
+  },
+  {
+   "who": "lisa",
+   "text": "Exactly. That's why we use the check and not our opinions."
+  },
+  {
+   "who": "mei",
+   "text": "Ha, fair. And it's only the bills page we're talking about here, yes? Not other pages."
+  },
+  {
+   "who": "lisa",
+   "text": "For this defect, yes, the bills page. That's what the defect was written against."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay. I was just trying to remember if it had spread out to anything else, but I think it was just that page."
+  },
+  {
+   "who": "tom",
+   "text": "I think so too. Sorry, I'm going from memory. I don't want to say something that's not right."
+  },
+  {
+   "who": "mei",
+   "text": "No, that's fine. Lisa, you're saying it's the bills page, and that's what's fixed."
+  },
+  {
+   "who": "lisa",
+   "text": "Yes. That's what I'm saying."
+  },
+  {
+   "who": "ahmad",
+   "text": "Can I ask something small? When you say passes now, you mean the same check that failed before? Same one?"
+  },
+  {
+   "who": "lisa",
+   "text": "Same check. It failed, we changed it, and now it passes. Nothing different about how I ran it."
+  },
+  {
+   "who": "ahmad",
+   "text": "Good. Good, that's what I wanted. Otherwise it's a bit like moving the goalposts."
+  },
+  {
+   "who": "tom",
+   "text": "Ha, yeah. Marking your own homework with a different pen."
+  },
+  {
+   "who": "lisa",
+   "text": "No, no, same check. I wouldn't do that."
+  },
+  {
+   "who": "mei",
+   "text": "Nobody's accusing you, Lisa."
+  },
+  {
+   "who": "lisa",
+   "text": "I know, I know. I just want it to be clear."
+  },
+  {
+   "who": "tom",
+   "text": "It's clear. I'm happy with that, from my side."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yeah, me too. Nothing from me."
+  },
+  {
+   "who": "mei",
+   "text": "Close it then.",
+   "beat": "t4.2"
+  },
+  {
+   "who": "lisa",
+   "text": "Okay. I'll take that as agreed, then."
+  },
+  {
+   "who": "tom",
+   "text": "Agreed, yeah."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yep. One less thing on the list."
+  },
+  {
+   "who": "mei",
+   "text": "It's always nice when one of them just goes away."
+  },
+  {
+   "who": "tom",
+   "text": "Right. Though I'll say it never feels that way when they're open. Then they close and it's like, oh, that was easy."
+  },
+  {
+   "who": "ahmad",
+   "text": "That's the way it goes. Open, they're enormous. Closed, nobody remembers them."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. Moving on. Pen test."
+  },
+  {
+   "who": "tom",
+   "text": "Ah. Now this is the one I've been waiting to hear about."
+  },
+  {
+   "who": "ahmad",
+   "text": "Same. Lisa, you've been in touch with the firm, right?"
+  },
+  {
+   "who": "lisa",
+   "text": "I have, yes. And I can give you the actual answer now rather than a maybe."
+  },
+  {
+   "who": "lisa",
+   "text": "The pen test is booked for the nineteenth to the twenty third of January, the firm confirmed in writing.",
+   "beat": "t5.1"
+  },
+  {
+   "who": "tom",
+   "text": "In writing. Okay, so that's solid."
+  },
+  {
+   "who": "lisa",
+   "text": "That's what they gave me, yes. In writing, not just on a call."
+  },
+  {
+   "who": "ahmad",
+   "text": "Sorry, say the dates once more? I was writing them down and I think I missed the end one."
+  },
+  {
+   "who": "lisa",
+   "text": "The nineteenth to the twenty third of January."
+  },
+  {
+   "who": "ahmad",
+   "text": "Nineteenth to the twenty third. Got it. Thanks."
+  },
+  {
+   "who": "tom",
+   "text": "So that's, what, a run of days, not just one day."
+  },
+  {
+   "who": "lisa",
+   "text": "Right, it's the range, the nineteenth through to the twenty third. That's the window they've confirmed."
+  },
+  {
+   "who": "mei",
+   "text": "And that's booked, not pencilled in. I just want to be sure I'm hearing that properly."
+  },
+  {
+   "who": "lisa",
+   "text": "Booked. They confirmed in writing, so I'm treating it as booked."
+  },
+  {
+   "who": "mei",
+   "text": "Good. That's good news, that's a real thing we can point at."
+  },
+  {
+   "who": "tom",
+   "text": "Mm-hm. It was one of those things that kept feeling a bit vague. Now it's got a date on it."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yeah, it's much better when it's not floating around."
+  },
+  {
+   "who": "lisa",
+   "text": "There's one more thing they said though, and I should pass it on, because I think it matters."
+  },
+  {
+   "who": "mei",
+   "text": "Go on."
+  },
+  {
+   "who": "lisa",
+   "text": "But they said a typical first test has two or three high findings, so no major findings is optimistic.",
+   "beat": "t5.2"
+  },
+  {
+   "who": "tom",
+   "text": "Hm. Okay."
+  },
+  {
+   "who": "ahmad",
+   "text": "Right. So two or three high ones is sort of normal for them."
+  },
+  {
+   "who": "lisa",
+   "text": "That's how they put it. Typical for a first test."
+  },
+  {
+   "who": "tom",
+   "text": "I mean, I'd have liked to hear we'd sail through. But I can't say I'm shocked."
+  },
+  {
+   "who": "ahmad",
+   "text": "No, no. I wasn't expecting a clean sheet either, to be honest."
+  },
+  {
+   "who": "mei",
+   "text": "Hang on, though. Let me make sure I've got the wording. They said no major findings would be optimistic."
+  },
+  {
+   "who": "lisa",
+   "text": "Yes. That's what they said, that expecting no major findings is optimistic."
+  },
+  {
+   "who": "tom",
+   "text": "Optimistic is a polite word."
+  },
+  {
+   "who": "ahmad",
+   "text": "Ha. It is a polite word. It's the consultant's way of saying don't count on it."
+  },
+  {
+   "who": "lisa",
+   "text": "I think they were being straight with me, which I appreciated. Better than a nice story."
+  },
+  {
+   "who": "mei",
+   "text": "Yeah, I'd rather hear it now."
+  },
+  {
+   "who": "tom",
+   "text": "Can I check one thing? When they say two or three high findings, that's for a typical first test, not about us in particular."
+  },
+  {
+   "who": "lisa",
+   "text": "Right, that's what they said. It's a general comment about typical first tests. It's not a verdict on our portal."
+  },
+  {
+   "who": "tom",
+   "text": "Okay. That's how I heard it, but I wanted to hear you say it."
+  },
+  {
+   "who": "ahmad",
+   "text": "Yeah, that's a fair distinction. They haven't looked at it yet. It's just what they usually see."
+  },
+  {
+   "who": "lisa",
+   "text": "Exactly. They haven't started, so it's their usual experience, nothing more than that."
+  },
+  {
+   "who": "tom",
+   "text": "Fine. Then I don't think we need to read too much into it. But I wouldn't ignore it either."
+  },
+  {
+   "who": "ahmad",
+   "text": "No. I'd go a little further than that, actually. If they say expect some, I'd expect some."
+  },
+  {
+   "who": "tom",
+   "text": "Sure, I'm not saying don't expect some. I'm saying it's not a prediction about our code."
+  },
+  {
+   "who": "ahmad",
+   "text": "Mm, fair. It's a prediction about first tests."
+  },
+  {
+   "who": "tom",
+   "text": "Yeah. That's all I meant."
+  },
+  {
+   "who": "mei",
+   "text": "I think you're both saying roughly the same thing, in different words."
+  },
+  {
+   "who": "ahmad",
+   "text": "Probably. I tend to lean careful, that's all."
+  },
+  {
+   "who": "tom",
+   "text": "And I lean the other way. That's why it works, I suppose."
+  },
+  {
+   "who": "mei",
+   "text": "Ha, sure. Lisa, was there anything else in what they said? Anything about what happens after?"
+  },
+  {
+   "who": "lisa",
+   "text": "Not beyond that. What I've told you is what they told me, the dates and the comment about typical first tests."
+  },
+  {
+   "who": "mei",
+   "text": "Okay. I don't want to guess at things they didn't say."
+  },
+  {
+   "who": "lisa",
+   "text": "No, I don't want to either. I'd rather stick to what's in writing."
+  },
+  {
+   "who": "ahmad",
+   "text": "Agreed. If we start filling in the gaps ourselves, we'll end up arguing about things nobody said."
+  },
+  {
+   "who": "tom",
+   "text": "Right. Which is a very easy trap to fall into."
+  },
+  {
+   "who": "mei",
+   "text": "Okay, so thinking about the plan. We've got the test in that window, and we've been told to be realistic about what comes out of it."
+  },
+  {
+   "who": "tom",
+   "text": "Mm-hm."
+  },
+  {
+   "who": "mei",
+   "text": "Okay, then let's keep one week in the plan after the test for fixes.",
+   "beat": "t5.3"
+  },
+  {
+   "who": "ahmad",
+   "text": "One week after the test. Okay."
+  },
+  {
+   "who": "tom",
+   "text": "So that's a week that's in there already, and we keep it. We don't squeeze it."
+  },
+  {
+   "who": "mei",
+   "text": "Right. Keep it. That's what I'm saying."
+  },
+  {
+   "who": "ahmad",
+   "text": "Sorry, I just want to be sure I understand. It's one week, after the test, for fixes. Yes?"
+  },
+  {
+   "who": "mei",
+   "text": "Yes. One week after the test, for fixes."
+  },
+  {
+   "who": "ahmad",
+   "text": "Okay. Good. That's clear to me."
+  },
+  {
+   "who": "tom",
+   "text": "And it fits with what Lisa said, doesn't it. If there are some findings, there's room for them."
+  },
+  {
+   "who": "lisa",
+   "text": "That was what I was thinking too. It lines up with the comment they made."
+  },
+  {
+   "who": "ahmad",
+   "text": "I do wonder if one week is enough, but then I don't know what we'll get, so I can't really say."
+  },
+  {
+   "who": "tom",
+   "text": "Yeah, that's the problem. We can't size it until we see what comes out."
+  },
+  {
+   "who": "mei",
+   "text": "That's true. And I don't want to reopen it now, because we can't know yet. One week is what we keep."
+  },
+  {
+   "who": "ahmad",
+   "text": "No, that's fine. I'm not asking to change it. I was just thinking aloud."
+  },
+  {
+   "who": "mei",
+   "text": "No, that's okay, thinking aloud is allowed."
+  },
+  {
+   "who": "tom",
+   "text": "Is it? I thought we were supposed to have our answers ready."
+  },
+  {
+   "who": "mei",
+   "text": "Ha, not in this meeting."
+  },
+  {
+   "who": "lisa",
+   "text": "Can I go back to something earlier? On the contrast one, I just want to say I'm glad that's finished before the test."
+  },
+  {
+   "who": "tom",
+   "text": "Oh, yeah. That's a good point. Better that one's out of the way."
+  },
+  {
+   "who": "ahmad",
+   "text": "Mm-hm, I'd agree. One fewer thing to think about."
+  },
+  {
+   "who": "mei",
+   "text": "Yes. Though the contrast thing was its own item. We've closed it, and the test is its own item."
+  },
+  {
+   "who": "lisa",
+   "text": "Oh, sure, sure. I'm not mixing them up. I just meant it's good it's done."
+  },
+  {
+   "who": "mei",
+   "text": "No, understood. Just keeping the two straight."
+  },
+  {
+   "who": "tom",
+   "text": "I think we're all keeping them straight. It's a short list anyway."
+  },
+  {
+   "who": "ahmad",
+   "text": "It's a very short list when you say it out loud. Defect closed, test booked, a week for fixes."
+  },
+  {
+   "who": "mei",
+   "text": "That's pretty much it, yes."
+  },
+  {
+   "who": "tom",
+   "text": "Funny how that sounds quite tidy, doesn't it, for a meeting this long."
+  },
+  {
+   "who": "ahmad",
+   "text": "The meeting felt long. The list is short."
+  },
+  {
+   "who": "lisa",
+   "text": "That's most meetings."
+  },
+  {
+   "who": "mei",
+   "text": "Okay, is there anything anyone wants to go back to before we finish? Anything on the contrast fix or the pen test."
+  },
+  {
+   "who": "tom",
+   "text": "Not from me."
+  },
+  {
+   "who": "ahmad",
+   "text": "Just one thing. Lisa, the firm's confirmation, it's in writing, so it's something we could look at if we needed to?"
+  },
+  {
+   "who": "lisa",
+   "text": "Yes, it's in writing. That's what I meant. It's not a verbal thing."
+  },
+  {
+   "who": "ahmad",
+   "text": "Good. Okay. That was all."
+  },
+  {
+   "who": "lisa",
+   "text": "Nothing more from me either."
+  },
+  {
+   "who": "mei",
+   "text": "Right, then. Let me wrap up quickly. The contrast defect on the bills page is closed. The pen test is booked, with the firm's confirmation in writing, and we keep one week after it for fixes."
+  },
+  {
+   "who": "tom",
+   "text": "That's how I have it too."
+  },
+  {
+   "who": "ahmad",
+   "text": "Same. Sounds right."
+  },
+  {
+   "who": "lisa",
+   "text": "Yep, matches my notes."
+  },
+  {
+   "who": "mei",
+   "text": "Good. Thanks, everyone. That was a useful review."
+  },
+  {
+   "who": "tom",
+   "text": "Thanks, Mei. Thanks, all."
+  },
+  {
+   "who": "ahmad",
+   "text": "Thanks, bye for now."
+  },
+  {
+   "who": "lisa",
+   "text": "Bye, everyone."
+  },
+  {
+   "who": "mei",
+   "text": "Bye."
+  }
+ ]
+}
