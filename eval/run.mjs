@@ -3,7 +3,7 @@
 // Plain English: a golden set is an answer key. Each case gives an input and the answer we expect;
 // CI runs the code on every case and fails if fewer cases pass than the set's threshold.
 // Format, one JSON file per set in eval/golden/:
-//   { "set": "...", "target": "<module path>#<export>", "threshold": 0.0-1.0,
+//   { "set": "...", "target": "<module path>#<export>", "threshold": 0.0-1.0, "blocking": true|false (default true),
 //     "cases": [ { "id": "...", "input": [args...], "expect": <value>, "scorer": "equal" | "subset" } ] }
 // "subset": every key in expect must match the result (extra keys allowed). Model-based targets
 // (minutes, RAIDD) will plug in here with a fake model in CI, so CI never needs a model key.
@@ -72,6 +72,11 @@ async function main() {
       continue;
     }
     const r = await runSet(set);
+    if (set.blocking === false) {
+      // Information only (still self-tested above): printed, never fails the build.
+      console.log(`INFO ${r.set} (${r.file}): ${Math.round(r.rate * 100)} % of ${r.results.length} cases, not blocking`);
+      continue;
+    }
     console.log(`${r.ok ? 'PASS' : 'FAIL'} ${r.set} (${r.file}): ${Math.round(r.rate * 100)} % of ${r.results.length} cases, threshold ${Math.round(r.threshold * 100)} %`);
     for (const c of r.results.filter((x) => !x.pass)) console.log(`   case ${c.id} failed${c.error ? `: ${c.error}` : ''}`);
     if (!r.ok) failed = true;

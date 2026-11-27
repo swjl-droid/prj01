@@ -1,0 +1,149 @@
+{
+ "case": "m01",
+ "judges": {
+  "sonnet": {
+   "model": "claude-sonnet-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Summary matches the transcript and the quotes are exact. The action has the right owner (Marcus) and date (Friday the fourth)."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "Points, quotes and the Siti action (ask Radix to hold two provisional dates, report back next week) are all supported."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "The licence requirement, the six-week assumption and the filing timing are accurate and quoted exactly. No action was agreed."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "The handover date, the hard stop and the verbal-only status are supported. Marcus owns the written-date action and no due date was given."
+    },
+    "T5": {
+     "verdict": "ok",
+     "reason": "The options, the nurse-leave clash and the decision on 13–14 February are accurate. The link to the handover date is quoted. No new actions."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "A real issue: the quote is over budget now. It is new and in the right topic."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "A valid dependency: the move and recalibration can only be done by the vendor's engineers."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "A valid risk. It has a possible event (no slot before cutover) and an effect (patients sent to the old site)."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "A valid dependency: no patients at the new site until the licence is transferred."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "The plan explicitly assumes six weeks of ministry processing. This is a correct assumption, raised for the first time."
+    },
+    "R6": {
+     "verdict": "ok",
+     "reason": "Filing, and so the start of the six-week clock, waits on the final floor plan. This is a real dependency."
+    },
+    "R7": {
+     "verdict": "ok",
+     "reason": "A valid dependency: fit-out cannot start until level five is handed over."
+    },
+    "R8": {
+     "verdict": "ok",
+     "reason": "The 15 January handover date is taken as true but is only verbal. That is a valid assumption with supporting quotes."
+    },
+    "R9": {
+     "verdict": "needs_edit",
+     "reason": "The decision was first made in this meeting, so it should be 'new', not 'update'. Only the open options were discussed before, not a decision. Drop the L251 quote and use L312 and L315–L318 to show it was agreed."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.0573,
+   "calls": 1
+  },
+  "opus": {
+   "model": "claude-opus-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Figures, contingency stance and the hedged weekday saving match L43, L52, L61, L63, L67 and L72; the action, owner (Marcus) and date (Friday the fourth) match L76–L77."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "Vendor-only move, the chance of no slot (not a firm no) and the day-one effect match L84, L94, L98, L106 and L114; Siti's action to report back next week matches L123."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "The licence requirement, the six-week assumption and filing after the final floor plan match L135–L154; no action was agreed."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "The hard stop on fit-out until the 15 January handover, the verbal date and the agreement to get it in writing match the transcript; Marcus's action matches L233."
+    },
+    "T5": {
+     "verdict": "ok",
+     "reason": "The options, the school-holiday clash and the decision for 13–14 February match L254, L271 and L312; L299 supports the link to the handover date."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "A real current problem raised for the first time, supported by L43 and L47."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "The X-ray move depends on the vendor's engineers (L84)."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "A possible event (no slot) with its effect (patients sent to the old site), supported by L94 and L106."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "Seeing patients at the new site depends on the ministry transferring the licence (L135)."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "Explicitly a planning assumption, not a promise from the ministry (L143, L145)."
+    },
+    "R6": {
+     "verdict": "ok",
+     "reason": "Filing waits for the final floor plan (L152); this is a separate item from R5."
+    },
+    "R7": {
+     "verdict": "ok",
+     "reason": "Fit-out cannot start until the landlord hands over level five (L180)."
+    },
+    "R8": {
+     "verdict": "ok",
+     "reason": "The plan proceeds on a verbal, not-firm handover date, supported by L182 and L304."
+    },
+    "R9": {
+     "verdict": "ok",
+     "reason": "A settled decision at L312; it is an update because L251 says the choice was left open last time."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.1195,
+   "calls": 1
+  }
+ },
+ "minutesTemplate": {
+  "id": "default",
+  "version": 3
+ },
+ "counts": {
+  "topics": 5,
+  "raidd": 9
+ }
+}

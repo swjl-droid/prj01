@@ -1,5 +1,6 @@
 {
- "set": "RAIDD table in the minutes, rubric line 3 (prj01-R1 US-4, decision Hub row 299): every planted RAIDD event appears exactly once with the right type and no look-alike (action, status) is in the table; bar 7 of 10 meetings, set before the run",
+ "set": "For information only, no longer blocking (replaced by minutes_review, decision Hub row 305): strict line-distance check of the RAIDD table, rubric line 3 (prj01-R1 US-4, Hub row 299): every planted RAIDD event appears exactly once with the right type and no look-alike is in the table",
+ "blocking": false,
  "target": "lib/minutes/check.js#storedRaidd",
  "threshold": 0.7,
  "cases": [

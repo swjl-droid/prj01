@@ -1,0 +1,133 @@
+{
+ "case": "m03",
+ "judges": {
+  "sonnet": {
+   "model": "claude-sonnet-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Points, quotes, owners and dates match the transcript. Both actions (reword the message, note the feedback) are captured."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "Summary matches where the discussion landed. No action was agreed."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "Points are supported by the quotes. Lisa owns the booking, with 'this week' as the date."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "Proposal, trade-off and the round-the-table decision are accurate and quoted. No action was agreed."
+    },
+    "T5": {
+     "verdict": "ok",
+     "reason": "Planned leave and about half velocity are accurate. Planning the sprint smaller is correctly shown with no owner or date."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "A settled choice: sign-up counts as finished, with the wording as a separate fix. The quote supports it."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "Real dependency: the bills story cannot finish until the billing team delivers the API."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "The 18 December date is taken as the plan with no proof yet, after two slips, so it is a fair assumption."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "Names what may happen (API slips past the holidays) and the effect (card payment leaves release one)."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "The pen test needs the testing firm's slot and three weeks' notice, and no slot is held. This is a fair dependency and the quotes support it."
+    },
+    "R6": {
+     "verdict": "ok",
+     "reason": "Explicitly stated as an assumption and quoted correctly."
+    },
+    "R7": {
+     "verdict": "ok",
+     "reason": "A settled decision, quoted at L269. The cut-line had been put off before this meeting, so 'update' is reasonable."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.0581,
+   "calls": 1
+  },
+  "opus": {
+   "model": "claude-opus-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "The sprint goal, the working sign-up, the blocked bills view, the wording feedback and the 'finished' call all match L35–L86. Both actions are correctly attributed to Ahmad and Mei."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "The 18 December date, the two earlier slips, the dependency, the card-payment consequence and the 'hopeful, not comfortable' stance are all quoted correctly. No action was agreed in this topic."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "The pen test requirement, the three weeks' notice, the assumption and the unbooked slot are supported. The booking action gives Lisa as owner and 'this week' as due, as said in L180–L181."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "The proposal, the trade-off discussion, the round of agreement, the decision at L269 and the later confirmation at L335–L336 are all accurately captured."
+    },
+    "T5": {
+     "verdict": "ok",
+     "reason": "The leave, the half velocity and the decision to plan the sprint smaller match L292 and L326. Owner and date are correctly left empty because none was named."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "Mei, Ahmad and Lisa settled at L85–L87 that sign-up counts as finished and the wording is a separate fix. It is a valid new decision."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "The bills story waits on the billing team's API (L113). It is a valid new dependency."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "The plan works with the unproven 18 December API date (L100, L134). It is a valid new assumption."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "A possible further slip, with its effect on card payment, is stated at L116. It is a valid new risk."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "Go-live depends on the testing firm running the pen test, which needs three weeks' notice, and no slot is held yet. It is a valid new dependency."
+    },
+    "R6": {
+     "verdict": "ok",
+     "reason": "Lisa explicitly called this an assumption (L163, L166). It is a valid new assumption."
+    },
+    "R7": {
+     "verdict": "ok",
+     "reason": "L191 shows the cut-line was raised before ('we said we'd decide this today'), so 'update' is right, and L269 states the decision."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.1097,
+   "calls": 1
+  }
+ },
+ "minutesTemplate": {
+  "id": "default",
+  "version": 3
+ },
+ "counts": {
+  "topics": 5,
+  "raidd": 7
+ }
+}
