@@ -45,10 +45,14 @@ Build repo for the PM copilot (ADR-03: one platform repo, plus one repo per buil
 - **Mock meetings:** `samples/meetings` holds 10 mock 30-minute meetings (specs written by hand,
   discussion by Sonnet 5.5 kept in `dialogue/`, noise added by `node scripts/make-mock-meetings.mjs`),
   their golden file and the evaluation minutes (`minutes/`). Golden set `minutes_stored` re-checks the
-  stored minutes in CI. `api/eval.js` (previews only) writes dialogue and drafts evaluation minutes.
+  stored minutes in CI. `api/eval.js` (previews only) drafts the evaluation minutes through the app's own code; the mock
+  dialogue was written once through the API before decision Hub row 311 (builder-only work now runs on John's plan).
 - **Minutes review (US-4 acceptance, decision Hub row 305):** two model judges (`lib/minutes/judge.json`:
-  Sonnet 5.5 and Opus 5.5, `?task=judge&case=m01&judge=sonnet`) give every topic and RAIDD row OK or
-  Needs edit with a reason (`samples/meetings/judges/`). John reviews any items in the evidence pack;
+  Sonnet 5.5 and Opus 5.5) give every topic and RAIDD row OK or Needs edit with a reason
+  (`samples/meetings/judges/`). Judges are builder-only work, so they run in a Claude session on John's
+  plan, not through the API (decision Hub row 311): `node scripts/judge-session.mjs prompt m01 out.md`
+  gives a judge its instructions, `... store m01 sonnet <model> answer.json` checks and saves the answer.
+  The first run (27/11) went through the API before that decision. John reviews any items in the evidence pack;
   his verdicts are copied to `samples/meetings/review/john.json`. Final per item: John's, else both
   judges' when they agree, else not OK (`lib/minutes/review.js`). Golden set `minutes_review` fails CI
   until at least 70 % of topics and 80 % of RAIDD rows end OK. The older strict line-distance check
