@@ -1,0 +1,117 @@
+{
+ "case": "m09",
+ "judges": {
+  "sonnet": {
+   "model": "claude-sonnet-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Matches the status, the red trigger and the agreed message, and the quotes support each point."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "Matches the written ministry date, the 'issued' wording and the no-slack position, with supporting quotes."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "Matches the discussion: much smaller but not gone, with the cool box run as a second line. The action is quoted."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "Matches the twelve-space gap, the HR subsidy and the conclusion. The office fit-out aside is correctly left out."
+    },
+    "T5": {
+     "verdict": "ok",
+     "reason": "Figures, the estimate caveat and the approval are all accurate and quoted."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "Names what may happen (a slip moves the date) and its effect. The quotes support it."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "The licence date is taken as true. It was raised before and is now confirmed in writing, so it is an update."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "An update to the existing vaccine risk, now much smaller, with a supporting quote."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "The parking gap is closed for six months. This is an update of the earlier issue and the quotes support it."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "A clear decision, approved in L261, placed in the topic where it was settled."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.0508,
+   "calls": 1
+  },
+  "opus": {
+   "model": "claude-opus-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Amber status, the three items with no slack, the red trigger and the agreed message all match L27, L39–L42 and L50–L51."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "The 6 February date in writing, the 'issued' wording and 'better than before but still no slack' are all supported by the quoted lines."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "Correctly says the vaccine risk is much smaller but not gone. Ben's cool box run is correctly recorded as a second-line action with no date."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "The gap of twelve, HR's twelve subsidised lots for six months and Helen's 'solved, at least for six months' are accurate. The aside about the office fit-out project is rightly left out because it was not discussed for this project."
+    },
+    "T5": {
+     "verdict": "ok",
+     "reason": "Correctly records the three thousand used on movers out of the twenty thousand contingency, the estimate of about eight thousand for parking, and the approval at L261."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "This is a real risk: if any of the three items slips by more than a week, the cutover date moves. It was raised for the first time and is supported by L31 and L39."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "The plan takes the issue date as true without proof yet, so 'assumption' is right. 'Update' fits because the date is now in writing and L81 says this is better than before."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "Updates the existing vaccine risk, which is now much smaller after the backup power was commissioned and tested."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "The parking shortage was an issue that had been 'going round for a while' (L135) and is now solved for six months, so 'update' is right."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "Helen approved taking the parking subsidy from contingency at L261, so this is a new decision in the meeting."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.0953,
+   "calls": 1
+  }
+ },
+ "minutesTemplate": {
+  "id": "default",
+  "version": 3
+ },
+ "counts": {
+  "topics": 5,
+  "raidd": 5
+ }
+}

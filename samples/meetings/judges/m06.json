@@ -1,0 +1,163 @@
+{
+ "case": "m06",
+ "judges": {
+  "sonnet": {
+   "model": "claude-sonnet-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Points, order, blocker, and the three actions are supported by the quotes and match where the discussion landed."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "The cap, the assumption, Mei's ownership of the budget request, and her action are all supported."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "The defect, the one-token fix in this sprint, the re-run check, and the limit of what is known are all supported. No owner was named for the fix, and none is given."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "The earlier decision, the no-banner consequence, and Mei's wording action for marketing are supported."
+    },
+    "T5": {
+     "verdict": "ok",
+     "reason": "The release two scope, the Central IT firewall constraint in the last week of January, and the point that no duration was given are supported. No action was agreed."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "A settled decision to split the story, with attachments last."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "The tracking criteria cannot be finished until operations delivers the status list. This is a real dependency."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "The paid-tier approval is stated explicitly as the build's assumption."
+    },
+    "R4": {
+     "verdict": "needs_edit",
+     "reason": "This repeats R3. 'Sign-in stops at 5,000 if the paid tier is not approved' is the same item as the assumption, so it should not be a second row. Remove it, or fold the consequence into R3."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "A defect that exists now is an issue. The quote supports it."
+    },
+    "R6": {
+     "verdict": "ok",
+     "reason": "The meeting settled on fixing the defect in this sprint."
+    },
+    "R7": {
+     "verdict": "ok",
+     "reason": "An earlier decision that the meeting confirmed, so it is correctly marked as an update."
+    },
+    "R8": {
+     "verdict": "ok",
+     "reason": "A new decision, stated as settled, that follows from the analytics decision."
+    },
+    "R9": {
+     "verdict": "ok",
+     "reason": "The meeting treats the move to release two as already decided, and it confirmed that here. An update is correct."
+    },
+    "R10": {
+     "verdict": "ok",
+     "reason": "Release two payment testing depends on Central IT opening the firewall in the last week of January. Jonas confirmed this."
+    }
+   },
+   "missing": [
+    {
+     "type": "risk",
+     "title": "Story split may leave something in the gap between stories",
+     "line": 78
+    }
+   ],
+   "problems": [],
+   "costUsd": 0.0705,
+   "calls": 1
+  },
+  "opus": {
+   "model": "claude-opus-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Split, order, status-list blocker and tracking scope all match the quotes; actions and owners correct."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "Cap, assumption, budget ownership and the January request are accurately stated and quoted."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "Defect, one-token fix, this-sprint decision and limited finding are supported; no owner was named for the fix, so leaving it empty is correct."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "Earlier decision confirmed, no cookie banner for now, and the marketing wording action match the transcript."
+    },
+    "T5": {
+     "verdict": "ok",
+     "reason": "Release two scope, Central IT firewall dependency for the last week of January, and no duration estimate are all supported; no actions agreed."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "Decision made in this meeting, correctly quoted."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "Tracking work depends on operations delivering the status list."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "Stated explicitly as the assumption the build relies on."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "Separate risk with its effect (sign-in stops at the cap); quotes are exact."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "A current defect, so issue is the right type; quote is exact."
+    },
+    "R6": {
+     "verdict": "ok",
+     "reason": "Settled choice to fix it in this sprint."
+    },
+    "R7": {
+     "verdict": "ok",
+     "reason": "An earlier decision confirmed in this meeting, so update is correct."
+    },
+    "R8": {
+     "verdict": "ok",
+     "reason": "Follows from the analytics decision and was confirmed as settled at L205 and L290."
+    },
+    "R9": {
+     "verdict": "ok",
+     "reason": "An earlier move of card payment to release two, confirmed here as an update."
+    },
+    "R10": {
+     "verdict": "ok",
+     "reason": "Payment testing depends on Central IT's firewall work, earliest the last week of January."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.127,
+   "calls": 1
+  }
+ },
+ "minutesTemplate": {
+  "id": "default",
+  "version": 3
+ },
+ "counts": {
+  "topics": 5,
+  "raidd": 10
+ }
+}

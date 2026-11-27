@@ -1,0 +1,141 @@
+{
+ "case": "m08",
+ "judges": {
+  "sonnet": {
+   "model": "claude-sonnet-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Points match the quotes and where the discussion landed (one and a half stories, glitch logged with screenshot). No action was agreed."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "Delivery date, early delivery, unblocked story and closed dependency and risk are all supported by the quotes."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "Approval, the cap going away and Ahmad's action to switch the plan in the first week of January are correct and quoted."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "Fix, same check passing and agreed closure are supported by the quotes."
+    },
+    "T5": {
+     "verdict": "ok",
+     "reason": "Booking, the firm's general comment and keeping one week for fixes match the transcript. Ahmad's doubt is correctly noted as not reopened."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "A defect found now and logged is a real issue, raised for the first time in this meeting."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "The API dependency is delivered and closed, which updates an item raised before."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "The risk of slipping past the holidays is closed. This is a valid update that closes a risk."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "Finance's approval is stated as settled, so it is a reasonable decision row."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "The defect came up in an earlier review and is now fixed and closed, so it is an issue update."
+    },
+    "R6": {
+     "verdict": "needs_edit",
+     "reason": "The confirmed booking dates are not work that waits on another party. It is a date that is now confirmed, so it should be an assumption update, not a dependency."
+    },
+    "R7": {
+     "verdict": "ok",
+     "reason": "The firm's warning of two or three high findings, and the question of whether one week is enough, give a risk with an effect. It is new in this meeting."
+    },
+    "R8": {
+     "verdict": "ok",
+     "reason": "Keeping one week after the test for fixes is a settled choice and is quoted."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.0562,
+   "calls": 1
+  },
+  "opus": {
+   "model": "claude-opus-5-5",
+   "judgedOn": "2026-11-27",
+   "topics": {
+    "T1": {
+     "verdict": "ok",
+     "reason": "Points and quotes match L44, L46, L56–57, L68, L80; no action agreed."
+    },
+    "T2": {
+     "verdict": "ok",
+     "reason": "Delivery, unblocking and closure of dependency/risk are supported by L93 and L109."
+    },
+    "T3": {
+     "verdict": "ok",
+     "reason": "Approval, cap removal order and Ahmad's switch action (first week of January) match L125, L139, L144."
+    },
+    "T4": {
+     "verdict": "ok",
+     "reason": "Fix, same WCAG check and closure supported by L157, L170, L178, L286."
+    },
+    "T5": {
+     "verdict": "ok",
+     "reason": "Booking, firm's comment, and the kept fix week with where it landed are supported by L190, L208, L226, L249, L261."
+    }
+   },
+   "raidd": {
+    "R1": {
+     "verdict": "ok",
+     "reason": "A current defect raised for the first time; quote from L68 supports it."
+    },
+    "R2": {
+     "verdict": "ok",
+     "reason": "Existing dependency now delivered and closed; L93 and L103 support it."
+    },
+    "R3": {
+     "verdict": "ok",
+     "reason": "Earlier risk closed; L109 supports it."
+    },
+    "R4": {
+     "verdict": "ok",
+     "reason": "Approval confirmed as settled for an item awaited before (L123); L125 supports it."
+    },
+    "R5": {
+     "verdict": "ok",
+     "reason": "Defect from the earlier review now fixed and closed; L157 and L178 support it."
+    },
+    "R6": {
+     "verdict": "ok",
+     "reason": "Pen test booking with the external firm, previously vague (L204), now confirmed; L190 supports it."
+    },
+    "R7": {
+     "verdict": "ok",
+     "reason": "Risk of high findings needing fixes, with effect; quotes from L208 and L258 are exact."
+    },
+    "R8": {
+     "verdict": "needs_edit",
+     "reason": "The week was already in the plan and the meeting confirmed keeping it (L251 \"a week that's in there already, and we keep it\", L252). Change new to update."
+    }
+   },
+   "missing": [],
+   "problems": [],
+   "costUsd": 0.1146,
+   "calls": 1
+  }
+ },
+ "minutesTemplate": {
+  "id": "default",
+  "version": 3
+ },
+ "counts": {
+  "topics": 5,
+  "raidd": 8
+ }
+}
