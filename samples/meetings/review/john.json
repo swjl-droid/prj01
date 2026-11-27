@@ -14,9 +14,15 @@
   "m06": {
    "R4": "ok"
   },
+  "m07": {
+   "T5": "needs_edit"
+  },
   "m08": {
    "R6": "ok",
    "R8": "needs_edit"
+  },
+  "m10": {
+   "T3": "needs_edit"
   }
  },
  "notes": {
@@ -36,9 +42,17 @@
    "savedAt": "2026-11-27T16:46:29.355Z",
    "note": ""
   },
+  "m07": {
+   "savedAt": "2026-11-27T17:37:54.985Z",
+   "note": "5. Fire safety certificate. Agreed with both judges. Grace (not Wei Lin)) called it a risk, not a certainty."
+  },
   "m08": {
    "savedAt": "2026-11-27T17:12:43.347Z",
    "note": "R6. dependency update. Agreed with Opus judge.\nR8. decision, update. Agreed with Opus judge."
+  },
+  "m10": {
+   "savedAt": "2026-11-27T17:37:35.227Z",
+   "note": "3. customer portal request for an earlier payment firewall opening. In agreement with both judges, L177 refers to customer portal (and not Customer self-service portal project)."
   }
  }
 }
