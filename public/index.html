@@ -382,6 +382,10 @@
             return '<li>' + esc(a.text) + ' <span class="muted">(owner: ' + esc(a.owner || 'not stated') + (a.due ? ', due: ' + esc(a.due) : '') + ')</span> ' + chips(tid, a.quotes) + '<div class="qbox"></div></li>';
           }).join('') : '<li class="muted">None agreed.</li>') + '</ul>';
       }).join('');
+      var rd = c.raidd || [];
+      body += '<h4>RAIDD</h4>' + (rd.length ? '<div class="tablewrap"><table class="sched"><tr><th>#</th><th>Type</th><th>New or update</th><th>Item</th><th>Topic</th><th>Quotes</th></tr>' +
+        rd.map(function (r, i) { return '<tr><td>' + (i + 1) + '</td><td>' + esc(r.type) + '</td><td>' + esc(r.change) + '</td><td>' + esc(r.title) + '<div class="qbox"></div></td><td>' + esc(r.topic) + '</td><td>' + chips(tid, r.quotes) + '</td></tr>'; }).join('') +
+        '</table></div>' : '<p class="muted">None raised.</p>');
       var foot = m.status === 'draft'
         ? '<div><button class="small" type="button" data-approve="' + esc(m.id) + '" data-tid="' + esc(tid) + '">Approve these minutes</button> <button class="secondary small" type="button" data-draft="' + esc(tid) + '">Draft again</button></div>'
         : '<p class="ok">Approved ' + esc(String(m.approved_at).slice(0, 10)) + '.</p>';
@@ -391,7 +395,7 @@
       var lines = minutesLines[btn.dataset.tid] || [];
       var n = Number(btn.dataset.qline);
       var l = lines.find(function (x) { return x.n === n; });
-      var box = btn.parentElement.querySelector('.qbox');
+      var box = btn.parentElement.querySelector('.qbox') || (btn.closest('tr') && btn.closest('tr').querySelector('.qbox'));
       box.innerHTML = l ? '<p class="muted">L' + n + (l.time ? ' (' + esc(l.time) + ')' : '') + ' ' + esc(l.speaker || 'Unknown') + ': ' + esc(l.text) + '</p>' : '';
     }
 

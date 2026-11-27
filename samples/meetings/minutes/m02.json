@@ -2,7 +2,7 @@
  "ok": true,
  "task": "minutes",
  "case": "m02",
- "ms": 27604,
+ "ms": 26711,
  "minutes": {
   "meeting": {
    "title": "Regional office fit-out – project board",
@@ -19,7 +19,7 @@
     "title": "Contractor tender result",
     "summary": [
      {
-      "text": "The contractor tender closed on 20 November with two bids. The team had hoped for at least four.",
+      "text": "The contractor tender closed on 20 November with only two bids. The team had hoped for at least four.",
       "quotes": [
        {
         "line": 31,
@@ -29,7 +29,7 @@
       ]
      },
      {
-      "text": "Procurement accepts two bids as the minimum, so the tender is compliant. Ravi flagged that two bids is a problem for value for money because there are too few prices to compare.",
+      "text": "Procurement accepts two bids as the minimum, so the tender is compliant. Ravi flagged that two bids are a problem for value for money because there are too few prices to compare.",
       "quotes": [
        {
         "line": 37,
@@ -44,7 +44,7 @@
       ]
      },
      {
-      "text": "Kemlite Builders bid 310 thousand and the other bid was 345 thousand. Kemlite is the lower bid.",
+      "text": "Kemlite Builders bid £310k (three hundred and ten thousand) and the other bid was £345k (three hundred and forty-five thousand), so Kemlite was the lower bid.",
       "quotes": [
        {
         "line": 46,
@@ -59,13 +59,8 @@
       ]
      },
      {
-      "text": "Jonas asked whether the two bids were priced like for like. Ravi did not answer from memory and said he would want to check the detail. The board ended the item agreeing the field is thin but compliant.",
+      "text": "Jonas asked whether the two bids were priced on the same basis. Ravi said he would need to check the detail before answering. The board agreed the field is thin but compliant.",
       "quotes": [
-       {
-        "line": 63,
-        "text": "are they like for like?",
-        "found": true
-       },
        {
         "line": 65,
         "text": "I'd want to check the detail before I answered that properly.",
@@ -95,7 +90,7 @@
       ]
      },
      {
-      "text": "Wei Ling said the Kemlite design met all the user must-haves, but the higher bid dropped the second meeting room. The board saw this as making the choice clearer.",
+      "text": "From the user side, Kemlite's design met all the must-haves. The other, higher bid dropped the second meeting room, which made the choice clearer.",
       "quotes": [
        {
         "line": 80,
@@ -103,38 +98,18 @@
         "found": true
        },
        {
-        "line": 89,
-        "text": "With only two bids I was worried we were choosing between nothing, but this is a clearer choice.",
+        "line": 88,
+        "text": "It means the two bids aren't as hard to choose between as I'd feared.",
         "found": true
        }
       ]
      },
      {
-      "text": "Ravi asked for the value for money concern to stay on record.",
-      "quotes": [
-       {
-        "line": 90,
-        "text": "I'd still keep the value for money point on record, but it isn't muddying the choice.",
-        "found": true
-       }
-      ]
-     },
-     {
-      "text": "The board approved stage 3 and the award to Kemlite Builders at 310 thousand. Jonas and Wei Ling agreed.",
+      "text": "The board approved stage 3 and the award to Kemlite Builders at £310k. Jonas and Wei Ling both agreed.",
       "quotes": [
        {
         "line": 102,
         "text": "the board approves stage three and the award to Kemlite Builders at three hundred and ten thousand.",
-        "found": true
-       },
-       {
-        "line": 103,
-        "text": "Agreed from me.",
-        "found": true
-       },
-       {
-        "line": 104,
-        "text": "Agreed, Agreed, yes.",
         "found": true
        }
       ]
@@ -148,7 +123,7 @@
       "quotes": [
        {
         "line": 105,
-        "text": "Thanks, I'll issue the letter of award tomorrow.",
+        "text": "I'll issue the letter of award tomorrow.",
         "found": true
        }
       ]
@@ -159,7 +134,7 @@
     "title": "Furniture lead time",
     "summary": [
      {
-      "text": "The workstation supplier now quotes a 10-week lead time instead of 6. This came in after the pack went out, so it is not in the report. No reason for the change was given.",
+      "text": "The workstation supplier is now quoting a 10-week lead time, up from 6 weeks. This came in after the meeting papers went out, so it is not in the report.",
       "quotes": [
        {
         "line": 112,
@@ -170,16 +145,11 @@
         "line": 114,
         "text": "It came through to me, I think, after the pack went out, so it's not in the report.",
         "found": true
-       },
-       {
-        "line": 117,
-        "text": "I don't have a uh reason to give you.",
-        "found": true
        }
       ]
      },
      {
-      "text": "If the 10 weeks holds, there is a real chance the desks arrive after the move-in date. The board agreed this is a real chance but not certain.",
+      "text": "If the 10 weeks holds, there is a real but uncertain chance that the desks arrive after the move-in date.",
       "quotes": [
        {
         "line": 120,
@@ -194,7 +164,7 @@
       ]
      },
      {
-      "text": "The standard desks could be ordered now, with only the meeting room tables ordered later. The meeting room tables depend on the second meeting room that was just approved.",
+      "text": "The standard desks could be ordered now, with only the meeting room tables ordered later. Grace did not want to decide this in the meeting, so the question was left open.",
       "quotes": [
        {
         "line": 139,
@@ -202,23 +172,8 @@
         "found": true
        },
        {
-        "line": 142,
-        "text": "the second meeting room is part of what we've just approved. So that piece is the one still being worked through.",
-        "found": true
-       }
-      ]
-     },
-     {
-      "text": "No decision was made on ordering the desks early. Grace wanted to hear more first, and Wei Ling noted it is a board question.",
-      "quotes": [
-       {
         "line": 146,
-        "text": "I don't want to rush into a decision on it here, I'd rather hear I mean a bit more first.",
-        "found": true
-       },
-       {
-        "line": 149,
-        "text": "I'd like us to use it, given the lead time, but I know it's a board question.",
+        "text": "Though I don't want to rush into a decision on it here, I'd rather hear I mean a bit more first.",
         "found": true
        }
       ]
@@ -237,7 +192,7 @@
        },
        {
         "line": 155,
-        "text": "Yes, Yes, I can do that. I'll forward it, it's in my inbox.",
+        "text": "I'll forward it, it's in my inbox.",
         "found": true
        }
       ]
@@ -248,26 +203,21 @@
     "title": "IT network install",
     "summary": [
      {
-      "text": "The January network install needs the central IT team, who are also committed to another project that month. Jonas has not seen their plan, so he could not say how firm that commitment is.",
+      "text": "The January network install needs the central IT team, who are also committed to another project that month.",
       "quotes": [
        {
         "line": 158,
         "text": "The network install in January needs the central IT team, and uh they're also committed to another project that month.",
         "found": true
-       },
-       {
-        "line": 162,
-        "text": "I haven't seen their plan, so I can't tell you how firm it is.",
-        "found": true
        }
       ]
      },
      {
-      "text": "The install can only happen if central IT gives the team both the second and third weeks of January. This has been discussed with central IT but nothing is agreed.",
+      "text": "The install can only happen if central IT gives the team the second and third weeks of January together. This has been discussed with central IT but nothing is agreed yet.",
       "quotes": [
        {
         "line": 167,
-        "text": "our install can kind of only happen if central IT gives us the second and third week of January.",
+        "text": "So our install can kind of only happen if central IT gives us the second and third week of January.",
         "found": true
        },
        {
@@ -278,21 +228,11 @@
       ]
      },
      {
-      "text": "It is not known whether the other project overlaps those weeks fully or only partly.",
+      "text": "Nobody knows how firm central IT's other commitment is or whether it overlaps the same weeks.",
       "quotes": [
        {
         "line": 182,
-        "text": "I can't say whether it overlaps exactly or only partly.",
-        "found": true
-       }
-      ]
-     },
-     {
-      "text": "Grace will raise it with the IT director.",
-      "quotes": [
-       {
-        "line": 267,
-        "text": "On IT, the need is clear and I'll take it to the IT director on Thursday.",
+        "text": "So I can't say whether it overlaps exactly or only partly.",
         "found": true
        }
       ]
@@ -300,9 +240,9 @@
     ],
     "actions": [
      {
-      "text": "Raise the need for central IT in the second and third weeks of January with the IT director at the leadership meeting.",
+      "text": "Raise the need for central IT's second and third weeks of January with the IT director.",
       "owner": "Grace Koh",
-      "due": "Thursday",
+      "due": "Thursday (leadership meeting)",
       "quotes": [
        {
         "line": 200,
@@ -317,22 +257,17 @@
     "title": "Landlord approval of works",
     "summary": [
      {
-      "text": "The schedule is built on the landlord having approved the works by 13 December.",
+      "text": "The schedule is built on the landlord approving the works by 13 December.",
       "quotes": [
        {
         "line": 214,
         "text": "Our schedule is built on the landlord approving the works by the thirteenth of December.",
         "found": true
-       },
-       {
-        "line": 216,
-        "text": "Approved by the thirteenth.",
-        "found": true
        }
       ]
      },
      {
-      "text": "The landlord has been asked but has not replied, so the team keeps assuming 13 December.",
+      "text": "The landlord has been asked but has not replied, so the team keeps assuming the 13 December date.",
       "quotes": [
        {
         "line": 222,
@@ -347,17 +282,7 @@
       ]
      },
      {
-      "text": "Ravi and Jonas declined to speculate on what a different date would mean.",
-      "quotes": [
-       {
-        "line": 238,
-        "text": "I'm not going to describe what happens if it moves, because like I'd be making it up.",
-        "found": true
-       }
-      ]
-     },
-     {
-      "text": "The board agreed to keep working to 13 December and keep chasing the landlord.",
+      "text": "The meeting closed with the team carrying on with 13 December as the planned date and continuing to chase the landlord.",
       "quotes": [
        {
         "line": 267,
@@ -369,7 +294,7 @@
     ],
     "actions": [
      {
-      "text": "Keep chasing the landlord for approval and tell Grace early if it slips.",
+      "text": "Keep chasing the landlord for approval and tell Grace early if the date slips.",
       "owner": "Ravi Kumar",
       "due": "",
       "quotes": [
@@ -387,47 +312,120 @@
      }
     ]
    }
+  ],
+  "raidd": [
+   {
+    "type": "issue",
+    "change": "new",
+    "title": "Only two tender bids, a weak basis for judging value for money",
+    "topic": 1,
+    "quotes": [
+     {
+      "line": 37,
+      "text": "Procurement said two is the minimum they accept, so we're compliant, but it's a problem for value for money.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "decision",
+    "change": "new",
+    "title": "Stage 3 approved and contract awarded to Kemlite Builders at £310k",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 102,
+      "text": "the board approves stage three and the award to Kemlite Builders at three hundred and ten thousand.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "risk",
+    "change": "new",
+    "title": "10-week lead time may mean desks arrive after move-in",
+    "topic": 3,
+    "quotes": [
+     {
+      "line": 120,
+      "text": "If that holds, there's a real chance the desks arrive after the move-in date.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "new",
+    "title": "Network install needs central IT for second and third weeks of January",
+    "topic": 4,
+    "quotes": [
+     {
+      "line": 198,
+      "text": "The install happens only if central IT gives us those two weeks.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "assumption",
+    "change": "new",
+    "title": "Landlord approves the works by 13 December",
+    "topic": 5,
+    "quotes": [
+     {
+      "line": 214,
+      "text": "Our schedule is built on the landlord approving the works by the thirteenth of December.",
+      "found": true
+     },
+     {
+      "line": 222,
+      "text": "for now we kind of keep assuming the thirteenth.",
+      "found": true
+     }
+    ]
+   }
   ]
  },
  "checks": {
   "ok": true,
   "problems": [],
   "stats": {
-   "quotes": 42,
-   "exact": 42,
+   "quotes": 37,
+   "exact": 37,
    "relocated": 0,
    "missing": 0,
-   "points": 20,
-   "actions": 4
+   "points": 16,
+   "actions": 4,
+   "raidd": 5
   }
  },
  "template": {
   "id": "default",
-  "version": 2
+  "version": 3
  },
  "model": "claude-opus-5-5",
  "calls": [
   {
    "round": 0,
-   "costUsd": 0.134156,
-   "latencyMs": 26694,
+   "costUsd": 0.13896,
+   "latencyMs": 25780,
    "usage": {
-    "input_tokens": 15909,
+    "input_tokens": 16935,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
      "ephemeral_5m_input_tokens": 0,
      "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 3526,
+    "output_tokens": 3561,
     "output_tokens_details": {
-     "thinking_tokens": 466
+     "thinking_tokens": 516
     },
     "service_tier": "standard",
     "inference_geo": "global",
     "speed": "standard"
    },
-   "traceId": "0e95fb6c33e943e5a6f7956a19d13bbf",
+   "traceId": "2d1b1a1d064e4947b6bd0245360674c0",
    "logged": {
     "ledger": true,
     "trace": true,
@@ -436,5 +434,5 @@
    }
   }
  ],
- "costUsd": 0.134156
+ "costUsd": 0.13896
 }

@@ -2,7 +2,7 @@
  "ok": true,
  "task": "minutes",
  "case": "m07",
- "ms": 28849,
+ "ms": 28615,
  "minutes": {
   "meeting": {
    "title": "Regional office fit-out – highlight review",
@@ -19,7 +19,7 @@
     "title": "Landlord approval",
     "summary": [
      {
-      "text": "The landlord did not give approval by the 13th. They now say the 20th of December, which is a week late.",
+      "text": "The landlord did not give approval by 13 December as expected. They now say 20 December, which is a week late.",
       "quotes": [
        {
         "line": 29,
@@ -29,17 +29,22 @@
       ]
      },
      {
-      "text": "Because of this, Kemlite's start on site moves from the 28th of December to the 4th of January.",
+      "text": "Kemlite's start on site depends on the approval, so it moves from 28 December to 4 January.",
       "quotes": [
        {
         "line": 40,
         "text": "That pushes Kemlite's start on site to the fourth of January instead of the twenty eighth of December.",
         "found": true
+       },
+       {
+        "line": 70,
+        "text": "the approval is what the start hangs off",
+        "found": true
        }
       ]
      },
      {
-      "text": "The delay is inside the two-week stage time tolerance, so no exception report is needed yet. Jonas pointed out that it already uses half of the tolerance. The group agreed to watch how much of the two weeks it takes.",
+      "text": "The delay is within the two-week stage time tolerance, so no exception report is needed yet. Jonas pointed out that it already uses half of the tolerance.",
       "quotes": [
        {
         "line": 50,
@@ -49,11 +54,6 @@
        {
         "line": 55,
         "text": "It's inside the tolerance, but basically it's already using up half of it.",
-        "found": true
-       },
-       {
-        "line": 61,
-        "text": "It's inside, and we can um see how much of the two weeks it takes.",
         "found": true
        }
       ]
@@ -65,7 +65,7 @@
     "title": "IT install weeks",
     "summary": [
      {
-      "text": "The IT director gave the project the third and fourth weeks of January instead of the second and third, because the portal team has the second week.",
+      "text": "The IT director gave the project the third and fourth weeks of January, not the second and third, because the portal team has the second week.",
       "quotes": [
        {
         "line": 77,
@@ -75,16 +75,16 @@
       ]
      },
      {
-      "text": "The new weeks still work with Kemlite starting on the 4th of January, because cabling can go in after the first fix. There is no clash on the current information.",
+      "text": "The new weeks still work with Kemlite starting on 4 January, because cabling can go in after Kemlite's first fix.",
       "quotes": [
        {
         "line": 102,
-        "text": "Yes, cabling can um go in after the first fix, so third and fourth week is fine.",
+        "text": "cabling can um go in after the first fix, so third and fourth week is fine.",
         "found": true
        },
        {
-        "line": 114,
-        "text": "It doesn't. Not on what we have.",
+        "line": 106,
+        "text": "the first fix is theirs. After that, the cabling can go in.",
         "found": true
        }
       ]
@@ -96,7 +96,7 @@
     "title": "Furniture order",
     "summary": [
      {
-      "text": "The standard desks were ordered on the 3rd. They arrive in the second week of February, before the move-in.",
+      "text": "The standard desks were ordered on the third. They arrive in the second week of February, before the move-in.",
       "quotes": [
        {
         "line": 124,
@@ -106,11 +106,16 @@
       ]
      },
      {
-      "text": "The desk risk is now much lower. The meeting room tables are still open.",
+      "text": "The risk on the desks is much lower now. Only the meeting room tables are still open, and Grace asked for them to stay on watch.",
       "quotes": [
        {
         "line": 140,
         "text": "So the desk risk is much lower now. Only the meeting room tables are still open.",
+        "found": true
+       },
+       {
+        "line": 152,
+        "text": "Keep the tables kind of on watch.",
         "found": true
        }
       ]
@@ -119,17 +124,12 @@
     "actions": [
      {
       "text": "Keep the meeting room tables on watch.",
-      "owner": "Wei Ling Tan",
+      "owner": "",
       "due": "",
       "quotes": [
        {
         "line": 152,
         "text": "Keep the tables kind of on watch.",
-        "found": true
-       },
-       {
-        "line": 153,
-        "text": "Understood.",
         "found": true
        }
       ]
@@ -140,7 +140,7 @@
     "title": "Kemlite mobilisation",
     "summary": [
      {
-      "text": "Kemlite signed the contract on the 5th. Their site manager is Halim, and he will be at the next board.",
+      "text": "Kemlite signed the contract on the fifth. Their site manager, Halim, will attend the next board.",
       "quotes": [
        {
         "line": 160,
@@ -150,11 +150,11 @@
       ]
      },
      {
-      "text": "Grace asked for Halim to bring a three-week look-ahead to the board, so the group can see something concrete. The request should be friendly.",
+      "text": "Grace asked for Halim to bring a three-week look-ahead to that board. The request is to be made in a friendly way.",
       "quotes": [
        {
         "line": 175,
-        "text": "ask kind of Halim to bring the three-week look-ahead to that meeting",
+        "text": "Please ask kind of Halim to bring the three-week look-ahead to that meeting.",
         "found": true
        },
        {
@@ -163,22 +163,12 @@
         "found": true
        }
       ]
-     },
-     {
-      "text": "Nobody knew whether the board will be in person or on video. This was left open as a small point.",
-      "quotes": [
-       {
-        "line": 194,
-        "text": "But let's not settle that now, it's a small point.",
-        "found": true
-       }
-      ]
      }
     ],
     "actions": [
      {
       "text": "Ask Halim to bring the three-week look-ahead to the next board.",
-      "owner": "Ravi Kumar",
+      "owner": "Ravi",
       "due": "next board",
       "quotes": [
        {
@@ -187,8 +177,8 @@
         "found": true
        },
        {
-        "line": 286,
-        "text": "I'll ask him to bring the three-week look-ahead.",
+        "line": 182,
+        "text": "I'll make sure Halim knows that's what you're asking for. I'll say bring the look-ahead, and that it's three weeks.",
         "found": true
        }
       ]
@@ -199,7 +189,7 @@
     "title": "Fire safety certificate",
     "summary": [
      {
-      "text": "New item: the SCDF fire safety certificate is needed before anyone can occupy the floor. Inspections are booking six weeks out.",
+      "text": "This is a new item. The SCDF fire safety certificate is needed before anyone can occupy the floor, and inspections are booking six weeks out.",
       "quotes": [
        {
         "line": 201,
@@ -209,7 +199,7 @@
       ]
      },
      {
-      "text": "If the inspection is not booked by early January, the move-in might not happen on time. This is a risk, not a certainty.",
+      "text": "If the inspection is not booked by early January, the move-in might not happen on time. Wei Ling called this a risk, not a certainty.",
       "quotes": [
        {
         "line": 229,
@@ -224,26 +214,21 @@
       ]
      },
      {
-      "text": "The group agreed the application should go through Kemlite, as they will be on site. Ravi will ask them, but they have not agreed yet.",
+      "text": "Ravi will ask Kemlite to submit the application as soon as they mobilise. They have not agreed to this yet. This request is separate from the look-ahead request.",
       "quotes": [
        {
-        "line": 243,
-        "text": "Kemlite are the ones about to be on site, so it makes sense to me for it to go through them.",
+        "line": 250,
+        "text": "I'll ask Kemlite to submit the application as soon as they mobilise.",
         "found": true
        },
        {
         "line": 253,
         "text": "I'll ask. I'm not telling you they've said yes, because I haven't asked yet.",
         "found": true
-       }
-      ]
-     },
-     {
-      "text": "The certificate application is kept separate from the look-ahead request to Halim.",
-      "quotes": [
+       },
        {
-        "line": 260,
-        "text": "I'm not adding it to the look-ahead request, though.",
+        "line": 261,
+        "text": "The look-ahead I mean is one thing. The application is the other.",
         "found": true
        }
       ]
@@ -251,9 +236,9 @@
     ],
     "actions": [
      {
-      "text": "Ask Kemlite to submit the fire safety certificate application.",
+      "text": "Ask Kemlite to submit the fire safety certificate application as soon as they mobilise.",
       "owner": "Ravi Kumar",
-      "due": "as soon as they mobilise",
+      "due": "as soon as Kemlite mobilise",
       "quotes": [
        {
         "line": 250,
@@ -264,47 +249,146 @@
      }
     ]
    }
+  ],
+  "raidd": [
+   {
+    "type": "issue",
+    "change": "update",
+    "title": "Landlord approval a week late (20 December, not 13 December)",
+    "topic": 1,
+    "quotes": [
+     {
+      "line": 29,
+      "text": "The landlord didn't approve by the thirteenth, they now say the twentieth of December, a week late.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "update",
+    "title": "Kemlite start on site depends on landlord approval; moved to 4 January",
+    "topic": 1,
+    "quotes": [
+     {
+      "line": 40,
+      "text": "That pushes Kemlite's start on site to the fourth of January instead of the twenty eighth of December.",
+      "found": true
+     },
+     {
+      "line": 70,
+      "text": "the approval is what the start hangs off",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "update",
+    "title": "IT install window set by IT director: third and fourth weeks of January (portal team has the second week)",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 77,
+      "text": "The IT director gave us the third and fourth week of January, not the second and third, because the portal team has the second week.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "new",
+    "title": "Cabling can only go in after Kemlite's first fix",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 102,
+      "text": "cabling can um go in after the first fix, so third and fourth week is fine.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "risk",
+    "change": "update",
+    "title": "Furniture delivery: desk risk much lower, meeting room tables still open",
+    "topic": 3,
+    "quotes": [
+     {
+      "line": 140,
+      "text": "So the desk risk is much lower now. Only the meeting room tables are still open.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "new",
+    "title": "SCDF fire safety certificate needed before anyone occupies the floor",
+    "topic": 5,
+    "quotes": [
+     {
+      "line": 201,
+      "text": "We need the SCDF fire safety certificate before anyone can occupy the floor, and inspections are booking six weeks out.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "risk",
+    "change": "new",
+    "title": "Move-in may be late if the fire inspection is not booked by early January",
+    "topic": 5,
+    "quotes": [
+     {
+      "line": 229,
+      "text": "If we don't book the inspection by early January, we might not be allowed to move in on time.",
+      "found": true
+     }
+    ]
+   }
   ]
  },
  "checks": {
   "ok": true,
   "problems": [],
   "stats": {
-   "quotes": 25,
-   "exact": 25,
+   "quotes": 32,
+   "exact": 32,
    "relocated": 0,
    "missing": 0,
-   "points": 14,
-   "actions": 3
+   "points": 12,
+   "actions": 3,
+   "raidd": 7
   }
  },
  "template": {
   "id": "default",
-  "version": 2
+  "version": 3
  },
  "model": "claude-opus-5-5",
  "calls": [
   {
    "round": 0,
-   "costUsd": 0.132132,
-   "latencyMs": 27936,
+   "costUsd": 0.134816,
+   "latencyMs": 27139,
    "usage": {
-    "input_tokens": 15018,
+    "input_tokens": 16044,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
      "ephemeral_5m_input_tokens": 0,
      "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 3603,
+    "output_tokens": 3532,
     "output_tokens_details": {
-     "thinking_tokens": 1548
+     "thinking_tokens": 924
     },
     "service_tier": "standard",
     "inference_geo": "global",
     "speed": "standard"
    },
-   "traceId": "d883fe7b1e71433599998827ec6b09df",
+   "traceId": "abf1e054e4434e5ea39b551fa9fa0098",
    "logged": {
     "ledger": true,
     "trace": true,
@@ -313,5 +397,5 @@
    }
   }
  ],
- "costUsd": 0.132132
+ "costUsd": 0.134816
 }

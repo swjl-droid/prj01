@@ -2,15 +2,15 @@
  "ok": true,
  "task": "minutes",
  "case": "m09",
- "ms": 23285,
+ "ms": 24912,
  "minutes": {
   "meeting": {
    "title": "Clinic relocation steering meeting",
    "attendees": [
-    "Priya Raman (Project Manager)",
-    "Dr Helen Goh (Clinic Director)",
-    "Benjamin Teo (Pharmacy)",
-    "Raymond Sim (Finance)"
+    "Priya Raman",
+    "Dr Helen Goh",
+    "Benjamin Teo",
+    "Raymond Sim"
    ],
    "date": ""
   },
@@ -19,7 +19,7 @@
     "title": "Overall status",
     "summary": [
      {
-      "text": "Overall status is amber. The cutover is still 13–14 February, but three items have no slack left: the licence, the X-ray slot and the handover.",
+      "text": "Overall status is amber. The cutover stays on 13–14 February, but the licence, the X-ray slot and the handover have no slack left.",
       "quotes": [
        {
         "line": 27,
@@ -35,11 +35,16 @@
         "line": 39,
         "text": "Any one of those three slipping by more than a week.",
         "found": true
+       },
+       {
+        "line": 42,
+        "text": "Not all three together, just one of them.",
+        "found": true
        }
       ]
      },
      {
-      "text": "The meeting agreed that amber means the date is holding but nothing is in reserve on three items.",
+      "text": "The agreed message is that the date is holding, but there is nothing in reserve on three items.",
       "quotes": [
        {
         "line": 50,
@@ -60,7 +65,7 @@
     "title": "Licence for the new address",
     "summary": [
      {
-      "text": "The ministry has said the licence for the new address will be issued on 6 February, one week before the cutover.",
+      "text": "The ministry has said in writing that the licence for the new address will be issued on 6 February, a week before the cutover.",
       "quotes": [
        {
         "line": 53,
@@ -68,33 +73,33 @@
         "found": true
        },
        {
-        "line": 54,
-        "text": "Good, that's a week before the cutover.",
-        "found": true
-       }
-      ]
-     },
-     {
-      "text": "The date is in writing in an e-mail from the ministry. The e-mail says the licence will be \"issued\" on that date.",
-      "quotes": [
-       {
         "line": 55,
         "text": "we have the e-mail from the ministry.",
         "found": true
-       },
+       }
+      ]
+     },
+     {
+      "text": "The e-mail says the licence will be 'issued' on the sixth. It does not give a date for when the clinic receives it.",
+      "quotes": [
        {
         "line": 70,
-        "text": "What the e-mail says is that it you know will be issued on the sixth.",
+        "text": "What the e-mail says is that it you know will be issued on the sixth. That's the wording I've got.",
         "found": true
        }
       ]
      },
      {
-      "text": "The licence is in a better position than before, but it still has no slack and stays on the list of three items.",
+      "text": "Having the date in writing is better than before, but the licence still has no slack: a slip of more than a week would trigger red status.",
       "quotes": [
        {
         "line": 81,
         "text": "the licence now has a date in writing, which is better like than before. But it still has no slack, so it's still on the list.",
+        "found": true
+       },
+       {
+        "line": 62,
+        "text": "if the licence slips by more than a week, that's um the red trigger we just talked about.",
         "found": true
        }
       ]
@@ -106,23 +111,23 @@
     "title": "Vaccines and backup power",
     "summary": [
      {
-      "text": "Backup power for the fridge circuit has been commissioned and tested, so the vaccine risk is much smaller.",
+      "text": "Backup power for the fridge circuit is commissioned and tested, so the vaccine risk is much smaller, though not gone.",
       "quotes": [
        {
         "line": 87,
         "text": "Backup power for the fridge circuit is now commissioned and tested, so the vaccine risk is much smaller.",
         "found": true
-       }
-      ]
-     },
-     {
-      "text": "The risk is not zero. Backup power is the main protection, and the cool box run is a second line of defence behind it.",
-      "quotes": [
+       },
        {
         "line": 98,
         "text": "It's not zero, but it's much smaller.",
         "found": true
-       },
+       }
+      ]
+     },
+     {
+      "text": "Backup power is the main protection. The cool box run with loggers will still go ahead as a second line of defence.",
+      "quotes": [
        {
         "line": 116,
         "text": "The backup power is the main protection, the cool kind of box run sits behind it.",
@@ -133,8 +138,8 @@
     ],
     "actions": [
      {
-      "text": "Still do the cool box run with loggers, as a second line of defence.",
-      "owner": "",
+      "text": "Still do the cool box run with loggers as a second line of defence",
+      "owner": "Benjamin Teo",
       "due": "",
       "quotes": [
        {
@@ -150,7 +155,7 @@
     "title": "Staff parking",
     "summary": [
      {
-      "text": "There was a gap of 12 parking spaces for staff at the new building.",
+      "text": "The new building was twelve parking spaces short for staff.",
       "quotes": [
        {
         "line": 142,
@@ -160,7 +165,7 @@
       ]
      },
      {
-      "text": "HR has agreed to subsidise 12 lots in the public car park next door for six months, which covers the gap one for one.",
+      "text": "HR agreed to subsidise twelve lots in the public car park next door for six months, which covers the gap one for one.",
       "quotes": [
        {
         "line": 145,
@@ -168,14 +173,14 @@
         "found": true
        },
        {
-        "line": 165,
-        "text": "They've agreed it. That's the word they used, agreed.",
+        "line": 163,
+        "text": "It's one agreement, twelve lots, six months.",
         "found": true
        }
       ]
      },
      {
-      "text": "Result: the parking issue is solved, at least for six months.",
+      "text": "The meeting concluded that the parking issue is solved, at least for six months.",
       "quotes": [
        {
         "line": 186,
@@ -191,7 +196,7 @@
     "title": "Budget and contingency",
     "summary": [
      {
-      "text": "Spend to date is in line. 3,000 of the 20,000 contingency has been used, on the movers, leaving 17,000.",
+      "text": "Spend to date is in line with expectations. The movers have used three thousand of the twenty thousand contingency, leaving seventeen thousand.",
       "quotes": [
        {
         "line": 202,
@@ -206,7 +211,7 @@
       ]
      },
      {
-      "text": "The parking subsidy adds about 8,000 over the six months. Raymond proposed taking it from contingency.",
+      "text": "The parking subsidy adds about eight thousand over six months. This is an estimate, and Raymond proposed taking it from contingency.",
       "quotes": [
        {
         "line": 220,
@@ -216,7 +221,7 @@
       ]
      },
      {
-      "text": "Approved: the parking subsidy will be taken from contingency.",
+      "text": "The meeting approved taking the parking subsidy from contingency.",
       "quotes": [
        {
         "line": 261,
@@ -226,23 +231,87 @@
       ]
      }
     ],
-    "actions": [
+    "actions": []
+   }
+  ],
+  "raidd": [
+   {
+    "type": "risk",
+    "change": "new",
+    "title": "No slack on licence, X-ray slot and handover; any slip over a week moves the cutover date",
+    "topic": 1,
+    "quotes": [
      {
-      "text": "Take the parking subsidy (about 8,000 over six months) from contingency.",
-      "owner": "Raymond Sim",
-      "due": "",
-      "quotes": [
-       {
-        "line": 236,
-        "text": "I said I'd take it from contingent see, and I would.",
-        "found": true
-       },
-       {
-        "line": 261,
-        "text": "Approved, Approved, take the parking uh subsidy from contingency.",
-        "found": true
-       }
-      ]
+      "line": 31,
+      "text": "Those three are like the ones where there's nothing in reserve. If they move, the date moves.",
+      "found": true
+     },
+     {
+      "line": 39,
+      "text": "Any one of those three slipping by more than a week.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "assumption",
+    "change": "update",
+    "title": "Ministry issues licence for new address on 6 February (now confirmed in writing)",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 53,
+      "text": "The ministry gave us a date: the licence for um the new address will be issued on the sixth of February.",
+      "found": true
+     },
+     {
+      "line": 81,
+      "text": "the licence now has a date in writing, which is better like than before.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "risk",
+    "change": "update",
+    "title": "Vaccine risk much smaller now that fridge backup power is tested",
+    "topic": 3,
+    "quotes": [
+     {
+      "line": 87,
+      "text": "Backup power for the fridge circuit is now commissioned and tested, so the vaccine risk is much smaller.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "issue",
+    "change": "update",
+    "title": "Shortage of twelve staff parking spaces solved for six months",
+    "topic": 4,
+    "quotes": [
+     {
+      "line": 186,
+      "text": "Good, so the parking issue is solved, at least for six months.",
+      "found": true
+     },
+     {
+      "line": 145,
+      "text": "HR agreed to subsidise twelve lots in the public car park next door for six months",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "decision",
+    "change": "new",
+    "title": "Parking subsidy (about eight thousand) to be paid from contingency",
+    "topic": 5,
+    "quotes": [
+     {
+      "line": 261,
+      "text": "Approved, Approved, take the parking uh subsidy from contingency.",
+      "found": true
      }
     ]
    }
@@ -252,41 +321,42 @@
   "ok": true,
   "problems": [],
   "stats": {
-   "quotes": 23,
-   "exact": 23,
+   "quotes": 30,
+   "exact": 30,
    "relocated": 0,
    "missing": 0,
    "points": 14,
-   "actions": 2
+   "actions": 1,
+   "raidd": 5
   }
  },
  "template": {
   "id": "default",
-  "version": 2
+  "version": 3
  },
  "model": "claude-opus-5-5",
  "calls": [
   {
    "round": 0,
-   "costUsd": 0.1233,
-   "latencyMs": 22381,
+   "costUsd": 0.125204,
+   "latencyMs": 23995,
    "usage": {
-    "input_tokens": 15645,
+    "input_tokens": 16671,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
      "ephemeral_5m_input_tokens": 0,
      "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 3036,
+    "output_tokens": 2926,
     "output_tokens_details": {
-     "thinking_tokens": 1152
+     "thinking_tokens": 610
     },
     "service_tier": "standard",
     "inference_geo": "global",
     "speed": "standard"
    },
-   "traceId": "8760d3719794447e873050988a980249",
+   "traceId": "4979ebea2a604088a43af41b78b1d360",
    "logged": {
     "ledger": true,
     "trace": true,
@@ -295,5 +365,5 @@
    }
   }
  ],
- "costUsd": 0.1233
+ "costUsd": 0.125204
 }

@@ -2,10 +2,10 @@
  "ok": true,
  "task": "minutes",
  "case": "m06",
- "ms": 29667,
+ "ms": 33153,
  "minutes": {
   "meeting": {
-   "title": "Customer self-service portal – backlog refinement",
+   "title": "Customer portal backlog refinement",
    "attendees": [
     "Mei Chen",
     "Lisa Wong",
@@ -19,21 +19,11 @@
     "title": "Service requests story split",
     "summary": [
      {
-      "text": "The service request story is too big. It will be split into three stories: new requests, tracking and attachments.",
+      "text": "The service request story is too big, so it will be split into three stories: new requests, tracking and attachments.",
       "quotes": [
        {
         "line": 39,
         "text": "The service request story is too big, it covers new requests, tracking and attachments. I want to split it in three.",
-        "found": true
-       }
-      ]
-     },
-     {
-      "text": "Order agreed: new requests first, then tracking. Attachments go last because they are the least used.",
-      "quotes": [
-       {
-        "line": 51,
-        "text": "New requests is the obvious starting point.",
         "found": true
        },
        {
@@ -44,7 +34,22 @@
       ]
      },
      {
-      "text": "The acceptance criteria for tracking are blocked until the status list comes from operations. Ahmad also can't size tracking properly without it. New requests is not waiting on the list.",
+      "text": "Order: new requests first, then tracking, attachments last. An attachment belongs to a request, so doing attachments last suits it.",
+      "quotes": [
+       {
+        "line": 51,
+        "text": "New requests is the obvious starting point. Tracking only makes sense once there's something like to track.",
+        "found": true
+       },
+       {
+        "line": 85,
+        "text": "If attachments is last, then it already has a request to hang onto.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Tracking acceptance criteria and sizing are blocked until the status list comes from operations. New requests does not need the list.",
       "quotes": [
        {
         "line": 59,
@@ -52,23 +57,18 @@
         "found": true
        },
        {
-        "line": 74,
-        "text": "I can do the criteria for new requests without it.",
+        "line": 73,
+        "text": "New requests doesn't need the list, so it's not holding us up.",
         "found": true
        }
       ]
      },
      {
-      "text": "Tracking means customers looking at their own requests (the self-service side). The team will check the three stories for anything that falls between them once the split is done.",
+      "text": "Tracking means the customer viewing their own requests, not staff viewing all requests.",
       "quotes": [
        {
         "line": 81,
-        "text": "The customer, yes. It's the self-service side.",
-        "found": true
-       },
-       {
-        "line": 79,
-        "text": "Then we look for that when we see the three stories.",
+        "text": "The, The customer, yes. It's the self-service side.",
         "found": true
        }
       ]
@@ -76,7 +76,7 @@
     ],
     "actions": [
      {
-      "text": "Make three stories (new requests, tracking, attachments) from the current service request story.",
+      "text": "Make three stories from the current service request story",
       "owner": "Ahmad Faizal",
       "due": "",
       "quotes": [
@@ -88,13 +88,25 @@
       ]
      },
      {
-      "text": "Get the request status list from operations.",
+      "text": "Get the status list from operations",
       "owner": "Mei Chen",
       "due": "Wednesday",
       "quotes": [
        {
         "line": 71,
         "text": "I'll get the status list from operations by Wednesday.",
+        "found": true
+       }
+      ]
+     },
+     {
+      "text": "Read over the new requests criteria once the split is done, in case something lands in the wrong story",
+      "owner": "Lisa Wong",
+      "due": "",
+      "quotes": [
+       {
+        "line": 77,
+        "text": "I'd want to read it over once the split is done, in case something falls in the wrong story.",
         "found": true
        }
       ]
@@ -105,7 +117,7 @@
     "title": "Identity provider user cap",
     "summary": [
      {
-      "text": "The identity provider's free tier allows up to 5,000 monthly users. About 12,000 customers are expected.",
+      "text": "The identity provider's free tier caps the portal at 5,000 monthly users, but about 12,000 customers are expected.",
       "quotes": [
        {
         "line": 92,
@@ -115,7 +127,7 @@
       ]
      },
      {
-      "text": "The build assumes the paid tier is approved before go-live. If it isn't, sign-in stops at 5,000 users.",
+      "text": "The build assumes the paid tier is approved before go-live. Without it, sign-in stops at 5,000.",
       "quotes": [
        {
         "line": 105,
@@ -125,7 +137,7 @@
       ]
      },
      {
-      "text": "Approval is a budget matter and sits with Mei. She can't promise what the budget request will return.",
+      "text": "Approval is a budget matter that sits with Mei. She will put the paid tier into the January budget request but cannot promise the outcome.",
       "quotes": [
        {
         "line": 114,
@@ -134,7 +146,7 @@
        },
        {
         "line": 130,
-        "text": "Beyond that, I can't promise what comes back.",
+        "text": "The paid tier goes in the January request. Beyond that, I can't promise what comes back.",
         "found": true
        }
       ]
@@ -142,9 +154,9 @@
     ],
     "actions": [
      {
-      "text": "Put the identity provider paid tier into the budget request.",
+      "text": "Put the paid tier into the January budget request",
       "owner": "Mei Chen",
-      "due": "January budget request",
+      "due": "",
       "quotes": [
        {
         "line": 126,
@@ -156,10 +168,10 @@
     ]
    },
    {
-    "title": "Accessibility: bills page contrast defect",
+    "title": "Accessibility contrast defect on bills page",
     "summary": [
      {
-      "text": "The amount due on the bills page fails the WCAG colour contrast check. This is a defect that was already on the list.",
+      "text": "There is an existing defect: the amount due on the bills page fails the WCAG colour contrast check.",
       "quotes": [
        {
         "line": 143,
@@ -169,7 +181,7 @@
       ]
      },
      {
-      "text": "Ahmad said it is an easy fix to one colour token. Agreed to fix it in this sprint.",
+      "text": "The fix is a single colour token. It was agreed to fix it in this sprint and re-run the check to confirm.",
       "quotes": [
        {
         "line": 157,
@@ -184,11 +196,11 @@
       ]
      },
      {
-      "text": "This is the only contrast problem known so far. Nobody said the rest of the portal is clean.",
+      "text": "This is the only contrast problem known so far. No claim was made that the other pages pass.",
       "quotes": [
        {
         "line": 171,
-        "text": "Just the one I know about.",
+        "text": "Just the one I know about. I'm not going to say the rest is clean, because I haven't said that.",
         "found": true
        }
       ]
@@ -196,7 +208,7 @@
     ],
     "actions": [
      {
-      "text": "Fix the colour contrast of the amount due on the bills page.",
+      "text": "Fix the colour token for the amount due on the bills page",
       "owner": "",
       "due": "this sprint",
       "quotes": [
@@ -208,7 +220,7 @@
       ]
      },
      {
-      "text": "Re-run the contrast check after the fix to confirm it passes.",
+      "text": "Re-run the contrast check after the fix",
       "owner": "Lisa Wong",
       "due": "",
       "quotes": [
@@ -225,7 +237,7 @@
     "title": "Analytics and cookie banner",
     "summary": [
      {
-      "text": "Marketing asked for page analytics. The decision stands: no third-party analytics in release one, only the portal's own server counts. Marketing gave no detailed list of what they wanted.",
+      "text": "Marketing asked for page analytics. The earlier decision stands: release one has no third-party analytics, only the portal's own server counts.",
       "quotes": [
        {
         "line": 177,
@@ -233,15 +245,20 @@
         "found": true
        },
        {
-        "line": 185,
-        "text": "I didn't get a detailed list",
+        "line": 178,
+        "text": "We talked about that before, and I think everyone was fine with it.",
         "found": true
        }
       ]
      },
      {
-      "text": "Because there are no third-party analytics, there is no cookie banner for now. This was confirmed in the wrap-up.",
+      "text": "It follows that there is no cookie banner for now, which leaves less to build and test.",
       "quotes": [
+       {
+        "line": 205,
+        "text": "For now, no banner, because there's um no third party analytics.",
+        "found": true
+       },
        {
         "line": 290,
         "text": "release one has no third party analytics, only our own server counts, and that means no cookie banner for now.",
@@ -250,11 +267,11 @@
       ]
      },
      {
-      "text": "\"For now\" refers to release one only. Later releases were not discussed.",
+      "text": "Mei will make the wording clear to marketing: they still get the portal's own counts, just not third-party analytics.",
       "quotes": [
        {
-        "line": 214,
-        "text": "For now just means that's where we are with release one.",
+        "line": 192,
+        "text": "I should make sure the wording is clear when I talk to them. It's not nothing, it's just not third party.",
         "found": true
        }
       ]
@@ -262,7 +279,7 @@
     ],
     "actions": [
      {
-      "text": "Make sure the message to marketing is clear: they will get the portal's own server counts, not third-party analytics.",
+      "text": "Explain clearly to marketing that release one includes the portal's own server counts, not third-party analytics",
       "owner": "Mei Chen",
       "due": "",
       "quotes": [
@@ -284,41 +301,36 @@
     "title": "Payment sandbox for release two",
     "summary": [
      {
-      "text": "Card payment has moved to release two, so the sandbox is a release two matter and does not block release one.",
+      "text": "Card payment has moved to release two, so the sandbox does not block release one.",
       "quotes": [
        {
         "line": 261,
-        "text": "Card payment moved to release two. So this is about release two.",
+        "text": "That's right. Card payment moved to release two. So this is about release two.",
         "found": true
        }
       ]
      },
      {
-      "text": "Jonas's Central IT team must set up the firewall rules for the payment sandbox. They are only free in the last week of January.",
+      "text": "Only Central IT can set up the sandbox firewall rules, and the team is only free in the last week of January. Release two payment testing cannot start before then.",
       "quotes": [
        {
         "line": 223,
-        "text": "The payment sandbox for release two needs my team to set up the firewall rules, and we're only free in the last week of January.",
+        "text": "The, The payment sandbox for release two needs my team to set up the firewall rules, and we're only free in the last week of January.",
         "found": true
-       }
-      ]
-     },
-     {
-      "text": "Release two payment testing can't start before Central IT opens the firewall in the last week of January, at the earliest. No one said how long the work takes.",
-      "quotes": [
+       },
        {
         "line": 293,
         "text": "payment testing there can't start before central IT opens the firewall in the last week of January.",
         "found": true
-       },
-       {
-        "line": 237,
-        "text": "Yes, that's the earliest.",
-        "found": true
-       },
+       }
+      ]
+     },
+     {
+      "text": "Jonas gave no estimate of how long the setup takes.",
+      "quotes": [
        {
         "line": 276,
-        "text": "I haven't said how long it takes",
+        "text": "I haven't said how long it takes, because that isn't what I said. I'd just be guessing.",
         "found": true
        }
       ]
@@ -326,47 +338,185 @@
     ],
     "actions": []
    }
+  ],
+  "raidd": [
+   {
+    "type": "decision",
+    "change": "new",
+    "title": "Split service request story into three, attachments last",
+    "topic": 1,
+    "quotes": [
+     {
+      "line": 53,
+      "text": "Fine, split it. Attachments can um go last, they're the least used.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "new",
+    "title": "Tracking criteria need status list from operations",
+    "topic": 1,
+    "quotes": [
+     {
+      "line": 59,
+      "text": "Acceptance criteria for uh tracking need the status list from operations, we don't have it.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "assumption",
+    "change": "new",
+    "title": "Identity provider paid tier approved before go-live",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 105,
+      "text": "We're building on the assumption that the paid tier gets approved before go-live",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "risk",
+    "change": "new",
+    "title": "Sign-in stops at 5,000 users if paid tier not approved",
+    "topic": 2,
+    "quotes": [
+     {
+      "line": 111,
+      "text": "If the paid tier isn't approved by go-live, then we have the five thousand problem.",
+      "found": true
+     },
+     {
+      "line": 107,
+      "text": "Once we're at the cap, sign-in stops.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "issue",
+    "change": "new",
+    "title": "Bills page amount due fails WCAG contrast check",
+    "topic": 3,
+    "quotes": [
+     {
+      "line": 143,
+      "text": "The bills page fails the WCAG colour contrast check on the amount due, I mean that's a defect we already have.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "decision",
+    "change": "new",
+    "title": "Fix contrast defect in this sprint",
+    "topic": 3,
+    "quotes": [
+     {
+      "line": 167,
+      "text": "Okay, fix I mean it in this sprint.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "decision",
+    "change": "update",
+    "title": "No third-party analytics in release one, own server counts only",
+    "topic": 4,
+    "quotes": [
+     {
+      "line": 177,
+      "text": "We decided no third uh party analytics in release one, only our own server counts.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "decision",
+    "change": "new",
+    "title": "No cookie banner for now",
+    "topic": 4,
+    "quotes": [
+     {
+      "line": 205,
+      "text": "For now, no banner, because there's um no third party analytics.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "decision",
+    "change": "update",
+    "title": "Card payment moved to release two",
+    "topic": 5,
+    "quotes": [
+     {
+      "line": 261,
+      "text": "That's right. Card payment moved to release two.",
+      "found": true
+     }
+    ]
+   },
+   {
+    "type": "dependency",
+    "change": "new",
+    "title": "Release two payment testing waits for Central IT firewall rules (last week of January)",
+    "topic": 5,
+    "quotes": [
+     {
+      "line": 236,
+      "text": "So release two payment testing can't start before central IT opens the firewall in the last week of January.",
+      "found": true
+     }
+    ]
+   }
   ]
  },
  "checks": {
   "ok": true,
   "problems": [],
   "stats": {
-   "quotes": 31,
-   "exact": 31,
+   "quotes": 43,
+   "exact": 43,
    "relocated": 0,
    "missing": 0,
    "points": 16,
-   "actions": 6
+   "actions": 7,
+   "raidd": 10
   }
  },
  "template": {
   "id": "default",
-  "version": 2
+  "version": 3
  },
  "model": "claude-opus-5-5",
  "calls": [
   {
    "round": 0,
-   "costUsd": 0.1428,
-   "latencyMs": 28760,
+   "costUsd": 0.159864,
+   "latencyMs": 32179,
    "usage": {
-    "input_tokens": 17145,
+    "input_tokens": 18171,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
      "ephemeral_5m_input_tokens": 0,
      "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 3711,
+    "output_tokens": 4359,
     "output_tokens_details": {
-     "thinking_tokens": 1280
+     "thinking_tokens": 898
     },
     "service_tier": "standard",
     "inference_geo": "global",
     "speed": "standard"
    },
-   "traceId": "69b1ab1f505a4a40a0043eb14fb4e46d",
+   "traceId": "6c67e55e43b14a1b8901d240ce125d09",
    "logged": {
     "ledger": true,
     "trace": true,
@@ -375,5 +525,5 @@
    }
   }
  ],
- "costUsd": 0.1428
+ "costUsd": 0.159864
 }
