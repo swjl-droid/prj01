@@ -1,0 +1,2692 @@
+{
+  "note": "Mock meetings for prj01-R1 US-4 (minutes) and US-5 (RAIDD). Synthetic: every person, company and number is made up. Substance written by hand; scripts/make-mock-meetings.mjs adds the noise. raidd: type risk / assumption / issue / dependency / decision, change new / update (update = changes an entry raised in an earlier meeting, 'of' names it). notRaidd: lines that look like RAIDD but are not (actions, status, chatter).",
+  "bank": {
+    "fillers": [
+      "um",
+      "uh",
+      "you know",
+      "like",
+      "sort of",
+      "I mean",
+      "basically",
+      "kind of"
+    ],
+    "openers": [
+      "So,",
+      "Okay so",
+      "Yeah,",
+      "Right,",
+      "Um,",
+      "And"
+    ],
+    "backchannel": [
+      "Mm-hm.",
+      "Right.",
+      "Okay.",
+      "Yeah, yeah.",
+      "Got it.",
+      "Uh-huh.",
+      "Sure.",
+      "Yep, makes sense."
+    ],
+    "crosstalk": [
+      "[crosstalk]",
+      "Sorry, go ahead.",
+      "[inaudible] no, you first.",
+      "Oh sorry, I talked over you."
+    ],
+    "resume": [
+      "No worries. As I was saying.",
+      "Okay, so, yeah.",
+      "Right, where was I. Yes."
+    ]
+  },
+  "meetings": [
+    {
+      "id": "m01",
+      "file": "m01-clinic-weekly-sync.txt",
+      "format": "txt",
+      "project": "Clinic relocation",
+      "title": "Clinic relocation weekly sync",
+      "date": "2026-12-01",
+      "targetWords": 4000,
+      "chair": "priya",
+      "agendaLine": "Agenda is the movers, the X-ray room, the licence, the building handover and the cutover weekend.",
+      "attendees": [
+        {
+          "key": "priya",
+          "name": "Priya Raman",
+          "aliases": [
+            "Priya R."
+          ]
+        },
+        {
+          "key": "marcus",
+          "name": "Marcus Lee",
+          "aliases": [
+            "Marcus"
+          ]
+        },
+        {
+          "key": "siti",
+          "name": "Siti Rahman",
+          "aliases": [
+            "Siti"
+          ]
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel Ong"
+        },
+        {
+          "key": "dial",
+          "name": "Unknown caller",
+          "dialIn": "Call-in user 2"
+        }
+      ],
+      "noise": {
+        "fillers": 0.45,
+        "repeats": 0.15,
+        "crosstalk": 0.2,
+        "nameVariants": 0.25,
+        "asr": [
+          [
+            "X-ray",
+            "x ray"
+          ],
+          [
+            "cutover",
+            "cut over"
+          ],
+          [
+            "Siti",
+            "City"
+          ],
+          [
+            "licence",
+            "license"
+          ]
+        ],
+        "offtopic": [
+          {
+            "who": "dial",
+            "text": "Hi, sorry, this is Ah Hock from facilities, I dialled in late, is this the clinic move call?"
+          },
+          {
+            "who": "priya",
+            "text": "Yes it is, welcome, we're halfway through, just listen in for now."
+          }
+        ]
+      },
+      "topics": [
+        {
+          "key": "t1",
+          "title": "Movers quote",
+          "things": [
+            "movers quote",
+            "moving company"
+          ],
+          "intro": "First, the movers. Marcus, where are we with the quote?",
+          "beats": [
+            {
+              "who": "marcus",
+              "say": "The movers quote came in at forty two thousand dollars, which is twelve thousand over what we budgeted for the move."
+            },
+            {
+              "who": "priya",
+              "say": "That's a real problem, we can't absorb twelve thousand from contingency this early."
+            },
+            {
+              "who": "marcus",
+              "say": "They priced weekend overtime for the whole job. If we move the non-clinical rooms on a weekday it should drop."
+            },
+            {
+              "who": "priya",
+              "say": "Okay. Marcus, please get a revised quote with the weekday split by Friday the fourth."
+            }
+          ],
+          "mustSay": [
+            "quote 42,000, 12,000 over budget",
+            "weekday split to bring it down"
+          ],
+          "actions": [
+            {
+              "owner": "Marcus",
+              "due": "Friday 4 December",
+              "what": "revised movers quote with weekday split"
+            }
+          ]
+        },
+        {
+          "key": "t2",
+          "title": "X-ray room relocation",
+          "things": [
+            "X-ray room",
+            "imaging"
+          ],
+          "intro": "Next, the X-ray room. Siti?",
+          "beats": [
+            {
+              "who": "siti",
+              "say": "The X-ray machine has to be moved and recalibrated by the vendor's own engineers, Radix Imaging."
+            },
+            {
+              "who": "siti",
+              "say": "Their engineers are booked out most of February, so there's a chance we don't get a slot before the cutover."
+            },
+            {
+              "who": "priya",
+              "say": "If imaging isn't ready on day one we'd have to send patients to the old site, which defeats the purpose."
+            },
+            {
+              "who": "siti",
+              "say": "I'll ask Radix to hold two provisional dates for us, and I'll come back next week."
+            }
+          ],
+          "mustSay": [
+            "vendor Radix must move and recalibrate",
+            "engineers booked most of February"
+          ],
+          "actions": [
+            {
+              "owner": "Siti",
+              "due": "next week",
+              "what": "ask Radix Imaging to hold two provisional dates"
+            }
+          ]
+        },
+        {
+          "key": "t3",
+          "title": "Licence transfer",
+          "things": [
+            "licence transfer",
+            "MOH application"
+          ],
+          "intro": "The licence transfer. Daniel, you spoke to the regulator?",
+          "beats": [
+            {
+              "who": "daniel",
+              "say": "Yes. The healthcare licence has to be transferred to the new address before we see any patient there."
+            },
+            {
+              "who": "daniel",
+              "say": "Our plan assumes the ministry processes the transfer within six weeks of us filing it."
+            },
+            {
+              "who": "priya",
+              "say": "Six weeks from when? Have we filed yet?"
+            },
+            {
+              "who": "daniel",
+              "say": "Not yet, we file once the floor plan is final, which should be next Monday."
+            }
+          ],
+          "mustSay": [
+            "licence must move before first patient",
+            "plan assumes six weeks after filing",
+            "filing after floor plan is final, next Monday"
+          ],
+          "actions": [
+            {
+              "owner": "Daniel",
+              "due": "next Monday",
+              "what": "file the licence transfer once the floor plan is final"
+            }
+          ]
+        },
+        {
+          "key": "t4",
+          "title": "Building handover",
+          "things": [
+            "handover",
+            "landlord"
+          ],
+          "intro": "Building handover from the landlord.",
+          "beats": [
+            {
+              "who": "marcus",
+              "say": "We can't start the fit-out of the treatment rooms until the landlord hands over level five, and they've said the fifteenth of January."
+            },
+            {
+              "who": "priya",
+              "say": "So everything from the treatment rooms onwards hangs on that date."
+            },
+            {
+              "who": "marcus",
+              "say": "Yeah, I'll get the handover date in writing from their property manager."
+            }
+          ],
+          "mustSay": [
+            "treatment-room fit-out waits for landlord handover of level 5 on 15 January"
+          ],
+          "actions": [
+            {
+              "owner": "Marcus",
+              "due": "",
+              "what": "get the handover date in writing"
+            }
+          ]
+        },
+        {
+          "key": "t5",
+          "title": "Cutover weekend",
+          "things": [
+            "cutover weekend",
+            "IT cutover"
+          ],
+          "intro": "Last one, the cutover weekend. We need to lock it.",
+          "beats": [
+            {
+              "who": "priya",
+              "say": "We said either the thirteenth and fourteenth of February or the week after."
+            },
+            {
+              "who": "daniel",
+              "say": "The week after clashes with the school holidays, half the nurses are on leave."
+            },
+            {
+              "who": "priya",
+              "say": "Okay then, decision: the cutover weekend is the thirteenth and fourteenth of February. Everyone okay?"
+            },
+            {
+              "who": "siti",
+              "say": "Yes, agreed."
+            },
+            {
+              "who": "daniel",
+              "say": "Agreed."
+            }
+          ],
+          "mustSay": [
+            "cutover weekend decided: 13-14 February",
+            "the week after clashes with school holidays"
+          ],
+          "actions": []
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t1.1",
+          "type": "issue",
+          "change": "new",
+          "title": "Movers quote 12,000 over budget"
+        },
+        {
+          "beat": "t2.2",
+          "type": "risk",
+          "change": "new",
+          "title": "X-ray vendor engineers may have no slot before cutover"
+        },
+        {
+          "beat": "t3.2",
+          "type": "assumption",
+          "change": "new",
+          "title": "Licence transfer processed within 6 weeks of filing"
+        },
+        {
+          "beat": "t4.1",
+          "type": "dependency",
+          "change": "new",
+          "title": "Treatment-room fit-out depends on landlord handover of level 5 (15 Jan)"
+        },
+        {
+          "beat": "t5.3",
+          "type": "decision",
+          "change": "new",
+          "title": "Cutover weekend is 13-14 February"
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t1.4",
+          "why": "action, not a RAIDD entry"
+        },
+        {
+          "beat": "t2.4",
+          "why": "action"
+        },
+        {
+          "beat": "t4.3",
+          "why": "action"
+        }
+      ]
+    },
+    {
+      "id": "m02",
+      "file": "m02-fitout-project-board.vtt",
+      "format": "teams",
+      "project": "Regional office fit-out",
+      "title": "Regional office fit-out project board",
+      "date": "2026-12-02",
+      "targetWords": 4000,
+      "chair": "grace",
+      "agendaLine": "Agenda: tender result, stage 3 approval, furniture, the IT install and the landlord approval.",
+      "attendees": [
+        {
+          "key": "grace",
+          "name": "Grace Koh",
+          "team": "Executive"
+        },
+        {
+          "key": "ravi",
+          "name": "Ravi Kumar",
+          "team": "Project Manager"
+        },
+        {
+          "key": "weiling",
+          "name": "Wei Ling Tan",
+          "team": "Senior User"
+        },
+        {
+          "key": "jonas",
+          "name": "Jonas Weber",
+          "team": "Senior Supplier"
+        }
+      ],
+      "noise": {
+        "fillers": 0.4,
+        "repeats": 0.12,
+        "crosstalk": 0.2,
+        "nameVariants": 0,
+        "asr": [
+          [
+            "Kemlite",
+            "Camlight"
+          ],
+          [
+            "Wei Ling",
+            "Way Ling"
+          ],
+          [
+            "tender",
+            "tenda"
+          ],
+          [
+            "Ravi",
+            "Robbie"
+          ]
+        ],
+        "offtopic": [
+          {
+            "who": "jonas",
+            "text": "Sorry, side note, the customer portal team asked me about the January IT bookings too, but that's their project, I'll take it offline."
+          }
+        ]
+      },
+      "topics": [
+        {
+          "key": "t1",
+          "title": "Tender result",
+          "things": [
+            "tender",
+            "bids"
+          ],
+          "intro": "Ravi, start with the tender result please.",
+          "beats": [
+            {
+              "who": "ravi",
+              "say": "The contractor tender closed on the twentieth of November and we only got two bids, we were hoping for at least four."
+            },
+            {
+              "who": "grace",
+              "say": "Two bids is thin. Does procurement accept that as competitive?"
+            },
+            {
+              "who": "ravi",
+              "say": "Procurement said two is the minimum they accept, so we're compliant, but it's a problem for value for money."
+            },
+            {
+              "who": "ravi",
+              "say": "Kemlite Builders came in at three hundred and ten thousand, the other bid was three hundred and forty five."
+            }
+          ],
+          "mustSay": [
+            "only two bids, four hoped for",
+            "two is procurement's minimum",
+            "Kemlite 310,000, other 345,000"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t2",
+          "title": "Stage 3 approval and contract award",
+          "things": [
+            "stage 3",
+            "end stage report"
+          ],
+          "intro": "That brings us to the end stage report and stage three.",
+          "beats": [
+            {
+              "who": "ravi",
+              "say": "The end stage report recommends we award to Kemlite and move into stage three, construction."
+            },
+            {
+              "who": "weiling",
+              "say": "From the user side the Kemlite design met all our must-haves, the other one dropped the second meeting room."
+            },
+            {
+              "who": "grace",
+              "say": "Okay, the board approves stage three and the award to Kemlite Builders at three hundred and ten thousand."
+            },
+            {
+              "who": "ravi",
+              "say": "Thanks, I'll issue the letter of award tomorrow."
+            }
+          ],
+          "mustSay": [
+            "board approves stage 3 and award to Kemlite at 310,000",
+            "Kemlite met the users' must-haves"
+          ],
+          "actions": [
+            {
+              "owner": "Ravi",
+              "due": "tomorrow",
+              "what": "issue the letter of award"
+            }
+          ]
+        },
+        {
+          "key": "t3",
+          "title": "Furniture lead time",
+          "things": [
+            "furniture",
+            "workstations"
+          ],
+          "intro": "Furniture. Wei Ling?",
+          "beats": [
+            {
+              "who": "weiling",
+              "say": "The workstation supplier is quoting ten weeks lead time now, it used to be six."
+            },
+            {
+              "who": "weiling",
+              "say": "If that holds, there's a real chance the desks arrive after the move-in date."
+            },
+            {
+              "who": "grace",
+              "say": "Can we order before the design is fully signed?"
+            },
+            {
+              "who": "weiling",
+              "say": "We can order the standard desks now and only the meeting room tables later."
+            }
+          ],
+          "mustSay": [
+            "lead time now ten weeks (was six)",
+            "desks may arrive after move-in",
+            "order standard desks now, tables later"
+          ],
+          "actions": [
+            {
+              "owner": "Wei Ling",
+              "due": "",
+              "what": "order the standard desks now"
+            }
+          ]
+        },
+        {
+          "key": "t4",
+          "title": "IT and network install",
+          "things": [
+            "network install",
+            "IT team"
+          ],
+          "intro": "IT install. Jonas.",
+          "beats": [
+            {
+              "who": "jonas",
+              "say": "The network install in January needs the central IT team, and they're also committed to another project that month."
+            },
+            {
+              "who": "jonas",
+              "say": "So our install can only happen if central IT gives us the second and third week of January."
+            },
+            {
+              "who": "grace",
+              "say": "I'll raise it with the IT director at the leadership meeting on Thursday."
+            }
+          ],
+          "mustSay": [
+            "install needs central IT in weeks 2-3 of January",
+            "central IT also committed elsewhere"
+          ],
+          "actions": [
+            {
+              "owner": "Grace",
+              "due": "Thursday",
+              "what": "raise IT team availability with the IT director"
+            }
+          ]
+        },
+        {
+          "key": "t5",
+          "title": "Landlord approval of works",
+          "things": [
+            "landlord approval",
+            "works approval"
+          ],
+          "intro": "And the landlord approval of works.",
+          "beats": [
+            {
+              "who": "ravi",
+              "say": "Our schedule is built on the landlord approving the works by the thirteenth of December."
+            },
+            {
+              "who": "ravi",
+              "say": "They haven't said no, they just haven't replied, so for now we keep assuming the thirteenth."
+            },
+            {
+              "who": "grace",
+              "say": "Okay, keep chasing them, and tell me early if it slips."
+            }
+          ],
+          "mustSay": [
+            "schedule assumes landlord approval by 13 December",
+            "no reply yet"
+          ],
+          "actions": [
+            {
+              "owner": "Ravi",
+              "due": "",
+              "what": "keep chasing the landlord"
+            }
+          ]
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t1.1",
+          "type": "issue",
+          "change": "new",
+          "title": "Tender drew only two bids"
+        },
+        {
+          "beat": "t2.3",
+          "type": "decision",
+          "change": "new",
+          "title": "Stage 3 approved; contract awarded to Kemlite Builders at 310,000"
+        },
+        {
+          "beat": "t3.2",
+          "type": "risk",
+          "change": "new",
+          "title": "Desks may arrive after move-in (10-week lead time)"
+        },
+        {
+          "beat": "t4.2",
+          "type": "dependency",
+          "change": "new",
+          "title": "Network install depends on central IT in weeks 2-3 of January"
+        },
+        {
+          "beat": "t5.1",
+          "type": "assumption",
+          "change": "new",
+          "title": "Landlord approves works by 13 December"
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t2.4",
+          "why": "action"
+        },
+        {
+          "beat": "t4.3",
+          "why": "action"
+        },
+        {
+          "beat": "t1.4",
+          "why": "status (bid prices)"
+        }
+      ]
+    },
+    {
+      "id": "m03",
+      "file": "m03-portal-sprint-review.srt",
+      "format": "srt",
+      "project": "Customer self-service portal",
+      "title": "Customer portal sprint 2 review",
+      "date": "2026-12-03",
+      "targetWords": 4000,
+      "chair": "mei",
+      "agendaLine": "We'll go through the sprint goal, the demo, the billing API, the pen test and the release cut-line.",
+      "attendees": [
+        {
+          "key": "mei",
+          "name": "Mei Chen",
+          "aliases": [
+            "Mei"
+          ]
+        },
+        {
+          "key": "ahmad",
+          "name": "Ahmad Faizal",
+          "aliases": [
+            "Ahmad"
+          ]
+        },
+        {
+          "key": "lisa",
+          "name": "Lisa Wong",
+          "aliases": [
+            "Lisa"
+          ]
+        },
+        {
+          "key": "tom",
+          "name": "Tom Hartley",
+          "aliases": [
+            "Tom H"
+          ]
+        }
+      ],
+      "noise": {
+        "fillers": 0.5,
+        "repeats": 0.18,
+        "crosstalk": 0.25,
+        "nameVariants": 0.3,
+        "asr": [
+          [
+            "sign-up",
+            "sign up"
+          ],
+          [
+            "Ahmad",
+            "Ahmed"
+          ],
+          [
+            "pen test",
+            "pentest"
+          ],
+          [
+            "API",
+            "a p i"
+          ]
+        ],
+        "offtopic": [
+          {
+            "who": "tom",
+            "text": "Unrelated, but the clinic move people asked if they can borrow our testers in February, I said I'd check."
+          },
+          {
+            "who": "mei",
+            "text": "Let's not get into that today, park it."
+          }
+        ]
+      },
+      "topics": [
+        {
+          "key": "t1",
+          "title": "Sprint 2 goal and demo",
+          "things": [
+            "sprint goal",
+            "demo"
+          ],
+          "intro": "Sprint two goal was e-mail sign-up and viewing bills. Ahmad, demo please.",
+          "beats": [
+            {
+              "who": "ahmad",
+              "say": "Sign-up with e-mail is done and working on the test site, including the confirmation e-mail."
+            },
+            {
+              "who": "ahmad",
+              "say": "Viewing the last twelve bills is not done, it's blocked on the billing system API."
+            },
+            {
+              "who": "lisa",
+              "say": "The sign-up flow looks good, but the error message for a used e-mail is confusing, can we reword it?"
+            },
+            {
+              "who": "ahmad",
+              "say": "Yes, small fix, I'll add it to the next sprint."
+            }
+          ],
+          "mustSay": [
+            "e-mail sign-up done incl. confirmation",
+            "bills view blocked on billing API"
+          ],
+          "actions": [
+            {
+              "owner": "Ahmad",
+              "due": "next sprint",
+              "what": "reword the used-e-mail error message"
+            }
+          ]
+        },
+        {
+          "key": "t2",
+          "title": "Billing system API",
+          "things": [
+            "billing API",
+            "billing team"
+          ],
+          "intro": "Let's talk about the billing API since it's blocking.",
+          "beats": [
+            {
+              "who": "tom",
+              "say": "The billing team says the API is ready on the eighteenth of December, but their last two dates slipped."
+            },
+            {
+              "who": "mei",
+              "say": "So the bills story can't finish until the billing team delivers the API."
+            },
+            {
+              "who": "tom",
+              "say": "And if it slips again past the holidays, paying a bill by card moves out of the first release."
+            }
+          ],
+          "mustSay": [
+            "billing API promised 18 December, previous dates slipped",
+            "card payment may move out of release 1"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t3",
+          "title": "Penetration test",
+          "things": [
+            "pen test",
+            "security test"
+          ],
+          "intro": "Security test booking.",
+          "beats": [
+            {
+              "who": "lisa",
+              "say": "Security wants a penetration test before go-live and the testing firm needs three weeks' notice."
+            },
+            {
+              "who": "lisa",
+              "say": "We're assuming the test can run in the second half of January with no major findings."
+            },
+            {
+              "who": "mei",
+              "say": "Lisa, can you book the slot this week so we have it?"
+            },
+            {
+              "who": "lisa",
+              "say": "Will do."
+            }
+          ],
+          "mustSay": [
+            "pen test required before go-live, 3 weeks' notice",
+            "assumes second half of January, no major findings"
+          ],
+          "actions": [
+            {
+              "owner": "Lisa",
+              "due": "this week",
+              "what": "book the penetration test slot"
+            }
+          ]
+        },
+        {
+          "key": "t4",
+          "title": "Release cut-line",
+          "things": [
+            "release scope",
+            "cut-line"
+          ],
+          "intro": "Release cut-line. We said we'd decide this today.",
+          "beats": [
+            {
+              "who": "mei",
+              "say": "Given the billing API, I propose release one is sign-in, viewing bills and service requests, and card payment goes to release two."
+            },
+            {
+              "who": "tom",
+              "say": "Finance won't love it, but I'd rather ship on time."
+            },
+            {
+              "who": "mei",
+              "say": "Okay, so decided: card payment moves to release two."
+            }
+          ],
+          "mustSay": [
+            "decided: release 1 = sign-in, bills, service requests; card payment to release 2"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t5",
+          "title": "Team capacity in January",
+          "things": [
+            "capacity",
+            "leave"
+          ],
+          "intro": "Last thing, January capacity.",
+          "beats": [
+            {
+              "who": "ahmad",
+              "say": "Two of our four developers have leave in the first week of January, so velocity will be about half that sprint."
+            },
+            {
+              "who": "mei",
+              "say": "That's fine, it's planned leave, we'll plan the sprint smaller."
+            }
+          ],
+          "mustSay": [
+            "two of four developers on leave week 1 of January; smaller sprint"
+          ],
+          "actions": []
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t2.2",
+          "type": "dependency",
+          "change": "new",
+          "title": "Bills story depends on the billing team's API (promised 18 Dec)"
+        },
+        {
+          "beat": "t2.3",
+          "type": "risk",
+          "change": "new",
+          "title": "Billing API slips past the holidays; card payment out of release 1"
+        },
+        {
+          "beat": "t3.2",
+          "type": "assumption",
+          "change": "new",
+          "title": "Pen test runs in second half of January with no major findings"
+        },
+        {
+          "beat": "t4.3",
+          "type": "decision",
+          "change": "new",
+          "title": "Card payment moves to release 2"
+        },
+        {
+          "beat": "t1.3",
+          "type": "issue",
+          "change": "new",
+          "title": "Error message for a used e-mail is confusing"
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t5.1",
+          "why": "planned leave, handled by planning"
+        },
+        {
+          "beat": "t1.4",
+          "why": "action"
+        },
+        {
+          "beat": "t3.3",
+          "why": "action"
+        }
+      ]
+    },
+    {
+      "id": "m04",
+      "file": "m04-clinic-weekly-sync.vtt",
+      "format": "vtt",
+      "project": "Clinic relocation",
+      "title": "Clinic relocation weekly sync",
+      "date": "2026-12-08",
+      "targetWords": 4000,
+      "chair": "priya",
+      "agendaLine": "Updates on the movers, Radix and the X-ray, the licence, and the handover date.",
+      "attendees": [
+        {
+          "key": "priya",
+          "name": "Priya Raman",
+          "aliases": [
+            "Priya"
+          ]
+        },
+        {
+          "key": "marcus",
+          "name": "Marcus Lee",
+          "aliases": [
+            "Marcus"
+          ]
+        },
+        {
+          "key": "siti",
+          "name": "Siti Rahman",
+          "aliases": [
+            "Siti R."
+          ]
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel Ong",
+          "aliases": [
+            "Dan"
+          ]
+        }
+      ],
+      "noise": {
+        "fillers": 0.45,
+        "repeats": 0.15,
+        "crosstalk": 0.2,
+        "nameVariants": 0.3,
+        "asr": [
+          [
+            "Radix",
+            "radish"
+          ],
+          [
+            "cutover",
+            "cut-over"
+          ],
+          [
+            "Daniel",
+            "Danielle"
+          ]
+        ],
+        "offtopic": [
+          {
+            "who": "daniel",
+            "text": "By the way, the portal team's go-live is around the same time as our cutover, not our problem but good to know."
+          }
+        ]
+      },
+      "topics": [
+        {
+          "key": "t1",
+          "title": "Movers quote",
+          "things": [
+            "movers",
+            "revised quote"
+          ],
+          "intro": "Marcus, the revised movers quote?",
+          "beats": [
+            {
+              "who": "marcus",
+              "say": "The revised quote with the weekday split is thirty three thousand, so we're three thousand over budget now instead of twelve."
+            },
+            {
+              "who": "priya",
+              "say": "Three thousand we can take from contingency. So the budget issue is basically resolved."
+            },
+            {
+              "who": "priya",
+              "say": "Let's accept the revised quote at thirty three thousand."
+            }
+          ],
+          "mustSay": [
+            "revised quote 33,000, 3,000 over",
+            "taken from contingency, issue resolved",
+            "revised quote accepted"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t2",
+          "title": "X-ray relocation slot",
+          "things": [
+            "Radix",
+            "X-ray"
+          ],
+          "intro": "Siti, any news from Radix?",
+          "beats": [
+            {
+              "who": "siti",
+              "say": "Radix confirmed one engineer slot on the eleventh of February, and the second provisional date fell through."
+            },
+            {
+              "who": "siti",
+              "say": "So we have a slot before cutover, but with no backup, if that engineer is sick we're stuck."
+            },
+            {
+              "who": "priya",
+              "say": "Better than last week. Can we get their written confirmation?"
+            },
+            {
+              "who": "siti",
+              "say": "Yes, they're sending it today."
+            }
+          ],
+          "mustSay": [
+            "Radix confirmed one slot 11 February, no backup date"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t3",
+          "title": "Licence transfer",
+          "things": [
+            "licence",
+            "filing"
+          ],
+          "intro": "Licence.",
+          "beats": [
+            {
+              "who": "daniel",
+              "say": "We filed the licence transfer on Monday. The ministry now says processing is eight weeks, not six."
+            },
+            {
+              "who": "priya",
+              "say": "Eight weeks from Monday the seventh is early February. That's tight against the cutover."
+            },
+            {
+              "who": "daniel",
+              "say": "Yes, it still lands before the thirteenth, but there's no room left."
+            }
+          ],
+          "mustSay": [
+            "licence filed Monday 7 December",
+            "processing now eight weeks, lands early February, no slack"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t4",
+          "title": "Building handover",
+          "things": [
+            "handover",
+            "level five"
+          ],
+          "intro": "Handover date in writing?",
+          "beats": [
+            {
+              "who": "marcus",
+              "say": "The landlord confirmed in writing, but the handover is now the twenty second of January, a week later than they said."
+            },
+            {
+              "who": "priya",
+              "say": "So the treatment rooms start a week later. Do we still make it?"
+            },
+            {
+              "who": "marcus",
+              "say": "Just about, if the fit-out crew works two Saturdays. I'll check with them."
+            }
+          ],
+          "mustSay": [
+            "handover now 22 January (a week later), in writing",
+            "fit-out crew may need two Saturdays"
+          ],
+          "actions": [
+            {
+              "owner": "Marcus",
+              "due": "",
+              "what": "check two Saturday shifts with the fit-out crew"
+            }
+          ]
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t1.2",
+          "type": "issue",
+          "change": "update",
+          "of": "m01 Movers quote 12,000 over budget",
+          "title": "Resolved: revised quote 33,000, 3,000 from contingency"
+        },
+        {
+          "beat": "t2.2",
+          "type": "risk",
+          "change": "update",
+          "of": "m01 X-ray vendor slot",
+          "title": "Slot confirmed 11 Feb but no backup"
+        },
+        {
+          "beat": "t3.1",
+          "type": "assumption",
+          "change": "update",
+          "of": "m01 Licence within 6 weeks",
+          "title": "Processing now 8 weeks; lands early February"
+        },
+        {
+          "beat": "t4.1",
+          "type": "dependency",
+          "change": "update",
+          "of": "m01 Landlord handover 15 Jan",
+          "title": "Handover moved to 22 January"
+        },
+        {
+          "beat": "t1.3",
+          "type": "decision",
+          "change": "new",
+          "title": "Revised movers quote accepted at 33,000"
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t4.3",
+          "why": "action"
+        }
+      ]
+    },
+    {
+      "id": "m05",
+      "file": "m05-clinic-staff-readiness.txt",
+      "format": "txt",
+      "project": "Clinic relocation",
+      "title": "Clinic move staff readiness workshop",
+      "date": "2026-12-10",
+      "targetWords": 4000,
+      "chair": "siti",
+      "agendaLine": "Today is about staff readiness: patient letters, the pharmacy fridge, training on the new rooms, parking, and the phones.",
+      "attendees": [
+        {
+          "key": "siti",
+          "name": "Siti Rahman",
+          "aliases": [
+            "Siti"
+          ]
+        },
+        {
+          "key": "nurse",
+          "name": "Kavitha Pillai",
+          "aliases": [
+            "Kavitha",
+            "Sister Kavitha"
+          ]
+        },
+        {
+          "key": "pharm",
+          "name": "Benjamin Teo",
+          "aliases": [
+            "Ben"
+          ]
+        },
+        {
+          "key": "priya",
+          "name": "Priya Raman",
+          "aliases": [
+            "Priya"
+          ]
+        },
+        {
+          "key": "it",
+          "name": "Unknown",
+          "dialIn": "Speaker 5"
+        }
+      ],
+      "noise": {
+        "fillers": 0.55,
+        "repeats": 0.2,
+        "crosstalk": 0.3,
+        "nameVariants": 0.35,
+        "asr": [
+          [
+            "Kavitha",
+            "Kavita"
+          ],
+          [
+            "pharmacy",
+            "farmacy"
+          ],
+          [
+            "vaccines",
+            "vaccine's"
+          ]
+        ],
+        "offtopic": [
+          {
+            "who": "nurse",
+            "text": "Sorry, ward is calling me, I'll step out for two minutes. Okay I'm back."
+          }
+        ]
+      },
+      "topics": [
+        {
+          "key": "t1",
+          "title": "Patient letters",
+          "things": [
+            "patient letters",
+            "SMS reminders"
+          ],
+          "intro": "First, telling patients about the new address.",
+          "beats": [
+            {
+              "who": "nurse",
+              "say": "We have about three thousand active patients. Letters go out four weeks before the move, plus an SMS a week before."
+            },
+            {
+              "who": "siti",
+              "say": "We're assuming the old address forwarding works for at least three months, so late letters still arrive."
+            },
+            {
+              "who": "priya",
+              "say": "Has anyone actually checked that with the post office?"
+            },
+            {
+              "who": "siti",
+              "say": "Not yet. I'll check it."
+            }
+          ],
+          "mustSay": [
+            "about 3,000 active patients",
+            "letters 4 weeks before, SMS 1 week before",
+            "assumes mail forwarding 3 months, not yet checked"
+          ],
+          "actions": [
+            {
+              "owner": "Siti",
+              "due": "",
+              "what": "check mail forwarding with the post office"
+            }
+          ]
+        },
+        {
+          "key": "t2",
+          "title": "Pharmacy fridge and vaccines",
+          "things": [
+            "pharmacy fridge",
+            "cold chain"
+          ],
+          "intro": "Ben, the pharmacy fridge.",
+          "beats": [
+            {
+              "who": "pharm",
+              "say": "The vaccine fridge can't be off for more than two hours or we have to throw away the stock, about eighteen thousand dollars of vaccines."
+            },
+            {
+              "who": "pharm",
+              "say": "The new building's backup power for the fridge circuit isn't commissioned yet, so if the power trips on move day we lose the stock."
+            },
+            {
+              "who": "priya",
+              "say": "That one goes on the risk log for sure. Can we move the vaccines in cool boxes separately?"
+            },
+            {
+              "who": "pharm",
+              "say": "Yes, I'll plan a separate cool box run with temperature loggers."
+            }
+          ],
+          "mustSay": [
+            "vaccine fridge max 2 hours off, about 18,000 of stock",
+            "backup power for fridge circuit not commissioned",
+            "separate cool-box run planned"
+          ],
+          "actions": [
+            {
+              "owner": "Ben",
+              "due": "",
+              "what": "plan a separate cool box run with temperature loggers"
+            }
+          ]
+        },
+        {
+          "key": "t3",
+          "title": "Training on the new rooms",
+          "things": [
+            "training",
+            "walkthrough"
+          ],
+          "intro": "Training on the new rooms.",
+          "beats": [
+            {
+              "who": "nurse",
+              "say": "Staff need a walkthrough of the new building before day one, the emergency exits and the resus trolley location especially."
+            },
+            {
+              "who": "siti",
+              "say": "We agreed two walkthrough sessions in the week before cutover, mandatory for clinical staff."
+            },
+            {
+              "who": "priya",
+              "say": "Okay, that's decided then, two mandatory walkthroughs that week."
+            }
+          ],
+          "mustSay": [
+            "decided: two mandatory walkthroughs the week before cutover"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t4",
+          "title": "Staff parking",
+          "things": [
+            "parking",
+            "season parking"
+          ],
+          "intro": "Parking, quickly.",
+          "beats": [
+            {
+              "who": "nurse",
+              "say": "The new building only has twenty season parking lots for staff and we have thirty two drivers today."
+            },
+            {
+              "who": "siti",
+              "say": "That's a problem we already have, not a maybe. We need to tell staff now."
+            },
+            {
+              "who": "priya",
+              "say": "I'll ask HR whether we can subsidise the public car park next door."
+            }
+          ],
+          "mustSay": [
+            "20 lots for 32 drivers",
+            "ask HR about subsidising the next-door car park"
+          ],
+          "actions": [
+            {
+              "owner": "Priya",
+              "due": "",
+              "what": "ask HR about subsidising the public car park"
+            }
+          ]
+        },
+        {
+          "key": "t5",
+          "title": "Phones and front desk",
+          "things": [
+            "phone numbers",
+            "front desk"
+          ],
+          "intro": "Phones.",
+          "beats": [
+            {
+              "who": "it",
+              "say": "Hi, it's IT on the phone. The main clinic number can only be ported once the new line is live, and the telco needs the building's riser access first."
+            },
+            {
+              "who": "siti",
+              "say": "So the phone porting waits for the landlord to give the telco riser access."
+            },
+            {
+              "who": "it",
+              "say": "Correct. I'll send the telco form to Marcus for the landlord."
+            }
+          ],
+          "mustSay": [
+            "number porting needs new line live; telco needs riser access from landlord"
+          ],
+          "actions": [
+            {
+              "owner": "IT (Speaker 5)",
+              "due": "",
+              "what": "send the telco form to Marcus"
+            }
+          ]
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t1.2",
+          "type": "assumption",
+          "change": "new",
+          "title": "Mail forwarding from old address works for 3 months"
+        },
+        {
+          "beat": "t2.2",
+          "type": "risk",
+          "change": "new",
+          "title": "Vaccine stock lost if power trips on move day (backup not commissioned)"
+        },
+        {
+          "beat": "t3.3",
+          "type": "decision",
+          "change": "new",
+          "title": "Two mandatory walkthroughs the week before cutover"
+        },
+        {
+          "beat": "t4.1",
+          "type": "issue",
+          "change": "new",
+          "title": "20 parking lots for 32 staff drivers"
+        },
+        {
+          "beat": "t5.2",
+          "type": "dependency",
+          "change": "new",
+          "title": "Phone porting depends on landlord riser access for the telco"
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t1.1",
+          "why": "plan detail"
+        },
+        {
+          "beat": "t2.4",
+          "why": "action"
+        },
+        {
+          "beat": "t4.3",
+          "why": "action"
+        }
+      ]
+    },
+    {
+      "id": "m06",
+      "file": "m06-portal-backlog-refinement.vtt",
+      "format": "teams",
+      "project": "Customer self-service portal",
+      "title": "Customer portal backlog refinement",
+      "date": "2026-12-09",
+      "targetWords": 4000,
+      "chair": "mei",
+      "agendaLine": "Refinement: service requests, the identity provider, accessibility, analytics, and the payment sandbox.",
+      "attendees": [
+        {
+          "key": "mei",
+          "name": "Mei Chen",
+          "team": "Product Owner"
+        },
+        {
+          "key": "ahmad",
+          "name": "Ahmad Faizal",
+          "team": "Dev Lead"
+        },
+        {
+          "key": "lisa",
+          "name": "Lisa Wong",
+          "team": "QA"
+        },
+        {
+          "key": "jonas",
+          "name": "Jonas Weber",
+          "team": "Central IT"
+        }
+      ],
+      "noise": {
+        "fillers": 0.45,
+        "repeats": 0.15,
+        "crosstalk": 0.25,
+        "nameVariants": 0,
+        "asr": [
+          [
+            "WCAG",
+            "W cag"
+          ],
+          [
+            "sandbox",
+            "sand box"
+          ],
+          [
+            "identity provider",
+            "identity provide her"
+          ]
+        ],
+        "offtopic": [
+          {
+            "who": "jonas",
+            "text": "Also, the office fit-out guys want my team the same weeks in January, that's a separate conversation."
+          }
+        ]
+      },
+      "topics": [
+        {
+          "key": "t1",
+          "title": "Service request story",
+          "things": [
+            "service requests",
+            "request form"
+          ],
+          "intro": "Service requests first. Ahmad, is the story ready?",
+          "beats": [
+            {
+              "who": "ahmad",
+              "say": "The service request story is too big, it covers new requests, tracking and attachments. I want to split it in three."
+            },
+            {
+              "who": "mei",
+              "say": "Fine, split it. Attachments can go last, they're the least used."
+            },
+            {
+              "who": "lisa",
+              "say": "Acceptance criteria for tracking need the status list from operations, we don't have it."
+            },
+            {
+              "who": "mei",
+              "say": "I'll get the status list from operations by Wednesday."
+            }
+          ],
+          "mustSay": [
+            "service request story split in three; attachments last",
+            "tracking needs operations' status list"
+          ],
+          "actions": [
+            {
+              "owner": "Ahmad",
+              "due": "",
+              "what": "split the service request story in three"
+            },
+            {
+              "owner": "Mei",
+              "due": "Wednesday",
+              "what": "get the status list from operations"
+            }
+          ]
+        },
+        {
+          "key": "t2",
+          "title": "Identity provider",
+          "things": [
+            "identity provider",
+            "single sign-on"
+          ],
+          "intro": "Identity provider.",
+          "beats": [
+            {
+              "who": "ahmad",
+              "say": "The identity provider's free tier caps us at five thousand monthly users and we expect about twelve thousand customers."
+            },
+            {
+              "who": "ahmad",
+              "say": "We're building on the assumption that the paid tier gets approved before go-live, otherwise sign-in stops at five thousand."
+            },
+            {
+              "who": "mei",
+              "say": "I'll put the paid tier into the January budget request."
+            }
+          ],
+          "mustSay": [
+            "free tier capped at 5,000 users, about 12,000 expected",
+            "assumes paid tier approved before go-live"
+          ],
+          "actions": [
+            {
+              "owner": "Mei",
+              "due": "January",
+              "what": "put the paid tier in the budget request"
+            }
+          ]
+        },
+        {
+          "key": "t3",
+          "title": "Accessibility",
+          "things": [
+            "accessibility",
+            "WCAG"
+          ],
+          "intro": "Accessibility.",
+          "beats": [
+            {
+              "who": "lisa",
+              "say": "The bills page fails the WCAG colour contrast check on the amount due, that's a defect we already have."
+            },
+            {
+              "who": "ahmad",
+              "say": "Easy fix, it's one colour token."
+            },
+            {
+              "who": "mei",
+              "say": "Okay, fix it in this sprint."
+            }
+          ],
+          "mustSay": [
+            "bills page fails WCAG contrast on amount due",
+            "fix this sprint"
+          ],
+          "actions": [
+            {
+              "owner": "Ahmad",
+              "due": "this sprint",
+              "what": "fix the contrast defect"
+            }
+          ]
+        },
+        {
+          "key": "t4",
+          "title": "Analytics",
+          "things": [
+            "analytics",
+            "cookie banner"
+          ],
+          "intro": "Analytics.",
+          "beats": [
+            {
+              "who": "mei",
+              "say": "Marketing asked for page analytics. We decided no third party analytics in release one, only our own server counts."
+            },
+            {
+              "who": "lisa",
+              "say": "Good, that also means no cookie banner for now."
+            }
+          ],
+          "mustSay": [
+            "decided: no third-party analytics in release 1, own server counts only"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t5",
+          "title": "Payment sandbox",
+          "things": [
+            "payment sandbox",
+            "January slot"
+          ],
+          "intro": "Payment sandbox, even though card payment moved to release two.",
+          "beats": [
+            {
+              "who": "jonas",
+              "say": "The payment sandbox for release two needs my team to set up the firewall rules, and we're only free in the last week of January."
+            },
+            {
+              "who": "mei",
+              "say": "So release two payment testing can't start before central IT opens the firewall in the last week of January."
+            },
+            {
+              "who": "jonas",
+              "say": "Yes, that's the earliest."
+            }
+          ],
+          "mustSay": [
+            "payment sandbox needs central IT firewall rules, earliest last week of January"
+          ],
+          "actions": []
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t2.2",
+          "type": "assumption",
+          "change": "new",
+          "title": "Identity provider paid tier approved before go-live"
+        },
+        {
+          "beat": "t2.1",
+          "type": "risk",
+          "change": "new",
+          "title": "Sign-in capped at 5,000 users on free tier (12,000 expected)"
+        },
+        {
+          "beat": "t3.1",
+          "type": "issue",
+          "change": "new",
+          "title": "Bills page fails WCAG contrast"
+        },
+        {
+          "beat": "t4.1",
+          "type": "decision",
+          "change": "new",
+          "title": "No third-party analytics in release 1"
+        },
+        {
+          "beat": "t5.2",
+          "type": "dependency",
+          "change": "new",
+          "title": "Payment testing depends on central IT firewall rules (last week of January)"
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t1.1",
+          "why": "backlog refinement"
+        },
+        {
+          "beat": "t1.4",
+          "why": "action"
+        }
+      ]
+    },
+    {
+      "id": "m07",
+      "file": "m07-fitout-highlight-review.srt",
+      "format": "srt",
+      "project": "Regional office fit-out",
+      "title": "Regional office fit-out highlight review",
+      "date": "2026-12-16",
+      "targetWords": 4000,
+      "chair": "ravi",
+      "agendaLine": "Highlight report: landlord approval, IT install weeks, furniture order, Kemlite mobilisation, and the fire safety certificate.",
+      "attendees": [
+        {
+          "key": "ravi",
+          "name": "Ravi Kumar",
+          "aliases": [
+            "Ravi"
+          ]
+        },
+        {
+          "key": "grace",
+          "name": "Grace Koh",
+          "aliases": [
+            "Grace"
+          ]
+        },
+        {
+          "key": "weiling",
+          "name": "Wei Ling Tan",
+          "aliases": [
+            "WL",
+            "Wei Ling"
+          ]
+        },
+        {
+          "key": "jonas",
+          "name": "Jonas Weber",
+          "aliases": [
+            "Jonas"
+          ]
+        }
+      ],
+      "noise": {
+        "fillers": 0.45,
+        "repeats": 0.15,
+        "crosstalk": 0.2,
+        "nameVariants": 0.3,
+        "asr": [
+          [
+            "Kemlite",
+            "Chem light"
+          ],
+          [
+            "SCDF",
+            "S C D F"
+          ],
+          [
+            "mobilisation",
+            "mobilization"
+          ]
+        ],
+        "offtopic": [
+          {
+            "who": "weiling",
+            "text": "Random, but did anyone book the year end lunch? No? Okay, later."
+          }
+        ]
+      },
+      "topics": [
+        {
+          "key": "t1",
+          "title": "Landlord approval of works",
+          "things": [
+            "landlord",
+            "approval letter"
+          ],
+          "intro": "Landlord first. Good news or bad?",
+          "beats": [
+            {
+              "who": "ravi",
+              "say": "Bad. The landlord didn't approve by the thirteenth, they now say the twentieth of December, a week late."
+            },
+            {
+              "who": "ravi",
+              "say": "That pushes Kemlite's start on site to the fourth of January instead of the twenty eighth of December."
+            },
+            {
+              "who": "grace",
+              "say": "Is that within tolerance?"
+            },
+            {
+              "who": "ravi",
+              "say": "It's within the stage time tolerance of two weeks, so no exception report yet."
+            }
+          ],
+          "mustSay": [
+            "landlord approval now 20 December (missed 13th)",
+            "Kemlite start moves to 4 January",
+            "within the two-week tolerance, no exception report"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t2",
+          "title": "IT install weeks",
+          "things": [
+            "IT install",
+            "central IT"
+          ],
+          "intro": "IT install, Jonas.",
+          "beats": [
+            {
+              "who": "jonas",
+              "say": "The IT director gave us the third and fourth week of January, not the second and third, because the portal team has the second week."
+            },
+            {
+              "who": "grace",
+              "say": "And with Kemlite starting on the fourth, does the third week still work?"
+            },
+            {
+              "who": "ravi",
+              "say": "Yes, cabling can go in after the first fix, so third and fourth week is fine."
+            }
+          ],
+          "mustSay": [
+            "central IT gives weeks 3-4 of January (portal has week 2)",
+            "works with Kemlite's later start"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t3",
+          "title": "Furniture order",
+          "things": [
+            "furniture order",
+            "desks"
+          ],
+          "intro": "Furniture.",
+          "beats": [
+            {
+              "who": "weiling",
+              "say": "The standard desks were ordered on the third, so they arrive in the second week of February, before the move-in."
+            },
+            {
+              "who": "weiling",
+              "say": "So the desk risk is much lower now. Only the meeting room tables are still open."
+            },
+            {
+              "who": "grace",
+              "say": "Good. Keep the tables on watch."
+            }
+          ],
+          "mustSay": [
+            "standard desks ordered 3 December, arrive week 2 of February",
+            "only meeting room tables open"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t4",
+          "title": "Kemlite mobilisation",
+          "things": [
+            "Kemlite",
+            "site setup"
+          ],
+          "intro": "Kemlite mobilisation.",
+          "beats": [
+            {
+              "who": "ravi",
+              "say": "Kemlite signed the contract on the fifth. Their site manager is Halim, he'll be at the next board."
+            },
+            {
+              "who": "grace",
+              "say": "Please ask Halim to bring the three-week look-ahead to that meeting."
+            },
+            {
+              "who": "ravi",
+              "say": "Will do."
+            }
+          ],
+          "mustSay": [
+            "contract signed 5 December; site manager Halim"
+          ],
+          "actions": [
+            {
+              "owner": "Ravi",
+              "due": "next board",
+              "what": "ask Halim to bring the three-week look-ahead"
+            }
+          ]
+        },
+        {
+          "key": "t5",
+          "title": "Fire safety certificate",
+          "things": [
+            "fire certificate",
+            "SCDF"
+          ],
+          "intro": "Fire safety certificate, new item.",
+          "beats": [
+            {
+              "who": "weiling",
+              "say": "We need the SCDF fire safety certificate before anyone can occupy the floor, and inspections are booking six weeks out."
+            },
+            {
+              "who": "weiling",
+              "say": "If we don't book the inspection by early January, we might not be allowed to move in on time."
+            },
+            {
+              "who": "ravi",
+              "say": "I'll ask Kemlite to submit the application as soon as they mobilise."
+            }
+          ],
+          "mustSay": [
+            "fire safety certificate needed before occupation; inspections 6 weeks out",
+            "book by early January"
+          ],
+          "actions": [
+            {
+              "owner": "Ravi",
+              "due": "",
+              "what": "ask Kemlite to submit the fire certificate application"
+            }
+          ]
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t1.1",
+          "type": "assumption",
+          "change": "update",
+          "of": "m02 Landlord approves works by 13 December",
+          "title": "Broken: approval now 20 December"
+        },
+        {
+          "beat": "t2.1",
+          "type": "dependency",
+          "change": "update",
+          "of": "m02 Network install needs central IT weeks 2-3",
+          "title": "Central IT gives weeks 3-4 of January"
+        },
+        {
+          "beat": "t3.2",
+          "type": "risk",
+          "change": "update",
+          "of": "m02 Desks after move-in",
+          "title": "Desks ordered, arrive before move-in; only tables open"
+        },
+        {
+          "beat": "t5.2",
+          "type": "risk",
+          "change": "new",
+          "title": "Fire safety inspection not booked in time for move-in"
+        },
+        {
+          "beat": "t1.2",
+          "type": "issue",
+          "change": "new",
+          "title": "Kemlite site start pushed to 4 January"
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t4.1",
+          "why": "status"
+        },
+        {
+          "beat": "t4.2",
+          "why": "action"
+        }
+      ]
+    },
+    {
+      "id": "m08",
+      "file": "m08-portal-sprint-review.vtt",
+      "format": "vtt",
+      "project": "Customer self-service portal",
+      "title": "Customer portal sprint 3 review",
+      "date": "2026-12-17",
+      "targetWords": 4000,
+      "chair": "mei",
+      "agendaLine": "Sprint three: the demo, the billing API, the identity provider budget, the contrast fix, and the pen test booking.",
+      "attendees": [
+        {
+          "key": "mei",
+          "name": "Mei Chen",
+          "aliases": [
+            "Mei C"
+          ]
+        },
+        {
+          "key": "ahmad",
+          "name": "Ahmad Faizal",
+          "aliases": [
+            "Ahmad"
+          ]
+        },
+        {
+          "key": "lisa",
+          "name": "Lisa Wong",
+          "aliases": [
+            "Lisa"
+          ]
+        },
+        {
+          "key": "tom",
+          "name": "Tom Hartley",
+          "aliases": [
+            "Tom"
+          ]
+        }
+      ],
+      "noise": {
+        "fillers": 0.5,
+        "repeats": 0.18,
+        "crosstalk": 0.25,
+        "nameVariants": 0.3,
+        "asr": [
+          [
+            "Hartley",
+            "Hardly"
+          ],
+          [
+            "billing",
+            "building"
+          ],
+          [
+            "contrast",
+            "con trust"
+          ]
+        ],
+        "offtopic": [
+          {
+            "who": "tom",
+            "text": "Does anyone know if the office downstairs is moving? There were boxes everywhere this morning."
+          },
+          {
+            "who": "mei",
+            "text": "No idea, let's stay on track."
+          }
+        ]
+      },
+      "topics": [
+        {
+          "key": "t1",
+          "title": "Sprint 3 demo",
+          "things": [
+            "demo",
+            "sprint goal"
+          ],
+          "intro": "Demo first, Ahmad.",
+          "beats": [
+            {
+              "who": "ahmad",
+              "say": "Service request creation is done, the first of the three split stories. Tracking is half done."
+            },
+            {
+              "who": "lisa",
+              "say": "Tested on mobile too, works, one layout glitch on small screens which we logged."
+            }
+          ],
+          "mustSay": [
+            "service request creation done; tracking half done",
+            "small-screen layout glitch logged"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t2",
+          "title": "Billing API",
+          "things": [
+            "billing API",
+            "billing team"
+          ],
+          "intro": "Billing API, did it arrive?",
+          "beats": [
+            {
+              "who": "tom",
+              "say": "The billing API was delivered on the sixteenth, two days early for once, and the bills story is now unblocked."
+            },
+            {
+              "who": "mei",
+              "say": "Great, so that dependency is closed, and the risk of it slipping past the holidays is gone too."
+            }
+          ],
+          "mustSay": [
+            "billing API delivered 16 December; bills story unblocked",
+            "dependency closed, slip risk gone"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t3",
+          "title": "Identity provider budget",
+          "things": [
+            "identity provider",
+            "budget"
+          ],
+          "intro": "Identity provider paid tier.",
+          "beats": [
+            {
+              "who": "mei",
+              "say": "Finance approved the paid tier yesterday, so the five thousand user cap goes away before go-live."
+            },
+            {
+              "who": "ahmad",
+              "say": "I'll switch the plan in the first week of January."
+            }
+          ],
+          "mustSay": [
+            "finance approved the paid tier; 5,000 cap goes away"
+          ],
+          "actions": [
+            {
+              "owner": "Ahmad",
+              "due": "first week of January",
+              "what": "switch the identity provider plan"
+            }
+          ]
+        },
+        {
+          "key": "t4",
+          "title": "Contrast defect",
+          "things": [
+            "contrast fix",
+            "accessibility"
+          ],
+          "intro": "Contrast defect.",
+          "beats": [
+            {
+              "who": "lisa",
+              "say": "The contrast defect on the bills page is fixed and passes the WCAG check now."
+            },
+            {
+              "who": "mei",
+              "say": "Close it then."
+            }
+          ],
+          "mustSay": [
+            "contrast defect fixed, passes WCAG"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t5",
+          "title": "Pen test booking",
+          "things": [
+            "pen test",
+            "testing firm"
+          ],
+          "intro": "Pen test.",
+          "beats": [
+            {
+              "who": "lisa",
+              "say": "The pen test is booked for the nineteenth to the twenty third of January, the firm confirmed in writing."
+            },
+            {
+              "who": "lisa",
+              "say": "But they said a typical first test has two or three high findings, so no major findings is optimistic."
+            },
+            {
+              "who": "mei",
+              "say": "Okay, then let's keep one week in the plan after the test for fixes."
+            }
+          ],
+          "mustSay": [
+            "pen test booked 19-23 January",
+            "first tests usually have 2-3 high findings",
+            "decided: keep one week for fixes"
+          ],
+          "actions": []
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t2.1",
+          "type": "dependency",
+          "change": "update",
+          "of": "m03 Bills story depends on billing API",
+          "title": "Closed: API delivered 16 December"
+        },
+        {
+          "beat": "t2.2",
+          "type": "risk",
+          "change": "update",
+          "of": "m03 Billing API slips past holidays",
+          "title": "Closed: API delivered"
+        },
+        {
+          "beat": "t3.1",
+          "type": "assumption",
+          "change": "update",
+          "of": "m06 Paid tier approved before go-live",
+          "title": "Confirmed: finance approved"
+        },
+        {
+          "beat": "t4.1",
+          "type": "issue",
+          "change": "update",
+          "of": "m06 Bills page fails WCAG contrast",
+          "title": "Closed: fixed"
+        },
+        {
+          "beat": "t5.2",
+          "type": "assumption",
+          "change": "update",
+          "of": "m03 Pen test with no major findings",
+          "title": "Optimistic: expect 2-3 high findings; one week kept for fixes"
+        },
+        {
+          "beat": "t5.3",
+          "type": "decision",
+          "change": "new",
+          "title": "Keep one week after the pen test for fixes"
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t1.2",
+          "why": "logged defect, minor"
+        },
+        {
+          "beat": "t3.2",
+          "why": "action"
+        }
+      ]
+    },
+    {
+      "id": "m09",
+      "file": "m09-clinic-steering.vtt",
+      "format": "teams",
+      "project": "Clinic relocation",
+      "title": "Clinic relocation steering committee",
+      "date": "2026-12-18",
+      "targetWords": 4000,
+      "chair": "director",
+      "agendaLine": "Steering: overall status, the licence, the vaccines and power, parking, and the budget.",
+      "attendees": [
+        {
+          "key": "director",
+          "name": "Dr Helen Goh",
+          "team": "Clinic Director"
+        },
+        {
+          "key": "priya",
+          "name": "Priya Raman",
+          "team": "Project Manager"
+        },
+        {
+          "key": "pharm",
+          "name": "Benjamin Teo",
+          "team": "Pharmacy"
+        },
+        {
+          "key": "finance",
+          "name": "Raymond Sim",
+          "team": "Finance"
+        }
+      ],
+      "noise": {
+        "fillers": 0.4,
+        "repeats": 0.12,
+        "crosstalk": 0.2,
+        "nameVariants": 0,
+        "asr": [
+          [
+            "Goh",
+            "go"
+          ],
+          [
+            "commissioned",
+            "commission"
+          ],
+          [
+            "contingency",
+            "contingent see"
+          ]
+        ],
+        "offtopic": [
+          {
+            "who": "finance",
+            "text": "Quick aside, the office fit-out project is also asking finance for more money, so the committee will see two requests this month."
+          }
+        ]
+      },
+      "topics": [
+        {
+          "key": "t1",
+          "title": "Overall status",
+          "things": [
+            "overall status",
+            "RAG"
+          ],
+          "intro": "Priya, overall status please.",
+          "beats": [
+            {
+              "who": "priya",
+              "say": "Overall amber. The cutover is still the thirteenth and fourteenth of February, but three things have no slack left: the licence, the X-ray slot and the handover."
+            },
+            {
+              "who": "director",
+              "say": "Amber is honest. What would make it red?"
+            },
+            {
+              "who": "priya",
+              "say": "Any one of those three slipping by more than a week."
+            }
+          ],
+          "mustSay": [
+            "overall amber; cutover still 13-14 Feb",
+            "licence, X-ray slot and handover have no slack"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t2",
+          "title": "Licence transfer",
+          "things": [
+            "licence",
+            "ministry"
+          ],
+          "intro": "The licence.",
+          "beats": [
+            {
+              "who": "priya",
+              "say": "The ministry gave us a date: the licence for the new address will be issued on the sixth of February."
+            },
+            {
+              "who": "director",
+              "say": "Good, that's a week before the cutover. Is that in writing?"
+            },
+            {
+              "who": "priya",
+              "say": "Yes, we have the e-mail from the ministry."
+            }
+          ],
+          "mustSay": [
+            "licence to be issued 6 February, in writing"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t3",
+          "title": "Vaccine stock and backup power",
+          "things": [
+            "vaccines",
+            "backup power"
+          ],
+          "intro": "Ben, the vaccine risk.",
+          "beats": [
+            {
+              "who": "pharm",
+              "say": "Backup power for the fridge circuit is now commissioned and tested, so the vaccine risk is much smaller."
+            },
+            {
+              "who": "pharm",
+              "say": "We'll still do the cool box run with loggers, just as a second line of defence."
+            }
+          ],
+          "mustSay": [
+            "backup power commissioned and tested; vaccine risk much smaller",
+            "cool-box run kept as a second line"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t4",
+          "title": "Staff parking",
+          "things": [
+            "parking",
+            "HR subsidy"
+          ],
+          "intro": "Parking.",
+          "beats": [
+            {
+              "who": "priya",
+              "say": "HR agreed to subsidise twelve lots in the public car park next door for six months, which covers the gap of twelve."
+            },
+            {
+              "who": "director",
+              "say": "Good, so the parking issue is solved, at least for six months."
+            }
+          ],
+          "mustSay": [
+            "HR subsidises 12 public lots for 6 months; gap covered"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t5",
+          "title": "Budget",
+          "things": [
+            "budget",
+            "contingency"
+          ],
+          "intro": "Budget, Raymond.",
+          "beats": [
+            {
+              "who": "finance",
+              "say": "Spend to date is in line. We've used three thousand of the twenty thousand contingency, for the movers."
+            },
+            {
+              "who": "finance",
+              "say": "The parking subsidy adds about eight thousand over six months, which I'd also take from contingency."
+            },
+            {
+              "who": "director",
+              "say": "Approved, take the parking subsidy from contingency."
+            }
+          ],
+          "mustSay": [
+            "3,000 of 20,000 contingency used (movers)",
+            "parking subsidy about 8,000 from contingency approved"
+          ],
+          "actions": []
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t2.1",
+          "type": "assumption",
+          "change": "update",
+          "of": "m04 Licence processing 8 weeks",
+          "title": "Confirmed: licence issued 6 February"
+        },
+        {
+          "beat": "t3.1",
+          "type": "risk",
+          "change": "update",
+          "of": "m05 Vaccine stock lost if power trips",
+          "title": "Reduced: backup power commissioned and tested"
+        },
+        {
+          "beat": "t4.1",
+          "type": "issue",
+          "change": "update",
+          "of": "m05 20 lots for 32 drivers",
+          "title": "Resolved: HR subsidises 12 public lots for 6 months"
+        },
+        {
+          "beat": "t5.3",
+          "type": "decision",
+          "change": "new",
+          "title": "Parking subsidy (about 8,000) taken from contingency"
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t1.1",
+          "why": "status report"
+        },
+        {
+          "beat": "t5.1",
+          "why": "status"
+        }
+      ]
+    },
+    {
+      "id": "m10",
+      "file": "m10-joint-steering-review.txt",
+      "format": "txt",
+      "project": "Regional office fit-out",
+      "title": "Joint steering review: office fit-out and portal",
+      "date": "2026-12-21",
+      "targetWords": 4000,
+      "chair": "grace",
+      "agendaLine": "Joint review. Office fit-out first, mainly the landlord and the fire certificate, then the portal team's request for central IT, then budget.",
+      "attendees": [
+        {
+          "key": "grace",
+          "name": "Grace Koh",
+          "aliases": [
+            "Grace"
+          ]
+        },
+        {
+          "key": "ravi",
+          "name": "Ravi Kumar",
+          "aliases": [
+            "Ravi K"
+          ]
+        },
+        {
+          "key": "mei",
+          "name": "Mei Chen",
+          "aliases": [
+            "Mei"
+          ]
+        },
+        {
+          "key": "jonas",
+          "name": "Jonas Weber",
+          "aliases": [
+            "Jonas"
+          ]
+        },
+        {
+          "key": "dial",
+          "name": "Unknown",
+          "dialIn": "Call-in user 1"
+        }
+      ],
+      "noise": {
+        "fillers": 0.5,
+        "repeats": 0.18,
+        "crosstalk": 0.3,
+        "nameVariants": 0.3,
+        "asr": [
+          [
+            "Kemlite",
+            "Kemlight"
+          ],
+          [
+            "SCDF",
+            "S.C.D.F."
+          ],
+          [
+            "Jonas",
+            "Jonah's"
+          ]
+        ],
+        "offtopic": [
+          {
+            "who": "dial",
+            "text": "Hello? Is this the finance call? Oh, sorry, wrong meeting."
+          },
+          {
+            "who": "grace",
+            "text": "No worries, bye."
+          }
+        ]
+      },
+      "topics": [
+        {
+          "key": "t1",
+          "title": "Landlord approval and site start",
+          "things": [
+            "landlord",
+            "site start"
+          ],
+          "intro": "Ravi, the landlord.",
+          "beats": [
+            {
+              "who": "ravi",
+              "say": "The landlord approval came on the nineteenth, so Kemlite starts on site on the fourth of January as planned last week."
+            },
+            {
+              "who": "grace",
+              "say": "So that's finally closed."
+            }
+          ],
+          "mustSay": [
+            "landlord approval received 19 December; Kemlite starts 4 January"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t2",
+          "title": "Fire safety certificate",
+          "things": [
+            "fire certificate",
+            "inspection"
+          ],
+          "intro": "Fire certificate.",
+          "beats": [
+            {
+              "who": "ravi",
+              "say": "Kemlite submitted the SCDF application on the eighteenth and the inspection is booked for the fifth of February."
+            },
+            {
+              "who": "ravi",
+              "say": "Move-in is the twenty third of February, so we have about two weeks of buffer if the inspection asks for fixes."
+            },
+            {
+              "who": "grace",
+              "say": "Good, that risk looks a lot better."
+            }
+          ],
+          "mustSay": [
+            "application submitted 18 December; inspection 5 February",
+            "move-in 23 February, two weeks of buffer"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t3",
+          "title": "Central IT for the portal",
+          "things": [
+            "central IT",
+            "portal request"
+          ],
+          "intro": "Mei, the portal team has a request for central IT.",
+          "beats": [
+            {
+              "who": "mei",
+              "say": "For the customer portal, we'd like central IT to open the payment firewall in the second week of January instead of the last."
+            },
+            {
+              "who": "jonas",
+              "say": "My team is on the office network install in weeks three and four, so the second week is possible only if the office doesn't need us earlier."
+            },
+            {
+              "who": "ravi",
+              "say": "The office doesn't need you before week three, so fine by us."
+            },
+            {
+              "who": "grace",
+              "say": "Okay, agreed: central IT opens the portal's payment firewall in the second week of January."
+            }
+          ],
+          "mustSay": [
+            "portal asks central IT for payment firewall in week 2 of January",
+            "office does not need central IT before week 3",
+            "agreed: firewall in week 2"
+          ],
+          "actions": []
+        },
+        {
+          "key": "t4",
+          "title": "Budget",
+          "things": [
+            "budget",
+            "change request"
+          ],
+          "intro": "Budget.",
+          "beats": [
+            {
+              "who": "ravi",
+              "say": "For the office, the two-week delay costs about six thousand in extended site supervision, I'll bring a change request to the January board."
+            },
+            {
+              "who": "grace",
+              "say": "Fine, bring it with the options."
+            }
+          ],
+          "mustSay": [
+            "delay costs about 6,000 in supervision; change request to January board"
+          ],
+          "actions": [
+            {
+              "owner": "Ravi",
+              "due": "January board",
+              "what": "bring a change request with options"
+            }
+          ]
+        }
+      ],
+      "raidd": [
+        {
+          "beat": "t1.1",
+          "type": "issue",
+          "change": "update",
+          "of": "m07 Kemlite site start pushed to 4 January",
+          "title": "Closed: approval received, start 4 January"
+        },
+        {
+          "beat": "t2.1",
+          "type": "risk",
+          "change": "update",
+          "of": "m07 Fire safety inspection not booked in time",
+          "title": "Reduced: inspection 5 Feb, two weeks of buffer"
+        },
+        {
+          "beat": "t3.4",
+          "type": "decision",
+          "change": "new",
+          "title": "Central IT opens the portal payment firewall in week 2 of January"
+        },
+        {
+          "beat": "t4.1",
+          "type": "issue",
+          "change": "new",
+          "title": "Two-week delay costs about 6,000 in site supervision"
+        }
+      ],
+      "notRaidd": [
+        {
+          "beat": "t4.2",
+          "why": "action / instruction"
+        }
+      ]
+    }
+  ]
+}

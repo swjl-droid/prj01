@@ -1,0 +1,7 @@
+{
+  "model": "claude-opus-5-5",
+  "modelDecision": "Opus 5.5 for prj01 release 1 (John, AI-L15, 26/11/2026): 90 % against Sonnet's 80 % on the golden set, about US$1.70 more a month.",
+  "maxTokens": 12000,
+  "timeoutMs": 240000,
+  "repairRounds": 1
+}
